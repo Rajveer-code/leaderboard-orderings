@@ -1,0 +1,284 @@
+{
+ "seed": 20260926,
+ "reps": 400,
+ "baseline": {
+  "boxed": [
+   287,
+   350
+  ],
+  "phrase_only": [
+   2,
+   21
+  ]
+ },
+ "p_automation": 0.001,
+ "sheets": {
+  "audit_v3_l1.csv": {
+   "rows": 458,
+   "batches": 10,
+   "boxed": 334,
+   "phrase_only": 91,
+   "phrase_only_with_dollar": 80,
+   "no_extraction": 33,
+   "expected_failing_batches": {
+    "0.0": 0.0,
+    "0.25": 0.08,
+    "0.5": 0.82,
+    "1.0": 5.17
+   },
+   "per_batch_failure_probability": {
+    "0.0": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "0.25": [
+     0.005,
+     0.005,
+     0.015,
+     0.0175,
+     0.005,
+     0.015,
+     0.01,
+     0.005,
+     0.0025,
+     0.0
+    ],
+    "0.5": [
+     0.0625,
+     0.0325,
+     0.26,
+     0.1075,
+     0.0075,
+     0.115,
+     0.0925,
+     0.14,
+     0.005,
+     0.0
+    ],
+    "1.0": [
+     0.575,
+     0.305,
+     0.975,
+     0.7925,
+     0.18,
+     0.725,
+     0.755,
+     0.8025,
+     0.0575,
+     0.0
+    ]
+   },
+   "ystar_differs_with_vs_without_delimiters": {
+    "sympy": 0,
+    "mv": 1
+   },
+   "ystar_differences": {
+    "sympy": [],
+    "mv": [
+     {
+      "uid": "cd6a215f5d8a01ab",
+      "extraction": "$12x-34$ dollars",
+      "stripped": "12x-34 dollars",
+      "with": 1,
+      "without": 0
+     }
+    ]
+   }
+  },
+  "discordant_census_l1.csv": {
+   "rows": 946,
+   "batches": 19,
+   "boxed": 364,
+   "phrase_only": 451,
+   "phrase_only_with_dollar": 401,
+   "no_extraction": 131,
+   "expected_failing_batches": {
+    "0.0": 0.0,
+    "0.25": 1.33,
+    "0.5": 12.19,
+    "1.0": 19.0
+   },
+   "per_batch_failure_probability": {
+    "0.0": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "0.25": [
+     0.075,
+     0.0425,
+     0.04,
+     0.0525,
+     0.0325,
+     0.085,
+     0.1225,
+     0.035,
+     0.13,
+     0.105,
+     0.09,
+     0.13,
+     0.0425,
+     0.06,
+     0.04,
+     0.0625,
+     0.0575,
+     0.0725,
+     0.055
+    ],
+    "0.5": [
+     0.6825,
+     0.5025,
+     0.465,
+     0.67,
+     0.4675,
+     0.7275,
+     0.94,
+     0.445,
+     0.855,
+     0.8475,
+     0.815,
+     0.8675,
+     0.5225,
+     0.5975,
+     0.4125,
+     0.5225,
+     0.62,
+     0.725,
+     0.5
+    ],
+    "1.0": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ystar_differs_with_vs_without_delimiters": {
+    "sympy": 7,
+    "mv": 4
+   },
+   "ystar_differences": {
+    "sympy": [
+     {
+      "uid": "6ee2058c43faa500",
+      "extraction": "$1.25$ miles",
+      "stripped": "1.25 miles",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "3e38d0403deedba1",
+      "extraction": "$20$%",
+      "stripped": "20%",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "90c98dc18816cfd3",
+      "extraction": "$\\frac{16}{27}$ gallons",
+      "stripped": "\\frac{16}{27} gallons",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "9a910e008bad41d4",
+      "extraction": "$\\frac{1}{5}$ seconds",
+      "stripped": "\\frac{1}{5} seconds",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "14f8d21c217e2585",
+      "extraction": "$5$ different possible values for $m\\angle PQR$",
+      "stripped": "5 different possible values for m\\angle PQR",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "8405503d245ba83b",
+      "extraction": "$12$ positive and $12$ negative integers",
+      "stripped": "12 positive and 12 negative integers",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "832cdae5f49b1e0e",
+      "extraction": "$12$ centimeters",
+      "stripped": "12 centimeters",
+      "with": 1,
+      "without": 0
+     }
+    ],
+    "mv": [
+     {
+      "uid": "9ceef5cf45e00203",
+      "extraction": "$7.78$ dollars",
+      "stripped": "7.78 dollars",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "df47d625e612eba9",
+      "extraction": "$100\\%$",
+      "stripped": "100\\%",
+      "with": 0,
+      "without": 1
+     },
+     {
+      "uid": "8405503d245ba83b",
+      "extraction": "$12$ positive and $12$ negative integers",
+      "stripped": "12 positive and 12 negative integers",
+      "with": 1,
+      "without": 0
+     },
+     {
+      "uid": "832cdae5f49b1e0e",
+      "extraction": "$12$ centimeters",
+      "stripped": "12 centimeters",
+      "with": 1,
+      "without": 0
+     }
+    ]
+   }
+  }
+ }
+}

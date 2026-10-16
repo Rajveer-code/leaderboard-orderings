@@ -1,0 +1,197 @@
+\section{From a small audit to a ranking}
+\label{sec:setup}
+
+This section turns the question ``which orderings survive a human reader?'' into something we can
+compute. We define a model's accuracy under the reader verdict, show why 400 labels cannot settle
+a ranking by themselves, state the one assumption that lets models share labels, and explain when
+an ordering counts as settled and with what confidence. Proofs are in Appendix~\ref{app:proofs}.
+
+\subsection{What an ordering claims}
+
+Each model's responses are spread over the eight cells. Let $s_{mc}$ be the \emph{share} of model
+$m$'s responses that fall in cell $c$; shares are known exactly, because every verifier reads every
+response. Let $p_{mc}$ be the fraction of those responses with reader verdict $Y^* = 1$. These
+fractions are what we do not know. Model $m$'s accuracy under the reader verdict, and the gap
+between models $j$ and $k$, are
+\begin{equation}
+A_m \;=\; \sum_{c} s_{mc}\, p_{mc}, \qquad \Delta_{jk} = A_j - A_k .
+\label{eq:accuracy}
+\end{equation}
+An \emph{ordering} $j \succ k$ is the claim that $\Delta_{jk} > 0$: model $j$ would score higher
+than model $k$ if a reader had marked every response. The \NumModels{} models form
+\NumOrderings{} pairs, and for each pair we ask whether either ordering can be established.
+
+The difficulty is coverage. The 400 labels leave most combinations of model and cell with no label
+at all, and for those the only safe statement is $p_{mc} \in [0,1]$. Each such cell widens the range
+of possible gaps by its share, and when the widening exceeds the gap itself the ordering stays open.
+The discordant cells are small, so leaving them open costs little. The concordant cells hold almost
+every response, so they must be pinned down tightly, and that requires letting models share labels.
+
+\subsection{Letting models share labels}
+
+Sharing labels between models, which statisticians call \emph{pooling}, is an assumption, not a
+measurement, and we state it with a single number.
+
+\begin{assumption}[Bounded heterogeneity, $H(\varepsilon)$]
+\label{ass:h}
+For each concordant cell $c$, the values of $p_{gc}$ across the audit sub-populations $g$ that
+make up that cell lie in an interval of width at most $\varepsilon$.
+\end{assumption}
+
+In words: where all three verifiers agree, the rate at which a careful reader would overrule them
+may differ from model to model, but by no more than $\varepsilon$. A sub-population is usually a
+model; where the audit split a model's responses into groups (by subject and by the boxed
+verifier's verdict), each group counts separately, which makes the assumption slightly stronger.
+The assumption says nothing about the overrule rate itself, which the audit estimates, only about
+how much it varies.
+
+Setting $\varepsilon = 0$ is stronger than it looks. Each $p_{gc}$ is a fraction of a finite set of
+responses, so two models with the same underlying chance of being overruled will still, by luck,
+end up with slightly different fractions. $H(0)$ is therefore a condition on the actual responses,
+not a consequence of equal rates. We report every result as a function of $\varepsilon$ and mark
+$\varepsilon = \EpsPrereg$, fixed in our analysis plan as a reference. That value is a judgement,
+not a measurement, and it was set after the audit's labels existed (Appendix
+Table~\ref{tab:chronology}), which is why no count in this paper appears without the curve around
+it.
+
+\subsection{Certified orderings and breakdown values}
+
+The idea is simple. In each concordant cell the audit gives a confidence interval for the shared
+rate, and under the assumption every model's own rate lies within $\varepsilon$ of it. In each
+discordant cell a model's rate may be anything. Taking the least and the most favourable values in
+every cell gives the smallest and the largest gap two models could have. Formally, let $\tilde p_c$
+be the pooled fraction of responses with $Y^* = 1$ in concordant cell $c$,
+weighted as the audit sampled the sub-populations, and let $[L_c, U_c]$ be a confidence interval
+for it, built in Section~\ref{sec:inference} so that it does not assume the models are alike. For a
+discordant cell, let $[l_{mc}, u_{mc}]$ be an interval for model $m$ alone, which is $[0,1]$ when
+that model has no labels in the cell.
+
+\begin{proposition}[Identified range]
+\label{prop:range}
+Fix a pair $(j,k)$ and a concordant cell $c$. Under Assumption~\ref{ass:h} and on the event
+$\tilde p_{c} \in [L_c, U_c]$, the pair $(p_{jc}, p_{kc})$ lies in
+\[
+R_c(\varepsilon) \;=\; \bigl\{ (x,y) \in [\ell_c, h_c]^2 \;:\; |x - y| \le \varepsilon \bigr\},
+\qquad \ell_c = \max(0, L_c - \varepsilon), \quad h_c = \min(1, U_c + \varepsilon).
+\]
+Consequently $\Delta_{jk}$ lies in the interval obtained by minimising and maximising
+Equation~\eqref{eq:accuracy} separately in each cell, over $R_c(\varepsilon)$ for concordant
+cells and over the per-model intervals for discordant ones.
+\end{proposition}
+
+We call this interval the \emph{identified range} of $\Delta_{jk}$: every gap between the two
+models that is consistent with the verdicts, the labels and the assumption. Appendix~\ref{app:proofs}
+proves the proposition and solves the optimisation in closed form, and Appendix~\ref{app:tests}
+checks both against brute force. At $\varepsilon = 0$ the range is exact; for $\varepsilon > 0$ it
+is slightly wider than necessary, which can only make conclusions more cautious.
+
+An ordering $j \succ k$ is \emph{certified} at $\varepsilon$ when the whole identified range of
+$\Delta_{jk}$, widened by any sampling term from Section~\ref{sec:inference}, lies above zero. A
+larger $\varepsilon$ gives a wider range, so an ordering certified at one tolerance is certified at
+every smaller one, which makes the following well defined.
+
+\begin{definition}[Breakdown value]
+\label{def:breakdown}
+$\varepsilon^*_{jk} = \sup\{\varepsilon \in [0, 1] : j \succ k \text{ is certified at }
+\varepsilon\}$, with $\varepsilon^*_{jk} = 0$ when the ordering is not certified at
+$\varepsilon = 0$.
+\end{definition}
+
+The breakdown value is how much model-to-model variation an ordering can absorb before it stops
+being certified. Reporting it for every ordering turns the dependence on Assumption~\ref{ass:h} into
+a number that a reader can hold against their own view. Certification is a strict inequality, so
+the supremum need not be attained, and because the range is cautious for $\varepsilon > 0$, each
+reported value understates the true one.
+
+\subsection{Why three verifiers rather than one}
+
+\begin{proposition}[A common error mechanism cannot reorder]
+\label{prop:oneverifier}
+Suppose one verifier is used, and suppose its predictive values are common to all models, so
+that $\Pr(Y^* = 1 \mid v = 1) = \pi_1$ and $\Pr(Y^* = 1 \mid v = 0) = \pi_0$ regardless of $m$.
+Then $\Delta_{jk} = (\pi_1 - \pi_0)(a_j - a_k)$, where $a_m$ is the rate at which the verifier
+credits model $m$.
+\end{proposition}
+
+Every gap is scaled by the same factor, so a verifier whose mistakes are alike for all models
+cannot swap one pair while leaving another in place. The swaps that Section~\ref{sec:generality}
+reports therefore need mistakes that differ between models, and correcting a single verifier with
+error rates shared by all models would assume away exactly what we study. Sharing labels only where
+verifiers with different extraction rules agree leaves the disagreement cells free to behave
+differently for each model.
+
+\subsection{Confidence}
+\label{sec:inference}
+
+\paragraph{An interval that does not assume the models are alike.}
+The pooled count in a concordant cell adds up labels from models whose true rates may differ, and
+the labels were drawn without replacement within each stratum of the audit. A textbook binomial
+interval assumes one common rate and sampling with replacement; using it here would quietly build
+the sameness that Assumption~\ref{ass:h} makes explicit into the confidence statement. We use a
+bound that holds without either condition.
+
+\begin{lemma}[Design-valid pooled bound]
+\label{lem:kl}
+Let $x_c$ be the total number of audited responses with $Y^* = 1$ in cell $c$, summed over
+sub-populations, with $n_c$ labels in total and sampling weights $w_{gc} = n_{gc}/n_c$. Let
+$\tilde p_c = \sum_g w_{gc}\, p_{gc}$. Then, conditional on the realised number of labels in each
+sub-population, for $0 < t \le 1 - \tilde p_c$ and $0 < t \le \tilde p_c$ respectively (larger $t$
+make the events empty), with $\mathrm{KL}$ as defined in Appendix~\ref{app:proofs},
+\[
+\Pr\!\left(\frac{x_c}{n_c} \ge \tilde p_c + t\right) \le e^{-n_c \mathrm{KL}(\tilde p_c + t \,\|\, \tilde p_c)},
+\qquad
+\Pr\!\left(\frac{x_c}{n_c} \le \tilde p_c - t\right) \le e^{-n_c \mathrm{KL}(\tilde p_c - t \,\|\, \tilde p_c)} .
+\]
+\end{lemma}
+
+The proof uses two standard facts about moment generating functions: sampling without
+replacement is dominated by sampling with replacement, and a sum of independent Bernoulli
+variables with different means is dominated by a single Bernoulli at their weighted mean.
+Inverting the bound gives $[L_c, U_c]$ with at least nominal coverage in finite samples.
+
+\paragraph{Two targets: these problems, and questions like them.}
+The \emph{primary target} is $\Delta_{jk}$ on the \NumItems{} problems the leaderboard actually
+used, because that is what a leaderboard reports: a score on a fixed set of questions. For this
+target the only uncertainty comes from the audit, the only assumption is Assumption~\ref{ass:h}, and
+the guarantee holds at the audit's actual size, with no large-sample approximation. Every headline number in the paper is of this kind.
+A reader may also want a claim about questions like these in general. MATH-Hard is a curated
+benchmark, not a random draw from a defined population, so such a claim has to treat the problems
+as if they were one, which adds an uncertainty that no amount of labelling can remove. We bound it
+with a margin for item sampling (a paired half-width) built from quantities the identified range
+already supplies; it relies on a central limit approximation, and a distribution-free alternative is reported beside it
+(Appendix~\ref{app:inference}). This \emph{secondary target} is analysed in full, and its numbers are
+never mixed with the primary ones. The order of the two departs from our analysis plan, which first
+named the secondary target as its headline; we made the change after the audit's results for both
+targets were known and recorded it as an amendment to the plan (Appendix Table~\ref{tab:chronology}).
+
+\paragraph{All orderings at once.}
+Someone reading a leaderboard reads all \NumOrderings{} orderings together, so every headline count
+is simultaneous: the audit's error level is divided over every parameter on the roster
+(Appendix~\ref{app:inference}), and for the secondary target the sampling term also receives a
+Bonferroni correction, which divides its error level among the orderings. Rank intervals follow directly from the certified set
+(Appendix~\ref{app:proofs}).
+
+\begin{proposition}[Coverage]
+\label{prop:coverage}
+Under Assumption~\ref{ass:h}, all claims about the primary target hold simultaneously with
+probability at least $1 - \alpha_{\mathrm{audit}}$ at any sample size, with no large-sample
+approximation. Claims about the
+secondary target hold with probability at least $1 - \alpha_{\mathrm{audit}} -
+\alpha_{\mathrm{sample}}$, asymptotically in the number of items.
+\end{proposition}
+
+The event behind the primary guarantee is that every concordant interval covers its target, and
+that event does not involve $\varepsilon$. On it, the orderings certified at every tolerance for
+which Assumption~\ref{ass:h} holds are all correct, so the whole primary curve can be read at once,
+with no further correction for looking at many tolerances.
+
+A simulation at the roster's scale, with \SimReplicates{} replicates per scenario under the real
+design (Appendix~\ref{app:inference}), checks whether the guarantee is attained. Where
+Assumption~\ref{ass:h} holds, no ordering was wrongly certified in any scenario, which bounds the
+family-wise error, the chance that even one certified ordering is wrong, below \SimZeroFwerUpper{}
+at \SimZeroFwerConfPct\% confidence; with heterogeneity
+that the analysis does not allow for, the error rises to \SimFwerMisspecified{}, above the nominal
+\AlphaAudit{}. When every model shares one underlying rate and the analysis uses $\varepsilon = 0$,
+the two-verifier analysis errs at rate \SimFwerPropensityKTwo{} and the three-verifier analysis at
+\SimFwerPropensityKThree{}, and a tolerance of \EpsPrereg{} removes the error in both. This is why we
+do not lead with $\varepsilon = 0$.

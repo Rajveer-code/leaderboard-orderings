@@ -1,0 +1,30 @@
+{
+ "current": {
+  "both_credited": 200,
+  "both_not_credited": 198,
+  "disagree_sb_credited_em_not": 30,
+  "disagree_em_credited_sb_not": 30
+ },
+ "current_eff": {
+  "A_true": 0.6569780310272925,
+  "q_em": 0.17962093964684872,
+  "q_sb": 0.26230261502711627,
+  "r_em": 0.4741625476916751,
+  "r_sb": 0.4884332455236145,
+  "disagreement_gap": 0.0550320832616272
+ },
+ "minimax": {
+  "both_credited": 96,
+  "both_not_credited": 126,
+  "disagree_sb_credited_em_not": 98,
+  "disagree_em_credited_sb_not": 138
+ },
+ "minimax_eff": {
+  "A_true": 0.46007930786739054,
+  "q_em": 0.40174680920221034,
+  "q_sb": 0.3012590697691282,
+  "r_em": 0.3089371957321652,
+  "r_sb": 0.3363608014038646,
+  "disagreement_gap": 0.30306776485975323
+ }
+}

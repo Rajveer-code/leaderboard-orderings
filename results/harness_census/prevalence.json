@@ -1,0 +1,26 @@
+{
+ "source": "knowledgeshift results/analysis/iclr_tables.json prevalence_rows",
+ "columns": [
+  "framework",
+  "n_generative_tasks",
+  "n_coerce_unparseable_to_wrong",
+  "pct_of_generative",
+  "pct_of_readable_subset"
+ ],
+ "rows": [
+  [
+   "lm-evaluation-harness",
+   4524,
+   2936,
+   64.9,
+   77.2
+  ],
+  [
+   "OpenCompass",
+   1070,
+   158,
+   14.8,
+   43.3
+  ]
+ ]
+}

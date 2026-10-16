@@ -1,0 +1,60 @@
+\section{What the verifiers disagree about}
+\label{sec:disagree}
+
+Before any assumption or statistics, the verdicts themselves show where the verifiers part ways
+and why. Apart from one comparison with the human audit, nothing in this section uses a human
+label.
+
+\paragraph{The verifiers agree on almost every response.}
+Of the \NumRows{} responses, \CellAgreeAll{} are credited by all three verifiers and
+\CellRejectAll{} by none (Table~\ref{tab:cells}). Only the remaining \RowsAnyDisagree{} get a
+different verdict depending on the verifier. Where the three agree, the reader nearly always agrees
+with them: the reader verdict is $1$ for \AuditCorrectAgreeAll{} of the \AuditNAgreeAll{} audited
+responses in cell $111$ and for \AuditCorrectRejectAll{} of the \AuditNRejectAll{} in cell $000$
+(Appendix Figure~\ref{fig:cells}). This is what will later let us share labels between models in
+those two cells.
+
+\input{taxonomy_table}
+
+\paragraph{Most disagreements are failures to find an answer.}
+Table~\ref{tab:taxonomy} sorts every discordant response by what each verifier's extraction step
+recorded, using fixed rules and no human labels (Appendix~\ref{app:gallery}). In \TaxExtraction{}
+of the \RowsAnyDisagree{}, a verifier that gave no credit had found no answer to judge:
+\TaxBoxOnly{} responses contain no boxed answer, \TaxTemplateOnly{} do not use the template, and
+\TaxTemplateBox{} have neither. In the other \TaxJudgement{}, every verifier
+that gave no credit did find an answer, and they disagree about which answer the response gives or
+whether it matches the gold answer. No disagreement comes from a verifier timing out. Appendix
+Table~\ref{tab:gallery} shows one randomly drawn example of each kind.
+
+\paragraph{Following the format and being right are different things.}
+\TemplateCompliant{} of the \NumRows{} responses (\TemplateCompliantPct\%) use the template, in the
+sense that the 2024 verifier's pattern finds an answer in them, and across models
+the share runs from \TemplateMinPct\% to \TemplateMaxPct\% (Appendix Table~\ref{tab:models}). A
+published score mixes the two properties. Of the \CreditedOthersNotEm{} responses that the boxed
+verifier or Math-Verify credits and the 2024 verifier does not, \CreditedOthersNotEmNoncompliant{}
+skip the template; for those, the 2024 verifier's zero means it could not read the answer.
+
+\paragraph{Neither strict nor lenient extraction is safe.}
+The errors run both ways, which is why we do not simply pick a verifier. A strict rule like the
+2024 verifier's misses correct answers that skip the template: among the \AuditReaderCorrect{}
+audited responses with reader verdict $1$, \AuditReaderCorrectNoncompliant{} skip it, and the 2024
+verifier credits \AuditReaderCorrectNoncompliantEm{} of them. A lenient rule like the boxed
+verifier's or Math-Verify's also finds answers a reader would not accept: among the
+\AuditReaderIncorrectNoncompliant{} audited responses that skip the template and have reader verdict
+$0$, the boxed verifier credits \AuditReaderIncorrectNoncompliantSb{} and Math-Verify
+\AuditReaderIncorrectNoncompliantMv{}.
+The audit is not a random sample of the board, so these are counts, not rates.
+
+\paragraph{A change of wording can flip a verdict.}
+A check that needs no reader points the same way. We took \PertN{} responses that all three
+verifiers credit and rewrote each in ways that leave the stated answer untouched and that occur in
+real responses. Replacing the template's closing words with ``Great job!'', as in the introduction's
+example, leaves the other two verifiers crediting every response and the 2024 verifier crediting
+\PertSignoffEm{}. Removing the template but keeping the box leaves the 2024 verifier crediting
+\PertNoTemplateEm{}. Removing the box but keeping the template leaves the 2024 verifier crediting
+every response, the boxed verifier \PertNoBoxSb{}, and Math-Verify \PertNoBoxMv{}. Each verifier
+can be moved by a change of form that leaves the answer as it was.
+
+So the verifiers disagree on a small share of responses, mostly because one of them could not read
+an answer, and how often that happens depends strongly on the model. Whether it is enough to change
+the ranking is the question the next two sections answer.

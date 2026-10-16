@@ -1,0 +1,57 @@
+{
+ "checks": {
+  "reversal_board": {
+   "reported": 0.1577730280169616,
+   "from_definition": 0.1577730280169616
+  },
+  "reversal_roster_pairs": {
+   "reported": 351,
+   "from_definition": 351
+  },
+  "template_compliant": {
+   "reported": 23400,
+   "from_definition": 23400
+  },
+  "taxonomy_top": {
+   "reported": {
+    "extraction": 891,
+    "judgement": 268
+   },
+   "from_definition": {
+    "extraction": 891,
+    "judgement": 268
+   }
+  },
+  "taxonomy_extraction_sub": {
+   "reported": {
+    "extraction:template+box": 153,
+    "extraction:template": 205,
+    "extraction:box": 533
+   },
+   "from_definition": {
+    "extraction:template+box": 153,
+    "extraction:template": 205,
+    "extraction:box": 533
+   }
+  },
+  "kfour_occupied": {
+   "reported": 15,
+   "from_definition": 15
+  },
+  "kfour_discordant": {
+   "reported": 1190,
+   "from_definition": 1190
+  },
+  "kfour_audit_concordant": {
+   "reported": [
+    144,
+    223
+   ],
+   "from_definition": [
+    144,
+    223
+   ]
+  }
+ },
+ "mismatches": []
+}

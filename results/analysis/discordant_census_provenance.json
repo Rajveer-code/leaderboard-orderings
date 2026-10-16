@@ -1,0 +1,5696 @@
+{
+ "amendment": "TC_EXPANSION_PREREGISTRATION.md, Amendment 6",
+ "seed": 20260925,
+ "n_discordant_total": 1159,
+ "n_labelled_in_registered_audit": 180,
+ "n_labelled_in_existing_audit": 33,
+ "n_census_rows": 946,
+ "by_cell": {
+  "001": 235,
+  "010": 15,
+  "011": 251,
+  "100": 40,
+  "101": 372,
+  "110": 33
+ },
+ "sheet_sha256": "e58c16e163c64068aaa6d1c9dd0cd88a03b9260575857af80ce541154051ede4",
+ "sheet_sha256_lf": "8aec456a73b7b54acd2d0dd7eb25b57aa59c64b3f70a4c9b7e78f0f2412defad",
+ "rows": [
+  {
+   "uid": "b7c379143eb11764",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "e147288c0c3d587932401186563b5667d1d0daede9f26f898c53ef009252563c",
+   "cell": "101"
+  },
+  {
+   "uid": "f07720ccd9a60297",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "7471f3fb4ea2a90077254a3f41cb3b3344836ccaeec7f862e3ae14326e44924c",
+   "cell": "011"
+  },
+  {
+   "uid": "6d0e3cba8fa564ba",
+   "model": "01-ai/Yi-34B",
+   "item_id": "a6352dda0f6c14df212f57c638726a031b717d19dc97826a9b3b25622b602daa",
+   "cell": "001"
+  },
+  {
+   "uid": "2dc7f55f904bfd15",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "001"
+  },
+  {
+   "uid": "caeb8be17d552bf1",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "5ffaabe544c24b224c89d65fb3432a8ca520e7901829710d79d6bf1d37d02219",
+   "cell": "011"
+  },
+  {
+   "uid": "4f3150a2912ad4d5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "0209409c09f7c4a2e8388a5ae7686696604cf5b6df26d7b73c58b15cc0964e56",
+   "cell": "101"
+  },
+  {
+   "uid": "c787961afae6e4b6",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1cb9eb6d262e489debbaaf79c42b1851e2a219f6a09e2e861a3cdf3881c6cc1e",
+   "cell": "011"
+  },
+  {
+   "uid": "a1a261337c48d712",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "258261bc5d790030262f012b36df6b328d2017a997c8a5df811c8fa2077d90aa",
+   "cell": "100"
+  },
+  {
+   "uid": "749223593b102fa1",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+   "cell": "101"
+  },
+  {
+   "uid": "530b1670c6dbb15d",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "609a30f6d65802643c320dfcbaef1ead3d71beba62c1d9ec98b2402278dba904",
+   "cell": "101"
+  },
+  {
+   "uid": "d5bd7ba7197b4040",
+   "model": "google/gemma-7b",
+   "item_id": "47d3484eb5ca2ed7101f0e429be1c1b661ac943d3a13a70338fdbc8b86b10b1f",
+   "cell": "001"
+  },
+  {
+   "uid": "1ac000f39cfae7b6",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "cell": "101"
+  },
+  {
+   "uid": "2ab2691355bf4469",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "53cabd524edc4fa226cb8805760a2752656760c1cb153d7cfc30d889f6db0ef9",
+   "cell": "001"
+  },
+  {
+   "uid": "9ea56cefc0fe98e5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "db739ed1879a2684",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "ff1afc7ab70d6ccf183b057a21997b040e0c4fbd6200b20ce2c2324a99dbe0da",
+   "cell": "011"
+  },
+  {
+   "uid": "bd18fdc072f51f48",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "010"
+  },
+  {
+   "uid": "743ea0f5d9065141",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+   "cell": "001"
+  },
+  {
+   "uid": "460bf50d47246c7a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "30323468ab640b49a8ba2938f84e04db21ce30c632e381da2ab7d474e9a81f65",
+   "cell": "101"
+  },
+  {
+   "uid": "1c9fdfd1c24e09bf",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+   "cell": "001"
+  },
+  {
+   "uid": "1a3d8e36a47e95a6",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "f5e50c45e08f52dfa4a338f972cd5625b821678aeafe245413ab7b610d064ef7",
+   "cell": "101"
+  },
+  {
+   "uid": "bd85e9364362ec25",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "5fe3612baf7cd984ceee5b3ad9af0c00a374f1200310fbe32dfa7f391cb65aa2",
+   "cell": "001"
+  },
+  {
+   "uid": "24d02c948962a0a3",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+   "cell": "101"
+  },
+  {
+   "uid": "8ca1aa134dee5f50",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "aaf4bab66dfcd3f9aeab0ad93786bed08e586bef88a297729f36e1d953363130",
+   "cell": "011"
+  },
+  {
+   "uid": "029cdab72821eb3c",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "05753d4fbe1446e76360d8e04da868d2436c7c9bbb64042b5e9041f16c014a5e",
+   "cell": "101"
+  },
+  {
+   "uid": "a71ae10d326b9d2a",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "3253391b41ccad0075470d3f654c6150ae38baf708cdc1c9f8e5a8c6927702c9",
+   "cell": "101"
+  },
+  {
+   "uid": "a410d04381888b18",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "987f8000a0169d4512c4ff7371f73e8517afffce6f6111aec1ceb13739fcb857",
+   "cell": "010"
+  },
+  {
+   "uid": "542033932059e9cd",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "310fe21a682cdbf403e6b4a9405ac35921c2f4839233c4839e8d804827722cbf",
+   "cell": "001"
+  },
+  {
+   "uid": "6ab00d3a60afcdfb",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "cell": "101"
+  },
+  {
+   "uid": "f3b72ce99913ca6b",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4f031d13314779af5892c33ebb342a9eef6fe8563e763aee0edc4c0b1e8290e3",
+   "cell": "101"
+  },
+  {
+   "uid": "e40230c9e170ef8c",
+   "model": "google/gemma-7b",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "001"
+  },
+  {
+   "uid": "f6e51b81bf1b8b2a",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "94fe7bd83829e596adb36b8c92ee8f929ff706d8bb59a738a003512acf7adb9c",
+   "cell": "001"
+  },
+  {
+   "uid": "ee49179728e306b1",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "cell": "101"
+  },
+  {
+   "uid": "d914a390535526d0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "ff1afc7ab70d6ccf183b057a21997b040e0c4fbd6200b20ce2c2324a99dbe0da",
+   "cell": "101"
+  },
+  {
+   "uid": "5b3207c98ef3df13",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "0a4c94b500ca7be0",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c1e51e8cf15b9ecaecdf9e376846f10c7411ce1f00506c3696038b505a5ac36f",
+   "cell": "001"
+  },
+  {
+   "uid": "af93f8c0674ec891",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "56b0a14a52da5bf092b183dad2a1aae3cfedad7f8fe09c1a711958afe7fdc611",
+   "cell": "001"
+  },
+  {
+   "uid": "b95f2b67a396d1d9",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "5ddbf75608abed3b65c910b679bfd298a3eae3c394b03a3e6b540db73fdd32a9",
+   "cell": "001"
+  },
+  {
+   "uid": "8a429c61ca13d945",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "f4934b792aa83e76",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "83e682a52a0c03f530366c19b6bf245e7ca1729e7c057e9c32cf58e11efa5889",
+   "cell": "101"
+  },
+  {
+   "uid": "f2b1cd527c3a9e97",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "011"
+  },
+  {
+   "uid": "30cd4c642bf5a5be",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "cell": "101"
+  },
+  {
+   "uid": "f617e44bdbccfdcb",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "bbcc7342152e6f8a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "d15e9e807826bf46a0b82c320ea758999a994300646a1bbe843b5b63512ec9c9",
+   "cell": "101"
+  },
+  {
+   "uid": "777f75b7cf31767d",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+   "cell": "101"
+  },
+  {
+   "uid": "35965d089a9c1e95",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "93270f1e9ad0eff2383e4c9d6027d60a63bebd42b3667114e2b187fe32877360",
+   "cell": "101"
+  },
+  {
+   "uid": "62c88cf27881d364",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "749155850b45e11f8f72965208b9e38a4ac14c4fc167b6f5563994a5dcba654e",
+   "cell": "011"
+  },
+  {
+   "uid": "19846b86bdabcd53",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "fe86b7d7a443a01a6848f005b46654dee98c42504d953bfa70780bed1b0680f1",
+   "cell": "010"
+  },
+  {
+   "uid": "0bdee788125384e1",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d7044160114f0e15f813b68236b6f68cbaa509aaaa7a56c2a30458c0977b85cd",
+   "cell": "011"
+  },
+  {
+   "uid": "ff8659a064596d76",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "1c91c6b1ab3a0015",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f50371da3f84f26cbb00e934ab488a32e596669836b869ce76a52fbd0809485f",
+   "cell": "011"
+  },
+  {
+   "uid": "d4fa31c86ac7f8e6",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "141bceebe9aebd4ece39130d0df42ce2f855a0b0b24945bc9431fa6da8e32883",
+   "cell": "011"
+  },
+  {
+   "uid": "61b5ad0b564782a8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "712dc25d678645e2f0b742671130f3a2a53e757c8a84270ae1d1345a0552053a",
+   "cell": "101"
+  },
+  {
+   "uid": "8d344251140e3882",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "712dc25d678645e2f0b742671130f3a2a53e757c8a84270ae1d1345a0552053a",
+   "cell": "010"
+  },
+  {
+   "uid": "e5ae5098fe22463e",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "cell": "101"
+  },
+  {
+   "uid": "634a7cc422c296e5",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "47dc7383649298a5",
+   "model": "01-ai/Yi-34B",
+   "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+   "cell": "101"
+  },
+  {
+   "uid": "89e2913b104b71ca",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "f60e6952cdb7b3b87e872f7f544d9ab3138372ed8a9ca09be6b7354009fe1841",
+   "cell": "101"
+  },
+  {
+   "uid": "0832798959c8b3e8",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "7453e5d5aa3dd80d2de5a0252851b02474e0a71abad76ed1f84a2c32da9adb14",
+   "cell": "101"
+  },
+  {
+   "uid": "c1995fabcac91346",
+   "model": "01-ai/Yi-34B",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "001"
+  },
+  {
+   "uid": "0a0b6be44781b2dd",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "cell": "011"
+  },
+  {
+   "uid": "dfe9fa2a637c4570",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "294c599be58d80788b35181c7fe5375dde0d1edfb207f81ed87947254f13a61c",
+   "cell": "011"
+  },
+  {
+   "uid": "8c4c450f6df33149",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8c527945ad1562378509ab123b43e406153cb742617ee2882a5c88dc8206914d",
+   "cell": "001"
+  },
+  {
+   "uid": "29a9eceb061682a0",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "299a0461e14c768bd2e2f1465be5df1f84edad4c1c3aac4740b5289c376933ab",
+   "cell": "001"
+  },
+  {
+   "uid": "fab8b0a291b4ae59",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "19cc9e2cff83cd9b74d228ddeace02b7fa9f00305ab996987c49ef0c4685ea12",
+   "cell": "011"
+  },
+  {
+   "uid": "eefa2640d48c3b19",
+   "model": "google/gemma-7b",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "011"
+  },
+  {
+   "uid": "fb0ed09d7c3a4be5",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "001"
+  },
+  {
+   "uid": "69263cb2dee0709a",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "011"
+  },
+  {
+   "uid": "bf732fa6f98dd6d2",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "5ffaabe544c24b224c89d65fb3432a8ca520e7901829710d79d6bf1d37d02219",
+   "cell": "011"
+  },
+  {
+   "uid": "e63e7ba836170b20",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "4f4d8d4fdf52867e9e2eb2817d62ffc5902570b872e45d9abb2180afdcd4a800",
+   "cell": "001"
+  },
+  {
+   "uid": "7291412a37a97faf",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "192726f598993628",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "bcd22ab670425cfc7bfe53260c5035ebd51a8da6e62005b3c05432aa8af35cd7",
+   "cell": "101"
+  },
+  {
+   "uid": "9e2863a85cba19b1",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "cell": "101"
+  },
+  {
+   "uid": "ea816e21787651b1",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+   "cell": "011"
+  },
+  {
+   "uid": "f35ea7438576cfed",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "122481d34e816aedaf6f081d3c05ff2167ac6627cf0f9e36bf71984bfe1c5f94",
+   "cell": "101"
+  },
+  {
+   "uid": "2bd80c54e6e3f88b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "0b06d8531eb894a2283c5cdf7763bbc9a296b28e8ffd58240927ea9482d1dd3f",
+   "cell": "011"
+  },
+  {
+   "uid": "05e4894ef08e8e6a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "eec516066a3412740dffa9949801502fdeef318620c0448385849db52250bfc9",
+   "cell": "101"
+  },
+  {
+   "uid": "53b8218fc23a4e4e",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "b695eec0f703907c",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+   "cell": "101"
+  },
+  {
+   "uid": "a67bba94dcdcc3da",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "011"
+  },
+  {
+   "uid": "5502bb4154fde3f5",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4ec2f6d816da83cf04cfebe004025e796fd830048e47d230ca2f9aa88575e89a",
+   "cell": "100"
+  },
+  {
+   "uid": "2d5f3323afbf0616",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "284d5e050353dd36b7b4b22d00bd97b7934269a98d033713cde86f2b716c412f",
+   "cell": "011"
+  },
+  {
+   "uid": "49474f9ab29b95f0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "cell": "011"
+  },
+  {
+   "uid": "ce93ec6c884d2ab3",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+   "cell": "011"
+  },
+  {
+   "uid": "09c55c498fcf0beb",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "447c59ff49a5c0ca4dab5d300298fbc9f544c0c68f435a543de4f82fa93f6052",
+   "cell": "101"
+  },
+  {
+   "uid": "34d5f454c8e0f9ed",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "011"
+  },
+  {
+   "uid": "80122a25349ce54c",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8b629cbc48f9271fd3f791dcebf289d5d8dbf2bfb06e3cede36b66a0faa11046",
+   "cell": "001"
+  },
+  {
+   "uid": "1f1f5f56a770c8c0",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "92384dcbf8501d50ba6d62c39f61e312c7b51cd1836fbbe79bba5c52fd3769d6",
+   "cell": "101"
+  },
+  {
+   "uid": "3873734ce882546d",
+   "model": "01-ai/Yi-34B",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "cell": "011"
+  },
+  {
+   "uid": "73b677449bd07d5a",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+   "cell": "101"
+  },
+  {
+   "uid": "c30b6feecbc75c1c",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "d8509507322b479686bd84b2d0d4310bc93fe0bf51417914b33449d389694732",
+   "cell": "101"
+  },
+  {
+   "uid": "26824805fae57767",
+   "model": "microsoft/phi-2",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "fdc81297550073e3",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "60f33275f2c1936ee0901f0890436c3303805c076411a4661355afc67629a53d",
+   "cell": "011"
+  },
+  {
+   "uid": "0e16533eea261eb1",
+   "model": "01-ai/Yi-34B",
+   "item_id": "340ee816bd406922a24b52d58fadc8327f49358ea81158bb5e44e284d2f7523b",
+   "cell": "101"
+  },
+  {
+   "uid": "92e3e5e193dd5213",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "0ee1b5ba5ff184d40ebb076f1b2e91e4dbc265ad598bf8a62daeb9a8a3ff4ebc",
+   "cell": "101"
+  },
+  {
+   "uid": "a6fc94d117f79464",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "58372cecd81169c198fbc3e8f217af33c9ea676c3a0a6723b173fe9e2bc37943",
+   "cell": "101"
+  },
+  {
+   "uid": "b55b3986b7ef798b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+   "cell": "101"
+  },
+  {
+   "uid": "539fdac23dfeacc0",
+   "model": "google/gemma-7b",
+   "item_id": "c5f5e17fcc5428bf57ac16587f70efa4e7e87826e8a6a36ce7757dea5ee2bf54",
+   "cell": "101"
+  },
+  {
+   "uid": "e6b0d52b88d75f18",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "91b586fa29a497991c28e6238660fd7c258a988390b6b58d5f81212b83e17c69",
+   "cell": "001"
+  },
+  {
+   "uid": "060a17197bf346e5",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "c4f280a49fdba08d8541529a1046a884211ff7be8488c2b2b42978e43a9e1d20",
+   "cell": "101"
+  },
+  {
+   "uid": "b56277751b331e73",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "cell": "101"
+  },
+  {
+   "uid": "c374d7b5eff4762d",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "4e983ae39e523e9fb0b69a2c583c6fcadc1c201448d51bc1eacf9dc1af723c3c",
+   "cell": "001"
+  },
+  {
+   "uid": "d569efda446c737c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "fd842ab96e6bb21d",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "ff1afc7ab70d6ccf183b057a21997b040e0c4fbd6200b20ce2c2324a99dbe0da",
+   "cell": "011"
+  },
+  {
+   "uid": "a7e5b343ecffe1da",
+   "model": "microsoft/phi-2",
+   "item_id": "bf17990930599bd4332f5de6bb93a94d8c29a6f760e9f4688e4aeff01fe2d4c0",
+   "cell": "101"
+  },
+  {
+   "uid": "43981a2422c0c195",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c4138e9ace88fa22899ad975b11891d3ea473afb601eb487e1b8a94cedf31ef9",
+   "cell": "001"
+  },
+  {
+   "uid": "a38348d73f76c781",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "ca9377d2d0b50799",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "011"
+  },
+  {
+   "uid": "8007e73cee9b0789",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e6390bf9525b74cf604cc320cc9e009fbf87f538c9982d4833a02c59e3ebb386",
+   "cell": "110"
+  },
+  {
+   "uid": "20de82b07bf225a4",
+   "model": "google/gemma-7b",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "a4fd95d2b0577e5e",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+   "cell": "101"
+  },
+  {
+   "uid": "ae4e2badaeeee0c8",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "cell": "101"
+  },
+  {
+   "uid": "bd2197ac055fd477",
+   "model": "google/gemma-7b",
+   "item_id": "3d923a98176963eb6c3b60e0bba72cd639a8cdf05888c3535c3b7ebaec4fe8cf",
+   "cell": "110"
+  },
+  {
+   "uid": "b0d4fb3faf563c52",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "ea6bffdd692192a6ad6a4c737eab81c529e7577275ebb7e34af876f87e0b4e4a",
+   "cell": "101"
+  },
+  {
+   "uid": "27aff90c276d97eb",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "bc09d091d281776e65be7fc6dea4e385be558a4d1bf6004f7c237cad821d410e",
+   "cell": "001"
+  },
+  {
+   "uid": "8b4aea4c20ca1d5d",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+   "cell": "001"
+  },
+  {
+   "uid": "83f3f5d219ff64f8",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "87cae3c649e0c2e5fa44f33722837422484587807db514d5ba059621b9e9eeb2",
+   "cell": "101"
+  },
+  {
+   "uid": "75e35cad032ba296",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "011"
+  },
+  {
+   "uid": "3aa0dabfb32c70b9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "606874c8b7cf957bea7bdfab492768ab42252402b176c6f34dd22da63e150c9d",
+   "cell": "110"
+  },
+  {
+   "uid": "d6e61e2e3cb95d60",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "e196d5d5610d8c4547f574dd9beb39abb12c57fb8fd4a72f23cb6b11348da678",
+   "cell": "001"
+  },
+  {
+   "uid": "2512f8db436cc379",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "adaf544fc222768da1ed375cf16b7cc750702052cda51fbcf43e613cf933bbd8",
+   "cell": "101"
+  },
+  {
+   "uid": "f6c00ba2f36d2d31",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8bcb128ba2ba56f2a33762780c01881cb7cd58a6f281a8b4f46044e95915f3ea",
+   "cell": "101"
+  },
+  {
+   "uid": "ff898ddc16963fc4",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "223e90fb0bcb95da403932743791c13ff7816efb90eb6bacacc124c6f65a163f",
+   "cell": "001"
+  },
+  {
+   "uid": "e702cc1593ede5ab",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "010"
+  },
+  {
+   "uid": "6ee2058c43faa500",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "01d1abcc3fcdaeb622437980a92136ba3dac4f1f91dcf830c2af89986b1e56cf",
+   "cell": "101"
+  },
+  {
+   "uid": "24d072d23970211a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+   "cell": "011"
+  },
+  {
+   "uid": "fb48d68042bb81b8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "65092c979a0234ee",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "593bf718a854c0440cdd2fd1a9d0b190152a64608303db4e6d18c0121f2d4f65",
+   "cell": "101"
+  },
+  {
+   "uid": "caf69ca4ffc6dd47",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "001"
+  },
+  {
+   "uid": "702d09df04be1d8f",
+   "model": "google/gemma-7b",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "cell": "001"
+  },
+  {
+   "uid": "9ad2f64d33dee9cc",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "0ff0289be04f2ff43bd18d04f8f024f3270470c9223082ed358e6854da48d4e3",
+   "cell": "001"
+  },
+  {
+   "uid": "bf4529fee3aaeb3d",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2e5eff069aec8d9d3a382b11f80f15284bc84768c42bb8413d70fae33258489d",
+   "cell": "001"
+  },
+  {
+   "uid": "20c70e01d3e7527b",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "dced96de3e1d0dbd402be072c604825580f941e24c3319996e49c62a6a1cba39",
+   "cell": "001"
+  },
+  {
+   "uid": "65c9e327faee8c49",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "11b9f7bca8263563db264926b4cfdbb6c2aaaaed97b99dea728d592e62951f82",
+   "cell": "001"
+  },
+  {
+   "uid": "e4795585c6f59bf6",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "0ae9a669df586c0c60666230ee07dffe96ad4bb296f14cd3044ebfc1d2425dd9",
+   "cell": "001"
+  },
+  {
+   "uid": "6f495382ec5d8a19",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "0e73840ba4aeaa3aca2e2aeabf50e8750efb7086dbb02c62123b9683a3cff974",
+   "cell": "101"
+  },
+  {
+   "uid": "4592481ac4df43dc",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "96baab77b40a3472c67495467c9abb1d75d373b96f8a75998175f5fa3701f237",
+   "cell": "101"
+  },
+  {
+   "uid": "6a9e27b215f63292",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "ae18b0258bec97703570de7ef4252b9e68a34d470263725e599b4c81a61657d8",
+   "cell": "001"
+  },
+  {
+   "uid": "c3f0765eba475d05",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "374b2a0a7439287db6f4be69baed4ccff7ce125b202eae809c195c9c13161164",
+   "cell": "101"
+  },
+  {
+   "uid": "d772118b19dae040",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "122481d34e816aedaf6f081d3c05ff2167ac6627cf0f9e36bf71984bfe1c5f94",
+   "cell": "001"
+  },
+  {
+   "uid": "0e326642d9008312",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "001"
+  },
+  {
+   "uid": "c3fba1536f8bb21c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8b3a0be02c27453b92ac72a22b2419b147cb45d40d504c86b6ccec8a5e4a7a81",
+   "cell": "011"
+  },
+  {
+   "uid": "87d5c565d65db936",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "cell": "001"
+  },
+  {
+   "uid": "0defd66ef7bd879a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "cell": "101"
+  },
+  {
+   "uid": "d3925cd9157a3ed5",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "a0ceccbe7983458f21317b95159969cba74a18798fcff7b6bea3f01e30aa1f22",
+   "cell": "101"
+  },
+  {
+   "uid": "7987a858e886cd65",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "65bc2b42965ac4099ad36f32a50cf8ae9d0acad7d266c7c73b83383e913e3e15",
+   "cell": "001"
+  },
+  {
+   "uid": "1efdda1c61050dd8",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "65dc59cac63d94bbf0c44a3dfc91d2260b9561a84eb3f59706eba35c37aded96",
+   "cell": "011"
+  },
+  {
+   "uid": "3d1a877d747d5d5d",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "8f9e6416603f3f7949567bfb575c211795bb333319c790aeeeaf39135d220fb4",
+   "cell": "101"
+  },
+  {
+   "uid": "f39381f6f99931cd",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "6d458be5b2ac1ba17da6fffc90c931a3b417b89e2e46de6a27f0d8eb2a55f043",
+   "cell": "011"
+  },
+  {
+   "uid": "10dd7301c47c7abb",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "935e9a11ec8dd6ca7b0407b8600ad0c5aef546f30356d2ab94ec3273d8c09332",
+   "cell": "101"
+  },
+  {
+   "uid": "6f5983e8b48f5ee9",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "001"
+  },
+  {
+   "uid": "cd991f2b28180656",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "10960cd949c06a9771727f7e4c3f9c69cd55e9c19c2d19becc9f0ddcf28e853a",
+   "cell": "110"
+  },
+  {
+   "uid": "8ae26355092f824e",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "1fe8bd2c2f435cb9bc765b405dcd08860bf1a159b07679435a93a2a218ff6bbc",
+   "cell": "011"
+  },
+  {
+   "uid": "643427c13964c9f8",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "597c7bdeb36164bbd8e17f73f37d5cbb9370f83f7b62265d680e5e0270eada62",
+   "cell": "101"
+  },
+  {
+   "uid": "6c6aaf48848c7e83",
+   "model": "ibm/merlinite-7b",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "110"
+  },
+  {
+   "uid": "e5adf30bd8d46097",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "91d24a91a432644bc007ebe84acbed8157aeaa6e4a4c5fe0943e6670b9828141",
+   "cell": "001"
+  },
+  {
+   "uid": "caa0cef49d4a7f24",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "dbab5152036ff4064f203cadce163176dd37ddcc5f4e851e40de428a3a87ff95",
+   "cell": "011"
+  },
+  {
+   "uid": "aea47cf440aa258d",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "10960cd949c06a9771727f7e4c3f9c69cd55e9c19c2d19becc9f0ddcf28e853a",
+   "cell": "101"
+  },
+  {
+   "uid": "02e8f621ffbb45de",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "65bc2b42965ac4099ad36f32a50cf8ae9d0acad7d266c7c73b83383e913e3e15",
+   "cell": "001"
+  },
+  {
+   "uid": "b8360d302e0d9c5e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8668684d93b657ed644a7ca7b91923090eabf68036a534f83f579087bcfbbd0d",
+   "cell": "001"
+  },
+  {
+   "uid": "8b769700f2a8dbb4",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "ace647036f9063eae8717543ba038c3c269bad53ca78441bf8932b283e3aef4e",
+   "cell": "001"
+  },
+  {
+   "uid": "20a214b2e9270760",
+   "model": "ibm/merlinite-7b",
+   "item_id": "a6352dda0f6c14df212f57c638726a031b717d19dc97826a9b3b25622b602daa",
+   "cell": "001"
+  },
+  {
+   "uid": "dd2d205cb2abea36",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "0bdfd7b09f0a8829",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+   "cell": "001"
+  },
+  {
+   "uid": "5da6d453d06a3691",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "cell": "101"
+  },
+  {
+   "uid": "81f49a4ca5e5c1cb",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+   "cell": "101"
+  },
+  {
+   "uid": "c9c107f8dafd8864",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "3e38d0403deedba1",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "25ee32accf1f91269a9908f23a3705ccf348052dc124ecd41c97fdb60327052a",
+   "cell": "101"
+  },
+  {
+   "uid": "4466ded0b6ecd80b",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "db6ff0a57c5ddac1",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "25ee32accf1f91269a9908f23a3705ccf348052dc124ecd41c97fdb60327052a",
+   "cell": "001"
+  },
+  {
+   "uid": "0e38a2d33cbe3c77",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "b861264025ca3635e1beb0c5f59cd32a0321f15d09e9857a49095e14b92717aa",
+   "cell": "101"
+  },
+  {
+   "uid": "f4a8fb46e66a6975",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "e757c5f49da288abfcf40a7318c49669e68acd4d2040e5dede25d7ba595ee32c",
+   "cell": "101"
+  },
+  {
+   "uid": "ec0bfed73fb1db30",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "89b3046ce178679b8c22716f560cc33e47c87402e92fb6a0a290fdd3e677b957",
+   "cell": "101"
+  },
+  {
+   "uid": "356853f7c9579270",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "be6742308e3bb12c718e52fce560e7346f685ec38a58d68913c6f8324802b9b3",
+   "cell": "101"
+  },
+  {
+   "uid": "dca51ecc055a43c7",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "3d923a98176963eb6c3b60e0bba72cd639a8cdf05888c3535c3b7ebaec4fe8cf",
+   "cell": "101"
+  },
+  {
+   "uid": "22b8beedcc11b55a",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "011"
+  },
+  {
+   "uid": "d01777de898b504a",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "803745a689ea1110",
+   "model": "google/gemma-7b",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "4f59e13f204cd164",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "c359660263ea9d67be8b6e981e7b7ee694f778da942f2e4bb8f56fad246528c2",
+   "cell": "101"
+  },
+  {
+   "uid": "1348ab6e3b1d1d7c",
+   "model": "google/gemma-7b",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "cell": "101"
+  },
+  {
+   "uid": "a675a7c173b0ec8d",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "5624f0368579a2e21d7c9da5e5b1e0a618341dcf986d22360ff2e08252136033",
+   "cell": "011"
+  },
+  {
+   "uid": "3791fbd60ae50f39",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "772159744d87c229d09d218208e81bfec20119caf3e78cac1af53f3d46bd0261",
+   "cell": "101"
+  },
+  {
+   "uid": "29e0930274a6a742",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3ebe39af35a5eae9eb812e37f1ab4354e4c0beeaa23858b3e99c8b2453f84f5c",
+   "cell": "001"
+  },
+  {
+   "uid": "3b1f98b28c3d302c",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "cell": "101"
+  },
+  {
+   "uid": "ff2df91e0602b34c",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "cell": "101"
+  },
+  {
+   "uid": "f3fd2bb806a42a30",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "cell": "011"
+  },
+  {
+   "uid": "fae1b51229b2f21f",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "997f97d280cf56a5ddf92713079633d86c9f9fe5787d41e2c5c3ac22cdaf2cd5",
+   "cell": "001"
+  },
+  {
+   "uid": "82357e9bf8736136",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "80441ab15e81ac8d77a06bfcc302d68112d90405ef0ed6b153bee75338926bee",
+   "cell": "110"
+  },
+  {
+   "uid": "bec2e24fef868621",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "9a54d7f0f1c6f755f1d4b82b11899a059081de9c88e744efea729e46019a1c1f",
+   "cell": "100"
+  },
+  {
+   "uid": "36abf37b5db9e6e7",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "8496362489d78bed",
+   "model": "google/gemma-7b",
+   "item_id": "69fb3bb865effcc46cc33ec3d06c619e64e3f024ebaa5b6e46701d2a1edffaab",
+   "cell": "101"
+  },
+  {
+   "uid": "336e8601e03be630",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "adaf544fc222768da1ed375cf16b7cc750702052cda51fbcf43e613cf933bbd8",
+   "cell": "001"
+  },
+  {
+   "uid": "03d7c7e6f33fb787",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "010"
+  },
+  {
+   "uid": "640cf02b0b73aa18",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "011"
+  },
+  {
+   "uid": "82cdd18b77f1b0e8",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4cf2c0c79d8c778a66265c1986c10610a84f65345b1bf3cd335bfb1dc08df546",
+   "cell": "101"
+  },
+  {
+   "uid": "e863866670eff28e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "d3e6c1734ae962bd74aba1879db1f4498f185e96da9846386c5c23fad5e7a270",
+   "cell": "101"
+  },
+  {
+   "uid": "9b4d53a96344cb0c",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "81eac98614f8d6f059fb5b60b88a44c005fc46a1a24aba1e94671358a20b2ce5",
+   "cell": "101"
+  },
+  {
+   "uid": "051a49637df90dd3",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "cell": "001"
+  },
+  {
+   "uid": "b11daa9a3395f9d0",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "65bc2b42965ac4099ad36f32a50cf8ae9d0acad7d266c7c73b83383e913e3e15",
+   "cell": "001"
+  },
+  {
+   "uid": "1e21f336916c74d3",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "dbab5152036ff4064f203cadce163176dd37ddcc5f4e851e40de428a3a87ff95",
+   "cell": "001"
+  },
+  {
+   "uid": "eae97644ebabca5d",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "0201dbca409403de4ebb9b5e85d3333e95cf19bf0fa089084ecdd0f293d2bd55",
+   "cell": "101"
+  },
+  {
+   "uid": "9784bb378b01e8bb",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "34efcfc55c7aaf9b",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+   "cell": "011"
+  },
+  {
+   "uid": "1ca2522bbe4d0c05",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "b7caffa404111a4bf49bbf2f6a03856a6896af3af68a9ab7efe588480737890d",
+   "cell": "101"
+  },
+  {
+   "uid": "1b7c694ca5f2047d",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "712dc25d678645e2f0b742671130f3a2a53e757c8a84270ae1d1345a0552053a",
+   "cell": "110"
+  },
+  {
+   "uid": "b4cae3555ca24e08",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "d92321304c73c493708cfbe5e319e018254a0700ba76fbbaf533224bd27d26a9",
+   "cell": "011"
+  },
+  {
+   "uid": "3413e88acd4c878e",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "749e6bb36c0b57573bff06640286d170454dd6c2f402c5080ba12f007dcb6afa",
+   "cell": "011"
+  },
+  {
+   "uid": "be26f8c7ac6a44ba",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "cbf9c8e8acd654e9d4eb2980c12cf127f39e2b303af689689295e601d5343995",
+   "cell": "001"
+  },
+  {
+   "uid": "8fe4a1445c337bc6",
+   "model": "ibm/merlinite-7b",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "6e74615df639f4b9",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "6000891c3d8be2bf",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "606db420eac46f70d636b4bdbca6eb43075c20df3aea0e658b0f73f83d987e9b",
+   "cell": "101"
+  },
+  {
+   "uid": "2bad832822a0f511",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "bc54ade904c9081b021f487e9da4b37a05829596b1f36dfce079f57347239b75",
+   "cell": "001"
+  },
+  {
+   "uid": "7dc3a9e76e2fc0c8",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "e2701f82921bd984",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8668684d93b657ed644a7ca7b91923090eabf68036a534f83f579087bcfbbd0d",
+   "cell": "001"
+  },
+  {
+   "uid": "da6070c060e56ee9",
+   "model": "ibm/merlinite-7b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "c8457c9d3662f8d2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "26455cb9811c218f5d34dfc53a4ad39e7218e90c64f3818ced88aadbe5cd044f",
+   "cell": "011"
+  },
+  {
+   "uid": "282e9af0cd235a30",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "8cce0bbfc4b3e8aedfb6915da029958deb34809f68efe53377145250c52544ca",
+   "cell": "101"
+  },
+  {
+   "uid": "349215d3c56fae7b",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "ab61a1b3af866575bc019025bfca0d34a870e5033235ffab7cbdcfd39856508f",
+   "cell": "011"
+  },
+  {
+   "uid": "775eb7d701016d28",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "73ca6645b565e23b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "22d67f1916b000b7ad518e0365e4aa39ebf3176503026a06fb61f44b1ee5fe56",
+   "cell": "110"
+  },
+  {
+   "uid": "6058f47671abc01a",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "cell": "101"
+  },
+  {
+   "uid": "4150db770926e42b",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "0771264a70ab717e7d552b35a01f13bf046ecca2534c26432676c7e463325dcd",
+   "cell": "101"
+  },
+  {
+   "uid": "58058db4d7c76185",
+   "model": "google/gemma-7b",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "22d5acc72c911b7c",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "49efd9ef19d3f5c8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "cell": "001"
+  },
+  {
+   "uid": "372e15bfb7ce28d1",
+   "model": "01-ai/Yi-34B",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "001"
+  },
+  {
+   "uid": "6abf817b5e41c2b2",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "258c48dd94e4b4b06857a7588d86bae768433f451bf6b8a6647de6dcaa22631e",
+   "cell": "101"
+  },
+  {
+   "uid": "fd5e4edc0707fc22",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "a5798ee26e7a60aac646ff8fdbc3936c1fb6367fe15a4b805d492d68ec1447bf",
+   "cell": "011"
+  },
+  {
+   "uid": "a1b0527ee5a59955",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "9b3c827e28cde7ec",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c035c90d3b95590ebc7bb4f1251de1508c7f9042948f3e170ece597a9e418943",
+   "cell": "100"
+  },
+  {
+   "uid": "705a22f1ec7ac318",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+   "cell": "101"
+  },
+  {
+   "uid": "eb640486bd942f53",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "ce32afe2b2fab8caa9fc089ec68c0eaf8bb3cecf834d0572dcc2aae3eae0aadc",
+   "cell": "011"
+  },
+  {
+   "uid": "3af613b9de14490b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c7442e80a9ebd71f0ced184e5d6acc65fe7e06d960314dbcab6d49c81446f7b7",
+   "cell": "011"
+  },
+  {
+   "uid": "1b8ef395f81e8e31",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+   "cell": "001"
+  },
+  {
+   "uid": "c3217d07d836eead",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "67c6cc3b18610ed6ab95407080276c254cd5e5e3e25d6e1d3f8dc388c1184a71",
+   "cell": "101"
+  },
+  {
+   "uid": "5087d3e740e0c09c",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "8cce0bbfc4b3e8aedfb6915da029958deb34809f68efe53377145250c52544ca",
+   "cell": "101"
+  },
+  {
+   "uid": "01ba318d8e6bc7f8",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "412f6a9ef7116e000f0752af3c028ff03cedd02a0a66e98df6e9a595290e1ed0",
+   "cell": "011"
+  },
+  {
+   "uid": "94cd3ade9ed2dbe2",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "014691a06e76289f",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "001"
+  },
+  {
+   "uid": "6f2a55785550506e",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3125590549b81ff498af255d541be27c54aa6d1f56477c81616c491165b23152",
+   "cell": "001"
+  },
+  {
+   "uid": "95852c4c6971fcf1",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "405109f5f787f68015d128f26b4065eed83212ca6345de4550c7f1ae5b9ea5d9",
+   "cell": "101"
+  },
+  {
+   "uid": "e09cb79bdc5f1a60",
+   "model": "google/gemma-7b",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "011"
+  },
+  {
+   "uid": "d9b7da4dbaff4a63",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5a334ae800fe78ce2017e55c8efdfc40ca92e25cfa19e3c33fe55c2d0cfb8673",
+   "cell": "011"
+  },
+  {
+   "uid": "5d6e9e2f3dbf2b8a",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "3112b97081e20cd8",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "d7044160114f0e15f813b68236b6f68cbaa509aaaa7a56c2a30458c0977b85cd",
+   "cell": "101"
+  },
+  {
+   "uid": "6a064aa39839390d",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "e6390bf9525b74cf604cc320cc9e009fbf87f538c9982d4833a02c59e3ebb386",
+   "cell": "100"
+  },
+  {
+   "uid": "8e8a3302c3ea1b4f",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "895b767616cfe3e09a570a5575ea6181326fd285d41ddbe39eb781237d980248",
+   "cell": "011"
+  },
+  {
+   "uid": "489d4015cadb74e2",
+   "model": "google/gemma-7b",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "001"
+  },
+  {
+   "uid": "e3ea04a99a5b83d4",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "78922e3651ce6d429eaec69743800d4d35a19fd376eeca3a2a9deba554365577",
+   "cell": "101"
+  },
+  {
+   "uid": "7f7d930546b1fa49",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "69cc56eab454722f585ae206ebd5911b3dd6f52c927cae1b9b51c1e26ea2cd3f",
+   "cell": "011"
+  },
+  {
+   "uid": "a48d23b72f2fc841",
+   "model": "microsoft/phi-1_5",
+   "item_id": "5fe3612baf7cd984ceee5b3ad9af0c00a374f1200310fbe32dfa7f391cb65aa2",
+   "cell": "100"
+  },
+  {
+   "uid": "66dd0c1615d85bb6",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "606db420eac46f70d636b4bdbca6eb43075c20df3aea0e658b0f73f83d987e9b",
+   "cell": "101"
+  },
+  {
+   "uid": "6eeb1e2fd81a99b2",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "241729f2ac43de99",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "011"
+  },
+  {
+   "uid": "660fc2e8d30c717a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "30fb74e58a0d8d85f4955172d3d76bf63730cda09ea6d51e0a0780069907ec46",
+   "cell": "101"
+  },
+  {
+   "uid": "ae81a8edb9d36630",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "143c949d1cde3fd7",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c0df3cc7548d4a2fbd0f0df7bda5fd9743eba31ba8d9957a6d82f7b1f4eded08",
+   "cell": "101"
+  },
+  {
+   "uid": "002d4e14a6b19d61",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "76a72c76365a769f",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "8a96c911d903607b6c0a0ddf0b2ffcd1d6da45d2a3ed04b55e99e8e0d5d66188",
+   "cell": "001"
+  },
+  {
+   "uid": "f13521dfd796ad05",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "56b0a14a52da5bf092b183dad2a1aae3cfedad7f8fe09c1a711958afe7fdc611",
+   "cell": "001"
+  },
+  {
+   "uid": "8c477d4476543ed9",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "fd61e48973134eedbe9c49d8a1ac7243e994705373a8bdad59af47bad2d52585",
+   "cell": "101"
+  },
+  {
+   "uid": "3e4e259bf6aa5ca8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5ebae35778132aaf6f7cb839458f2b549a62be3daf63135b2257abbe276363b2",
+   "cell": "101"
+  },
+  {
+   "uid": "7e326d2daee9925b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "b6552c1bca8a42239e62a63438f983b64b293b821d3f26fdc2a846af83efb5d6",
+   "cell": "011"
+  },
+  {
+   "uid": "9bf1c1cdc670b629",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "4c498f4c3f2e6d3c",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "9dd5cee6d7a919e6c8a397bdfc5fec5910fc6ea2a3f7a9ac60f9e21f8c381cf3",
+   "cell": "101"
+  },
+  {
+   "uid": "1cfd9c209e5304c9",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "cell": "011"
+  },
+  {
+   "uid": "476b03248958afb1",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "b2b82ab5a8588f26",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "268cc25d20b465af1e1608af37a5fbfe3c708cbd92d004e5532eff09d608a8f1",
+   "cell": "011"
+  },
+  {
+   "uid": "b18078526e3beceb",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "ed5dc1dad8308c80779736f0544a12ddf47867930ffb6d36cfc7f52c06e34f76",
+   "cell": "011"
+  },
+  {
+   "uid": "769a229797ba12ef",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "808872a428033fb616ea1f1e3a70b915f38caf746da4f1770ad2ef17933bbfdc",
+   "cell": "101"
+  },
+  {
+   "uid": "605f78953fba489b",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "001"
+  },
+  {
+   "uid": "23040de763c24c73",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "011"
+  },
+  {
+   "uid": "10b10c69b7e7234b",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "33550fc380157c1d3151f899b9bcce622390ce47b4a3ec13f3de53ebfefa9b15",
+   "cell": "101"
+  },
+  {
+   "uid": "98c67d9363e3aaea",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "011"
+  },
+  {
+   "uid": "7a5a95c42872d2ae",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "77371eed064ae71daaf81d1794926149ec9abd02a8353a5b9d540b5b6be86e55",
+   "cell": "101"
+  },
+  {
+   "uid": "f7a504d4a56b9523",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c7442e80a9ebd71f0ced184e5d6acc65fe7e06d960314dbcab6d49c81446f7b7",
+   "cell": "101"
+  },
+  {
+   "uid": "fd408098a94abbec",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "cell": "101"
+  },
+  {
+   "uid": "b7e46b197ad164b9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c80ee9712babc939c03231731ba62326b1f6f2c8205221fc04ace6dd457d1654",
+   "cell": "011"
+  },
+  {
+   "uid": "e90020f8aa48d5a8",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "cell": "001"
+  },
+  {
+   "uid": "6c0bd46484d26999",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "e3cf4154aa09d2c08e511afc1f8c1ed91d5fe9b6f601d06dccd107ad799151e4",
+   "cell": "101"
+  },
+  {
+   "uid": "f7d665891668139d",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "0209409c09f7c4a2e8388a5ae7686696604cf5b6df26d7b73c58b15cc0964e56",
+   "cell": "101"
+  },
+  {
+   "uid": "58eba0bb52ff11f8",
+   "model": "ibm/merlinite-7b",
+   "item_id": "49d56a685f174c08e5ceb85de77be088e5e791b11672cc0e0b379133e28b27aa",
+   "cell": "110"
+  },
+  {
+   "uid": "84efbfed3f5517b7",
+   "model": "google/gemma-7b",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "cell": "101"
+  },
+  {
+   "uid": "e62d4403acb25062",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "180aaf517642b8060f98bfac535cb01229d52f9f7b12ca8223eac3f5928b5873",
+   "cell": "101"
+  },
+  {
+   "uid": "73ced62ba6ad9a3e",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "f5e50c45e08f52dfa4a338f972cd5625b821678aeafe245413ab7b610d064ef7",
+   "cell": "101"
+  },
+  {
+   "uid": "b7c162988045cc9e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "53cd14f126e632a8526fdc6a0d4395548fb53911ad34814f20911fd466f7f3f9",
+   "cell": "001"
+  },
+  {
+   "uid": "37e132a5d27de5f7",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "5ebae35778132aaf6f7cb839458f2b549a62be3daf63135b2257abbe276363b2",
+   "cell": "101"
+  },
+  {
+   "uid": "c1780eea3ddfa15f",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "100"
+  },
+  {
+   "uid": "085ba7019f323ec2",
+   "model": "microsoft/phi-1_5",
+   "item_id": "b58c87b3ce67b4da5748f3999e1db0406fcbd1828707a7daf297268b7a5f59fc",
+   "cell": "001"
+  },
+  {
+   "uid": "1a96810a0d97d247",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "c253f98bc33e0851",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f66a3bcd5465918895f6b999df50fbdee6ba52f1490f0b2a3ca3c0b11d35ce34",
+   "cell": "001"
+  },
+  {
+   "uid": "243c7d6c62574565",
+   "model": "01-ai/Yi-34B",
+   "item_id": "b861264025ca3635e1beb0c5f59cd32a0321f15d09e9857a49095e14b92717aa",
+   "cell": "101"
+  },
+  {
+   "uid": "1af267304e64cf24",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "1c1c86dfd70f2af04972ce45e3a9bc397dddb7fda1ae1bf2877dbe1ea8e480eb",
+   "cell": "001"
+  },
+  {
+   "uid": "fd1831e74a7d4767",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "bcd22ab670425cfc7bfe53260c5035ebd51a8da6e62005b3c05432aa8af35cd7",
+   "cell": "101"
+  },
+  {
+   "uid": "9f769bdad129753d",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "39b85e59d381faad65b7f33be391811049200536ab57e9a99eb48bef81b15c25",
+   "cell": "011"
+  },
+  {
+   "uid": "c47717fe1503c075",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "10f1f2b5bffc5213b2acec6a7e8a4c095f477583f8572571d3650accb4245178",
+   "cell": "001"
+  },
+  {
+   "uid": "c28bbff8639fa871",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "d6e3e586760e75d8e7853297081f6be7c62ee2df68a65bc7e0d3602ab9a12366",
+   "cell": "101"
+  },
+  {
+   "uid": "dcb5b2518a881b57",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "597c7bdeb36164bbd8e17f73f37d5cbb9370f83f7b62265d680e5e0270eada62",
+   "cell": "101"
+  },
+  {
+   "uid": "ed91831e5d755303",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "c2aae93e9733e13da4da3867279f95e60a7622f3cbc198de6394d09553e6900c",
+   "cell": "101"
+  },
+  {
+   "uid": "4ba691448d8c21d3",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "011"
+  },
+  {
+   "uid": "3e2b918e85968b9b",
+   "model": "google/gemma-7b",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "cell": "101"
+  },
+  {
+   "uid": "e0efee55914f140c",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "7816e144b5077f9c7eec4b1172f2118b5d82ad6ab25224c121356b2d6a8f6293",
+   "cell": "101"
+  },
+  {
+   "uid": "567f8e6de2cbbbb6",
+   "model": "google/gemma-7b",
+   "item_id": "ed5dc1dad8308c80779736f0544a12ddf47867930ffb6d36cfc7f52c06e34f76",
+   "cell": "101"
+  },
+  {
+   "uid": "f923bb0bc7477cab",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e196d5d5610d8c4547f574dd9beb39abb12c57fb8fd4a72f23cb6b11348da678",
+   "cell": "101"
+  },
+  {
+   "uid": "759c1e5d93f89456",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "fa3b1d76c8b869bf7c0b6864db57c49c468395bfbc19d9d90be601e013830beb",
+   "cell": "101"
+  },
+  {
+   "uid": "8b5534fc06c28d43",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f952e754a0781fc1fc200fb112278b833c133f7244e7369e004d2507f9591648",
+   "cell": "011"
+  },
+  {
+   "uid": "9ceef5cf45e00203",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "ad0fed4fd9a56c234011181f1a979eea69370f54e0ff3f64e7bd96d092ae0887",
+   "cell": "101"
+  },
+  {
+   "uid": "046f1e05dd70701b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "001"
+  },
+  {
+   "uid": "5f41063594fab83c",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "cb85c19f25b2f4422c72cf68b239b400cb7b2a56f421d25a5862248d58a4f407",
+   "cell": "101"
+  },
+  {
+   "uid": "dfe522ef6def315f",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+   "cell": "101"
+  },
+  {
+   "uid": "47012d8da362642d",
+   "model": "microsoft/phi-2",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "8529b19fb9c6e13f",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "96baab77b40a3472c67495467c9abb1d75d373b96f8a75998175f5fa3701f237",
+   "cell": "100"
+  },
+  {
+   "uid": "36aaa03eca274c2e",
+   "model": "01-ai/Yi-34B",
+   "item_id": "bbe96a06d5b5f4f25bee7fd1a2a513835ebc747b96ffba7c378904bb095ff90e",
+   "cell": "101"
+  },
+  {
+   "uid": "77977e53b2f44979",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "101"
+  },
+  {
+   "uid": "decef2b57edfbcc3",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "002400bd3db893b2032d6491973c85d1774783d7c64762d856f2252c4a19d777",
+   "cell": "011"
+  },
+  {
+   "uid": "550766bdca9e6ec7",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cbf9c8e8acd654e9d4eb2980c12cf127f39e2b303af689689295e601d5343995",
+   "cell": "101"
+  },
+  {
+   "uid": "46500fa509d5b0da",
+   "model": "microsoft/phi-2",
+   "item_id": "1d1ed89ffdec191b6e5f49e85e6a5034f3d2365bc493bd5187301f4f0093d1f9",
+   "cell": "101"
+  },
+  {
+   "uid": "224de93e4a8599dc",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c51bb2414f6653768e0d68beaec15802518a87431d3e3af08144ff6b88e37ec0",
+   "cell": "001"
+  },
+  {
+   "uid": "671883768fe9f8a8",
+   "model": "google/gemma-7b",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "cell": "101"
+  },
+  {
+   "uid": "acd8bd1d63883461",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "001"
+  },
+  {
+   "uid": "4ceea0f141f7e81c",
+   "model": "google/gemma-7b",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "cell": "101"
+  },
+  {
+   "uid": "dd3ee6aeea07a0e0",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "001"
+  },
+  {
+   "uid": "9d9a06967c04c344",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c36e7f20a2c961e5ccd95753cda76c3667b09bf7681684652ae9c67f8fc15d5e",
+   "cell": "011"
+  },
+  {
+   "uid": "cd22e259e86f9c6d",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "4eb44739071b7a34a3f8dc4b20f2a0e632148b0e8e66db5acc3380835bd98ecc",
+   "cell": "101"
+  },
+  {
+   "uid": "86b7730594dbb472",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d8a42120fa8b491279931cdaf71eca320dc7b2840e42d9aaa58bd7ff5ed337cb",
+   "cell": "011"
+  },
+  {
+   "uid": "22244b12b00ba45a",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "18ea2637e204a4d8",
+   "model": "01-ai/Yi-34B",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "011"
+  },
+  {
+   "uid": "55548918e0e8da49",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "3d035c363a1d4671f26587cfe938efe126b14742d1f223dc51849c2e582e6bed",
+   "cell": "101"
+  },
+  {
+   "uid": "53ac3171e6f9ad66",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "238a77f6c8410289c06fc0e01c799c1a5dd79c331c011c0202c23aecf9871335",
+   "cell": "011"
+  },
+  {
+   "uid": "a8d9b28ecb3923fa",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "cell": "100"
+  },
+  {
+   "uid": "be8ba6d374f0cd29",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "38da13bee99adffef11fee862cca53d0be182c334a449409a254fb99b10099b4",
+   "cell": "101"
+  },
+  {
+   "uid": "e815fc3920d5193d",
+   "model": "google/gemma-7b",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "377a402ce1e3f4cc",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "cell": "011"
+  },
+  {
+   "uid": "7d0e43334c232832",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "cell": "101"
+  },
+  {
+   "uid": "7fe15a6e632dcec5",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8c527945ad1562378509ab123b43e406153cb742617ee2882a5c88dc8206914d",
+   "cell": "001"
+  },
+  {
+   "uid": "2e8eb8ad15113c16",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "cell": "011"
+  },
+  {
+   "uid": "ea2a10b6eed755e7",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "f056d4cb9e8351398f252e951daeb48f7edc031a07d00779be4e9740b8c520a7",
+   "cell": "001"
+  },
+  {
+   "uid": "7fea2b85541e307b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4d3c5c8d658ed21e1a3d0ecb7fbb4e65268e39ec532cf921560a4643fc42f80a",
+   "cell": "101"
+  },
+  {
+   "uid": "c9cbbffbd9a9278a",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "8ff277d3ba2dc48d",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "0b8b335e5edc7d48",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "1af404600af84622514c40f19441a30ca631e62ec22580c1919643666abe47a7",
+   "cell": "001"
+  },
+  {
+   "uid": "e7e9afb72e2155cc",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "b7caffa404111a4bf49bbf2f6a03856a6896af3af68a9ab7efe588480737890d",
+   "cell": "101"
+  },
+  {
+   "uid": "095161a1d52da530",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "1fe8bd2c2f435cb9bc765b405dcd08860bf1a159b07679435a93a2a218ff6bbc",
+   "cell": "011"
+  },
+  {
+   "uid": "6beca02a8a63a830",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "b8bf22031f07cd0767c152e7aab1b98de55df32eeebb03b16ed31727db856ab7",
+   "cell": "011"
+  },
+  {
+   "uid": "f5f77f84026ad0e1",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "67c6cc3b18610ed6ab95407080276c254cd5e5e3e25d6e1d3f8dc388c1184a71",
+   "cell": "101"
+  },
+  {
+   "uid": "701c77aae7008dd6",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "7075b3072cffcc5a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "53cabd524edc4fa226cb8805760a2752656760c1cb153d7cfc30d889f6db0ef9",
+   "cell": "011"
+  },
+  {
+   "uid": "23ed781f3e502f0b",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "548ed3d3690c245c37dc554781c099635cda693b2b2ca8787ccac25eca4771b4",
+   "cell": "101"
+  },
+  {
+   "uid": "613e39cbbb750ded",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+   "cell": "101"
+  },
+  {
+   "uid": "4caa1e262fa9f496",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "8fa4c1f3017db692efac54f0457892757466034b6ee914c59d8dfd0ae379a345",
+   "cell": "101"
+  },
+  {
+   "uid": "3c965d2e9a05b8a9",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "110"
+  },
+  {
+   "uid": "8fcdde44d717bd70",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "c7db7b96e0738108882651da8cb0c8bf09d8ee88621d37145a9266e037cb7e0f",
+   "cell": "101"
+  },
+  {
+   "uid": "5b926a0a1fc75a06",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c335f01f9fa32aa7602fd0b7396609a49bb800399043f4eb03b462328cf412cc",
+   "cell": "101"
+  },
+  {
+   "uid": "8a925cfb1988d213",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "47d3484eb5ca2ed7101f0e429be1c1b661ac943d3a13a70338fdbc8b86b10b1f",
+   "cell": "011"
+  },
+  {
+   "uid": "6dbb1be4fc46630d",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "cell": "011"
+  },
+  {
+   "uid": "0e5f623f93c24854",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "ff05c296f86c8f8ee0b14b16434927c9e5e18cc84b3ff400e96013201b1a8178",
+   "cell": "101"
+  },
+  {
+   "uid": "686cab7777505a44",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "010"
+  },
+  {
+   "uid": "cd9310d4797b56ca",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "93270f1e9ad0eff2383e4c9d6027d60a63bebd42b3667114e2b187fe32877360",
+   "cell": "101"
+  },
+  {
+   "uid": "ba97dab624649f8a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "606854a06be9a6fc601a0722b60116e7208f7d949a4990d8cdcee47736461184",
+   "cell": "101"
+  },
+  {
+   "uid": "4928bdba3b1cb820",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "75253c14efb356574aa81354e09181ae69e7c9301577556100dd9c508a749adb",
+   "cell": "101"
+  },
+  {
+   "uid": "09201db4e07b00bd",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "011"
+  },
+  {
+   "uid": "c63376f8a3d41720",
+   "model": "microsoft/phi-2",
+   "item_id": "7453e5d5aa3dd80d2de5a0252851b02474e0a71abad76ed1f84a2c32da9adb14",
+   "cell": "101"
+  },
+  {
+   "uid": "da5056c4722e575d",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "26df2d3a95756d25b3c38252ddf0009ddace2e58e64558933c4589769af8a877",
+   "cell": "101"
+  },
+  {
+   "uid": "746e9e3b0b4ca9b9",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "a6352dda0f6c14df212f57c638726a031b717d19dc97826a9b3b25622b602daa",
+   "cell": "001"
+  },
+  {
+   "uid": "87507cd6694996c9",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8c267f2b9877f944a2369a34d316ebadc649a3f10d33943711eb389b2348f5c3",
+   "cell": "001"
+  },
+  {
+   "uid": "7477a36af7730ab0",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "cell": "011"
+  },
+  {
+   "uid": "34aeab4a1727b8ee",
+   "model": "01-ai/Yi-34B",
+   "item_id": "5ffaabe544c24b224c89d65fb3432a8ca520e7901829710d79d6bf1d37d02219",
+   "cell": "011"
+  },
+  {
+   "uid": "dc6959058468ef81",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "b89d0181cb64f4de",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "1d05b00d3dc64440",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "29132eb0ae83de691a24c56b303119e6731964cb5a2a2f183045640c396e6311",
+   "cell": "001"
+  },
+  {
+   "uid": "9b1426e68f212bb2",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "79dc52aec3852c2ac53feeb74f80c9c813ce09b44fb6cfc2dee481c3279603a2",
+   "cell": "011"
+  },
+  {
+   "uid": "d26bcf3d8cb42e89",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "cell": "101"
+  },
+  {
+   "uid": "212eb1be2f8f1e8f",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8aae20c8a552a108232deee196e3ffac7c114503a0c6c29b0b967615a64f977e",
+   "cell": "011"
+  },
+  {
+   "uid": "60f31b64a6049c1d",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "002400bd3db893b2032d6491973c85d1774783d7c64762d856f2252c4a19d777",
+   "cell": "101"
+  },
+  {
+   "uid": "d01972711c49b0ed",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "defbe29a818bcf6290a4ce10abe6694335bee034447f38bac76d3a4db0dbd679",
+   "cell": "011"
+  },
+  {
+   "uid": "85e89b8f01e17001",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "75253c14efb356574aa81354e09181ae69e7c9301577556100dd9c508a749adb",
+   "cell": "011"
+  },
+  {
+   "uid": "8e0805b7f5fa09d7",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "f43883aa66245e766febd8dbe1f92d7aa9a0f0a6fc2e1a4cb561ebbe586e26c2",
+   "cell": "101"
+  },
+  {
+   "uid": "0bbaeec652a776c8",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "e757c5f49da288abfcf40a7318c49669e68acd4d2040e5dede25d7ba595ee32c",
+   "cell": "011"
+  },
+  {
+   "uid": "adf566ea792a45ab",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "96baab77b40a3472c67495467c9abb1d75d373b96f8a75998175f5fa3701f237",
+   "cell": "001"
+  },
+  {
+   "uid": "3dfc0d7a3f31f7f9",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+   "cell": "011"
+  },
+  {
+   "uid": "b50d14b8d53ddda9",
+   "model": "microsoft/phi-2",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "cell": "101"
+  },
+  {
+   "uid": "136fc9e092f20b00",
+   "model": "ibm/merlinite-7b",
+   "item_id": "fe86b7d7a443a01a6848f005b46654dee98c42504d953bfa70780bed1b0680f1",
+   "cell": "001"
+  },
+  {
+   "uid": "78ae071486a6ce6e",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "716062117dc53dfa05c990ea92a247fbab50837e7c3239b5ae338e556c256b13",
+   "cell": "001"
+  },
+  {
+   "uid": "937f8ead176d6a6e",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "33088083ae2b3cf7",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "011"
+  },
+  {
+   "uid": "066d9761cd022232",
+   "model": "ibm/merlinite-7b",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "cell": "101"
+  },
+  {
+   "uid": "87cfb5cd41019a9d",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "14579bdf103d490a07391dbdd640cbcfd6c5161adf1f75122375a078ef252553",
+   "cell": "101"
+  },
+  {
+   "uid": "728b19528b7e6c0b",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "01d1abcc3fcdaeb622437980a92136ba3dac4f1f91dcf830c2af89986b1e56cf",
+   "cell": "011"
+  },
+  {
+   "uid": "43893ad499b28d6c",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "e196d5d5610d8c4547f574dd9beb39abb12c57fb8fd4a72f23cb6b11348da678",
+   "cell": "001"
+  },
+  {
+   "uid": "db0fd5fd567efa35",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "cell": "011"
+  },
+  {
+   "uid": "1f3d91c0b15a1719",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "a0ceccbe7983458f21317b95159969cba74a18798fcff7b6bea3f01e30aa1f22",
+   "cell": "001"
+  },
+  {
+   "uid": "fefd45a6392d9a1b",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "cell": "011"
+  },
+  {
+   "uid": "d3049ab8747bdb1a",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "2a90cf30634d8f52a12cd3aa36134b5ef6e1d945134689206e817410691108d5",
+   "cell": "101"
+  },
+  {
+   "uid": "fc15e49d99c5370b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "292bb4559195974ec0b881c28e146448e9a973891f7245e2f1e24e0fdd37365f",
+   "cell": "101"
+  },
+  {
+   "uid": "f9bc92141ef069d2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "010"
+  },
+  {
+   "uid": "fb0a58c71cb1d3e2",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "cell": "001"
+  },
+  {
+   "uid": "5fb6f4fbcf7df2b1",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "73bbbdfcdc1bf14a",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "7df10f973025913082e6a35c5b1739ac3d827cc3c512b568eb59a203a26b5f9c",
+   "cell": "100"
+  },
+  {
+   "uid": "cb280d1f3fc3b6a3",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "912df7a6041a2d94",
+   "model": "microsoft/phi-1_5",
+   "item_id": "374b2a0a7439287db6f4be69baed4ccff7ce125b202eae809c195c9c13161164",
+   "cell": "101"
+  },
+  {
+   "uid": "7c34efe3252e239c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "fe8234648101cc84346ec6d8c4749ef4030256057f1270f9f88f12374ea86bf4",
+   "cell": "011"
+  },
+  {
+   "uid": "7aecfcab82e86d77",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8490abeabdc1717d21502feb45ab24750e56171f966b6780bc04257f0f247a7c",
+   "cell": "011"
+  },
+  {
+   "uid": "8d3f1519245e1712",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "cell": "011"
+  },
+  {
+   "uid": "90c98dc18816cfd3",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "292bb4559195974ec0b881c28e146448e9a973891f7245e2f1e24e0fdd37365f",
+   "cell": "101"
+  },
+  {
+   "uid": "44306a9f93c14caf",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "5ffaabe544c24b224c89d65fb3432a8ca520e7901829710d79d6bf1d37d02219",
+   "cell": "011"
+  },
+  {
+   "uid": "49a141e92be5b03b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5ffaabe544c24b224c89d65fb3432a8ca520e7901829710d79d6bf1d37d02219",
+   "cell": "011"
+  },
+  {
+   "uid": "9a910e008bad41d4",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "8c267f2b9877f944a2369a34d316ebadc649a3f10d33943711eb389b2348f5c3",
+   "cell": "101"
+  },
+  {
+   "uid": "a99536b0c4cfd052",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "38da13bee99adffef11fee862cca53d0be182c334a449409a254fb99b10099b4",
+   "cell": "001"
+  },
+  {
+   "uid": "03bb58fb5fa21881",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "152c8b72f5dac0f718a9ae926f706a97f3d508978959e3503b5cdf3c4350fd5e",
+   "cell": "101"
+  },
+  {
+   "uid": "a96f90323640e4c4",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4351fff8a49db09503f72a2653d6b6fc8200064a9191d2d26825d7a8625d4018",
+   "cell": "101"
+  },
+  {
+   "uid": "e3b4fd8fcc260ea7",
+   "model": "01-ai/Yi-34B",
+   "item_id": "4f4d8d4fdf52867e9e2eb2817d62ffc5902570b872e45d9abb2180afdcd4a800",
+   "cell": "001"
+  },
+  {
+   "uid": "1676289d17f538d6",
+   "model": "01-ai/Yi-34B",
+   "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+   "cell": "101"
+  },
+  {
+   "uid": "c09c234784614a26",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "91b586fa29a497991c28e6238660fd7c258a988390b6b58d5f81212b83e17c69",
+   "cell": "101"
+  },
+  {
+   "uid": "fea2d6e8eb5e0560",
+   "model": "ibm/merlinite-7b",
+   "item_id": "94fe7bd83829e596adb36b8c92ee8f929ff706d8bb59a738a003512acf7adb9c",
+   "cell": "001"
+  },
+  {
+   "uid": "243f34508a3044f4",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "79dc52aec3852c2ac53feeb74f80c9c813ce09b44fb6cfc2dee481c3279603a2",
+   "cell": "011"
+  },
+  {
+   "uid": "6517b8ea6bc7d039",
+   "model": "microsoft/phi-1_5",
+   "item_id": "5c62876bb1ec790b57064a6767eae92407329af3d0b6e333ddde0f54e4de4e80",
+   "cell": "101"
+  },
+  {
+   "uid": "698e063e78f50e54",
+   "model": "microsoft/phi-1_5",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "4fbcebe1e5bd9b8b",
+   "model": "google/gemma-7b",
+   "item_id": "405109f5f787f68015d128f26b4065eed83212ca6345de4550c7f1ae5b9ea5d9",
+   "cell": "101"
+  },
+  {
+   "uid": "e6442f5efc5c8023",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "cell": "100"
+  },
+  {
+   "uid": "732880cb728ecda6",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "979d2a5a4d0f963f9400ccccbc50c3f1184f3cba2d847574e6b284e8768e9b18",
+   "cell": "101"
+  },
+  {
+   "uid": "cffd91fb75a31055",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+   "cell": "011"
+  },
+  {
+   "uid": "267ea17e40bb0f18",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "101"
+  },
+  {
+   "uid": "9b49a509c97d59bc",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "447c11e2499e9db1a14f2f58009d8e4ef94423863f40ef2e76235700733490ed",
+   "cell": "101"
+  },
+  {
+   "uid": "f29c43e266a8f761",
+   "model": "microsoft/phi-2",
+   "item_id": "405109f5f787f68015d128f26b4065eed83212ca6345de4550c7f1ae5b9ea5d9",
+   "cell": "101"
+  },
+  {
+   "uid": "86754e3c1b377bb0",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "75253c14efb356574aa81354e09181ae69e7c9301577556100dd9c508a749adb",
+   "cell": "101"
+  },
+  {
+   "uid": "5284528768592e3a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "6a36c04bdca66a7820d7814aae93e0104e74d8b940ab3b1bbe5e2fcb906dccdc",
+   "cell": "101"
+  },
+  {
+   "uid": "62f3fd73aaa34e0b",
+   "model": "microsoft/phi-2",
+   "item_id": "ffbea63cd0d5725d97ef2a90dcd6b3941a102450ae2168ff369300f24d0a13ed",
+   "cell": "110"
+  },
+  {
+   "uid": "48e6a17a939236ee",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "a6352dda0f6c14df212f57c638726a031b717d19dc97826a9b3b25622b602daa",
+   "cell": "001"
+  },
+  {
+   "uid": "26a2c178b3b078ef",
+   "model": "microsoft/phi-1_5",
+   "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+   "cell": "101"
+  },
+  {
+   "uid": "fd22f333d56d4c83",
+   "model": "google/gemma-7b",
+   "item_id": "e09c8308749412db137730edab4228d6863602b0a5f0a4b37692bed3f97402ad",
+   "cell": "101"
+  },
+  {
+   "uid": "c97b5a4d1bef8876",
+   "model": "microsoft/phi-2",
+   "item_id": "f6fe853c281964b8a779c359a6a592a0c7abe2a4e7ac6d69c94601621a93f394",
+   "cell": "100"
+  },
+  {
+   "uid": "1eebe55553fbe6c1",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "cell": "101"
+  },
+  {
+   "uid": "77626458b47fa1ce",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "2693e57fdfafe71c12685eebc43c06ac04ab8b313b19da400f5317852a6ae66f",
+   "cell": "101"
+  },
+  {
+   "uid": "63262b7331b5dd7d",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "49ac5cba909cbf628c6a12f8cbf3f3dd5a8ec9b6274190cf3f630dcafc66cc48",
+   "cell": "011"
+  },
+  {
+   "uid": "e468803fda478c72",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d9073e5866267c055fa373786bfd27e96213086fb9903aff40e783b3b853952d",
+   "cell": "011"
+  },
+  {
+   "uid": "0bdb6886d8d302ae",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+   "cell": "101"
+  },
+  {
+   "uid": "1c42f2e5010a8124",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "cell": "101"
+  },
+  {
+   "uid": "a46cba13e90de3fd",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "6955c8f2ca7df037",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "011"
+  },
+  {
+   "uid": "7902d51aed4d8d07",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "0771264a70ab717e7d552b35a01f13bf046ecca2534c26432676c7e463325dcd",
+   "cell": "001"
+  },
+  {
+   "uid": "f6320adeed7c8f75",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "979d2a5a4d0f963f9400ccccbc50c3f1184f3cba2d847574e6b284e8768e9b18",
+   "cell": "101"
+  },
+  {
+   "uid": "0780f0daecc551c2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+   "cell": "101"
+  },
+  {
+   "uid": "1bb9f4b3582ad36a",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "e61111fb034877f1d66eae4b6b6e11f696f6afaa8c376e4383384cffb4f5cc3f",
+   "cell": "101"
+  },
+  {
+   "uid": "d9d0e0ba00ea9949",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "1fe8bd2c2f435cb9bc765b405dcd08860bf1a159b07679435a93a2a218ff6bbc",
+   "cell": "001"
+  },
+  {
+   "uid": "b5058bd80c0b4049",
+   "model": "microsoft/phi-2",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "cell": "101"
+  },
+  {
+   "uid": "48e1dd615f03f071",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "5ebae35778132aaf6f7cb839458f2b549a62be3daf63135b2257abbe276363b2",
+   "cell": "110"
+  },
+  {
+   "uid": "b275e2eace8b6eab",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "1fa78597742306a82a1d970dee6ec912d02ae9e29929d8c1222307f638a5fd80",
+   "cell": "001"
+  },
+  {
+   "uid": "11db402e6f935372",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "cell": "001"
+  },
+  {
+   "uid": "cbbe6f9b485c05b2",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "cell": "001"
+  },
+  {
+   "uid": "a067bc86702c9d87",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c2dde56c2dea54931917eda014943e43d868de09ee6f8eadb9e6f015a8ac43d0",
+   "cell": "001"
+  },
+  {
+   "uid": "479b17bc22f554f7",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "cd0abcb169106ca06a8f15eb9b448d1618bc19d1742ce7d9c9bd9d5e448b0e3c",
+   "cell": "101"
+  },
+  {
+   "uid": "8636e93863ddf257",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "87a5fb59c1b9b9b4",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+   "cell": "101"
+  },
+  {
+   "uid": "1b5fb4cf523fdbed",
+   "model": "microsoft/phi-1_5",
+   "item_id": "987f8000a0169d4512c4ff7371f73e8517afffce6f6111aec1ceb13739fcb857",
+   "cell": "100"
+  },
+  {
+   "uid": "a0897c59602a34a3",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "bf782d4cf2a1dcd5c8367ab2c33e84d14d11e56e3b1603558862073ad2498c36",
+   "cell": "001"
+  },
+  {
+   "uid": "3198048f285f35c3",
+   "model": "microsoft/phi-2",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "7d8b063925b01a41",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "8cec7277c141648ec83376e97b4e7166c81edc8c6852e25fb03fe66e5250863c",
+   "cell": "011"
+  },
+  {
+   "uid": "831f92c7af2c83d5",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "192e1bc9fe0509c0ea38cabd83d9d46549ba8aee9972b2922d76b0fd207360d3",
+   "cell": "101"
+  },
+  {
+   "uid": "5974fc90fdbdab4c",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "3da9bc5791b2ba9f",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "011"
+  },
+  {
+   "uid": "18dce157e6c3767d",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "010"
+  },
+  {
+   "uid": "4fd5dc6480fc62b0",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "29585180eb85b0ac888bc51d0d14ade32fffa42705cb779d3854ec20a765a5da",
+   "cell": "101"
+  },
+  {
+   "uid": "a9846293ab26a8c5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8721e675ce7d9e9ac48a7d654d3c9fb28b9086de6c290a2485b1f13595fbc851",
+   "cell": "101"
+  },
+  {
+   "uid": "644b65a2bd3cabbf",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "07fe4807adc962f07e0c968bd77296a134723a2a73b6f744454a647573b79023",
+   "cell": "101"
+  },
+  {
+   "uid": "cdffec28a72dca61",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "736710e44120f8e25787cac44f516970de063b2c5bcf689e433947f6d360edd0",
+   "cell": "011"
+  },
+  {
+   "uid": "f19b07ce2697af93",
+   "model": "microsoft/phi-2",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "bfed6398359ec49e",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+   "cell": "001"
+  },
+  {
+   "uid": "eb5795f843815a25",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "001"
+  },
+  {
+   "uid": "8374fe0fffc16bfa",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "a6352dda0f6c14df212f57c638726a031b717d19dc97826a9b3b25622b602daa",
+   "cell": "001"
+  },
+  {
+   "uid": "298e06243996e512",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "7df10f973025913082e6a35c5b1739ac3d827cc3c512b568eb59a203a26b5f9c",
+   "cell": "100"
+  },
+  {
+   "uid": "905dfa3b2e4744be",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "be7271e2e9547f2cc0985c1c64dbea1734579be08fa77dbf2d354029677c1fcb",
+   "cell": "101"
+  },
+  {
+   "uid": "14f32ccd6cc87f46",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "76e1b39ee9f33d1f3ef1e3d3935db09fa82409363d8052551a9e0b8d67bf4168",
+   "cell": "011"
+  },
+  {
+   "uid": "7b49b4670a26454f",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "77371eed064ae71daaf81d1794926149ec9abd02a8353a5b9d540b5b6be86e55",
+   "cell": "001"
+  },
+  {
+   "uid": "beddc5b3dc7f8d63",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "8aae20c8a552a108232deee196e3ffac7c114503a0c6c29b0b967615a64f977e",
+   "cell": "101"
+  },
+  {
+   "uid": "d32de7c1238c9ffc",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "cell": "101"
+  },
+  {
+   "uid": "5d66203864ce4c2c",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "011"
+  },
+  {
+   "uid": "9b17970f7698b401",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4b6d36029933e92b8b9cce868b804d2b039ced4d51bbd41e40d33a88dff28a10",
+   "cell": "101"
+  },
+  {
+   "uid": "f14ad09da6434f51",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "a0ceccbe7983458f21317b95159969cba74a18798fcff7b6bea3f01e30aa1f22",
+   "cell": "101"
+  },
+  {
+   "uid": "4360dc2d90d8baa9",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "cell": "011"
+  },
+  {
+   "uid": "630b61223ae08b39",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "5dcdb4f091aaed05e49c600b34dfc2c11e735ff8beb8d67ab9e96af92837d601",
+   "cell": "101"
+  },
+  {
+   "uid": "d57fcb9e2bff71c3",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8664dc9845accfb2f76223179b8d866d9fc9a4f9d78a1bae7835fa8c21eeb46f",
+   "cell": "011"
+  },
+  {
+   "uid": "d526995a8e24945c",
+   "model": "01-ai/Yi-34B",
+   "item_id": "3620ef2517dfb35214d1e76f647edf116b57478aa0366dfcddb9cd700f16f9d2",
+   "cell": "101"
+  },
+  {
+   "uid": "df47d625e612eba9",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "001"
+  },
+  {
+   "uid": "0930ce13dd3bba33",
+   "model": "01-ai/Yi-34B",
+   "item_id": "58129d626a8bb8e8c56a07e72af78cfe383250768cb707f2c3f3afaf60029f2d",
+   "cell": "101"
+  },
+  {
+   "uid": "947446de79cd6aca",
+   "model": "microsoft/phi-2",
+   "item_id": "99b8a6e1e5ce6833cbe400703ab8fbc9971cb88cb4baa1a55ab28f813c750c87",
+   "cell": "101"
+  },
+  {
+   "uid": "f2597614722b7fab",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "bc54ade904c9081b021f487e9da4b37a05829596b1f36dfce079f57347239b75",
+   "cell": "101"
+  },
+  {
+   "uid": "ec1b6ff47feafffe",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "4f031d13314779af5892c33ebb342a9eef6fe8563e763aee0edc4c0b1e8290e3",
+   "cell": "101"
+  },
+  {
+   "uid": "719c6bb743031228",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "11b9f7bca8263563db264926b4cfdbb6c2aaaaed97b99dea728d592e62951f82",
+   "cell": "001"
+  },
+  {
+   "uid": "14f8d21c217e2585",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "320efde5ecd09b20a2e6e06afd8910a8a66dd1073418af3fa42ee92db205da08",
+   "cell": "101"
+  },
+  {
+   "uid": "4d47e2fb2b5aa2ab",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "011"
+  },
+  {
+   "uid": "f80e176ea87feba0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "de6525e62dfd213ff0b7219efa04d098806f918962b10d86f6bcdf883501f9e2",
+   "cell": "001"
+  },
+  {
+   "uid": "23bac7eace06f5de",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "0e332e98891c74af9c2d583adf40c844754e2c65eaf408e4235fccd9f5f66bb1",
+   "cell": "011"
+  },
+  {
+   "uid": "72a4e26aca595099",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "b4982aff92ebb506c994004a6dbb33142e8c925a0a2aa1ae25b52b261d1e91d1",
+   "cell": "101"
+  },
+  {
+   "uid": "8917b1c126392c84",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "831f57c8854f4964",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3e8319db4814fe931b9a1f064cad73fb880a5944eb694f6e4a4aeea2a8034b29",
+   "cell": "101"
+  },
+  {
+   "uid": "93a44156cd6320ef",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "cbf9c8e8acd654e9d4eb2980c12cf127f39e2b303af689689295e601d5343995",
+   "cell": "101"
+  },
+  {
+   "uid": "0690d724e2d8fa7e",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "cell": "110"
+  },
+  {
+   "uid": "38808880d6d3f7ee",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "8fc89b2724ca06172fba992bf081e1b7f5548b25962a335ea7c70fdc410cad55",
+   "cell": "101"
+  },
+  {
+   "uid": "3975f7159e8ad90d",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "3654c70b8af71e8d",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "11e8ed56277a8a7f",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+   "cell": "101"
+  },
+  {
+   "uid": "c2984d8604666541",
+   "model": "microsoft/phi-2",
+   "item_id": "11b9f7bca8263563db264926b4cfdbb6c2aaaaed97b99dea728d592e62951f82",
+   "cell": "001"
+  },
+  {
+   "uid": "3108e7d20094c25d",
+   "model": "microsoft/phi-1_5",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "cell": "101"
+  },
+  {
+   "uid": "6df3485eda396129",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "011"
+  },
+  {
+   "uid": "541063ac424cc4cf",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+   "cell": "001"
+  },
+  {
+   "uid": "1b75d5ecf25949ac",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "cell": "101"
+  },
+  {
+   "uid": "38ba6f2a7f5e4751",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "99c612d8f756a59c06d0c473c208574a8823555f24006f69470ce89900560f0e",
+   "cell": "101"
+  },
+  {
+   "uid": "8280a9d3e161d529",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "cell": "001"
+  },
+  {
+   "uid": "f677b02c478e9bfc",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "69fb3bb865effcc46cc33ec3d06c619e64e3f024ebaa5b6e46701d2a1edffaab",
+   "cell": "011"
+  },
+  {
+   "uid": "0e17cb5b5b0554c3",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+   "cell": "101"
+  },
+  {
+   "uid": "112c3362842dfce4",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "011"
+  },
+  {
+   "uid": "76518de5ea3bee88",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "010"
+  },
+  {
+   "uid": "5400c5fd0a93ef4a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "772159744d87c229d09d218208e81bfec20119caf3e78cac1af53f3d46bd0261",
+   "cell": "101"
+  },
+  {
+   "uid": "54f75e35cc5e3f96",
+   "model": "01-ai/Yi-34B",
+   "item_id": "7a0bff99d508f6ff44389233abb629b2cbabddac86f00d838e26e58b7076dca5",
+   "cell": "101"
+  },
+  {
+   "uid": "04a59d98753c839b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "011"
+  },
+  {
+   "uid": "65e3991d4772695b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "62aefe52e7dc25af5f485d9fa2a782b6ee3ce67be11c74e2af02c09df2ca25e6",
+   "cell": "011"
+  },
+  {
+   "uid": "b017368915528acd",
+   "model": "microsoft/phi-2",
+   "item_id": "fe3270b68b609cae3845af1f0b2f2c11ccad6bebf3d3ffd41725dd6466dd3a0f",
+   "cell": "101"
+  },
+  {
+   "uid": "209a299267aecbb0",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "6bc3534bc0971350",
+   "model": "microsoft/phi-2",
+   "item_id": "84a0d57605cf70c1fa2e97529d833012a28340370e7e1ff30685a458e587fc4a",
+   "cell": "001"
+  },
+  {
+   "uid": "842b64fc730b10ee",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "cell": "001"
+  },
+  {
+   "uid": "ec9d6867d00074e4",
+   "model": "google/gemma-7b",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "efb681a5490e55c0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "258c48dd94e4b4b06857a7588d86bae768433f451bf6b8a6647de6dcaa22631e",
+   "cell": "101"
+  },
+  {
+   "uid": "940f8f24b74b6072",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "38da13bee99adffef11fee862cca53d0be182c334a449409a254fb99b10099b4",
+   "cell": "011"
+  },
+  {
+   "uid": "12cd7f504f144633",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "78f1594cb0a05613c2760822e1ca24769c15c9d520c47f42d60b7e38edfb576b",
+   "cell": "011"
+  },
+  {
+   "uid": "cca79fb11ff3ae80",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "7df10f973025913082e6a35c5b1739ac3d827cc3c512b568eb59a203a26b5f9c",
+   "cell": "100"
+  },
+  {
+   "uid": "9f53c09ec21187e7",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+   "cell": "001"
+  },
+  {
+   "uid": "2c3af95b5a8b9363",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "4ad00aec079b54a33482ca1a65f323e0cfd4f027fbca9be6f12b4247d4d60a87",
+   "cell": "001"
+  },
+  {
+   "uid": "43062cef2fed6b26",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3d499a433e7211caf85da9edf11d7397681b468cc7bb71a006d9e9dea57c76b4",
+   "cell": "011"
+  },
+  {
+   "uid": "81872f3b0958d9ba",
+   "model": "01-ai/Yi-34B",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "cell": "100"
+  },
+  {
+   "uid": "1e8ddca8782a4c55",
+   "model": "google/gemma-7b",
+   "item_id": "fe86b7d7a443a01a6848f005b46654dee98c42504d953bfa70780bed1b0680f1",
+   "cell": "001"
+  },
+  {
+   "uid": "88f72efd82f793f4",
+   "model": "google/gemma-7b",
+   "item_id": "c7aa98a450043efb18f7b0223cf3d6a7db3ca85ebcb84fac5c4f619868690de2",
+   "cell": "101"
+  },
+  {
+   "uid": "c832dbc921960d35",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+   "cell": "001"
+  },
+  {
+   "uid": "183bd984d374c84f",
+   "model": "ibm/merlinite-7b",
+   "item_id": "5fe3612baf7cd984ceee5b3ad9af0c00a374f1200310fbe32dfa7f391cb65aa2",
+   "cell": "101"
+  },
+  {
+   "uid": "914ac0d146307912",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "475dc68bbd6f23c0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "bc54ade904c9081b021f487e9da4b37a05829596b1f36dfce079f57347239b75",
+   "cell": "001"
+  },
+  {
+   "uid": "7938ca5fdf17c91e",
+   "model": "01-ai/Yi-34B",
+   "item_id": "607543caebefffa44cfc851402179506bd029e09b10ce39068bc7cd9fd10dba3",
+   "cell": "101"
+  },
+  {
+   "uid": "b122b6efd8a6d36d",
+   "model": "microsoft/phi-2",
+   "item_id": "b0a292d84ae5648c08b0636c98453d9a6b66672ac1e00fdad76056f8585f8389",
+   "cell": "101"
+  },
+  {
+   "uid": "92d23a1b187e418b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "e4040a5a2f351cd1ebd4dd987c78eb247671d672c1382806199f6a2b3a4a9298",
+   "cell": "001"
+  },
+  {
+   "uid": "470dfa58c9b8d800",
+   "model": "google/gemma-7b",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "001"
+  },
+  {
+   "uid": "079505ee8f51228e",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "8764726d5004a387",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "011"
+  },
+  {
+   "uid": "ad6f791e157313d7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "011"
+  },
+  {
+   "uid": "1237c49c0a34ddd0",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "b2a3f1fd4ca8a780bd5d4326cd6db8b65926547c9b2ebb786f34db04381832ae",
+   "cell": "101"
+  },
+  {
+   "uid": "50b500904e6ae8f5",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "3802ae4ae9955d76a435087472715e5ead9d13307519557eff1308afa8c8cd0a",
+   "cell": "001"
+  },
+  {
+   "uid": "79b7c3389ba1a154",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "e8ea7f5845682ff1",
+   "model": "microsoft/phi-1_5",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "56e6d048885dc88c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "d3b5b17c20dbcffa",
+   "model": "microsoft/phi-1_5",
+   "item_id": "3802ae4ae9955d76a435087472715e5ead9d13307519557eff1308afa8c8cd0a",
+   "cell": "101"
+  },
+  {
+   "uid": "6b5f352bedbce893",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "d15e9e807826bf46a0b82c320ea758999a994300646a1bbe843b5b63512ec9c9",
+   "cell": "101"
+  },
+  {
+   "uid": "24ecb1d8127e9bd3",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "716062117dc53dfa05c990ea92a247fbab50837e7c3239b5ae338e556c256b13",
+   "cell": "100"
+  },
+  {
+   "uid": "b116c639ffbb5582",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "ae18b0258bec97703570de7ef4252b9e68a34d470263725e599b4c81a61657d8",
+   "cell": "001"
+  },
+  {
+   "uid": "5635c195c78b035b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "011"
+  },
+  {
+   "uid": "e695027d53282f74",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "cell": "001"
+  },
+  {
+   "uid": "e19c4223a41d3dac",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "cell": "101"
+  },
+  {
+   "uid": "97e4aa7a2118ebf8",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "cell": "101"
+  },
+  {
+   "uid": "a798fff043d045cd",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "001"
+  },
+  {
+   "uid": "5213b38217099d28",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "f3627e0690fce1ed",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "bfa14ce361c767457b6036b9c5d1b2ff5be139e87f07b8a024169e1a819d5191",
+   "cell": "001"
+  },
+  {
+   "uid": "9fc18e9621c6cd33",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2ae15c68b845adc86ccdb70ba9e4ec2320a3fd9e5e41507fa9434a302d6cfc40",
+   "cell": "101"
+  },
+  {
+   "uid": "dc8753fb34f086e6",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "decd56c4e1793247",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+   "cell": "011"
+  },
+  {
+   "uid": "dc6d572208a889f7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "65bc2b42965ac4099ad36f32a50cf8ae9d0acad7d266c7c73b83383e913e3e15",
+   "cell": "001"
+  },
+  {
+   "uid": "a266ea3d4460f467",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "5d414f74325054e17b96919661baffd4f9beb3122108017b8fa6c5c7fceb9474",
+   "cell": "101"
+  },
+  {
+   "uid": "9cfe0367491d98a6",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9cb1a728b52a04949c74ff33794a37e53115d0c183f7784310ba57e356e60167",
+   "cell": "011"
+  },
+  {
+   "uid": "8405503d245ba83b",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "101"
+  },
+  {
+   "uid": "5a647c966f2886fa",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "7453e5d5aa3dd80d2de5a0252851b02474e0a71abad76ed1f84a2c32da9adb14",
+   "cell": "001"
+  },
+  {
+   "uid": "65ea0f85d47f533c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+   "cell": "001"
+  },
+  {
+   "uid": "81808b678fa16719",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "cell": "101"
+  },
+  {
+   "uid": "1582eba06eff357d",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "749155850b45e11f8f72965208b9e38a4ac14c4fc167b6f5563994a5dcba654e",
+   "cell": "001"
+  },
+  {
+   "uid": "2cea3e6e8570bdf0",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "65bc2b42965ac4099ad36f32a50cf8ae9d0acad7d266c7c73b83383e913e3e15",
+   "cell": "001"
+  },
+  {
+   "uid": "3a26e842dfe578b9",
+   "model": "google/gemma-7b",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "011"
+  },
+  {
+   "uid": "966116aa5ccc581f",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+   "cell": "101"
+  },
+  {
+   "uid": "e5f269bfd15df7c3",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "011"
+  },
+  {
+   "uid": "fb1b08ee3742449b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3ea37c6c434a17dda2a2de7b22ba9972830e86cd22e6a1eb537b0dc1569c7e4c",
+   "cell": "011"
+  },
+  {
+   "uid": "0d62704d40855679",
+   "model": "microsoft/phi-2",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "cell": "100"
+  },
+  {
+   "uid": "65ff736006833d92",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "4d6b38eefc82fa1526b4a67fba954ecc1768fd383b9dd0b8d1930b23cfd996cf",
+   "cell": "001"
+  },
+  {
+   "uid": "2d47fd38d4029c43",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "4c7cd59bfa34b7c9c4db1d3aab4fd27582180d1adf12b2291ce263ccd81c8852",
+   "cell": "101"
+  },
+  {
+   "uid": "5aa28287f84f4e28",
+   "model": "google/gemma-7b",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "011"
+  },
+  {
+   "uid": "2a60824d4566e0cc",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "101"
+  },
+  {
+   "uid": "b7539c8e9011684a",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "298f19900be37d94efc4d9a7639306306859331d791f384f8f89fb067c3cb963",
+   "cell": "101"
+  },
+  {
+   "uid": "834fc5956d799253",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2129826fa32266b650cd2580fd7deee8d0e0fddffa8c5446f8d7a65a2c51d7bb",
+   "cell": "101"
+  },
+  {
+   "uid": "fb8bd5a65d228cb1",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+   "cell": "101"
+  },
+  {
+   "uid": "3ed26a8462e78642",
+   "model": "01-ai/Yi-34B",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "011"
+  },
+  {
+   "uid": "97812f5a97e3c0ff",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "86ce4b5eaf847bae2cdff6fafc20d7e9176b1d96df130064783a30e494de8040",
+   "cell": "101"
+  },
+  {
+   "uid": "9deec10c98cc8a1e",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "011"
+  },
+  {
+   "uid": "c2fedc1bc5bfde56",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "cell": "101"
+  },
+  {
+   "uid": "42b83db620f1c302",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "36d8d90eb7ba359cd9b991a2f9f095d16ee7266bb62ece933485902129186e5b",
+   "cell": "001"
+  },
+  {
+   "uid": "6819ba8d384a27da",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "152c8b72f5dac0f718a9ae926f706a97f3d508978959e3503b5cdf3c4350fd5e",
+   "cell": "101"
+  },
+  {
+   "uid": "3e6a2afcf1e30814",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "cell": "001"
+  },
+  {
+   "uid": "4f336aa316236f58",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "cell": "011"
+  },
+  {
+   "uid": "50b7ee3600ecd121",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "7352824e88a58e61c2751c55393c2a6656bf6688c3fc1b82ed547c0866af2046",
+   "cell": "001"
+  },
+  {
+   "uid": "abab5387b5eda10d",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "cd226701c818d5d07c6fd089a2d70833d0d9f5d96fe5085086acc536d85c44da",
+   "cell": "001"
+  },
+  {
+   "uid": "337637f278231c50",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "bc09d091d281776e65be7fc6dea4e385be558a4d1bf6004f7c237cad821d410e",
+   "cell": "001"
+  },
+  {
+   "uid": "a2d56121976847e6",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "8f150c14dd47af832c22a8a22ee781ab1db8bc3556faca015743ce615a8b832b",
+   "cell": "100"
+  },
+  {
+   "uid": "50314ccd57a02b4f",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "79950bde4e9fa37ccb96f211b605d32d61a6b143b1c467a4407a5037f311e1a4",
+   "cell": "011"
+  },
+  {
+   "uid": "7c4b3557b1d285f0",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "625085011e1af39b33b8afa735882201fa526864c59470cf02643356b7808ac9",
+   "cell": "101"
+  },
+  {
+   "uid": "aa4a72e8b0167545",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "cd0abcb169106ca06a8f15eb9b448d1618bc19d1742ce7d9c9bd9d5e448b0e3c",
+   "cell": "101"
+  },
+  {
+   "uid": "0e7abb3d9fa736a4",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "69cc56eab454722f585ae206ebd5911b3dd6f52c927cae1b9b51c1e26ea2cd3f",
+   "cell": "001"
+  },
+  {
+   "uid": "96363d2acdc6638c",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "508ad5cc5293f5258aad950216caa952db88a5322dd5c870e686c059cb55050d",
+   "cell": "001"
+  },
+  {
+   "uid": "efd1cdc09bed97b7",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+   "cell": "011"
+  },
+  {
+   "uid": "4446ba07fab40f5b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "412f6a9ef7116e000f0752af3c028ff03cedd02a0a66e98df6e9a595290e1ed0",
+   "cell": "011"
+  },
+  {
+   "uid": "95c6c019f8bb3157",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "ba1257869ebbaf40",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "95439a52792379ea",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "001"
+  },
+  {
+   "uid": "1896523261222f89",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2f5ed445471e19568e78a33e282332bfde55894eae2bc30d74a706926698e5e3",
+   "cell": "011"
+  },
+  {
+   "uid": "c35c0c485562f5ca",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "4d1e82f0531e620cde2b04d5e4991d78166936458e1104144c73bbe6b65094ce",
+   "cell": "101"
+  },
+  {
+   "uid": "a0fe165da1b80329",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d212fd32b33c9e32c94c8165c89e5d7aef0e77e2da5fa1d0e0b0348f23b9cf91",
+   "cell": "001"
+  },
+  {
+   "uid": "3d771cdd0e6992a9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "e691ddd419f57ba05d6394b27157ccbecfdd689896ca0ef798d75aa504b31cef",
+   "cell": "011"
+  },
+  {
+   "uid": "4041bd7d8b512a9d",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "dd4bc6ccb999f889a6a1188f7a08015a7863eca2038d2093d7ec1ead910b42de",
+   "cell": "011"
+  },
+  {
+   "uid": "2c80c0d52b9ed8b4",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "011"
+  },
+  {
+   "uid": "f31f9f58b3352f2f",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "ed5dc1dad8308c80779736f0544a12ddf47867930ffb6d36cfc7f52c06e34f76",
+   "cell": "101"
+  },
+  {
+   "uid": "df74a13264368225",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "bc09d091d281776e65be7fc6dea4e385be558a4d1bf6004f7c237cad821d410e",
+   "cell": "011"
+  },
+  {
+   "uid": "f8b3e2ff01ebf6fc",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "fdd6e79cf33aa93573111f72deabc12abedb7f8e2c0d65b045fcc95fcfb08f59",
+   "cell": "101"
+  },
+  {
+   "uid": "27d52455976a2f39",
+   "model": "ibm/merlinite-7b",
+   "item_id": "4e296fc22a6b69d46c167c7bd525f2fa455c8d575e7b1b8d702dddebf118639c",
+   "cell": "101"
+  },
+  {
+   "uid": "3ecfdaa0f59e2868",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5e5bb064e4822875c4c756d600cc45a572b5e139a953d533f12b6d1b86dc4a0b",
+   "cell": "101"
+  },
+  {
+   "uid": "a4eee13ba5e72ec2",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "de6834c4ca3ea5c51c79926765d55d95e3f815d818a0dbce31a01f685a852ea8",
+   "cell": "011"
+  },
+  {
+   "uid": "56d0b593bb58c1c9",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3e24a158b1b704962c712ba721656280ee6ead27abef5813baf1495a21fd6787",
+   "cell": "011"
+  },
+  {
+   "uid": "40f6d8479a64d5cd",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5e26231cef39d5a6d1e3913e26e479bfebd5018ead3a789365d30ddddeace025",
+   "cell": "011"
+  },
+  {
+   "uid": "ab0bd4beb9764a13",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "6ded228465a394a816db179410f554291b1ba013f3a6f76c77e904c4ff666e13",
+   "cell": "101"
+  },
+  {
+   "uid": "9f45f8197503137c",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "c1e5c019a0868ba4f7275d4ec67c9a72fae13e46edf4710c749654b7689f648d",
+   "cell": "011"
+  },
+  {
+   "uid": "02bbac6347792b73",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "cell": "011"
+  },
+  {
+   "uid": "ca5641879e71f9c9",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "1744d0a38db566340d70e45fcb76c9b1d238cf612427555c0141e5cf5a2a094d",
+   "cell": "101"
+  },
+  {
+   "uid": "13ad93c35b31813e",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "f088bc6eedd811d5",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "0771264a70ab717e7d552b35a01f13bf046ecca2534c26432676c7e463325dcd",
+   "cell": "011"
+  },
+  {
+   "uid": "64868df8d0be77b6",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "9337179ac2bf78f906adf89272253e6688cadac9d93b975d641e42cbe97a69e2",
+   "cell": "101"
+  },
+  {
+   "uid": "9e8da68fbb88e3e1",
+   "model": "01-ai/Yi-34B",
+   "item_id": "013128c3c528fa0146222df945a09c8776c718f7074a8516dde5ab320c78e24f",
+   "cell": "001"
+  },
+  {
+   "uid": "83ab0e6e71788b48",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+   "cell": "101"
+  },
+  {
+   "uid": "8765ad0d71ab0851",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+   "cell": "101"
+  },
+  {
+   "uid": "99301e465ba23664",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "56b0a14a52da5bf092b183dad2a1aae3cfedad7f8fe09c1a711958afe7fdc611",
+   "cell": "101"
+  },
+  {
+   "uid": "111e61ec42c3f0a5",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "b017449e17efa982",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8d005458bc929af94d36ebcdbac560eb40f01c3bbb501099752a3b0bfcc60c50",
+   "cell": "001"
+  },
+  {
+   "uid": "67676c9ae07c11c0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "c7df9f2fe7019c67",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "31403ba867cc8689",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b9aa246ecb86ef71a8c2d9ee4bfff6ba0eeec13cc29574fa0c4f3ad987e91edc",
+   "cell": "011"
+  },
+  {
+   "uid": "59f6ef59ff575d7e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3c8df364d559a3e61fcc4ce1d37b2134e4d2b384fc319e7bcc7fdbf3bc2cefd4",
+   "cell": "101"
+  },
+  {
+   "uid": "6eaba805f2dd227e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "96931117901095be07d976a061f8a1f726f622a7c27559840dba3cee69b08627",
+   "cell": "101"
+  },
+  {
+   "uid": "25ea0eec87b7fe35",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "fe86b7d7a443a01a6848f005b46654dee98c42504d953bfa70780bed1b0680f1",
+   "cell": "011"
+  },
+  {
+   "uid": "7a193c29c4d7d91a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f43883aa66245e766febd8dbe1f92d7aa9a0f0a6fc2e1a4cb561ebbe586e26c2",
+   "cell": "011"
+  },
+  {
+   "uid": "32c88343e8539573",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "cell": "101"
+  },
+  {
+   "uid": "7a392b67027b9517",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "89b3046ce178679b8c22716f560cc33e47c87402e92fb6a0a290fdd3e677b957",
+   "cell": "011"
+  },
+  {
+   "uid": "4c2d07d826355edf",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "7e3d6979adf05408e1c7e9f0c431b08cdfd33d2fe58f214f07918f6ed0d86da6",
+   "cell": "011"
+  },
+  {
+   "uid": "a50f161a7fc7da59",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+   "cell": "101"
+  },
+  {
+   "uid": "ca38b0f82c8f8a0a",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "c359660263ea9d67be8b6e981e7b7ee694f778da942f2e4bb8f56fad246528c2",
+   "cell": "101"
+  },
+  {
+   "uid": "2d00675c7b255a6f",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "2d0db51cddff0207092eb2f681e85dc9a33749e1543dd702b3f564ccaa7aeb8d",
+   "cell": "110"
+  },
+  {
+   "uid": "a9357c0d496a9da8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "01d1abcc3fcdaeb622437980a92136ba3dac4f1f91dcf830c2af89986b1e56cf",
+   "cell": "101"
+  },
+  {
+   "uid": "78f878f1cca01241",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "cell": "011"
+  },
+  {
+   "uid": "c3ec3736c62b2353",
+   "model": "google/gemma-7b",
+   "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+   "cell": "011"
+  },
+  {
+   "uid": "f380013e7575858c",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "c11c3c40391408894a26a2f972ffab6ea7e01b5e2e0f1104400c01efe680d741",
+   "cell": "001"
+  },
+  {
+   "uid": "a7a8fe0347c655f7",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f63b0aa8bf24c231380c7caa4a8017f6483c8a08cfb16684a3a8099626eef06e",
+   "cell": "101"
+  },
+  {
+   "uid": "a30aab96107a85c8",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "180aaf517642b8060f98bfac535cb01229d52f9f7b12ca8223eac3f5928b5873",
+   "cell": "101"
+  },
+  {
+   "uid": "a425d48029f94048",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "f90cd65762c8af3a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "72a3503073d9018612be46e9272dcd0945566e0437105019a8f75786487e755f",
+   "cell": "101"
+  },
+  {
+   "uid": "b35ffc3e64c3a5b5",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "fc18d530cf3ac8a8",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "33aace703fb29c8a",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "ae18b0258bec97703570de7ef4252b9e68a34d470263725e599b4c81a61657d8",
+   "cell": "101"
+  },
+  {
+   "uid": "1ba84ba966e78cfa",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9337179ac2bf78f906adf89272253e6688cadac9d93b975d641e42cbe97a69e2",
+   "cell": "101"
+  },
+  {
+   "uid": "8652cc970d87aa85",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "011"
+  },
+  {
+   "uid": "a4c2947d33285652",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "ace647036f9063eae8717543ba038c3c269bad53ca78441bf8932b283e3aef4e",
+   "cell": "001"
+  },
+  {
+   "uid": "cf8cda3701f6d536",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "25ee32accf1f91269a9908f23a3705ccf348052dc124ecd41c97fdb60327052a",
+   "cell": "001"
+  },
+  {
+   "uid": "20712abc7132300a",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "dd0da603362f004d347a3375700ffdd1cb253d6e96e9416368958aa479f7d799",
+   "cell": "011"
+  },
+  {
+   "uid": "c2e5b38e16d48df7",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "5442bf85bf6e5297",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "1b667126b9d530a75a2ceea1de35cfafdd645df2bc1456f12094b5d6c5fab517",
+   "cell": "101"
+  },
+  {
+   "uid": "1512a50b9c04e314",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "cell": "101"
+  },
+  {
+   "uid": "5eb2a86ce02131b3",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "cell": "011"
+  },
+  {
+   "uid": "78faebf982282519",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "cell": "101"
+  },
+  {
+   "uid": "13c2ffebf180b469",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "aa91cd2c37d6b0e96398560d8d0e94d88187f4c2a30a0a3c5f749c141eb8a3f8",
+   "cell": "001"
+  },
+  {
+   "uid": "74cb8b48bbd6e8ce",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "9f5f0458eecb66b9614b7249e3ea5fca59232115b4506c4d8f0efa29318b833d",
+   "cell": "001"
+  },
+  {
+   "uid": "1df0a0fd6d9113ae",
+   "model": "microsoft/phi-1_5",
+   "item_id": "ae18b0258bec97703570de7ef4252b9e68a34d470263725e599b4c81a61657d8",
+   "cell": "101"
+  },
+  {
+   "uid": "5a5ff3ecda0ce586",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "b0a292d84ae5648c08b0636c98453d9a6b66672ac1e00fdad76056f8585f8389",
+   "cell": "101"
+  },
+  {
+   "uid": "869d76f05ea3ee46",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "7a0bff99d508f6ff44389233abb629b2cbabddac86f00d838e26e58b7076dca5",
+   "cell": "011"
+  },
+  {
+   "uid": "03be81d0c446bdf6",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "cell": "011"
+  },
+  {
+   "uid": "114b82b4f8a0189c",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "8490abeabdc1717d21502feb45ab24750e56171f966b6780bc04257f0f247a7c",
+   "cell": "101"
+  },
+  {
+   "uid": "64643f03a875aa28",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "d6e3e586760e75d8e7853297081f6be7c62ee2df68a65bc7e0d3602ab9a12366",
+   "cell": "001"
+  },
+  {
+   "uid": "4147160dc9c9fb13",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "cell": "101"
+  },
+  {
+   "uid": "16da5e484b011c4c",
+   "model": "01-ai/Yi-34B",
+   "item_id": "4ec2f6d816da83cf04cfebe004025e796fd830048e47d230ca2f9aa88575e89a",
+   "cell": "100"
+  },
+  {
+   "uid": "53d1e2c7bb68a37f",
+   "model": "microsoft/phi-1_5",
+   "item_id": "6801d53d36d3af1fba5da59e545990e683d967f8fe08580c6b840e46a7b16a5d",
+   "cell": "001"
+  },
+  {
+   "uid": "dab8a16c29bbf67b",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "2129826fa32266b650cd2580fd7deee8d0e0fddffa8c5446f8d7a65a2c51d7bb",
+   "cell": "101"
+  },
+  {
+   "uid": "315b2d8d59f351a7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "cell": "011"
+  },
+  {
+   "uid": "5487f46a80ce5d31",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "011"
+  },
+  {
+   "uid": "5de9151494c2df7c",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "505d7edacce5b72a009f7eb537ba0238fbf375a0e96fb05517876c000ad3ceb3",
+   "cell": "011"
+  },
+  {
+   "uid": "124402da9d6f6eca",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "25de3f94fe96592e7fca47299baaa74ca9f7e2a6e3a77508d10b55905acb7b9b",
+   "cell": "011"
+  },
+  {
+   "uid": "8063e2f1c35afd03",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "55d01be9db22c1f9e0506e8380c37dc8b977c763df3e526a88ea9f766f784a8a",
+   "cell": "101"
+  },
+  {
+   "uid": "dfa29bf12ed774fe",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+   "cell": "101"
+  },
+  {
+   "uid": "7e0d22bb15b52aea",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+   "cell": "011"
+  },
+  {
+   "uid": "f1938c8c3edd8ca7",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "94fe7bd83829e596adb36b8c92ee8f929ff706d8bb59a738a003512acf7adb9c",
+   "cell": "001"
+  },
+  {
+   "uid": "c166d2233986b9bf",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8095ab1311f75264dba45cff82a41855a2569874abf0f38e27b8913a7cb0c042",
+   "cell": "011"
+  },
+  {
+   "uid": "98547fd38bfef990",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8f150c14dd47af832c22a8a22ee781ab1db8bc3556faca015743ce615a8b832b",
+   "cell": "011"
+  },
+  {
+   "uid": "5942f4752b112c14",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "749155850b45e11f8f72965208b9e38a4ac14c4fc167b6f5563994a5dcba654e",
+   "cell": "011"
+  },
+  {
+   "uid": "ccb3555fbf43c42b",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "f60e6952cdb7b3b87e872f7f544d9ab3138372ed8a9ca09be6b7354009fe1841",
+   "cell": "101"
+  },
+  {
+   "uid": "363e62cb100f818a",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "10f1f2b5bffc5213b2acec6a7e8a4c095f477583f8572571d3650accb4245178",
+   "cell": "001"
+  },
+  {
+   "uid": "381e8e51c2bc71ab",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "1d132f02b76efe00d4517e38ecbe8a7ccc852dbee648aa6b14f57cb1c471b3a3",
+   "cell": "011"
+  },
+  {
+   "uid": "a092f422dd6f3ee6",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "cell": "101"
+  },
+  {
+   "uid": "f10a79c97d8789e5",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "cell": "101"
+  },
+  {
+   "uid": "b8dadbd75aa7a699",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "284d5e050353dd36b7b4b22d00bd97b7934269a98d033713cde86f2b716c412f",
+   "cell": "101"
+  },
+  {
+   "uid": "52cbc1f42e3d1020",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "c106946b1d37f2cb",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "96baab77b40a3472c67495467c9abb1d75d373b96f8a75998175f5fa3701f237",
+   "cell": "110"
+  },
+  {
+   "uid": "f2c78239767be855",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "606874c8b7cf957bea7bdfab492768ab42252402b176c6f34dd22da63e150c9d",
+   "cell": "010"
+  },
+  {
+   "uid": "b19dc8a543ca6063",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "25ee32accf1f91269a9908f23a3705ccf348052dc124ecd41c97fdb60327052a",
+   "cell": "001"
+  },
+  {
+   "uid": "49b1a7b893fcf3bd",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "f2f9a737ee7c4dc9fdd36be3196b83c156d4afff2d1a470670f7bc6e01cc1477",
+   "cell": "101"
+  },
+  {
+   "uid": "fb418a668c015856",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "772159744d87c229d09d218208e81bfec20119caf3e78cac1af53f3d46bd0261",
+   "cell": "101"
+  },
+  {
+   "uid": "8964b1512a0811cd",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "cell": "101"
+  },
+  {
+   "uid": "3da3ca6ed03f8b80",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "1b667126b9d530a75a2ceea1de35cfafdd645df2bc1456f12094b5d6c5fab517",
+   "cell": "011"
+  },
+  {
+   "uid": "d8301066e5edd0bd",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "ca5d468edcd27e46",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "d6e3e586760e75d8e7853297081f6be7c62ee2df68a65bc7e0d3602ab9a12366",
+   "cell": "001"
+  },
+  {
+   "uid": "e09ed32650e5eff0",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "cf2aa68950f3c8809637af3e8e1e6734ee03ffe33bbb9fe38b426f62c93c841a",
+   "cell": "110"
+  },
+  {
+   "uid": "d769b1fa98e824e6",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "50beffe90c5f9fc804f09e5815d1df02c57fb5ca4ef49e849a3b83ab8bd56b00",
+   "cell": "011"
+  },
+  {
+   "uid": "ff90b72fb9631400",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "294c599be58d80788b35181c7fe5375dde0d1edfb207f81ed87947254f13a61c",
+   "cell": "110"
+  },
+  {
+   "uid": "8abac280d539fca0",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "6b9d91657de59d1d18b8d90a034e55850662be8f2fed9fd55d1fee4d9244d8a2",
+   "cell": "001"
+  },
+  {
+   "uid": "730e3fa6b60ccf34",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "e1c8868cc28f7630",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "ba0c0a826f7bf7ac",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "9e2c7d7f9c3f6f6bafd639b68209266f155a01ed452c858d0a930e49a0ad1bce",
+   "cell": "001"
+  },
+  {
+   "uid": "178c22e47d97fe1b",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "ad0fed4fd9a56c234011181f1a979eea69370f54e0ff3f64e7bd96d092ae0887",
+   "cell": "101"
+  },
+  {
+   "uid": "a058c60e9c961377",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "cell": "101"
+  },
+  {
+   "uid": "f6076f2e5ca6af39",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "b2a3f1fd4ca8a780bd5d4326cd6db8b65926547c9b2ebb786f34db04381832ae",
+   "cell": "001"
+  },
+  {
+   "uid": "4373027da75152b0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f9b33d95e561d3dd5722826b58233ce75f1308e4d7ac76d4144e1952670c4bbc",
+   "cell": "001"
+  },
+  {
+   "uid": "0dbe60d7cdb8b0d7",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "c035c90d3b95590ebc7bb4f1251de1508c7f9042948f3e170ece597a9e418943",
+   "cell": "100"
+  },
+  {
+   "uid": "1468ccf745e6532e",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "8f9e6416603f3f7949567bfb575c211795bb333319c790aeeeaf39135d220fb4",
+   "cell": "001"
+  },
+  {
+   "uid": "721eef8dcaf80e1a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "cell": "011"
+  },
+  {
+   "uid": "492b7184c4fa3f91",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "98bacb83c164dc0981fcb91cc86861b4d1fa1622a85c79a32e291d75d3e7003a",
+   "cell": "101"
+  },
+  {
+   "uid": "57089d9701afc5e5",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3d035c363a1d4671f26587cfe938efe126b14742d1f223dc51849c2e582e6bed",
+   "cell": "001"
+  },
+  {
+   "uid": "304bb1e063e64f96",
+   "model": "google/gemma-7b",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "cell": "110"
+  },
+  {
+   "uid": "9d991e6cac615cec",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "67daa372bda6e3940ace891d1f9a28704dff60d1e0f2b58d54723bfceb8df481",
+   "cell": "011"
+  },
+  {
+   "uid": "13296e2014050aba",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "08ebf1471bf3169f",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "011"
+  },
+  {
+   "uid": "15bc58b2b11d94ba",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3faa0cfb54693bfaf92750ace411c8e7647e58e51a70b23a55e383e0ceee9d14",
+   "cell": "001"
+  },
+  {
+   "uid": "62f14b8296f45545",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "740376944dd11bf0fec0febc05606ab94a30476c9b954c66826d3b22d1bfb960",
+   "cell": "101"
+  },
+  {
+   "uid": "ebe0ac79116783dd",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "2ae15c68b845adc86ccdb70ba9e4ec2320a3fd9e5e41507fa9434a302d6cfc40",
+   "cell": "101"
+  },
+  {
+   "uid": "20371d4a00813ba9",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "39f0d912549639b926e7742b3de64148dff6bd6c5958b01718cff836fb6907b2",
+   "cell": "011"
+  },
+  {
+   "uid": "f0aeafdf99001e82",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "a94810ad007d41af7efc0c25f1b9c394bb143acb88c9d5aa5bd7deef060b8598",
+   "cell": "101"
+  },
+  {
+   "uid": "aac50d8c70cd60f9",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "ac38fbe89ae2cea5",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "405109f5f787f68015d128f26b4065eed83212ca6345de4550c7f1ae5b9ea5d9",
+   "cell": "101"
+  },
+  {
+   "uid": "fdd46124aedd03ec",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "11c274adad9842d8",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d8509507322b479686bd84b2d0d4310bc93fe0bf51417914b33449d389694732",
+   "cell": "001"
+  },
+  {
+   "uid": "e1949742f9816b1a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "f90f3774b7b2025c1adf1efdefb14962fd66526a56775253a2c22346c0864610",
+   "cell": "011"
+  },
+  {
+   "uid": "0d67d8d99f1d9671",
+   "model": "microsoft/phi-1_5",
+   "item_id": "3e24a158b1b704962c712ba721656280ee6ead27abef5813baf1495a21fd6787",
+   "cell": "101"
+  },
+  {
+   "uid": "b0da2b4e3681801a",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "7471f3fb4ea2a90077254a3f41cb3b3344836ccaeec7f862e3ae14326e44924c",
+   "cell": "011"
+  },
+  {
+   "uid": "7ae97a23db33c966",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c0df3cc7548d4a2fbd0f0df7bda5fd9743eba31ba8d9957a6d82f7b1f4eded08",
+   "cell": "001"
+  },
+  {
+   "uid": "c5e5909acfe3c161",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "508ad5cc5293f5258aad950216caa952db88a5322dd5c870e686c059cb55050d",
+   "cell": "101"
+  },
+  {
+   "uid": "428970252a75a745",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "ace647036f9063eae8717543ba038c3c269bad53ca78441bf8932b283e3aef4e",
+   "cell": "001"
+  },
+  {
+   "uid": "488f615c6dd766c1",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "22d67f1916b000b7ad518e0365e4aa39ebf3176503026a06fb61f44b1ee5fe56",
+   "cell": "110"
+  },
+  {
+   "uid": "08505891f1128bfa",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "72098728ed7896242fe7dc7d3248fa8d6146a7e6a9f8b48a7e689a79f0d1f025",
+   "cell": "001"
+  },
+  {
+   "uid": "b32b68a0db6c2f0a",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "258c48dd94e4b4b06857a7588d86bae768433f451bf6b8a6647de6dcaa22631e",
+   "cell": "101"
+  },
+  {
+   "uid": "8f1bf68365f3b22c",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "5c62876bb1ec790b57064a6767eae92407329af3d0b6e333ddde0f54e4de4e80",
+   "cell": "101"
+  },
+  {
+   "uid": "139e3bb4e214463a",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "6723bab94833b6da",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+   "cell": "001"
+  },
+  {
+   "uid": "2d9ebd6d17a73a28",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f90f3774b7b2025c1adf1efdefb14962fd66526a56775253a2c22346c0864610",
+   "cell": "001"
+  },
+  {
+   "uid": "defc27790c22f138",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "47d3484eb5ca2ed7101f0e429be1c1b661ac943d3a13a70338fdbc8b86b10b1f",
+   "cell": "011"
+  },
+  {
+   "uid": "18c2324c7088e744",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "cell": "011"
+  },
+  {
+   "uid": "f2a13ed58870eb44",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "011"
+  },
+  {
+   "uid": "68ab9f55d1d6da52",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "cell": "101"
+  },
+  {
+   "uid": "de1b0bfb5dd29cd1",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "0f56d12407b0c9c2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+   "cell": "101"
+  },
+  {
+   "uid": "afddc1b1b3318297",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c103e736cfbda39499fe4ca0e52462a0ae943007c9b115f413d9c5a56f512fd4",
+   "cell": "101"
+  },
+  {
+   "uid": "374a81d43869f4f3",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "e443bb1de9a1273d3fcd9b50965975d7a2b3c5c7888d5cfdc5241319f2b4d35c",
+   "cell": "101"
+  },
+  {
+   "uid": "b44ec73ea65d15a5",
+   "model": "microsoft/phi-1_5",
+   "item_id": "10f1f2b5bffc5213b2acec6a7e8a4c095f477583f8572571d3650accb4245178",
+   "cell": "001"
+  },
+  {
+   "uid": "b33097b5381f72d1",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "1af404600af84622514c40f19441a30ca631e62ec22580c1919643666abe47a7",
+   "cell": "011"
+  },
+  {
+   "uid": "e12876438294caae",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "0e332e98891c74af9c2d583adf40c844754e2c65eaf408e4235fccd9f5f66bb1",
+   "cell": "011"
+  },
+  {
+   "uid": "e9b84611d7018396",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3041b0929c25333302415447e937bc42cec2c0bc455c15259c8aa0176b7355f7",
+   "cell": "101"
+  },
+  {
+   "uid": "1ba9fe3ebeae1833",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "65a3ca13b433bf82",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "7352824e88a58e61c2751c55393c2a6656bf6688c3fc1b82ed547c0866af2046",
+   "cell": "001"
+  },
+  {
+   "uid": "fbdefd2cfe19b03c",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+   "cell": "101"
+  },
+  {
+   "uid": "2b43b4053fe2f10c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "7352824e88a58e61c2751c55393c2a6656bf6688c3fc1b82ed547c0866af2046",
+   "cell": "011"
+  },
+  {
+   "uid": "ea4d154a8c8b3f38",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "970eede94e36a817ad7685dadfe757a9ecc58f3fc919184971d5720040bed8f3",
+   "cell": "011"
+  },
+  {
+   "uid": "3019ce4147fea5d7",
+   "model": "microsoft/phi-2",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "001"
+  },
+  {
+   "uid": "9ce3a3eabaaf856a",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "9e178d47f27e226578ec489e1e5cca3d23e2bdf47be56b30e71480e9d83b114c",
+   "cell": "101"
+  },
+  {
+   "uid": "c8666be77f9a6671",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+   "cell": "101"
+  },
+  {
+   "uid": "a9a17b2d38976a3f",
+   "model": "google/gemma-7b",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "cell": "011"
+  },
+  {
+   "uid": "5493b59de0692970",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c5cfd3bfb7e63e41f128c3f24c342df7e49544b5c210fc657de2224cb02d1c22",
+   "cell": "101"
+  },
+  {
+   "uid": "b5ec488f36e631b6",
+   "model": "ibm/merlinite-7b",
+   "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+   "cell": "101"
+  },
+  {
+   "uid": "45061beb1625a52c",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5ccde11fd49fc6e30978ada9914e01a5b14a3ed4c9a224b4cb9f751fc195b6f7",
+   "cell": "101"
+  },
+  {
+   "uid": "015da17f7e9cd664",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "010"
+  },
+  {
+   "uid": "9fa7fcf39c34485b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "58372cecd81169c198fbc3e8f217af33c9ea676c3a0a6723b173fe9e2bc37943",
+   "cell": "011"
+  },
+  {
+   "uid": "25dfd237de0d9723",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f60e6952cdb7b3b87e872f7f544d9ab3138372ed8a9ca09be6b7354009fe1841",
+   "cell": "101"
+  },
+  {
+   "uid": "36b232250238025a",
+   "model": "ibm/merlinite-7b",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "001"
+  },
+  {
+   "uid": "0c4ac963b3a5978a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "101"
+  },
+  {
+   "uid": "702824710e95a048",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "d68b9f1ca32a4c1119b30208f2fab0ef2447e854d59a4d64843e7fe9b2b4be00",
+   "cell": "101"
+  },
+  {
+   "uid": "935ef39947c8da83",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "92384dcbf8501d50ba6d62c39f61e312c7b51cd1836fbbe79bba5c52fd3769d6",
+   "cell": "011"
+  },
+  {
+   "uid": "4f19c4eb60d83e05",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "26455cb9811c218f5d34dfc53a4ad39e7218e90c64f3818ced88aadbe5cd044f",
+   "cell": "101"
+  },
+  {
+   "uid": "1d466446dd6372a0",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "cell": "101"
+  },
+  {
+   "uid": "42b87b81eff177ad",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5aeead1d28f529e077f7a3c546f9afb7a819d3c3d41cfaf0a6f86b7b60d3b803",
+   "cell": "001"
+  },
+  {
+   "uid": "009aedc54f19c2fd",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "5254087488731b72",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "3db63726632a40af9e36ca494700ed6106b43e5b179845c281c4e99c0e891446",
+   "cell": "101"
+  },
+  {
+   "uid": "ae845a94973aa108",
+   "model": "01-ai/Yi-34B",
+   "item_id": "b759ade14bc677349df98c2b46330043e29121054b5974fe086d66755fe11a4e",
+   "cell": "101"
+  },
+  {
+   "uid": "51c537edb4e6d5a9",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "7f0ee28b82eae4e8",
+   "model": "01-ai/Yi-34B",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "70e18c8c7d4a56b5",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "7aea217a93c28288049c0a55a11246514023be9ce09401a36e9943552d54c982",
+   "cell": "110"
+  },
+  {
+   "uid": "158d20d2401ed227",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "fc2bc1e5e1528cbd45a4cfb5245545b330f2c6c5b7a0861e3cda42fba52d3c78",
+   "cell": "011"
+  },
+  {
+   "uid": "7c1e8a24d5591b4a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "bc09d091d281776e65be7fc6dea4e385be558a4d1bf6004f7c237cad821d410e",
+   "cell": "001"
+  },
+  {
+   "uid": "1a246bad1ce9dff5",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "011"
+  },
+  {
+   "uid": "fa22368d1c9830cb",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5532284873b7b0b9cbfe3d54f2a9e7a8ce5983b59b33f32e282da8c2c536f7d8",
+   "cell": "011"
+  },
+  {
+   "uid": "5dcbda8bf8da42b8",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "30668d7b942eb9aa",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4d3c5c8d658ed21e1a3d0ecb7fbb4e65268e39ec532cf921560a4643fc42f80a",
+   "cell": "101"
+  },
+  {
+   "uid": "89de309fe8c4eb44",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "dbab5152036ff4064f203cadce163176dd37ddcc5f4e851e40de428a3a87ff95",
+   "cell": "011"
+  },
+  {
+   "uid": "cfe601c4c23747cd",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "6ded228465a394a816db179410f554291b1ba013f3a6f76c77e904c4ff666e13",
+   "cell": "001"
+  },
+  {
+   "uid": "e48f83e10f8c9180",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "1cb9eb6d262e489debbaaf79c42b1851e2a219f6a09e2e861a3cdf3881c6cc1e",
+   "cell": "101"
+  },
+  {
+   "uid": "822226eab6c0d593",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "31825cb1a34c57e7e0adf9ff6196868d391b6e4e3419b16583f0fd082b90e3bc",
+   "cell": "011"
+  },
+  {
+   "uid": "e0e45eb685c4aea7",
+   "model": "microsoft/phi-1_5",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "cell": "001"
+  },
+  {
+   "uid": "14c07367955e6427",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "1cb9eb6d262e489debbaaf79c42b1851e2a219f6a09e2e861a3cdf3881c6cc1e",
+   "cell": "011"
+  },
+  {
+   "uid": "57877b545738cf17",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "110"
+  },
+  {
+   "uid": "c0f1235b2bb54914",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "9e178d47f27e226578ec489e1e5cca3d23e2bdf47be56b30e71480e9d83b114c",
+   "cell": "011"
+  },
+  {
+   "uid": "127c1bb0ac9b59cf",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "53cd14f126e632a8526fdc6a0d4395548fb53911ad34814f20911fd466f7f3f9",
+   "cell": "011"
+  },
+  {
+   "uid": "1eb71138b78a0da3",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "92f95351a1640b41e74b09d23edd2927dd0d872d61603b500b01d3e94c2baef4",
+   "cell": "101"
+  },
+  {
+   "uid": "f5b6eb38f55e810c",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "b6601d3e6bb0ba5e1c576454c086e06d4eb699f875a8c6713625f07099a60001",
+   "cell": "101"
+  },
+  {
+   "uid": "0d5b0eae6b4ba78c",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "d3e6c1734ae962bd74aba1879db1f4498f185e96da9846386c5c23fad5e7a270",
+   "cell": "001"
+  },
+  {
+   "uid": "ed3b07e658f79328",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "38da13bee99adffef11fee862cca53d0be182c334a449409a254fb99b10099b4",
+   "cell": "001"
+  },
+  {
+   "uid": "bdb80e25cb03e5d5",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "1795c5a8936dc837d86e9064d22db4099fc5ab8c2b43cc2baec563150ce0e68c",
+   "cell": "011"
+  },
+  {
+   "uid": "e89b44eb08a177c2",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c7ed4fffc384e59caa0e7a37a9ad9ea1acb436f568c0bf34c0c6c0519d4163cf",
+   "cell": "101"
+  },
+  {
+   "uid": "40d07520e85cff8d",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "1d1ed89ffdec191b6e5f49e85e6a5034f3d2365bc493bd5187301f4f0093d1f9",
+   "cell": "101"
+  },
+  {
+   "uid": "e111560bf79fef81",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+   "cell": "101"
+  },
+  {
+   "uid": "feaa144a34b8ad03",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5dcdb4f091aaed05e49c600b34dfc2c11e735ff8beb8d67ab9e96af92837d601",
+   "cell": "001"
+  },
+  {
+   "uid": "5fcfed31ed06f9c9",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "f9bd92bc5a99a363c3cb3df99909766a0a9cf6f9fc881cc6c02008d7c31d3474",
+   "cell": "001"
+  },
+  {
+   "uid": "c39fdd949666393c",
+   "model": "01-ai/Yi-34B",
+   "item_id": "3fe9da57a9366748cd37473f50c1ccf6cb5c8c34f013cfd48d58dfd408093a3c",
+   "cell": "101"
+  },
+  {
+   "uid": "3c54e9e5fdf664ac",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "01d1abcc3fcdaeb622437980a92136ba3dac4f1f91dcf830c2af89986b1e56cf",
+   "cell": "101"
+  },
+  {
+   "uid": "b3549206611ca8b6",
+   "model": "google/gemma-7b",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "f25b657413bf0d6b",
+   "model": "google/gemma-7b",
+   "item_id": "c11b2f505177e8cdb9e54a7924742fbc1a8f623588c805ab1f06faf25cd9150d",
+   "cell": "001"
+  },
+  {
+   "uid": "a8cf57fbe64fc0a4",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "7b081d39dcbed75b8508baf1366882adecfcba25ebe4830fd81eea84a9a46445",
+   "cell": "001"
+  },
+  {
+   "uid": "35c9172a3431307f",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "87737bb4b03371793955cb1d5a030d6890f6e4c31f3ab7720955f2d8e38b925a",
+   "cell": "001"
+  },
+  {
+   "uid": "f61fb602066508ab",
+   "model": "microsoft/phi-2",
+   "item_id": "c7aa98a450043efb18f7b0223cf3d6a7db3ca85ebcb84fac5c4f619868690de2",
+   "cell": "010"
+  },
+  {
+   "uid": "d9b2c42509f7262b",
+   "model": "ibm/merlinite-7b",
+   "item_id": "606874c8b7cf957bea7bdfab492768ab42252402b176c6f34dd22da63e150c9d",
+   "cell": "110"
+  },
+  {
+   "uid": "f7d6969f375c09e5",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "80441ab15e81ac8d77a06bfcc302d68112d90405ef0ed6b153bee75338926bee",
+   "cell": "101"
+  },
+  {
+   "uid": "1a7cc879da6e8976",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "110"
+  },
+  {
+   "uid": "be5f0bc6f5cf243d",
+   "model": "google/gemma-7b",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "011"
+  },
+  {
+   "uid": "f65c442e1e833994",
+   "model": "google/gemma-7b",
+   "item_id": "79dc52aec3852c2ac53feeb74f80c9c813ce09b44fb6cfc2dee481c3279603a2",
+   "cell": "011"
+  },
+  {
+   "uid": "21bdad05abc669e5",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "011"
+  },
+  {
+   "uid": "c36082a2ac2981ba",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "328274a4b2d3d0df",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "cell": "011"
+  },
+  {
+   "uid": "d364dc6905deefe1",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "1fe8bd2c2f435cb9bc765b405dcd08860bf1a159b07679435a93a2a218ff6bbc",
+   "cell": "011"
+  },
+  {
+   "uid": "40ec97fd39879be6",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "f313418efd4315644c668a4ee2e77e7d18d876203c2bf0292682345ad3b89cb8",
+   "cell": "011"
+  },
+  {
+   "uid": "a19e7820b107ec9b",
+   "model": "ibm/merlinite-7b",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "bee6f1dc58bf7a03",
+   "model": "microsoft/phi-2",
+   "item_id": "670c15823bfedd8d1522281bfb12d8c052f7954ed3564643e4b3725359b8b73a",
+   "cell": "001"
+  },
+  {
+   "uid": "4e3ea660c8d75b0d",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f64e8225216d639dcfcd4d35d8d25ef6ce0aad244ac80706bc40cc3e005ae984",
+   "cell": "011"
+  },
+  {
+   "uid": "f6aec316440df003",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "ff1afc7ab70d6ccf183b057a21997b040e0c4fbd6200b20ce2c2324a99dbe0da",
+   "cell": "101"
+  },
+  {
+   "uid": "ad0cbb649d904003",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "cell": "001"
+  },
+  {
+   "uid": "be10f69f4500e893",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c2dde56c2dea54931917eda014943e43d868de09ee6f8eadb9e6f015a8ac43d0",
+   "cell": "011"
+  },
+  {
+   "uid": "47adba750bce0b4a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "6a36c04bdca66a7820d7814aae93e0104e74d8b940ab3b1bbe5e2fcb906dccdc",
+   "cell": "101"
+  },
+  {
+   "uid": "a9ba97a4ef91d45e",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "71ccdafa0dbe7e28",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "f0043e14f3632b7f17d339c3d8fa158d4412359e08f4a1f9e3516f5bd8f162bb",
+   "cell": "011"
+  },
+  {
+   "uid": "e306fd5780ba5c1f",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "7e4ffa1062a40d4562013c4b169b0428e5b640fc9ad8ecaa7e0dc66a70eebddf",
+   "cell": "101"
+  },
+  {
+   "uid": "085cb8bbbe616a2b",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "c035c90d3b95590ebc7bb4f1251de1508c7f9042948f3e170ece597a9e418943",
+   "cell": "100"
+  },
+  {
+   "uid": "c5b16b145636f65a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "cell": "001"
+  },
+  {
+   "uid": "34455148d698faa6",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "cell": "101"
+  },
+  {
+   "uid": "7e8ffcea710e37be",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "72a3503073d9018612be46e9272dcd0945566e0437105019a8f75786487e755f",
+   "cell": "101"
+  },
+  {
+   "uid": "97d30554cbf1996f",
+   "model": "01-ai/Yi-34B",
+   "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+   "cell": "101"
+  },
+  {
+   "uid": "05aedf5f950537fb",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "606874c8b7cf957bea7bdfab492768ab42252402b176c6f34dd22da63e150c9d",
+   "cell": "100"
+  },
+  {
+   "uid": "2f6eb23529a4696d",
+   "model": "01-ai/Yi-34B",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "011"
+  },
+  {
+   "uid": "b3bf2160755a78a9",
+   "model": "microsoft/phi-2",
+   "item_id": "87cae3c649e0c2e5fa44f33722837422484587807db514d5ba059621b9e9eeb2",
+   "cell": "101"
+  },
+  {
+   "uid": "832cdae5f49b1e0e",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "26df2d3a95756d25b3c38252ddf0009ddace2e58e64558933c4589769af8a877",
+   "cell": "101"
+  },
+  {
+   "uid": "87570273bd599ee5",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "f7d5b381c1e346a043cc0cf598a6ab7eda815195be52320d82d4c84f551c865c",
+   "cell": "001"
+  },
+  {
+   "uid": "7f013758ad475fdb",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "cell": "101"
+  },
+  {
+   "uid": "2f925d7a4b8a4839",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "cell": "011"
+  },
+  {
+   "uid": "88454934bf79ea31",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "e2a60dd57f57af8fe3cc7654fa121a15158c8e6a2e4f2f32a7a3ca8945b50e8b",
+   "cell": "101"
+  },
+  {
+   "uid": "0e51394d528d7ba7",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "49ac5cba909cbf628c6a12f8cbf3f3dd5a8ec9b6274190cf3f630dcafc66cc48",
+   "cell": "101"
+  },
+  {
+   "uid": "758012b41d8724f0",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "bc09d091d281776e65be7fc6dea4e385be558a4d1bf6004f7c237cad821d410e",
+   "cell": "001"
+  },
+  {
+   "uid": "672e135511537f07",
+   "model": "google/gemma-7b",
+   "item_id": "72098728ed7896242fe7dc7d3248fa8d6146a7e6a9f8b48a7e689a79f0d1f025",
+   "cell": "101"
+  },
+  {
+   "uid": "758271484f1fc0bb",
+   "model": "01-ai/Yi-34B",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "9afce1e81df2a239",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "d934c12ef0800f2fd303100626697c1b57f46882790b0bc0cb7e0735a2b32889",
+   "cell": "011"
+  },
+  {
+   "uid": "d868d6dd09040a90",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "f66a3bcd5465918895f6b999df50fbdee6ba52f1490f0b2a3ca3c0b11d35ce34",
+   "cell": "011"
+  },
+  {
+   "uid": "7e6e29fe3a0ac915",
+   "model": "google/gemma-7b",
+   "item_id": "05753d4fbe1446e76360d8e04da868d2436c7c9bbb64042b5e9041f16c014a5e",
+   "cell": "101"
+  },
+  {
+   "uid": "95e59b06dba3805f",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "cell": "001"
+  },
+  {
+   "uid": "4e877eaff8e89198",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+   "cell": "001"
+  },
+  {
+   "uid": "e4de884c7783afa0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "a55d18f46737a58904e94eb7de17151a1e66febb55d73913c0a60701ecbf8d30",
+   "cell": "011"
+  },
+  {
+   "uid": "bb362cc98bfbb068",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "7aea217a93c28288049c0a55a11246514023be9ce09401a36e9943552d54c982",
+   "cell": "001"
+  },
+  {
+   "uid": "c172d37f54f5bd8a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "50ba4f2c8ecda712cce45b82d491bb5823a9994b9c7d36d723304e310ff95369",
+   "cell": "001"
+  },
+  {
+   "uid": "05a33159c3e712bd",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e7e4298df865a8c9567e4ac791fe9af2096ae3a53b19cac1a3747ecb5e32a1f3",
+   "cell": "101"
+  },
+  {
+   "uid": "91568dee94dfb1eb",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "cf6c38a5531464ee270ec77fa1288ca0bca6d2242ba635591ffa9ceca416fa39",
+   "cell": "011"
+  },
+  {
+   "uid": "c518574d5ca858e0",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e09c3f83a257f57669b36742015148a877dedd3e2c1ecde84a35308d67d3e368",
+   "cell": "001"
+  },
+  {
+   "uid": "5b819dc6de2279a8",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "664603174428057accb067388e451e8f78f61001f6bd66362d15e714391ba1b6",
+   "cell": "101"
+  },
+  {
+   "uid": "1821f69d2c12b85a",
+   "model": "microsoft/phi-1_5",
+   "item_id": "f6fe853c281964b8a779c359a6a592a0c7abe2a4e7ac6d69c94601621a93f394",
+   "cell": "101"
+  },
+  {
+   "uid": "696d5fd265e4a2d9",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "749155850b45e11f8f72965208b9e38a4ac14c4fc167b6f5563994a5dcba654e",
+   "cell": "001"
+  },
+  {
+   "uid": "f9e8c9a4704bdf49",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "cell": "011"
+  },
+  {
+   "uid": "6124401542cd4be7",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "223e90fb0bcb95da403932743791c13ff7816efb90eb6bacacc124c6f65a163f",
+   "cell": "001"
+  },
+  {
+   "uid": "07541d52d01f7a87",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "110"
+  },
+  {
+   "uid": "a5af921e3eddc8db",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "cell": "100"
+  },
+  {
+   "uid": "58ddbc82c5583763",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "b5b15561e0d997f38e33c5f74813f5ffdfe0cd9d13d93db739aee8f6c97674dc",
+   "cell": "101"
+  },
+  {
+   "uid": "45719a91977cef56",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "54a0297655b64b0478829d111ce81cf25abc38664278493ca235997b73d83ddd",
+   "cell": "001"
+  },
+  {
+   "uid": "fd1abda256856a18",
+   "model": "EleutherAI/pythia-160m",
+   "item_id": "71b4fa0c44ca4f2a20d2bdc4e9f13ae08f1c5d1ee8bd6cc1efc002209e8a1ae9",
+   "cell": "001"
+  },
+  {
+   "uid": "d6d317a3d6b0944e",
+   "model": "google/gemma-7b",
+   "item_id": "fe8234648101cc84346ec6d8c4749ef4030256057f1270f9f88f12374ea86bf4",
+   "cell": "101"
+  },
+  {
+   "uid": "3671912d78a926a9",
+   "model": "microsoft/phi-1_5",
+   "item_id": "c103e736cfbda39499fe4ca0e52462a0ae943007c9b115f413d9c5a56f512fd4",
+   "cell": "101"
+  },
+  {
+   "uid": "e5e9bd06954b2a97",
+   "model": "microsoft/phi-2",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "cell": "101"
+  },
+  {
+   "uid": "087cfe9b521a8b36",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "cell": "100"
+  },
+  {
+   "uid": "fada202065a7702b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "664603174428057accb067388e451e8f78f61001f6bd66362d15e714391ba1b6",
+   "cell": "011"
+  },
+  {
+   "uid": "9683924bf2fd8980",
+   "model": "Deci/DeciLM-7B",
+   "item_id": "ace647036f9063eae8717543ba038c3c269bad53ca78441bf8932b283e3aef4e",
+   "cell": "001"
+  },
+  {
+   "uid": "7a459471cd760716",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "001"
+  },
+  {
+   "uid": "243896c7cc1af457",
+   "model": "mistralai/Mistral-7B-Instruct-v0.3",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "661a6186594d5536",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "cell": "101"
+  },
+  {
+   "uid": "3bc56ab15c6b58a1",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "cell": "011"
+  },
+  {
+   "uid": "4c01780202a76d03",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "bbe96a06d5b5f4f25bee7fd1a2a513835ebc747b96ffba7c378904bb095ff90e",
+   "cell": "101"
+  },
+  {
+   "uid": "b3295c27848c33f5",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "86703152cc4fab8b262c3aadca60508ea48e5db2a8e50025ac34debcf0758408",
+   "cell": "011"
+  },
+  {
+   "uid": "af6a40396149ec67",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3ea37c6c434a17dda2a2de7b22ba9972830e86cd22e6a1eb537b0dc1569c7e4c",
+   "cell": "101"
+  },
+  {
+   "uid": "43b3e3efdc4d4420",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "e09c3f83a257f57669b36742015148a877dedd3e2c1ecde84a35308d67d3e368",
+   "cell": "001"
+  },
+  {
+   "uid": "2b1deb1055090954",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "cell": "010"
+  },
+  {
+   "uid": "f83692d24fa67982",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f6e18a15aab7a5888d2305b28f48be65e91bca099798d7360a7af937d97f6a71",
+   "cell": "100"
+  },
+  {
+   "uid": "33fdcb9db6d64a2b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "cf0bcd04aa9146595105cd8019b54b90c774bbb3ed6e5bac51f2369c95d5a612",
+   "cell": "001"
+  },
+  {
+   "uid": "09e300f1e6b0fa1a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "cell": "001"
+  },
+  {
+   "uid": "ae2783d6c22dcd34",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1368b9d5f1b1e2377213a7bdb5253e3d979e04151b01a791b618a794ca0e501f",
+   "cell": "101"
+  },
+  {
+   "uid": "b27e4bc3709a4896",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "cell": "001"
+  },
+  {
+   "uid": "86ad7a2d188a0d94",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "e44290997566c88d",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "f7d5b381c1e346a043cc0cf598a6ab7eda815195be52320d82d4c84f551c865c",
+   "cell": "001"
+  },
+  {
+   "uid": "0d5f1eab85f62e41",
+   "model": "microsoft/phi-2",
+   "item_id": "bc54ade904c9081b021f487e9da4b37a05829596b1f36dfce079f57347239b75",
+   "cell": "001"
+  },
+  {
+   "uid": "020511261abbf035",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "92384dcbf8501d50ba6d62c39f61e312c7b51cd1836fbbe79bba5c52fd3769d6",
+   "cell": "101"
+  },
+  {
+   "uid": "31cd158cde7133eb",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "92384dcbf8501d50ba6d62c39f61e312c7b51cd1836fbbe79bba5c52fd3769d6",
+   "cell": "001"
+  },
+  {
+   "uid": "692fc63dac171e00",
+   "model": "microsoft/phi-2",
+   "item_id": "3db63726632a40af9e36ca494700ed6106b43e5b179845c281c4e99c0e891446",
+   "cell": "101"
+  },
+  {
+   "uid": "7bc9ae0684541193",
+   "model": "01-ai/Yi-34B",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "cell": "011"
+  },
+  {
+   "uid": "6fa82a7a5bfe450c",
+   "model": "01-ai/Yi-34B",
+   "item_id": "0dc7e055cda1e6d4024834862c0c540461941a11f13240670dbed6256ef67501",
+   "cell": "101"
+  },
+  {
+   "uid": "81713f9218ffe2d4",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "3dd0f973ceb9d41996654716ff63dc30a04e691058056a4cf7b832276a9082c5",
+   "cell": "011"
+  },
+  {
+   "uid": "f3bf3789b580fbad",
+   "model": "HuggingFaceH4/zephyr-7b-alpha",
+   "item_id": "73954579bd4e24be2514c73628444c6fe7864beb844a9cfa03eac6f1146b3dba",
+   "cell": "001"
+  },
+  {
+   "uid": "26efd5a33c541244",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "96931117901095be07d976a061f8a1f726f622a7c27559840dba3cee69b08627",
+   "cell": "001"
+  },
+  {
+   "uid": "f24f28f3af12c5ca",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "cell": "110"
+  },
+  {
+   "uid": "68d994faaff4f898",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "cell": "001"
+  },
+  {
+   "uid": "2373c13811dd2344",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "e1aa7d8f71919c9d",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f1f4a7081cb6146aaaa3b661e37f3123f3fa9e9cbdeee00c7261180405aa30f7",
+   "cell": "011"
+  },
+  {
+   "uid": "c56b544e581c06f0",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "51d0a16860ccb6c61cbe1d2b50b1200cac15c3fa88215fd85746baa6d8337094",
+   "cell": "101"
+  },
+  {
+   "uid": "f5179759dcadf145",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "33f7e8ea9e25f6669396aafe20e2382cdf760f24b22650e16a15eadab9c7424a",
+   "cell": "011"
+  },
+  {
+   "uid": "05557da03c87cc16",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+   "cell": "101"
+  },
+  {
+   "uid": "4e0113d386d97f83",
+   "model": "microsoft/phi-1_5",
+   "item_id": "72098728ed7896242fe7dc7d3248fa8d6146a7e6a9f8b48a7e689a79f0d1f025",
+   "cell": "101"
+  },
+  {
+   "uid": "6cc0a4c2450583c4",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b759ade14bc677349df98c2b46330043e29121054b5974fe086d66755fe11a4e",
+   "cell": "001"
+  },
+  {
+   "uid": "5b95397adea7dcd5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "cell": "011"
+  },
+  {
+   "uid": "40211ae29ed16736",
+   "model": "01-ai/Yi-34B",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "cell": "101"
+  },
+  {
+   "uid": "8b5d138cdff56be6",
+   "model": "databricks/dolly-v2-12b",
+   "item_id": "d3e6c1734ae962bd74aba1879db1f4498f185e96da9846386c5c23fad5e7a270",
+   "cell": "101"
+  },
+  {
+   "uid": "db4e729c723c9c6d",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "978ec94bc0f668b1",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c7ed4fffc384e59caa0e7a37a9ad9ea1acb436f568c0bf34c0c6c0519d4163cf",
+   "cell": "101"
+  },
+  {
+   "uid": "ef42e871f33d41fe",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "1fe8bd2c2f435cb9bc765b405dcd08860bf1a159b07679435a93a2a218ff6bbc",
+   "cell": "011"
+  },
+  {
+   "uid": "0c47e61d2d63619e",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "cell": "011"
+  },
+  {
+   "uid": "d69c25af30270c15",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+   "cell": "001"
+  },
+  {
+   "uid": "274392e34fdfa4e7",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2704e147ac6fd24829eb3d39f22a6406989dda1c85945e5d96557ba707ad804e",
+   "cell": "101"
+  },
+  {
+   "uid": "4cc79ddb7e5ca75b",
+   "model": "microsoft/phi-2",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "cell": "001"
+  },
+  {
+   "uid": "ee4f5298ad8c98ed",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "3886c71528429fb40c415c82bbd254550b0f6256dc9780aa2d52e07fbdc852ca",
+   "cell": "101"
+  },
+  {
+   "uid": "d9f66271a4b3b237",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1ffbb231edd591999d40ee9c2f0e3f2737ef342017eb8f3747edeb5cc594ac70",
+   "cell": "101"
+  },
+  {
+   "uid": "8aeb1b52f3003707",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "935e9a11ec8dd6ca7b0407b8600ad0c5aef546f30356d2ab94ec3273d8c09332",
+   "cell": "101"
+  },
+  {
+   "uid": "4d712b35566f6324",
+   "model": "01-ai/Yi-34B-Chat",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "cell": "001"
+  },
+  {
+   "uid": "5717af5367c47971",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e7e917b7e9dd1b3994f18d6d9a244fb3ec6fa64ffb249593d328eb8d275110d9",
+   "cell": "101"
+  },
+  {
+   "uid": "97ddb2c661695827",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "e7e917b7e9dd1b3994f18d6d9a244fb3ec6fa64ffb249593d328eb8d275110d9",
+   "cell": "101"
+  },
+  {
+   "uid": "e82ee93a56948d4d",
+   "model": "EleutherAI/gpt-neox-20b",
+   "item_id": "5476509e78bf28ce9da7e2c99d4224f2060c8d36f057d97232d0bdab5ab31db9",
+   "cell": "001"
+  },
+  {
+   "uid": "a257e538975499a0",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8a96c911d903607b6c0a0ddf0b2ffcd1d6da45d2a3ed04b55e99e8e0d5d66188",
+   "cell": "001"
+  },
+  {
+   "uid": "bddc5b77f4a43267",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "cell": "001"
+  },
+  {
+   "uid": "1a8655a5928acbce",
+   "model": "01-ai/Yi-34B",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "cell": "101"
+  },
+  {
+   "uid": "e15974079dae5b0b",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "cell": "011"
+  },
+  {
+   "uid": "8d5859a7e7afcce0",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "22d67f1916b000b7ad518e0365e4aa39ebf3176503026a06fb61f44b1ee5fe56",
+   "cell": "110"
+  },
+  {
+   "uid": "9bcf896e4a35a93a",
+   "model": "microsoft/phi-1_5",
+   "item_id": "172319c205710da5c676f8c41923de75cd2bb25af780947b7c2ce4964158ec16",
+   "cell": "010"
+  },
+  {
+   "uid": "80a842e895c549b1",
+   "model": "ibm/merlinite-7b",
+   "item_id": "9a80f549dd2d33be2a200b2cd9a87dc3eb500dd5c1a55b090faad23e5de80232",
+   "cell": "101"
+  },
+  {
+   "uid": "bbafe07c5c32f9a9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "808872a428033fb616ea1f1e3a70b915f38caf746da4f1770ad2ef17933bbfdc",
+   "cell": "011"
+  },
+  {
+   "uid": "4c8281cae53f109e",
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "item_id": "3dd0f973ceb9d41996654716ff63dc30a04e691058056a4cf7b832276a9082c5",
+   "cell": "101"
+  },
+  {
+   "uid": "36649016900b3f7a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "40711f4cd2611620497d1eec191aec2e1ffb7d49f69748e52d135d35fe0f88f7",
+   "cell": "011"
+  },
+  {
+   "uid": "f9175a3fb0627a10",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "d77248bdc8f717bddae6ea93f7f7e81b0793e268b4971f1f3f4fb9bab5bb2e35",
+   "cell": "001"
+  },
+  {
+   "uid": "19552cd1b9b45c59",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "712dc25d678645e2f0b742671130f3a2a53e757c8a84270ae1d1345a0552053a",
+   "cell": "110"
+  },
+  {
+   "uid": "8a46c77e714649f2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "5f1494f42ff1d3869fc7b6b4634d984d87626b6b1d29a8fc4b1258c68787c25b",
+   "cell": "011"
+  },
+  {
+   "uid": "0d69c56db32ae573",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "5bf443e51d7642cce58ef533c18aec2693803febee68209b569ad4930ac678b0",
+   "cell": "001"
+  }
+ ]
+}

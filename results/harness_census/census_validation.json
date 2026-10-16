@@ -1,0 +1,2862 @@
+{
+  "method": "Behavioural validation of the P1 census. For each sampled task the task's own declared filter pipeline is rebuilt from lm-eval's real filter classes at the pinned commit and run on (a) a well-formed response as a positive control and (b) an equivalent response carrying the same answer in ordinary prose. A task is confirmed vulnerable when the pipeline extracts from (a) and fails to credit (b).",
+  "harness_commit": "f4d4b3de3ee6741a7151a9fe74945ee515262f4c",
+  "seed": 42,
+  "n_per_stratum": 100,
+  "strata": {
+    "vulnerable": "census category in ('REGEX_FALLBACK', 'EXACT_NO_EXTRACTION') -- the 64.9% numerator. Tested BEHAVIOURALLY: the task's own rebuilt pipeline must extract from a well-formed response (positive control) and then fail to credit a response with no answer.",
+    "control": "census category == NOT_STRING_MATCH. Tested at the METRIC level, not behaviourally: this stratum is dominated by translation tasks scored with BLEU or chrF, which have no extraction step to fail, so the behavioural probe does not apply to them. The check is that the declared metrics contain no string-equality metric, which is what the census asserts about them. Weaker evidence than the vulnerable stratum, and reported as such."
+  },
+  "excluded_by_design": "CUSTOM_UNVERIFIED tasks score in Python the census does not execute, so they cannot be probed this way and remain excluded from the numerator, exactly as in the census.",
+  "scope": "Validates the classifier's reading of declared scoring code. It does NOT estimate how often real model output takes the unparseable form -- that is the roster study.",
+  "summary": {
+    "vulnerable": {
+      "vulnerable": 93,
+      "not_vulnerable": 0,
+      "inconclusive": 7,
+      "n_sampled": 100,
+      "n_testable": 93,
+      "n_agreeing_with_census": 93,
+      "agreement_pct": 100.0
+    },
+    "control": {
+      "vulnerable": 0,
+      "not_vulnerable": 100,
+      "inconclusive": 0,
+      "n_sampled": 100,
+      "n_testable": 100,
+      "n_agreeing_with_census": 100,
+      "agreement_pct": 100.0
+    }
+  },
+  "disagreements": [],
+  "rows": {
+    "vulnerable": [
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0c38\u0c2e\u0c3e\u0c27\u0c3e\u0c28\u0c02 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_te_psychology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "the answer is Ax",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "bbh_cot_fewshot_temporal_sequences",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_translate_hau_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_hard_patent",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "kbl_bar_exam_em_responsibility_2013",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_swe_latn",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "bigbench_kannada_generate_until",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_zul_prompt_1",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_pt_llama_marketing",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0909\u0924\u094d\u0924\u0930 \u0939\u0948 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_hi_engineering",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_vai_prompt_3",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0e04\u0e33\u0e15\u0e2d\u0e1a\u0e04\u0e37\u0e2d A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_th_law",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A\n",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "regex",
+          "remove_whitespace",
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_human_sexuality_generative",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_translate_sna_prompt_2",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_translate_lug_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_bem_prompt_5",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_ron_latn",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1x",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "gsm8k_platinum_cot",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "Jawabannya adalah A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_id_math",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "C\u00e2u tr\u1ea3 l\u1eddi l\u00e0 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_vi_psychology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_translate_ibo_prompt_5",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\ub2f5\uc740 A\uc785\ub2c8\ub2e4",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_ko_biology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_apc_arab_syri",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A \u015f\u0131kk\u0131d\u0131r",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "turkishmmlu_cot_physics",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u062c\u0648\u0627\u0628 A \u06c1\u06d2",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_ur_psychology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_th_llama_high_school_computer_science",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0909\u0924\u094d\u0924\u0930 \u0939\u0948 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_hi_economics",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A\n",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "regex",
+          "remove_whitespace",
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_high_school_psychology_generative",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_slv_latn",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_llama_professional_law",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0e04\u0e33\u0e15\u0e2d\u0e1a\u0e04\u0e37\u0e2d A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_th_computer_science",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_interior_architecture_and_design",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_eng_prompt_3",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "bigbench_topical_chat_generate_until",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_th_llama_college_computer_science",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_international_law_generative_spanish",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_es_llama_miscellaneous",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_information_technology",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "bigbench_simple_arithmetic_multiple_targets_json_generate_until",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_mni_beng",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_es_llama_high_school_microeconomics",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_yor_prompt_5",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_bem_prompt_1",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_n_shot_generative_human_sexuality",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_ibo_prompt_3",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_cot_zeroshot_clinical_knowledge",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_es_llama_world_religions",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "Tontu bi mooy A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_wo_health",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_electrical_engineering",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_twi_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "the best answer is A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_pro_llama_chemistry",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "answer is A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_en_other",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "bigbench_cause_and_effect_generate_until",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_n_shot_generative_high_school_physics",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_translate_swa_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "Jawabannya adalah A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_id_engineering",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "\u7b54\u3048\u306f1\u3067\u3059\u3002",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "mgsm_native_cot_ja",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u041e\u0442\u0432\u0435\u0442 - A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_ru_other",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0909\u0924\u094d\u0924\u0930 \u0906\u0939\u0947 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_mr_philosophy",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_cot_zeroshot_elementary_mathematics",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u041e\u0442\u0432\u0435\u0442 - A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_ru_other",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_nonparallel_generation_tam_latn",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_th_llama_human_sexuality",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_translate_ibo_prompt_1",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_cot_wol_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u7b54\u6848\u662f A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_zh_economics",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_yue_hant",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "mgsm_en_cot_en",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_translate_twi_prompt_3",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "The final answer is 1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "gsm8k_platinum_cot_llama",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "afriqa_twi_prompt_5",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_medical_genetics_generative_spanish",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "Jibu ni A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_sw_philosophy",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_cot_zeroshot_high_school_psychology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "boolq-seq2seq",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "regex",
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_cot_zeroshot_professional_psychology",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "answer is Ax",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_cot_fewshot_prehistory",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_hun_latn",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_pt_llama_econometrics",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_hard_aviation_engineering_and_maintenance",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_th_llama_high_school_geography",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_redux_college_mathematics_generative",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u062c\u0648\u0627\u0628 A \u06c1\u06d2",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_ur_health",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_translate_kin_prompt_4",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u7b54\u6848\u662f A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_zh_business",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "Jibu ni A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_sw_law",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_nonparallel_generation_ckb_arab",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "answer is A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_en_business",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "kbl_bar_exam_em_responsibility_2012",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_nonparallel_generation_acm_arab",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "answer is A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_pro_math",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "inconclusive",
+        "reason": "no probe passed the positive control; pipeline reconstruction not demonstrated",
+        "errors": [
+          "KeyError: 'choices'"
+        ],
+        "components": [
+          "take_first",
+          "multi_choice_regex",
+          "take_first"
+        ],
+        "task": "mmlu_flan_n_shot_generative_high_school_world_history",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "take_first"
+        ],
+        "task": "kmmlu_direct_hard_electronics_engineering",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\u0e04\u0e33\u0e15\u0e2d\u0e1a\u0e04\u0e37\u0e2d A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_th_business",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_redux_high_school_physics_generative",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "La risposta \u00e8 A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_prox_lite_it_philosophy",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "\\boxed{A}",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "global_piqa_parallel_generation_sin_sinh",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          "[invalid]"
+        ],
+        "components": [
+          "regex",
+          "take_first"
+        ],
+        "task": "mmlu_redux_econometrics_generative",
+        "census_category": "REGEX_FALLBACK"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "A",
+        "well_formed_response": "A",
+        "well_formed_extracted": "A",
+        "no_answer_extracted": [
+          "I do not have enough information to determine this.",
+          "Let me think about this step by step. First we consider what is being asked,",
+          ""
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first"
+        ],
+        "task": "mmlu_de_llama_marketing",
+        "census_category": "EXACT_NO_EXTRACTION"
+      },
+      {
+        "verdict": "vulnerable",
+        "gold": "1",
+        "well_formed_response": "1",
+        "well_formed_extracted": "1",
+        "no_answer_extracted": [
+          "[invalid]",
+          "[invalid]",
+          null
+        ],
+        "components": [
+          "remove_whitespace",
+          "take_first",
+          "regex",
+          "take_first"
+        ],
+        "task": "afrimgsm_kin_prompt_1",
+        "census_category": "REGEX_FALLBACK"
+      }
+    ],
+    "control": [
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-sna_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "spanish_bench_flores_eu-es",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "basque_bench_flores_eu-es",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_swa-eng_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_kik_Latn-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_twi_Latn-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-umb_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_aeb_Arab-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-nso_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_amh_Ethi-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_tam_Taml-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_kik_Latn-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-nus_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-ven_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_fr-bbj_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_tso_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-tir_Ethi_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_en-lug_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-dyu_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-tzm_Tfng_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-dik_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-taq_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_yor_Latn-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "norrewrite_instruct",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_sna-en_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-twi_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_yor_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-bem_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "galician_bench_flores_gl-en",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-bem_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_tum_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_sag_Latn-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-plt_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-cjk_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_fr-mos_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_fon-fr_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_bem_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "portuguese_bench_flores_de-pt",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "catalan_bench_flores_ca-pt",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-aeb_Arab_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-fra_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-som_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-hau_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_eng-teo_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_kin_Latn-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "galician_bench_flores_en-gl",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-ibo_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_acq_Arab-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_taq_Tfng-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_swh_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_nyn-eng_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_en-pcm_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_mos-fr_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-tir_Ethi_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_xho-en_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "afridiacritics_ibo_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_nyn-eng_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_tel_Telu-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-afr_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_kin_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_pcm-en_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "phrases_ca-va",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-tzm_Tfng_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "portuguese_bench_flores_pt-it",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-tel_Telu_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_lug_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-aeb_Arab_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_fuv_Latn-eng_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "galician_bench_flores_pt-gl",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-gaz_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_en-ibo_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "afridiacritics_bbj_prompt_4",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_tel_Telu-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_tam_Taml-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "spanish_bench_flores_fr-es",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_fr-bbj_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "ter",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "portuguese_bench_flores_pt-ca",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-kik_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_fr-fon_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-ace_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-sna_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_hau_Latn-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-tel_Telu_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_ach-eng_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-msa_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-lua_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_teo-eng_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_ssw_Latn-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-hau_Latn_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_sna-en_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_mos-fr_prompt_3",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "afridiacritics_bbj_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "ntrex_eng_Latn-kin_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_knc_Arab-eng_Latn_prompt_1",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "mafand_en-zul_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "afridiacritics_wol_prompt_5",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "salt_eng-lug_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_sag_Latn-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_kam_Latn-eng_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      },
+      {
+        "verdict": "not_vulnerable",
+        "test": "metric-family (declared metrics contain no string-equality metric)",
+        "metrics": [
+          "bleu",
+          "chrf"
+        ],
+        "has_extraction_filter": false,
+        "task": "flores_eng_Latn-sun_Latn_prompt_2",
+        "census_category": "NOT_STRING_MATCH"
+      }
+    ]
+  }
+}

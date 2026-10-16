@@ -1,0 +1,58 @@
+{
+ "framework": "simple-evals",
+ "organisation": "OpenAI",
+ "clone_commit": "652c89d0",
+ "clone_date": "2026-04-22",
+ "census_method": "exhaustive (10 of 10 modules read by hand), not sampled -- small enough that sampling was unnecessary",
+ "n_modules_total": 10,
+ "n_string_match_modules": 6,
+ "n_vulnerable": 4,
+ "pct_of_string_match": 66.7,
+ "pct_of_total": 40.0,
+ "by_category": {
+  "SILENT_COERCION": [
+   "gpqa_eval.py",
+   "mmlu_eval.py",
+   "math_eval.py",
+   "mgsm_eval.py"
+  ],
+  "DEGRADES_PARTIAL": [
+   "drop_eval.py"
+  ],
+  "MISLABELLED": [
+   "simpleqa_eval.py"
+  ],
+  "MODELS_ABSTENTION": [
+   "browsecomp_eval.py"
+  ],
+  "CODE_EXECUTION": [
+   "humaneval_eval.py"
+  ],
+  "LLM_RUBRIC": [
+   "healthbench_eval.py",
+   "healthbench_meta_eval.py"
+  ]
+ },
+ "comparison_to_p1_lm_eval": {
+  "lm_eval_pct_of_generative": 64.9,
+  "lm_eval_pct_of_readable": 77.2,
+  "note": "Denominators are not the same unit: this counts EVAL MODULES in a framework with no shared task-configuration abstraction, not lm-eval TASK configs or OpenCompass eval_cfg declarations. The comparison that matters is qualitative, not the percentage: the mechanism recurs in a framework sharing no code, no YAML system, and no author organisation with lm-eval, and the count here (10 modules) carries far less statistical weight than lm-eval's 4,524 -- this is a generality check, not a third prevalence estimate."
+ },
+ "notable": {
+  "shortest_complete_statement_of_the_failure": {
+   "module": "gpqa_eval.py",
+   "lines": "59-61",
+   "code": "match = re.search(ANSWER_PATTERN_MULTICHOICE, response_text)\nextracted_answer = match.group(1) if match else None\nscore = 1.0 if extracted_answer == correct_answer else 0.0"
+  },
+  "positive_control_within_the_same_repository": {
+   "module": "browsecomp_eval.py",
+   "line": 35,
+   "note": "the newest eval in the set explicitly models the no-answer case with an LLM grader instructed to emit 'None' -- proof the remedy is not unknown, just unadopted, within the same codebase and author organisation"
+  }
+ },
+ "limits": [
+  "10 modules; this is a generality check across a framework with no shared code with lm-eval, not a second prevalence estimate carrying comparable statistical weight",
+  "HELM, BIG-bench remain unaudited and are not claimed either way",
+  "healthbench_eval / healthbench_meta_eval use LLM rubric grading, a different scoring paradigm with its own failure modes, not addressed by this paper's theorem"
+ ]
+}

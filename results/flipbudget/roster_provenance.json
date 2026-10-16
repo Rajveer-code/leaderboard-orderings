@@ -1,0 +1,53 @@
+{
+ "n_detail_datasets_catalogued": 3996,
+ "n_selected": 60,
+ "max_per_organisation": 4,
+ "n_organisations_selected": 28,
+ "selection_downloads_range": [
+  79,
+  124
+ ],
+ "n_scored_after_interrupted_sweep": 28,
+ "n_roster": 27,
+ "scored_not_in_roster": [
+  "microsoft/Phi-3-mini-4k-instruct"
+ ],
+ "roster_rank_in_download_order": [
+  1,
+  3,
+  5,
+  6,
+  7,
+  8,
+  9,
+  13,
+  14,
+  15,
+  17,
+  18,
+  19,
+  21,
+  25,
+  27,
+  28,
+  29,
+  30,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  40
+ ],
+ "roster_deepest_rank": 40,
+ "selection_rule_as_registered": "## Selection rule (registered before any re-scoring)\n\nRanked by download count across all 3,996 `open-llm-leaderboard/*-details` datasets \u2014 a proxy\nfor the models the community actually consults \u2014 then **capped at 4 per organisation** so no\nsingle lab dominates. Every entry below was verified on 2026-08-08 to exist and to contain\nper-sample generations for generative leaderboard tasks (MATH, GPQA, MMLU-Pro, BBH, MuSR,\nIFEval). The cap is what makes this a sample of the leaderboard rather than a sample of Meta.\n\nDo not substitute models ad hoc once results are visible \u2014 that turns a fixed sample into a\nchosen one. If the rule needs changing, change it and re-run the whole selection.",
+ "sources": {
+  "results/analysis/leaderboard_details_catalogue.json": "79cee1660612ee026891a0a44eae233cfd8ff497394d9e5511912a71230fe3ca",
+  "results/analysis/l1_selection.json": "79e725449aabecb7f6db010ef23c79494ca11d4874e6ad4da03d9a3d7813e331",
+  "results/analysis/l1_leaderboard_rescore.json": "6d5bb967e15b8bd6de209193f9dd58006b3165c6379bd15afdeabcdeff54bbb5",
+  "docs/L1_ACCESS_LIST.md": "315294d0c8842f8dbecfcc0255cdfe9a656f9090bef7b1e8c133814afe84dbb2"
+ },
+ "companion_repository_note": "read-only; named by relative path so the record does not depend on where the repository sits on disk"
+}

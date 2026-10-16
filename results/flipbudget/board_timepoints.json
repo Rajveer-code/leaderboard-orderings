@@ -1,0 +1,17 @@
+{
+ "retrieved": "2026-09-28",
+ "revisions": {
+  "results_before_rescoring": {
+   "repo": "open-llm-leaderboard/results",
+   "revision": "c6b22601e39f8288b3852cf6421291fed2250050",
+   "date": "2025-01-31",
+   "is_latest_commit": false
+  },
+  "final_public_table": {
+   "repo": "open-llm-leaderboard/contents",
+   "revision": "9c09a7cae43334062a82cb164f2ef255013dafa2",
+   "date": "2025-03-20",
+   "is_latest_commit": true
+  }
+ }
+}

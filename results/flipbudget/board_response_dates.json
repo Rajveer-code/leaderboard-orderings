@@ -1,0 +1,411 @@
+{
+ "snapshot_date": "2025-01-31",
+ "seed": 20261004,
+ "n_board": 3413,
+ "n_sampled": 50,
+ "n_checked": 50,
+ "n_unchanged": 50,
+ "n_unavailable": 0,
+ "per_model": {
+  "JayHyeon/Qwen_0.5-MDPO_0.5_6e-6-3ep_0alp_0lam": {
+   "repo": "open-llm-leaderboard/JayHyeon__Qwen_0.5-MDPO_0.5_6e-6-3ep_0alp_0lam-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-13",
+   "last": "2025-01-13",
+   "all_on_or_before_snapshot": true
+  },
+  "Danielbrdz/Barcenas-Llama3-8b-ORPO": {
+   "repo": "open-llm-leaderboard/Danielbrdz__Barcenas-Llama3-8b-ORPO-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-07-30",
+   "last": "2024-07-30",
+   "all_on_or_before_snapshot": true
+  },
+  "sometimesanotion/Qwenvergence-14B-v11": {
+   "repo": "open-llm-leaderboard/sometimesanotion__Qwenvergence-14B-v11-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-29",
+   "last": "2025-01-29",
+   "all_on_or_before_snapshot": true
+  },
+  "SicariusSicariiStuff/2B_or_not_2B": {
+   "repo": "open-llm-leaderboard/SicariusSicariiStuff__2B_or_not_2B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-11",
+   "last": "2024-10-11",
+   "all_on_or_before_snapshot": true
+  },
+  "allknowingroger/Qwen2.5-7B-task7": {
+   "repo": "open-llm-leaderboard/allknowingroger__Qwen2.5-7B-task7-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-11-06",
+   "last": "2024-11-06",
+   "all_on_or_before_snapshot": true
+  },
+  "Qwen/Qwen2.5-Coder-32B-Instruct": {
+   "repo": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-32B-Instruct-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-12-11",
+   "last": "2024-12-11",
+   "all_on_or_before_snapshot": true
+  },
+  "ibm-granite/granite-3.0-8b-instruct": {
+   "repo": "open-llm-leaderboard/ibm-granite__granite-3.0-8b-instruct-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-10-15",
+   "last": "2024-10-20",
+   "all_on_or_before_snapshot": true
+  },
+  "LeroyDyer/LCARS_TOP_SCORE": {
+   "repo": "open-llm-leaderboard/LeroyDyer__LCARS_TOP_SCORE-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-12",
+   "last": "2024-08-12",
+   "all_on_or_before_snapshot": true
+  },
+  "zelk12/MT5-Gen4-gemma-2-9B": {
+   "repo": "open-llm-leaderboard/zelk12__MT5-Gen4-gemma-2-9B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-12-20",
+   "last": "2024-12-20",
+   "all_on_or_before_snapshot": true
+  },
+  "sethuiyer/Llamaverse-3.1-8B-Instruct": {
+   "repo": "open-llm-leaderboard/sethuiyer__Llamaverse-3.1-8B-Instruct-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-14",
+   "last": "2025-01-14",
+   "all_on_or_before_snapshot": true
+  },
+  "princeton-nlp/Mistral-7B-Instruct-SimPO": {
+   "repo": "open-llm-leaderboard/princeton-nlp__Mistral-7B-Instruct-SimPO-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-09-21",
+   "last": "2024-09-21",
+   "all_on_or_before_snapshot": true
+  },
+  "noname0202/llama-math-1b-r32-test": {
+   "repo": "open-llm-leaderboard/noname0202__llama-math-1b-r32-test-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-24",
+   "last": "2025-01-24",
+   "all_on_or_before_snapshot": true
+  },
+  "Hastagaras/Zabuza-8B-Llama-3.1": {
+   "repo": "open-llm-leaderboard/Hastagaras__Zabuza-8B-Llama-3.1-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-11-06",
+   "last": "2024-11-06",
+   "all_on_or_before_snapshot": true
+  },
+  "facebook/opt-1.3b": {
+   "repo": "open-llm-leaderboard/facebook__opt-1.3b-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-06-17",
+   "last": "2024-06-17",
+   "all_on_or_before_snapshot": true
+  },
+  "JayHyeon/Qwen2.5-0.5B-SFT-2e-5": {
+   "repo": "open-llm-leaderboard/JayHyeon__Qwen2.5-0.5B-SFT-2e-5-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-12-28",
+   "last": "2024-12-28",
+   "all_on_or_before_snapshot": true
+  },
+  "allknowingroger/Qwen2.5-slerp-14B": {
+   "repo": "open-llm-leaderboard/allknowingroger__Qwen2.5-slerp-14B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-21",
+   "last": "2024-10-21",
+   "all_on_or_before_snapshot": true
+  },
+  "lemon07r/Gemma-2-Ataraxy-Remix-9B": {
+   "repo": "open-llm-leaderboard/lemon07r__Gemma-2-Ataraxy-Remix-9B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-02",
+   "last": "2024-10-02",
+   "all_on_or_before_snapshot": true
+  },
+  "YOYO-AI/Qwen2.5-14B-YOYO-0510-v2": {
+   "repo": "open-llm-leaderboard/YOYO-AI__Qwen2.5-14B-YOYO-0510-v2-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-30",
+   "last": "2025-01-30",
+   "all_on_or_before_snapshot": true
+  },
+  "Magpie-Align/Llama-3-8B-Magpie-Align-SFT-v0.3": {
+   "repo": "open-llm-leaderboard/Magpie-Align__Llama-3-8B-Magpie-Align-SFT-v0.3-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-13",
+   "last": "2024-08-13",
+   "all_on_or_before_snapshot": true
+  },
+  "MaziyarPanahi/Llama-3-8B-Instruct-v0.8": {
+   "repo": "open-llm-leaderboard/MaziyarPanahi__Llama-3-8B-Instruct-v0.8-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-07-04",
+   "last": "2024-07-15",
+   "all_on_or_before_snapshot": true
+  },
+  "EleutherAI/pythia-2.8b": {
+   "repo": "open-llm-leaderboard/EleutherAI__pythia-2.8b-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-06-17",
+   "last": "2024-06-17",
+   "all_on_or_before_snapshot": true
+  },
+  "OpenBuddy/openbuddy-mixtral-7bx8-v18.1-32k": {
+   "repo": "open-llm-leaderboard/OpenBuddy__openbuddy-mixtral-7bx8-v18.1-32k-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-07-25",
+   "last": "2024-07-25",
+   "all_on_or_before_snapshot": true
+  },
+  "Joseph717171/Llama-3.1-SuperNova-8B-Lite_TIES_with_Base": {
+   "repo": "open-llm-leaderboard/Joseph717171__Llama-3.1-SuperNova-8B-Lite_TIES_with_Base-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-03",
+   "last": "2024-10-03",
+   "all_on_or_before_snapshot": true
+  },
+  "Qwen/Qwen2-1.5B-Instruct": {
+   "repo": "open-llm-leaderboard/Qwen__Qwen2-1.5B-Instruct-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-06-17",
+   "last": "2024-06-17",
+   "all_on_or_before_snapshot": true
+  },
+  "allknowingroger/WestlakeMaziyar-7B-slerp": {
+   "repo": "open-llm-leaderboard/allknowingroger__WestlakeMaziyar-7B-slerp-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-13",
+   "last": "2024-08-13",
+   "all_on_or_before_snapshot": true
+  },
+  "PrimeIntellect/INTELLECT-1": {
+   "repo": "open-llm-leaderboard/PrimeIntellect__INTELLECT-1-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-11-30",
+   "last": "2024-12-03",
+   "all_on_or_before_snapshot": true
+  },
+  "LenguajeNaturalAI/leniachat-gemma-2b-v0": {
+   "repo": "open-llm-leaderboard/LenguajeNaturalAI__leniachat-gemma-2b-v0-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-09-03",
+   "last": "2024-09-03",
+   "all_on_or_before_snapshot": true
+  },
+  "JayHyeon/Qwen2.5-0.5B-SFT-2e-5-2ep-MDPO_0.5_1e-7-3ep_0alp_0lam": {
+   "repo": "open-llm-leaderboard/JayHyeon__Qwen2.5-0.5B-SFT-2e-5-2ep-MDPO_0.5_1e-7-3ep_0alp_0lam-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-08",
+   "last": "2025-01-08",
+   "all_on_or_before_snapshot": true
+  },
+  "nbeerbower/Gemma2-Gutenberg-Doppel-9B": {
+   "repo": "open-llm-leaderboard/nbeerbower__Gemma2-Gutenberg-Doppel-9B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-02",
+   "last": "2024-10-02",
+   "all_on_or_before_snapshot": true
+  },
+  "OpenBuddy/openbuddy-llama3.1-8b-v22.2-131k": {
+   "repo": "open-llm-leaderboard/OpenBuddy__openbuddy-llama3.1-8b-v22.2-131k-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-07-30",
+   "last": "2024-07-30",
+   "all_on_or_before_snapshot": true
+  },
+  "zetasepic/Qwen2.5-32B-Instruct-abliterated-v2": {
+   "repo": "open-llm-leaderboard/zetasepic__Qwen2.5-32B-Instruct-abliterated-v2-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-11",
+   "last": "2025-01-11",
+   "all_on_or_before_snapshot": true
+  },
+  "DreadPoor/Aspire_V4-8B-Model_Stock": {
+   "repo": "open-llm-leaderboard/DreadPoor__Aspire_V4-8B-Model_Stock-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-23",
+   "last": "2025-01-23",
+   "all_on_or_before_snapshot": true
+  },
+  "JayHyeon/Qwen2.5-0.5B-SFT-2e-5-2ep-DPO_1e-7-3ep_0alp_0lam": {
+   "repo": "open-llm-leaderboard/JayHyeon__Qwen2.5-0.5B-SFT-2e-5-2ep-DPO_1e-7-3ep_0alp_0lam-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-08",
+   "last": "2025-01-08",
+   "all_on_or_before_snapshot": true
+  },
+  "berkeley-nest/Starling-LM-7B-alpha": {
+   "repo": "open-llm-leaderboard/berkeley-nest__Starling-LM-7B-alpha-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-06-15",
+   "last": "2024-06-16",
+   "all_on_or_before_snapshot": true
+  },
+  "bunnycore/FuseCyberMix-Qwen-2.5-7B-Instruct": {
+   "repo": "open-llm-leaderboard/bunnycore__FuseCyberMix-Qwen-2.5-7B-Instruct-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-12-20",
+   "last": "2024-12-20",
+   "all_on_or_before_snapshot": true
+  },
+  "MaziyarPanahi/calme-2.4-llama3-70b": {
+   "repo": "open-llm-leaderboard/MaziyarPanahi__calme-2.4-llama3-70b-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-13",
+   "last": "2024-08-13",
+   "all_on_or_before_snapshot": true
+  },
+  "abacusai/Smaug-Llama-3-70B-Instruct-32K": {
+   "repo": "open-llm-leaderboard/abacusai__Smaug-Llama-3-70B-Instruct-32K-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-01",
+   "last": "2024-08-01",
+   "all_on_or_before_snapshot": true
+  },
+  "DebateLabKIT/Llama-3.1-Argunaut-1-8B-SFT": {
+   "repo": "open-llm-leaderboard/DebateLabKIT__Llama-3.1-Argunaut-1-8B-SFT-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-02",
+   "last": "2025-01-02",
+   "all_on_or_before_snapshot": true
+  },
+  "NAPS-ai/naps-llama-3_1-8b-instruct-v0.4": {
+   "repo": "open-llm-leaderboard/NAPS-ai__naps-llama-3_1-8b-instruct-v0.4-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-05",
+   "last": "2024-10-05",
+   "all_on_or_before_snapshot": true
+  },
+  "Replete-AI/Replete-Coder-Llama3-8B": {
+   "repo": "open-llm-leaderboard/Replete-AI__Replete-Coder-Llama3-8B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-07-08",
+   "last": "2024-07-08",
+   "all_on_or_before_snapshot": true
+  },
+  "rasyosef/Phi-1_5-Instruct-v0.1": {
+   "repo": "open-llm-leaderboard/rasyosef__Phi-1_5-Instruct-v0.1-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-12",
+   "last": "2024-08-12",
+   "all_on_or_before_snapshot": true
+  },
+  "allknowingroger/MultiMash6-12B-slerp": {
+   "repo": "open-llm-leaderboard/allknowingroger__MultiMash6-12B-slerp-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-13",
+   "last": "2024-08-13",
+   "all_on_or_before_snapshot": true
+  },
+  "pankajmathur/orca_mini_v9_6_1B-Instruct": {
+   "repo": "open-llm-leaderboard/pankajmathur__orca_mini_v9_6_1B-Instruct-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-06",
+   "last": "2025-01-06",
+   "all_on_or_before_snapshot": true
+  },
+  "abacusai/Smaug-72B-v0.1": {
+   "repo": "open-llm-leaderboard/abacusai__Smaug-72B-v0.1-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-06-16",
+   "last": "2024-06-17",
+   "all_on_or_before_snapshot": true
+  },
+  "PJMixers-Dev/L3.2-Instruct-Thinking-v0.1-1B": {
+   "repo": "open-llm-leaderboard/PJMixers-Dev__L3.2-Instruct-Thinking-v0.1-1B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-13",
+   "last": "2025-01-13",
+   "all_on_or_before_snapshot": true
+  },
+  "zelk12/MT4-gemma-2-9B": {
+   "repo": "open-llm-leaderboard/zelk12__MT4-gemma-2-9B-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-10-21",
+   "last": "2024-10-21",
+   "all_on_or_before_snapshot": true
+  },
+  "Rombo-Org/Rombo-LLM-V2.5-Qwen-7b": {
+   "repo": "open-llm-leaderboard/Rombo-Org__Rombo-LLM-V2.5-Qwen-7b-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2025-01-14",
+   "last": "2025-01-14",
+   "all_on_or_before_snapshot": true
+  },
+  "langgptai/Qwen-las-v0.1": {
+   "repo": "open-llm-leaderboard/langgptai__Qwen-las-v0.1-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-09-14",
+   "last": "2024-09-14",
+   "all_on_or_before_snapshot": true
+  },
+  "TencentARC/Mistral_Pro_8B_v0.1": {
+   "repo": "open-llm-leaderboard/TencentARC__Mistral_Pro_8B_v0.1-details",
+   "status": "checked",
+   "n_files": 14,
+   "first": "2024-06-14",
+   "last": "2024-06-16",
+   "all_on_or_before_snapshot": true
+  },
+  "nxmwxm/Beast-Soul-new": {
+   "repo": "open-llm-leaderboard/nxmwxm__Beast-Soul-new-details",
+   "status": "checked",
+   "n_files": 7,
+   "first": "2024-08-12",
+   "last": "2024-08-12",
+   "all_on_or_before_snapshot": true
+  }
+ }
+}

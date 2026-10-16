@@ -1,0 +1,43 @@
+{
+ "current_existing_audit_only": 174,
+ "threshold_orderings": 18,
+ "n_discordant_domains": 113,
+ "n_registered_discordant_labels": 180,
+ "scenarios": {
+  "uniform": {
+   "registered": {
+    "median": 177.0,
+    "p10": 174.0,
+    "p90": 179.0
+   },
+   "census": {
+    "median": 272.0,
+    "p10": 262.0,
+    "p90": 280.0
+   },
+   "gain": {
+    "median": 95.0,
+    "p10": 84.9,
+    "p90": 103.0
+   }
+  },
+  "half": {
+   "registered": {
+    "median": 175.0,
+    "p10": 174.0,
+    "p90": 177.0
+   },
+   "census": {
+    "median": 271.0,
+    "p10": 270.0,
+    "p90": 273.0
+   },
+   "gain": {
+    "median": 96.0,
+    "p10": 94.0,
+    "p90": 98.0
+   }
+  }
+ },
+ "decision": "label the remaining discordant responses"
+}

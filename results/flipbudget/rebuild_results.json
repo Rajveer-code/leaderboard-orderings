@@ -1,0 +1,5417 @@
+{
+ "n_boot": 1000,
+ "stratum_check": {
+  "audit_items_found_in_population": 320,
+  "stratum_consistent": 320
+ },
+ "C1_census": {
+  "n_rows": 22508,
+  "n_disagree": 817,
+  "rate": 0.036298205082637286,
+  "wilson95": [
+   0.03393286516603759,
+   0.03882179872375896
+  ],
+  "sb_credited_em_not": 323,
+  "em_credited_sb_not": 494,
+  "model_rate_min": 0.006042296072507553,
+  "model_rate_max": 0.09592145015105741
+ },
+ "per_model": [
+  {
+   "model": "tiiuae/falcon-7b",
+   "a_sb": 0.0022658610271903325,
+   "a_em": 0.005287009063444109,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 1,
+   "x_r": 0,
+   "n_r": 3,
+   "indet_cred": 1,
+   "indet_wrong": 3,
+   "A_point": 0.0022658610271903325,
+   "A_lo": 0.0003775284979214245,
+   "A_hi": 0.6259351614912789,
+   "sampling_lo": -0.0002952485074351882,
+   "sampling_hi": 0.004826970561815853
+  },
+  {
+   "model": "EleutherAI/gpt-j-6b",
+   "a_sb": 0.004531722054380665,
+   "a_em": 0.012084592145015106,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 1,
+   "x_r": 0,
+   "n_r": 7,
+   "indet_cred": 0,
+   "indet_wrong": 1,
+   "A_point": 0.004531722054380665,
+   "A_lo": 0.000755056995842849,
+   "A_hi": 0.419398605579732,
+   "sampling_lo": 0.0009138812966552989,
+   "sampling_hi": 0.00814956281210603
+  },
+  {
+   "model": "mosaicml/mpt-7b",
+   "a_sb": 0.006042296072507553,
+   "a_em": 0.01283987915407855,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 2,
+   "x_r": 0,
+   "n_r": 8,
+   "indet_cred": 0,
+   "indet_wrong": 5,
+   "A_point": 0.006042296072507553,
+   "A_lo": 0.001725919648678231,
+   "A_hi": 0.3884197079859089,
+   "sampling_lo": 0.0018679441974445111,
+   "sampling_hi": 0.010216647947570594
+  },
+  {
+   "model": "tiiuae/falcon-40b",
+   "a_sb": 0.006042296072507553,
+   "a_em": 0.013595166163141994,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 1,
+   "x_r": 0,
+   "n_r": 5,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.006042296072507553,
+   "A_lo": 0.0010067426611237986,
+   "A_hi": 0.5031119683190176,
+   "sampling_lo": 0.0018679441974445111,
+   "sampling_hi": 0.010216647947570594
+  },
+  {
+   "model": "microsoft/phi-2",
+   "a_sb": 0.009818731117824773,
+   "a_em": 0.02416918429003021,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 2,
+   "x_r": 0,
+   "n_r": 4,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.009818731117824773,
+   "A_lo": 0.002804619429102125,
+   "A_hi": 0.56000879248085,
+   "sampling_lo": 0.00450757412693393,
+   "sampling_hi": 0.015129888108715617
+  },
+  {
+   "model": "mistralai/Mistral-7B-v0.1",
+   "a_sb": 0.01283987915407855,
+   "a_em": 0.024924471299093656,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 1,
+   "x_r": 0,
+   "n_r": 7,
+   "indet_cred": 0,
+   "indet_wrong": 1,
+   "A_point": 0.01283987915407855,
+   "A_lo": 0.0021393281548880722,
+   "A_hi": 0.42424429248308776,
+   "sampling_lo": 0.006775611359113982,
+   "sampling_hi": 0.01890414694904312
+  },
+  {
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "a_sb": 0.024924471299093656,
+   "a_em": 0.0,
+   "N": 1324,
+   "x_q": 4,
+   "n_q": 6,
+   "x_r": 0,
+   "n_r": 17,
+   "indet_cred": 0,
+   "indet_wrong": 3,
+   "A_point": 0.008308157099697887,
+   "A_lo": 0.0020524445566611387,
+   "A_hi": 0.2400117258848647,
+   "sampling_lo": 0.016527238221013027,
+   "sampling_hi": 0.033321704377174285
+  },
+  {
+   "model": "01-ai/Yi-34B",
+   "a_sb": 0.0256797583081571,
+   "a_em": 0.0445619335347432,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 2,
+   "x_r": 0,
+   "n_r": 9,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.0256797583081571,
+   "A_lo": 0.007335158506882482,
+   "A_hi": 0.37373303600283975,
+   "sampling_lo": 0.0171595457305831,
+   "sampling_hi": 0.0341999708857311
+  },
+  {
+   "model": "bigcode/starcoder2-15b",
+   "a_sb": 0.04682779456193353,
+   "a_em": 0.05362537764350453,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 4,
+   "x_r": 0,
+   "n_r": 10,
+   "indet_cred": 0,
+   "indet_wrong": 1,
+   "A_point": 0.04682779456193353,
+   "A_lo": 0.020808127281607396,
+   "A_hi": 0.36462928430373337,
+   "sampling_lo": 0.035447810888370235,
+   "sampling_hi": 0.05820777823549683
+  },
+  {
+   "model": "google/gemma-7b",
+   "a_sb": 0.04909365558912387,
+   "a_em": 0.06419939577039276,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 2,
+   "x_r": 0,
+   "n_r": 6,
+   "indet_cred": 0,
+   "indet_wrong": 1,
+   "A_point": 0.04909365558912387,
+   "A_lo": 0.014023097145510626,
+   "A_hi": 0.48140998207769603,
+   "sampling_lo": 0.037455459769991206,
+   "sampling_hi": 0.06073185140825653
+  },
+  {
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "a_sb": 0.06797583081570997,
+   "a_em": 0.0755287009063444,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 6,
+   "x_r": 0,
+   "n_r": 14,
+   "indet_cred": 1,
+   "indet_wrong": 0,
+   "A_point": 0.06797583081570997,
+   "A_lo": 0.037071566015097195,
+   "A_hi": 0.3133114078015642,
+   "sampling_lo": 0.05441785198850974,
+   "sampling_hi": 0.08153380964291021
+  },
+  {
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "a_sb": 0.1268882175226586,
+   "a_em": 0.18353474320241692,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 15,
+   "x_r": 0,
+   "n_r": 2,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.1268882175226586,
+   "A_lo": 0.0951574667883994,
+   "A_hi": 0.7506046107659956,
+   "sampling_lo": 0.10895948142361958,
+   "sampling_hi": 0.14481695362169764
+  },
+  {
+   "model": "Qwen/Qwen2-7B",
+   "a_sb": 0.16540785498489427,
+   "a_em": 0.18806646525679757,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 15,
+   "x_r": 0,
+   "n_r": 11,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.16540785498489427,
+   "A_lo": 0.12404455492059208,
+   "A_hi": 0.4262834395897921,
+   "sampling_lo": 0.14539452698009947,
+   "sampling_hi": 0.18542118298968907
+  },
+  {
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "a_sb": 0.18504531722054382,
+   "a_em": 0.1163141993957704,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 6,
+   "x_r": 0,
+   "n_r": 1,
+   "indet_cred": 8,
+   "indet_wrong": 3,
+   "A_point": 0.18504531722054382,
+   "A_lo": 0.10091704081887569,
+   "A_hi": 0.8642155835809276,
+   "sampling_lo": 0.16412781222801026,
+   "sampling_hi": 0.20596282221307738
+  },
+  {
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "a_sb": 0.20619335347432025,
+   "a_em": 0.23338368580060423,
+   "N": 1324,
+   "x_q": 1,
+   "n_q": 29,
+   "x_r": 0,
+   "n_r": 9,
+   "indet_cred": 0,
+   "indet_wrong": 1,
+   "A_point": 0.19908323783727472,
+   "A_lo": 0.16477396589625418,
+   "A_hi": 0.48872135453563637,
+   "sampling_lo": 0.18440126776561935,
+   "sampling_hi": 0.22798543918302114
+  },
+  {
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "a_sb": 0.22885196374622357,
+   "a_em": 0.23338368580060423,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 27,
+   "x_r": 0,
+   "n_r": 10,
+   "indet_cred": 0,
+   "indet_wrong": 0,
+   "A_point": 0.22885196374622357,
+   "A_lo": 0.19308281587249304,
+   "A_hi": 0.4859639455420854,
+   "sampling_lo": 0.20622374845517505,
+   "sampling_hi": 0.2514801790372721
+  },
+  {
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "a_sb": 0.3391238670694864,
+   "a_em": 0.3512084592145015,
+   "N": 1324,
+   "x_q": 0,
+   "n_q": 42,
+   "x_r": 0,
+   "n_r": 4,
+   "indet_cred": 2,
+   "indet_wrong": 0,
+   "A_point": 0.3391238670694864,
+   "A_lo": 0.30303507521208295,
+   "A_hi": 0.7063369133644117,
+   "sampling_lo": 0.3136236830901715,
+   "sampling_hi": 0.36462405104880125
+  }
+ ],
+ "pairwise": {
+  "per_parameter_95": {
+   "n_models": 17,
+   "n_pairs": 136,
+   "n_resolved": 3,
+   "n_resolved_by_sampling_alone": 119,
+   "median_w_audit": 0.7175174986096102,
+   "median_w_sampling": 0.04161800431455416,
+   "median_ratio": 20.191525921239602,
+   "min_ratio": 8.147758087938804,
+   "pairs": [
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-1.5-9B-Chat"
+     ],
+     "lo": -0.660893102522528,
+     "hi": 0.3295803952700067,
+     "w_audit": 0.9904734977925347,
+     "w_sampling": 0.06041314475006355,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.14636426879990097,
+     "hi": 0.4336039382682925,
+     "w_audit": 0.5799682070681935,
+     "w_sampling": 0.04679696664966294,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.09787213672995468,
+     "hi": 0.4009536466244343,
+     "w_audit": 0.498825783354389,
+     "w_sampling": 0.051330840219664275,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.0263928332271767,
+     "hi": 0.43998420343250055,
+     "w_audit": 0.4663770366596772,
+     "w_sampling": 0.04670796604019394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.18647786505889472,
+     "hi": 0.44146015559737656,
+     "w_audit": 0.6279380206562712,
+     "w_sampling": 0.04418070942316906,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.5302852237700963,
+     "hi": 0.34137835112227133,
+     "w_audit": 0.8716635748923677,
+     "w_sampling": 0.05643880146297762,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.4921024626212147,
+     "hi": 0.13169048302432823,
+     "w_audit": 0.6237929456455429,
+     "w_sampling": 0.06708664196438134,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.21064925000530457,
+     "hi": 0.31071222459917525,
+     "w_audit": 0.5213614746044798,
+     "w_sampling": 0.059175275153153954,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.14058577989582097,
+     "hi": 0.4185088927388871,
+     "w_audit": 0.559094672634708,
+     "w_sampling": 0.04916905644593694,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.24948644135842626,
+     "hi": 0.42558748287358394,
+     "w_audit": 0.6750739242320102,
+     "w_sampling": 0.0494102257213967,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.2720922711879057,
+     "hi": 0.2420488794672847,
+     "w_audit": 0.5141411506551904,
+     "w_sampling": 0.06283091999305467,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.32412089646793507,
+     "hi": 0.43903444030986927,
+     "w_audit": 0.7631553367778043,
+     "w_sampling": 0.04485993259545782,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.1918421892088686,
+     "hi": 0.4397441114661758,
+     "w_audit": 0.6315863006750444,
+     "w_sampling": 0.0452402627500951,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.1577111292299657,
+     "hi": 0.4403274169864352,
+     "w_audit": 0.5980385462164008,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.26712092441007795,
+     "hi": 0.4411481475735219,
+     "w_audit": 0.7082690719835998,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.39171205380870344,
+     "hi": 0.4419281676331586,
+     "w_audit": 0.8336402214418621,
+     "w_sampling": 0.043884132967792165,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.20432705300883552,
+     "hi": 0.8228794297297484,
+     "w_audit": 1.0272064827385838,
+     "w_sampling": 0.04517238260174979,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.15583492093888923,
+     "hi": 0.7902291380858901,
+     "w_audit": 0.9460640590247793,
+     "w_sampling": 0.04985421968064394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.08435561743611124,
+     "hi": 0.8292596948939563,
+     "w_audit": 0.9136153123300675,
+     "w_sampling": 0.045080174732592966,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.24444064926782927,
+     "hi": 0.8307356470588324,
+     "w_audit": 1.0751762963266618,
+     "w_sampling": 0.042456132035828494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.5882480079790309,
+     "hi": 0.7306538425837271,
+     "w_audit": 1.3189018505627579,
+     "w_sampling": 0.05509924112804647,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.5500652468301492,
+     "hi": 0.520965974485784,
+     "w_audit": 1.0710312213159332,
+     "w_sampling": 0.06596366873034197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.2686120342142391,
+     "hi": 0.699987716060631,
+     "w_audit": 0.9685997502748702,
+     "w_sampling": 0.05789906088841755,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.19854856410475552,
+     "hi": 0.8077843842003429,
+     "w_audit": 1.0063329483050985,
+     "w_sampling": 0.04762545720613017,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.3074492255673608,
+     "hi": 0.8148629743350397,
+     "w_audit": 1.1223121999024006,
+     "w_sampling": 0.04787440305788235,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.3300550553968402,
+     "hi": 0.6313243709287405,
+     "w_audit": 0.9613794263255807,
+     "w_sampling": 0.06163045164107463,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.38208368067686965,
+     "hi": 0.8283099317713251,
+     "w_audit": 1.2103936124481947,
+     "w_sampling": 0.04316250241561791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.24980497341780317,
+     "hi": 0.8290196029276315,
+     "w_audit": 1.0788245763454347,
+     "w_sampling": 0.043557656456779725,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.21567391343890024,
+     "hi": 0.829602908447891,
+     "w_audit": 1.0452768218867912,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.3250837086190125,
+     "hi": 0.8304236390349776,
+     "w_audit": 1.15550734765399,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.44967483801763797,
+     "hi": 0.8312036590946144,
+     "w_audit": 1.2808784971122522,
+     "w_sampling": 0.04214742208776316,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.25985846393717504,
+     "hi": 0.2757003043632631,
+     "w_audit": 0.5355587683004381,
+     "w_sampling": 0.03202579037250197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.18837916043439706,
+     "hi": 0.31473086117132937,
+     "w_audit": 0.5031100216057265,
+     "w_sampling": 0.02392551322205329,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.3484641922661151,
+     "hi": 0.3162068133362054,
+     "w_audit": 0.6646710056023204,
+     "w_sampling": 0.018513000201513433,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6922715509773167,
+     "hi": 0.21612500886110014,
+     "w_audit": 0.9083965598384169,
+     "w_sampling": 0.03970055921399775,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6540887898284351,
+     "hi": 0.006437140763157045,
+     "w_audit": 0.6605259305915921,
+     "w_sampling": 0.05377186644876509,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.37263557721252494,
+     "hi": 0.1854588823380041,
+     "w_audit": 0.558094459550529,
+     "w_sampling": 0.043502980136747145,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.30257210710304133,
+     "hi": 0.2932555504777159,
+     "w_audit": 0.5958276575807573,
+     "w_sampling": 0.0284322387987733,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.41147276856564663,
+     "hi": 0.3003341406124128,
+     "w_audit": 0.7118069091780594,
+     "w_sampling": 0.028847296184670558,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.434078598395126,
+     "hi": 0.11679553720611352,
+     "w_audit": 0.5508741356012395,
+     "w_sampling": 0.04835825264109914,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.48610722367515546,
+     "hi": 0.31378109804869814,
+     "w_audit": 0.7998883217238536,
+     "w_sampling": 0.020080080771644214,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.353828516416089,
+     "hi": 0.3144907692050046,
+     "w_audit": 0.6683192856210936,
+     "w_sampling": 0.020915961967463478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.31969745643718606,
+     "hi": 0.315074074725264,
+     "w_audit": 0.63477153116245,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.4291072516172983,
+     "hi": 0.3158948053123507,
+     "w_audit": 0.7450020569296489,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5536983810159238,
+     "hi": 0.31667482537198743,
+     "w_audit": 0.8703732063879113,
+     "w_sampling": 0.017793628569282884,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.15572886879053882,
+     "hi": 0.2662387291013831,
+     "w_audit": 0.4219675978919219,
+     "w_sampling": 0.03189559927302958,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.31581390062225684,
+     "hi": 0.2677146812662591,
+     "w_audit": 0.5835285818885159,
+     "w_sampling": 0.028064750961094852,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6596212593334585,
+     "hi": 0.16763287679115385,
+     "w_audit": 0.8272541361246124,
+     "w_sampling": 0.044955905862869454,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6214384981845769,
+     "hi": -0.04205499130678925,
+     "w_audit": 0.5793835068777876,
+     "w_sampling": 0.05776082315402774,
+     "resolved": true,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.3399852855686667,
+     "hi": 0.1369667502680578,
+     "w_audit": 0.4769520358367245,
+     "w_sampling": 0.04834675119204242,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.2699218154591831,
+     "hi": 0.2447634184077696,
+     "w_audit": 0.5146852338669528,
+     "w_sampling": 0.035401854092088285,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "google/gemma-7b"
+     ],
+     "lo": -0.3788224769217884,
+     "hi": 0.2518420085424665,
+     "w_audit": 0.6306644854642549,
+     "w_sampling": 0.03573605416401126,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4014283067512678,
+     "hi": 0.06830340513616723,
+     "w_audit": 0.469731711887435,
+     "w_sampling": 0.052758124194738104,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4534569320312972,
+     "hi": 0.26528896597875185,
+     "w_audit": 0.7187458980100491,
+     "w_sampling": 0.02912230612164486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.32117822477223074,
+     "hi": 0.26599863713505834,
+     "w_audit": 0.587176861907289,
+     "w_sampling": 0.029704823431076256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.2870471647933278,
+     "hi": 0.2665819426553177,
+     "w_audit": 0.5536291074486455,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.39645695997344005,
+     "hi": 0.2674026732424044,
+     "w_audit": 0.6638596332158444,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5210480893720656,
+     "hi": 0.26818269330204114,
+     "w_audit": 0.7892307826741067,
+     "w_sampling": 0.027595512093611132,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.3548444574303231,
+     "hi": 0.1962353777634811,
+     "w_audit": 0.5510798351938042,
+     "w_sampling": 0.018286858135379117,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6986518161415247,
+     "hi": 0.09615357328837586,
+     "w_audit": 0.7948053894299005,
+     "w_sampling": 0.039595610942456574,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6604690549926431,
+     "hi": -0.11353429480956723,
+     "w_audit": 0.5469347601830759,
+     "w_sampling": 0.05369442825271607,
+     "resolved": true,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.37901584237673297,
+     "hi": 0.06548744676527982,
+     "w_audit": 0.44450328914201276,
+     "w_sampling": 0.04340722618159863,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.30895237226724936,
+     "hi": 0.17328411490499163,
+     "w_audit": 0.482236487172241,
+     "w_sampling": 0.028285512318370953,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "google/gemma-7b"
+     ],
+     "lo": -0.41785303372985466,
+     "hi": 0.18036270503968851,
+     "w_audit": 0.5982157387695431,
+     "w_sampling": 0.02870269153177718,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.44045886355933406,
+     "hi": -0.003175898366610752,
+     "w_audit": 0.4372829651927233,
+     "w_sampling": 0.048272130701913475,
+     "resolved": true,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4924874888393635,
+     "hi": 0.19380966247597384,
+     "w_audit": 0.6862971513153373,
+     "w_sampling": 0.019871780186938477,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.360208781580297,
+     "hi": 0.19451933363228033,
+     "w_audit": 0.5547281152125774,
+     "w_sampling": 0.020716067894912486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3260777216013941,
+     "hi": 0.19510263915253973,
+     "w_audit": 0.5211803607539338,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.4354875167815063,
+     "hi": 0.19592336973962643,
+     "w_audit": 0.6314108865211328,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5600786461801318,
+     "hi": 0.19670338979926313,
+     "w_audit": 0.756782035979395,
+     "w_sampling": 0.017558223761640727,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7001277683064008,
+     "hi": 0.2562386051200939,
+     "w_audit": 0.9563663734264947,
+     "w_sampling": 0.03658023235887077,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6619450071575191,
+     "hi": 0.04655073702215079,
+     "w_audit": 0.70849574417967,
+     "w_sampling": 0.051511092192931256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.380491794541609,
+     "hi": 0.22557247859699783,
+     "w_audit": 0.6060642731386068,
+     "w_sampling": 0.04067540139080438,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.31042832443212537,
+     "hi": 0.33336914673670964,
+     "w_audit": 0.643797471168835,
+     "w_sampling": 0.023882445449227015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.41932898589473067,
+     "hi": 0.3404477368714065,
+     "w_audit": 0.7597767227661372,
+     "w_sampling": 0.024375099890891583,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.44193481572421006,
+     "hi": 0.15690913346510726,
+     "w_audit": 0.5988439491893174,
+     "w_sampling": 0.04583120766492202,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4939634410042395,
+     "hi": 0.3538946943076918,
+     "w_audit": 0.8478581353119313,
+     "w_sampling": 0.012852573334573512,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.361684733745173,
+     "hi": 0.35460436546399837,
+     "w_audit": 0.7162890992091714,
+     "w_sampling": 0.014122905598679516,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3275536737662701,
+     "hi": 0.35518767098425774,
+     "w_audit": 0.6827413447505278,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.4369634689463823,
+     "hi": 0.35600840157134445,
+     "w_audit": 0.7929718705177268,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5615545983450079,
+     "hi": 0.3567884216309812,
+     "w_audit": 0.918343019975989,
+     "w_sampling": 0.008865225049959782,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.5618632026824139,
+     "hi": 0.3903580957333524,
+     "w_audit": 0.9522212984157663,
+     "w_sampling": 0.062344172497127336,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.28040999006650374,
+     "hi": 0.5693798373081994,
+     "w_audit": 0.8497898273747031,
+     "w_sampling": 0.05373910590757867,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.21034651995702014,
+     "hi": 0.6771765054479113,
+     "w_audit": 0.8875230254049314,
+     "w_sampling": 0.04247086561489193,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "google/gemma-7b"
+     ],
+     "lo": -0.31924718141962544,
+     "hi": 0.6842550955826081,
+     "w_audit": 1.0035022770022335,
+     "w_sampling": 0.04274983883167103,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.34185301124910483,
+     "hi": 0.5007164921763089,
+     "w_audit": 0.8425695034254137,
+     "w_sampling": 0.05773995862024939,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.39388163652913427,
+     "hi": 0.6977020530188934,
+     "w_audit": 1.0915836895480278,
+     "w_sampling": 0.037397752161908014,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.2616029292700678,
+     "hi": 0.6984117241751999,
+     "w_audit": 0.9600146534452677,
+     "w_sampling": 0.037853133133099015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.22747186929116486,
+     "hi": 0.6989950296954593,
+     "w_audit": 0.9264668989866243,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.3368816644712771,
+     "hi": 0.699815760282546,
+     "w_audit": 1.036697424753823,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.4614727938699026,
+     "hi": 0.7005957803421827,
+     "w_audit": 1.1620685742120853,
+     "w_sampling": 0.036221477615212494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.07072212196856065,
+     "hi": 0.5311970761593178,
+     "w_audit": 0.6019191981278784,
+     "w_sampling": 0.06483186502967228,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.0006586518590770418,
+     "hi": 0.6389937442990297,
+     "w_audit": 0.6396523961581067,
+     "w_sampling": 0.05584848830145626,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "google/gemma-7b"
+     ],
+     "lo": -0.10955931332168234,
+     "hi": 0.6460723344337265,
+     "w_audit": 0.7556316477554088,
+     "w_sampling": 0.05606093059888977,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.13216514315116173,
+     "hi": 0.46253373102742723,
+     "w_audit": 0.594698874178589,
+     "w_sampling": 0.06818491065439478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.18419376843119117,
+     "hi": 0.6595192918700118,
+     "w_audit": 0.843713060301203,
+     "w_sampling": 0.0520948278262169,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.05191506117212469,
+     "hi": 0.6602289630263183,
+     "w_audit": 0.7121440241984429,
+     "w_sampling": 0.05242269458423332,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.017784001193221766,
+     "hi": 0.6608122685465777,
+     "w_audit": 0.6785962697397995,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.127193796373334,
+     "hi": 0.6616329991336644,
+     "w_audit": 0.7888267955069983,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.2517849257719595,
+     "hi": 0.6624130191933011,
+     "w_audit": 0.9141979449652606,
+     "w_sampling": 0.0512569474326069,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.17968039343392408,
+     "hi": 0.3575405316831195,
+     "w_audit": 0.5372209251170436,
+     "w_sampling": 0.04604507905251423,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.2885810548965294,
+     "hi": 0.3646191218178164,
+     "w_audit": 0.6532001767143458,
+     "w_sampling": 0.04630252259875182,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.31118688472600875,
+     "hi": 0.18108051841151712,
+     "w_audit": 0.49226740313752587,
+     "w_sampling": 0.06041752808864483,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.36321551000603824,
+     "hi": 0.37806607925410174,
+     "w_audit": 0.74128158926014,
+     "w_sampling": 0.041412156978809615,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.23093680274697173,
+     "hi": 0.37877575041040823,
+     "w_audit": 0.6097125531573799,
+     "w_sampling": 0.041823851650298706,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.1968057427680688,
+     "hi": 0.3793590559306676,
+     "w_audit": 0.5761647986987364,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.306215537948181,
+     "hi": 0.3801797865177543,
+     "w_audit": 0.6863953244659353,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.4308066673468065,
+     "hi": 0.38095980657739104,
+     "w_audit": 0.8117664739241975,
+     "w_sampling": 0.04035307075680133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.3963777230362412,
+     "hi": 0.29455565170833276,
+     "w_audit": 0.690933374744574,
+     "w_sampling": 0.03255466973170173,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4189835528657206,
+     "hi": 0.11101704830203352,
+     "w_audit": 0.530000601167754,
+     "w_sampling": 0.05065728597817337,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.47101217814575,
+     "hi": 0.3080026091446181,
+     "w_audit": 0.7790147872903681,
+     "w_sampling": 0.025116720884100767,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.33873347088668354,
+     "hi": 0.3087122803009246,
+     "w_audit": 0.6474457511876082,
+     "w_sampling": 0.02578987183369562,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3046024109077806,
+     "hi": 0.309295585821184,
+     "w_audit": 0.6138979967289646,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.41401220608789285,
+     "hi": 0.3101163164082707,
+     "w_audit": 0.7241285224961636,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5386033354865184,
+     "hi": 0.31089633646790743,
+     "w_audit": 0.8494996719544259,
+     "w_sampling": 0.02332923577478842,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.42606214300041745,
+     "hi": 0.2199177097646388,
+     "w_audit": 0.6459798527650562,
+     "w_sampling": 0.05089140317116515,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.47809076828044694,
+     "hi": 0.41690327060722343,
+     "w_audit": 0.8949940388876704,
+     "w_sampling": 0.02558562021967539,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3458120610213804,
+     "hi": 0.4176129417635299,
+     "w_audit": 0.7634250027849103,
+     "w_sampling": 0.026246748051026916,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.31168100104247753,
+     "hi": 0.4181962472837893,
+     "w_audit": 0.7298772483262668,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.4210907962225897,
+     "hi": 0.419016977870876,
+     "w_audit": 0.8401077740934657,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5456819256212152,
+     "hi": 0.4197969979305127,
+     "w_audit": 0.9654789235517279,
+     "w_sampling": 0.023833328258791437,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.29455216487414765,
+     "hi": 0.43950910043670277,
+     "w_audit": 0.7340612653108505,
+     "w_sampling": 0.0464863212500164,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.16227345761508116,
+     "hi": 0.4402187715930093,
+     "w_audit": 0.6024922292080905,
+     "w_sampling": 0.046853451149177355,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.12814239763617824,
+     "hi": 0.4408020771132687,
+     "w_audit": 0.568944474749447,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.23755219281629048,
+     "hi": 0.4416228077003554,
+     "w_audit": 0.6791750005166459,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.36214332221491596,
+     "hi": 0.4424028277599921,
+     "w_audit": 0.804546149974908,
+     "w_sampling": 0.04554537997673936,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3592590184576657,
+     "hi": 0.49224739687303876,
+     "w_audit": 0.8515064153307045,
+     "w_sampling": 0.016122497631686366,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.32512795847876286,
+     "hi": 0.4928307023932981,
+     "w_audit": 0.817958660872061,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.43453775365887504,
+     "hi": 0.49365143298038483,
+     "w_audit": 0.9281891866392599,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5591288830575005,
+     "hi": 0.49443145304002156,
+     "w_audit": 1.053560336097522,
+     "w_sampling": 0.011792823348161952,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.32583762963506935,
+     "hi": 0.36055199513423164,
+     "w_audit": 0.686389624769301,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.4352474248151816,
+     "hi": 0.36137272572131834,
+     "w_audit": 0.7966201505364999,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.559838554213807,
+     "hi": 0.3621527457809551,
+     "w_audit": 0.9219912999947621,
+     "w_sampling": 0.013165808131276133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.43583073033544095,
+     "hi": 0.3272416657424154,
+     "w_audit": 0.7630723960778564,
+     "w_sampling": 0.011806850071663428,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5604218597340664,
+     "hi": 0.32802168580205215,
+     "w_audit": 0.8884435455361186,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "tiiuae/falcon-40b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5612425903211531,
+     "hi": 0.4374314809821644,
+     "w_audit": 0.9986740713033175,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    }
+   ]
+  },
+  "joint_95_sidak": {
+   "n_models": 17,
+   "n_pairs": 136,
+   "n_resolved": 1,
+   "n_resolved_by_sampling_alone": 119,
+   "median_w_audit": 0.9420675295903931,
+   "median_w_sampling": 0.04161800431455416,
+   "median_ratio": 25.528863131899755,
+   "min_ratio": 11.272373866293416,
+   "pairs": [
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-1.5-9B-Chat"
+     ],
+     "lo": -0.7278634712577867,
+     "hi": 0.438272931513483,
+     "w_audit": 1.1661364027712697,
+     "w_sampling": 0.06041314475006355,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.26425503902761616,
+     "hi": 0.5229842910569837,
+     "w_audit": 0.7872393300845999,
+     "w_sampling": 0.04679696664966294,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.19517002023777844,
+     "hi": 0.49582611387200104,
+     "w_audit": 0.6909961341097794,
+     "w_sampling": 0.051330840219664275,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.1207620398762034,
+     "hi": 0.5274636795138254,
+     "w_audit": 0.6482257193900288,
+     "w_sampling": 0.04670796604019394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.31326482172964776,
+     "hi": 0.5286150918283832,
+     "w_audit": 0.8418799135580309,
+     "w_sampling": 0.04418070942316906,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6281452508355503,
+     "hi": 0.4394844140641534,
+     "w_audit": 1.0676296648997037,
+     "w_sampling": 0.05643880146297762,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.58192963238549,
+     "hi": 0.2337705213288631,
+     "w_audit": 0.8157001537143531,
+     "w_sampling": 0.06708664196438134,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.30737216306079584,
+     "hi": 0.4122359407920093,
+     "w_audit": 0.7196081038528052,
+     "w_sampling": 0.059175275153153954,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.252769670040458,
+     "hi": 0.5108886323884357,
+     "w_audit": 0.7636583024288938,
+     "w_sampling": 0.04916905644593694,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.3734980744667221,
+     "hi": 0.517276826653488,
+     "w_audit": 0.8907749011202101,
+     "w_sampling": 0.0494102257213967,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.3650979691324383,
+     "hi": 0.34315565139244353,
+     "w_audit": 0.7082536205248818,
+     "w_sampling": 0.06283091999305467,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4528493124679467,
+     "hi": 0.5268506379109649,
+     "w_audit": 0.9796999503789116,
+     "w_sampling": 0.04485993259545782,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.31766910837314377,
+     "hi": 0.5274619271839731,
+     "w_audit": 0.8451310355571169,
+     "w_sampling": 0.0452402627500951,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.2811859035411408,
+     "hi": 0.5277711966857223,
+     "w_audit": 0.8089571002268631,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.39743179713715826,
+     "hi": 0.5284054255293995,
+     "w_audit": 0.9258372226665578,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.515794999267266,
+     "hi": 0.5289295912768586,
+     "w_audit": 1.0447245905441247,
+     "w_sampling": 0.043884132967792165,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.3323054402563062,
+     "hi": 0.8806252320299776,
+     "w_audit": 1.2129306722862838,
+     "w_sampling": 0.04517238260174979,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.2632204214664685,
+     "hi": 0.8534670548449949,
+     "w_audit": 1.1166874763114634,
+     "w_sampling": 0.04985421968064394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.18881244110489348,
+     "hi": 0.8851046204868193,
+     "w_audit": 1.0739170615917129,
+     "w_sampling": 0.045080174732592966,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.3813152229583378,
+     "hi": 0.886256032801377,
+     "w_audit": 1.2675712557597147,
+     "w_sampling": 0.042456132035828494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6961956520642404,
+     "hi": 0.7971253550371472,
+     "w_audit": 1.4933210071013876,
+     "w_sampling": 0.05509924112804647,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6499800336141801,
+     "hi": 0.5914114623018569,
+     "w_audit": 1.241391495916037,
+     "w_sampling": 0.06596366873034197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.37542256428948595,
+     "hi": 0.7698768817650031,
+     "w_audit": 1.145299446054489,
+     "w_sampling": 0.05789906088841755,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.32082007126914813,
+     "hi": 0.8685295733614296,
+     "w_audit": 1.1893496446305778,
+     "w_sampling": 0.04762545720613017,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.4415484756954122,
+     "hi": 0.8749177676264818,
+     "w_audit": 1.3164662433218939,
+     "w_sampling": 0.04787440305788235,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4331483703611284,
+     "hi": 0.7007965923654373,
+     "w_audit": 1.1339449627265656,
+     "w_sampling": 0.06163045164107463,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5208997136966368,
+     "hi": 0.8844915788839587,
+     "w_audit": 1.4053912925805956,
+     "w_sampling": 0.04316250241561791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3857195096018339,
+     "hi": 0.8851028681569669,
+     "w_audit": 1.2708223777588008,
+     "w_sampling": 0.043557656456779725,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3492363047698309,
+     "hi": 0.8854121376587161,
+     "w_audit": 1.234648442428547,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.46548219836584837,
+     "hi": 0.8860463665023933,
+     "w_audit": 1.3515285648682416,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5838454004959561,
+     "hi": 0.8865705322498524,
+     "w_audit": 1.4704159327458086,
+     "w_sampling": 0.04214742208776316,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.3479317810099693,
+     "hi": 0.38985862261482424,
+     "w_audit": 0.7377904036247935,
+     "w_sampling": 0.03202579037250197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.27352380064839427,
+     "hi": 0.42149618825664864,
+     "w_audit": 0.6950199889050429,
+     "w_sampling": 0.02392551322205329,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.4660265825018386,
+     "hi": 0.42264760057120637,
+     "w_audit": 0.8886741830730449,
+     "w_sampling": 0.018513000201513433,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7809070116077411,
+     "hi": 0.33351692280697665,
+     "w_audit": 1.1144239344147178,
+     "w_sampling": 0.03970055921399775,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7346913931576808,
+     "hi": 0.1278030300716863,
+     "w_audit": 0.8624944232293672,
+     "w_sampling": 0.05377186644876509,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.46013392383298674,
+     "hi": 0.3062684495348325,
+     "w_audit": 0.7664023733678192,
+     "w_sampling": 0.043502980136747145,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.4055314308126489,
+     "hi": 0.4049211411312589,
+     "w_audit": 0.8104525719439077,
+     "w_sampling": 0.0284322387987733,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.526259835238913,
+     "hi": 0.4113093353963112,
+     "w_audit": 0.9375691706352242,
+     "w_sampling": 0.028847296184670558,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5178597299046291,
+     "hi": 0.2371881601352667,
+     "w_audit": 0.7550478900398958,
+     "w_sampling": 0.04835825264109914,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.6056110732401375,
+     "hi": 0.42088314665378807,
+     "w_audit": 1.0264942198939255,
+     "w_sampling": 0.020080080771644214,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.47043086914533466,
+     "hi": 0.42149443592679636,
+     "w_audit": 0.891925305072131,
+     "w_sampling": 0.020915961967463478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4339476643133317,
+     "hi": 0.42180370542854545,
+     "w_audit": 0.8557513697418772,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5501935579093491,
+     "hi": 0.4224379342722227,
+     "w_audit": 0.9726314921815717,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6685567600394569,
+     "hi": 0.4229621000196818,
+     "w_audit": 1.0915188600591388,
+     "w_sampling": 0.017793628569282884,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.2463656234634115,
+     "hi": 0.35241116946681095,
+     "w_audit": 0.5987767929302225,
+     "w_sampling": 0.03189559927302958,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.43886840531685584,
+     "hi": 0.3535625817813687,
+     "w_audit": 0.7924309870982245,
+     "w_sampling": 0.028064750961094852,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7537488344227584,
+     "hi": 0.2644319040171389,
+     "w_audit": 1.0181807384398973,
+     "w_sampling": 0.044955905862869454,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7075332159726981,
+     "hi": 0.058718011281848614,
+     "w_audit": 0.7662512272545468,
+     "w_sampling": 0.05776082315402774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.432975746648004,
+     "hi": 0.23718343074499482,
+     "w_audit": 0.6701591773929988,
+     "w_sampling": 0.04834675119204242,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.37837325362766616,
+     "hi": 0.33583612234142124,
+     "w_audit": 0.7142093759690874,
+     "w_sampling": 0.035401854092088285,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "google/gemma-7b"
+     ],
+     "lo": -0.49910165805393025,
+     "hi": 0.3422243166064735,
+     "w_audit": 0.8413259746604038,
+     "w_sampling": 0.03573605416401126,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.49070155271964644,
+     "hi": 0.168103141345429,
+     "w_audit": 0.6588046940650755,
+     "w_sampling": 0.052758124194738104,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5784528960551548,
+     "hi": 0.35179812786395037,
+     "w_audit": 0.9302510239191052,
+     "w_sampling": 0.02912230612164486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4432726919603519,
+     "hi": 0.35240941713695867,
+     "w_audit": 0.7956821090973105,
+     "w_sampling": 0.029704823431076256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.40678948712834895,
+     "hi": 0.35271868663870776,
+     "w_audit": 0.7595081737670567,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5230353807243664,
+     "hi": 0.353352915482385,
+     "w_audit": 0.8763882962067514,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6413985828544742,
+     "hi": 0.3538770812298441,
+     "w_audit": 0.9952756640843183,
+     "w_sampling": 0.027595512093611132,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.47050597095868024,
+     "hi": 0.27915460141979365,
+     "w_audit": 0.7496605723784739,
+     "w_sampling": 0.018286858135379117,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7853864000645828,
+     "hi": 0.1900239236555639,
+     "w_audit": 0.9754103237201467,
+     "w_sampling": 0.039595610942456574,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7391707816145225,
+     "hi": -0.015689969079726418,
+     "w_audit": 0.7234808125347961,
+     "w_sampling": 0.05369442825271607,
+     "resolved": true,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.4646133122898284,
+     "hi": 0.16277545038341978,
+     "w_audit": 0.6273887626732482,
+     "w_sampling": 0.04340722618159863,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.41001081926949057,
+     "hi": 0.2614281419798462,
+     "w_audit": 0.6714389612493368,
+     "w_sampling": 0.028285512318370953,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5307392236957547,
+     "hi": 0.2678163362448985,
+     "w_audit": 0.7985555599406531,
+     "w_sampling": 0.02870269153177718,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5223391183614708,
+     "hi": 0.09369516098385397,
+     "w_audit": 0.6160342793453248,
+     "w_sampling": 0.048272130701913475,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.6100904616969792,
+     "hi": 0.27739014750237534,
+     "w_audit": 0.8874806091993546,
+     "w_sampling": 0.019871780186938477,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4749102576021763,
+     "hi": 0.27800143677538364,
+     "w_audit": 0.75291169437756,
+     "w_sampling": 0.020716067894912486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.43842705277017335,
+     "hi": 0.2783107062771327,
+     "w_audit": 0.7167377590473061,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5546729463661908,
+     "hi": 0.27894493512081,
+     "w_audit": 0.8336178814870008,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6730361484962986,
+     "hi": 0.2794691008682691,
+     "w_audit": 0.9525052493645676,
+     "w_sampling": 0.017558223761640727,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7865378123791406,
+     "hi": 0.38252670550900825,
+     "w_audit": 1.169064517888149,
+     "w_sampling": 0.03658023235887077,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7403221939290803,
+     "hi": 0.1768128127737179,
+     "w_audit": 0.9171350067027981,
+     "w_sampling": 0.051511092192931256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.4657647246043861,
+     "hi": 0.3552782322368641,
+     "w_audit": 0.8210429568412503,
+     "w_sampling": 0.04067540139080438,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.4111622315840483,
+     "hi": 0.4539309238332905,
+     "w_audit": 0.8650931554173388,
+     "w_sampling": 0.023882445449227015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5318906360103124,
+     "hi": 0.4603191180983428,
+     "w_audit": 0.9922097541086552,
+     "w_sampling": 0.024375099890891583,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5234905306760286,
+     "hi": 0.28619794283729827,
+     "w_audit": 0.8096884735133268,
+     "w_sampling": 0.04583120766492202,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.611241874011537,
+     "hi": 0.46989292935581967,
+     "w_audit": 1.0811348033673567,
+     "w_sampling": 0.012852573334573512,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.47606166991673404,
+     "hi": 0.47050421862882796,
+     "w_audit": 0.946565888545562,
+     "w_sampling": 0.014122905598679516,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4395784650847311,
+     "hi": 0.47081348813057705,
+     "w_audit": 0.9103919532153082,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5558243586807485,
+     "hi": 0.4714477169742543,
+     "w_audit": 1.027272075655003,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6741875608108563,
+     "hi": 0.4719718827217134,
+     "w_audit": 1.1461594435325697,
+     "w_sampling": 0.008865225049959782,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6511915161648505,
+     "hi": 0.4916932418796205,
+     "w_audit": 1.142884758044471,
+     "w_sampling": 0.062344172497127336,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.37663404684015633,
+     "hi": 0.6701586613427667,
+     "w_audit": 1.046792708182923,
+     "w_sampling": 0.05373910590757867,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.3220315538198185,
+     "hi": 0.7688113529391931,
+     "w_audit": 1.0908429067590117,
+     "w_sampling": 0.04247086561489193,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "google/gemma-7b"
+     ],
+     "lo": -0.4427599582460826,
+     "hi": 0.7751995472042453,
+     "w_audit": 1.2179595054503278,
+     "w_sampling": 0.04274983883167103,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4343598529117988,
+     "hi": 0.6010783719432009,
+     "w_audit": 1.0354382248549996,
+     "w_sampling": 0.05773995862024939,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5221111962473072,
+     "hi": 0.7847733584617222,
+     "w_audit": 1.3068845547090295,
+     "w_sampling": 0.037397752161908014,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.38693099215250426,
+     "hi": 0.7853846477347305,
+     "w_audit": 1.1723156398872348,
+     "w_sampling": 0.037853133133099015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3504477873205013,
+     "hi": 0.7856939172364796,
+     "w_audit": 1.136141704556981,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.46669368091651875,
+     "hi": 0.7863281460801569,
+     "w_audit": 1.2530218269966755,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5850568830466265,
+     "hi": 0.786852311827616,
+     "w_audit": 1.3719091948742426,
+     "w_sampling": 0.036221477615212494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.17092015410486605,
+     "hi": 0.6239430428927064,
+     "w_audit": 0.7948631969975725,
+     "w_sampling": 0.06483186502967228,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.11631766108452823,
+     "hi": 0.7225957344891328,
+     "w_audit": 0.8389133955736611,
+     "w_sampling": 0.05584848830145626,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "google/gemma-7b"
+     ],
+     "lo": -0.23704606551079233,
+     "hi": 0.728983928754185,
+     "w_audit": 0.9660299942649774,
+     "w_sampling": 0.05606093059888977,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.2286459601765085,
+     "hi": 0.5548627534931406,
+     "w_audit": 0.7835087136696491,
+     "w_sampling": 0.06818491065439478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.3163973035120169,
+     "hi": 0.738557740011662,
+     "w_audit": 1.054955043523679,
+     "w_sampling": 0.0520948278262169,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.18121709941721398,
+     "hi": 0.7391690292846702,
+     "w_audit": 0.9203861287018842,
+     "w_sampling": 0.05242269458423332,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.14473389458521102,
+     "hi": 0.7394782987864194,
+     "w_audit": 0.8842121933716304,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.26097978818122847,
+     "hi": 0.7401125276300966,
+     "w_audit": 1.001092315811325,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.3793429903113362,
+     "hi": 0.7406366933775557,
+     "w_audit": 1.119979683688892,
+     "w_sampling": 0.0512569474326069,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.29478308054767444,
+     "hi": 0.4480382651644387,
+     "w_audit": 0.7428213457121131,
+     "w_sampling": 0.04604507905251423,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.4155114849739385,
+     "hi": 0.45442645942949095,
+     "w_audit": 0.8699379444034294,
+     "w_sampling": 0.04630252259875182,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4071113796396547,
+     "hi": 0.28030528416844647,
+     "w_audit": 0.6874166638081012,
+     "w_sampling": 0.06041752808864483,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4948627229751631,
+     "hi": 0.4640002706869678,
+     "w_audit": 0.9588629936621309,
+     "w_sampling": 0.041412156978809615,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3596825188803602,
+     "hi": 0.4646115599599761,
+     "w_audit": 0.8242940788403363,
+     "w_sampling": 0.041823851650298706,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.3231993140483572,
+     "hi": 0.4649208294617252,
+     "w_audit": 0.7881201435100824,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.43944520764437467,
+     "hi": 0.46555505830540245,
+     "w_audit": 0.9050002659497771,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5578084097744824,
+     "hi": 0.46607922405286156,
+     "w_audit": 1.023887633827344,
+     "w_sampling": 0.04035307075680133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.514164176570365,
+     "hi": 0.39982396640915313,
+     "w_audit": 0.913988142979518,
+     "w_sampling": 0.03255466973170173,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5057640712360811,
+     "hi": 0.22570279114810862,
+     "w_audit": 0.7314668623841898,
+     "w_sampling": 0.05065728597817337,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5935154145715895,
+     "hi": 0.40939777766663,
+     "w_audit": 1.0029131922382195,
+     "w_sampling": 0.025116720884100767,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4583352104767866,
+     "hi": 0.4100090669396383,
+     "w_audit": 0.868344277416425,
+     "w_sampling": 0.02578987183369562,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.42185200564478365,
+     "hi": 0.4103183364413874,
+     "w_audit": 0.832170342086171,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5380978992408011,
+     "hi": 0.41095256528506463,
+     "w_audit": 0.9490504645258657,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6564611013709089,
+     "hi": 0.41147673103252375,
+     "w_audit": 1.0679378324034325,
+     "w_sampling": 0.02332923577478842,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5121522655011334,
+     "hi": 0.34643119557437274,
+     "w_audit": 0.8585834610755061,
+     "w_sampling": 0.05089140317116515,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5999036088366417,
+     "hi": 0.5301261820928941,
+     "w_audit": 1.1300297909295358,
+     "w_sampling": 0.02558562021967539,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4647234047418389,
+     "hi": 0.5307374713659023,
+     "w_audit": 0.9954608761077413,
+     "w_sampling": 0.026246748051026916,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4282401999098359,
+     "hi": 0.5310467408676515,
+     "w_audit": 0.9592869407774873,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5444860935058533,
+     "hi": 0.5316809697113287,
+     "w_audit": 1.076167063217182,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6628492956359611,
+     "hi": 0.5322051354587878,
+     "w_audit": 1.1950544310947488,
+     "w_sampling": 0.023833328258791437,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4257824335755973,
+     "hi": 0.5217260767586103,
+     "w_audit": 0.9475085103342076,
+     "w_sampling": 0.0464863212500164,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.2906022294807944,
+     "hi": 0.5223373660316185,
+     "w_audit": 0.8129395955124129,
+     "w_sampling": 0.046853451149177355,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.25411902464879144,
+     "hi": 0.5226466355333677,
+     "w_audit": 0.7767656601821591,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.3703649182448089,
+     "hi": 0.5232808643770449,
+     "w_audit": 0.8936457826218538,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.48872812037491664,
+     "hi": 0.523805030124504,
+     "w_audit": 1.0125331504994206,
+     "w_sampling": 0.04554537997673936,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.47429721599931574,
+     "hi": 0.6100887093671269,
+     "w_audit": 1.0843859253664427,
+     "w_sampling": 0.016122497631686366,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4378140111673128,
+     "hi": 0.610397978868876,
+     "w_audit": 1.0482119900361888,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5540599047633302,
+     "hi": 0.6110322077125533,
+     "w_audit": 1.1650921124758835,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.672423106893438,
+     "hi": 0.6115563734600123,
+     "w_audit": 1.2839794803534503,
+     "w_sampling": 0.011792823348161952,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4384253004403211,
+     "hi": 0.4752177747740731,
+     "w_audit": 0.9136430752143943,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5546711940363385,
+     "hi": 0.4758520036177504,
+     "w_audit": 1.0305231976540887,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6730343961664462,
+     "hi": 0.4763761693652095,
+     "w_audit": 1.1494105655316558,
+     "w_sampling": 0.013165808131276133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5549804635380876,
+     "hi": 0.4393687987857474,
+     "w_audit": 0.994349262323835,
+     "w_sampling": 0.011806850071663428,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6733436656681954,
+     "hi": 0.43989296453320653,
+     "w_audit": 1.1132366302014018,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "tiiuae/falcon-40b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6739778945118726,
+     "hi": 0.5561388581292239,
+     "w_audit": 1.2301167526410965,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    }
+   ]
+  },
+  "joint_95_indeterminate_as_error": {
+   "n_models": 17,
+   "n_pairs": 136,
+   "n_resolved": 0,
+   "n_resolved_by_sampling_alone": 119,
+   "median_w_audit": 1.0214424197997176,
+   "median_w_sampling": 0.04161800431455416,
+   "median_ratio": 26.73715650443995,
+   "min_ratio": 11.377768762725955,
+   "pairs": [
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-1.5-9B-Chat"
+     ],
+     "lo": -0.7544335718388733,
+     "hi": 0.3792767235411765,
+     "w_audit": 1.1337102953800497,
+     "w_sampling": 0.06041314475006355,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.25433512750137965,
+     "hi": 0.5910468786248905,
+     "w_audit": 0.8453820061262701,
+     "w_sampling": 0.04679696664966294,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.18403136607649614,
+     "hi": 0.5703485981312694,
+     "w_audit": 0.7543799642077655,
+     "w_sampling": 0.051330840219664275,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.2648893436918981,
+     "hi": 0.5561620188357085,
+     "w_audit": 0.8210513625276066,
+     "w_sampling": 0.04670796604019394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.3949872186033804,
+     "hi": 0.581088833381423,
+     "w_audit": 0.9760760519848034,
+     "w_sampling": 0.04418070942316906,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.6182253393093139,
+     "hi": 0.5075470016320601,
+     "w_audit": 1.125772340941374,
+     "w_sampling": 0.05643880146297762,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.5688431376873628,
+     "hi": 0.3239469462812774,
+     "w_audit": 0.8927900839686402,
+     "w_sampling": 0.06708664196438134,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.29745225153455945,
+     "hi": 0.48029852835991604,
+     "w_audit": 0.7777507798944755,
+     "w_sampling": 0.059175275153153954,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.32162185029724577,
+     "hi": 0.5681324022345011,
+     "w_audit": 0.8897542525317469,
+     "w_sampling": 0.04916905644593694,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.45394493998964425,
+     "hi": 0.5682905589155861,
+     "w_audit": 1.0222354989052302,
+     "w_sampling": 0.0494102257213967,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.3551780576062019,
+     "hi": 0.41121823896035026,
+     "w_audit": 0.7663962965665522,
+     "w_sampling": 0.06283091999305467,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4429294009417103,
+     "hi": 0.5949132254788716,
+     "w_audit": 1.037842626420582,
+     "w_sampling": 0.04485993259545782,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3986266604878479,
+     "hi": 0.5800657729146789,
+     "w_audit": 0.9786924334025268,
+     "w_sampling": 0.0452402627500951,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.5337910118048467,
+     "hi": 0.453834489010538,
+     "w_audit": 0.9876255008153847,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.38751188561092187,
+     "hi": 0.5964680130973062,
+     "w_audit": 0.9839798987082281,
+     "w_sampling": 0.044376579999464066,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-34B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6877413634454846,
+     "hi": 0.453989513705503,
+     "w_audit": 1.1417308771509878,
+     "w_sampling": 0.043884132967792165,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "01-ai/Yi-34B"
+     ],
+     "lo": -0.20524664471609294,
+     "hi": 0.9171152441373005,
+     "w_audit": 1.1223618888533935,
+     "w_sampling": 0.04517238260174979,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.1349428832912094,
+     "hi": 0.8964169636436794,
+     "w_audit": 1.0313598469348888,
+     "w_sampling": 0.04985421968064394,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.21580086090661138,
+     "hi": 0.8822303843481185,
+     "w_audit": 1.0980312452547298,
+     "w_sampling": 0.045080174732592966,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.3458987358180936,
+     "hi": 0.9071571988938331,
+     "w_audit": 1.2530559347119268,
+     "w_sampling": 0.042456132035828494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.5691368565240271,
+     "hi": 0.8336153671444702,
+     "w_audit": 1.4027522236684973,
+     "w_sampling": 0.05509924112804647,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.5197546549020761,
+     "hi": 0.6500153117936874,
+     "w_audit": 1.1697699666957635,
+     "w_sampling": 0.06596366873034197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.24836376874927268,
+     "hi": 0.8063668938723261,
+     "w_audit": 1.0547306626215986,
+     "w_sampling": 0.05789906088841755,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.27253336751195906,
+     "hi": 0.8942007677469113,
+     "w_audit": 1.1667341352588703,
+     "w_sampling": 0.04762545720613017,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "google/gemma-7b"
+     ],
+     "lo": -0.4048564572043575,
+     "hi": 0.8943589244279961,
+     "w_audit": 1.2992153816323535,
+     "w_sampling": 0.04787440305788235,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.30608957482091514,
+     "hi": 0.7372866044727603,
+     "w_audit": 1.0433761792936753,
+     "w_sampling": 0.06163045164107463,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.3938409181564235,
+     "hi": 0.9209815909912816,
+     "w_audit": 1.3148225091477053,
+     "w_sampling": 0.04316250241561791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3495381777025611,
+     "hi": 0.9061341384270889,
+     "w_audit": 1.2556723161296501,
+     "w_sampling": 0.043557656456779725,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.4847025290195599,
+     "hi": 0.779902854522948,
+     "w_audit": 1.264605383542508,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.3384234028256351,
+     "hi": 0.9225363786097163,
+     "w_audit": 1.2609597814353513,
+     "w_sampling": 0.04265992164500582,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-1.5-9B-Chat",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6386528806601979,
+     "hi": 0.780057879217913,
+     "w_audit": 1.418710759878111,
+     "w_sampling": 0.04214742208776316,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-plus"
+     ],
+     "lo": -0.34671303837492345,
+     "hi": 0.39631851930618583,
+     "w_audit": 0.7430315576811093,
+     "w_sampling": 0.03202579037250197,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.42757101599032543,
+     "hi": 0.38213194001062495,
+     "w_audit": 0.8097029560009503,
+     "w_sampling": 0.02392551322205329,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.5576688909018076,
+     "hi": 0.40705875455633955,
+     "w_audit": 0.9647276454581472,
+     "w_sampling": 0.018513000201513433,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7809070116077411,
+     "hi": 0.33351692280697665,
+     "w_audit": 1.1144239344147178,
+     "w_sampling": 0.03970055921399775,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7315248099857901,
+     "hi": 0.14991686745619387,
+     "w_audit": 0.881441677441984,
+     "w_sampling": 0.05377186644876509,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.46013392383298674,
+     "hi": 0.3062684495348325,
+     "w_audit": 0.7664023733678192,
+     "w_sampling": 0.043502980136747145,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.4843035225956731,
+     "hi": 0.39410232340941764,
+     "w_audit": 0.8784058460050908,
+     "w_sampling": 0.0284322387987733,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.6166266122880715,
+     "hi": 0.3942604800905025,
+     "w_audit": 1.010887092378574,
+     "w_sampling": 0.028847296184670558,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5178597299046291,
+     "hi": 0.2371881601352667,
+     "w_audit": 0.7550478900398958,
+     "w_sampling": 0.04835825264109914,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.6056110732401375,
+     "hi": 0.42088314665378807,
+     "w_audit": 1.0264942198939255,
+     "w_sampling": 0.020080080771644214,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5613083327862751,
+     "hi": 0.40603569408959533,
+     "w_audit": 0.9673440268758704,
+     "w_sampling": 0.020915961967463478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6964726841032739,
+     "hi": 0.27980441018545443,
+     "w_audit": 0.9762770942887283,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5501935579093491,
+     "hi": 0.4224379342722227,
+     "w_audit": 0.9726314921815717,
+     "w_sampling": 0.018975693499199715,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "01-ai/Yi-34B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8504230357439119,
+     "hi": 0.2799594348804194,
+     "w_audit": 1.1303824706243313,
+     "w_sampling": 0.017793628569282884,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "CohereForAI/c4ai-command-r-v01"
+     ],
+     "lo": -0.4068727354967043,
+     "hi": 0.3118281785857414,
+     "w_audit": 0.7187009140824456,
+     "w_sampling": 0.03189559927302958,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.5369706104081865,
+     "hi": 0.336754993131456,
+     "w_audit": 0.8737256035396426,
+     "w_sampling": 0.028064750961094852,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.76020873111412,
+     "hi": 0.26321316138209305,
+     "w_audit": 1.023421892496213,
+     "w_sampling": 0.044955905862869454,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.710826529492169,
+     "hi": 0.07961310603131033,
+     "w_audit": 0.7904396355234793,
+     "w_sampling": 0.05776082315402774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.4394356433393656,
+     "hi": 0.23596468810994897,
+     "w_audit": 0.6754003314493146,
+     "w_sampling": 0.04834675119204242,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.46360524210205195,
+     "hi": 0.3237985619845341,
+     "w_audit": 0.7874038040865861,
+     "w_sampling": 0.035401854092088285,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5959283317944504,
+     "hi": 0.32395671866561904,
+     "w_audit": 0.9198850504600694,
+     "w_sampling": 0.03573605416401126,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.49716144941100804,
+     "hi": 0.16688439871038316,
+     "w_audit": 0.6640458481213912,
+     "w_sampling": 0.052758124194738104,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5849127927465164,
+     "hi": 0.3505793852289045,
+     "w_audit": 0.935492177975421,
+     "w_sampling": 0.02912230612164486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.540610052292654,
+     "hi": 0.3357319326647118,
+     "w_audit": 0.8763419849573658,
+     "w_sampling": 0.029704823431076256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6757744036096528,
+     "hi": 0.20950064876057092,
+     "w_audit": 0.8852750523702237,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.529495277415728,
+     "hi": 0.35213417284733917,
+     "w_audit": 0.8816294502630672,
+     "w_sampling": 0.028372099214238774,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-plus",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8297247552502908,
+     "hi": 0.2096556734555359,
+     "w_audit": 1.0393804287058266,
+     "w_sampling": 0.027595512093611132,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "EleutherAI/gpt-j-6b"
+     ],
+     "lo": -0.5227840311126256,
+     "hi": 0.417612970746858,
+     "w_audit": 0.9403970018594836,
+     "w_sampling": 0.018286858135379117,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7460221518185591,
+     "hi": 0.3440711389974951,
+     "w_audit": 1.0900932908160543,
+     "w_sampling": 0.039595610942456574,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6966399501966081,
+     "hi": 0.1604710836467123,
+     "w_audit": 0.8571110338433203,
+     "w_sampling": 0.05369442825271607,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.4252490640438047,
+     "hi": 0.31682266572535095,
+     "w_audit": 0.7420717297691557,
+     "w_sampling": 0.04340722618159863,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.44941866280649106,
+     "hi": 0.4046565395999361,
+     "w_audit": 0.8540752024064271,
+     "w_sampling": 0.028285512318370953,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5817417524988895,
+     "hi": 0.40481469628102096,
+     "w_audit": 0.9865564487799104,
+     "w_sampling": 0.02870269153177718,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.48297487011544715,
+     "hi": 0.24774237632578514,
+     "w_audit": 0.7307172464412323,
+     "w_sampling": 0.048272130701913475,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5707262134509555,
+     "hi": 0.4314373628443065,
+     "w_audit": 1.002163576295262,
+     "w_sampling": 0.019871780186938477,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5264234729970931,
+     "hi": 0.4165899102801138,
+     "w_audit": 0.943013383277207,
+     "w_sampling": 0.020716067894912486,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6615878243140919,
+     "hi": 0.2903586263759729,
+     "w_audit": 0.9519464506900648,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5153086981201671,
+     "hi": 0.43299215046274114,
+     "w_audit": 0.9483008485829083,
+     "w_sampling": 0.018755131238618817,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "CohereForAI/c4ai-command-r-v01",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8155381759547299,
+     "hi": 0.29051365107093785,
+     "w_audit": 1.1060518270256678,
+     "w_sampling": 0.017558223761640727,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+     ],
+     "lo": -0.7709489663642737,
+     "hi": 0.47416901390897725,
+     "w_audit": 1.245117980273251,
+     "w_sampling": 0.03658023235887077,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.7215667647423226,
+     "hi": 0.29056895855819453,
+     "w_audit": 1.012135723300517,
+     "w_sampling": 0.051511092192931256,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.4501758785895193,
+     "hi": 0.4469205406368332,
+     "w_audit": 0.8970964192263524,
+     "w_sampling": 0.04067540139080438,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.47434547735220567,
+     "hi": 0.5347544145114183,
+     "w_audit": 1.0090998918636238,
+     "w_sampling": 0.023882445449227015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.606668567044604,
+     "hi": 0.5349125711925032,
+     "w_audit": 1.1415811382371073,
+     "w_sampling": 0.024375099890891583,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.5079016846611617,
+     "hi": 0.3778402512372674,
+     "w_audit": 0.8857419358984291,
+     "w_sampling": 0.04583120766492202,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5956530279966701,
+     "hi": 0.5615352377557887,
+     "w_audit": 1.1571882657524588,
+     "w_sampling": 0.012852573334573512,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5513502875428077,
+     "hi": 0.546687785191596,
+     "w_audit": 1.0980380727344037,
+     "w_sampling": 0.014122905598679516,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6865146388598065,
+     "hi": 0.42045650128745515,
+     "w_audit": 1.1069711401472615,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5402355126658817,
+     "hi": 0.5630900253742234,
+     "w_audit": 1.103325538040105,
+     "w_sampling": 0.011047893070644951,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "EleutherAI/gpt-j-6b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8404649905004444,
+     "hi": 0.42061152598242013,
+     "w_audit": 1.2610765164828646,
+     "w_sampling": 0.008865225049959782,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-72B-Instruct"
+     ],
+     "lo": -0.6480249329929597,
+     "hi": 0.513807079264128,
+     "w_audit": 1.1618320122570878,
+     "w_sampling": 0.062344172497127336,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.37663404684015633,
+     "hi": 0.6701586613427667,
+     "w_audit": 1.046792708182923,
+     "w_sampling": 0.05373910590757867,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.40080364560284276,
+     "hi": 0.7579925352173518,
+     "w_audit": 1.1587961808201945,
+     "w_sampling": 0.04247086561489193,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5331267352952411,
+     "hi": 0.7581506918984368,
+     "w_audit": 1.2912774271936778,
+     "w_sampling": 0.04274983883167103,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4343598529117988,
+     "hi": 0.6010783719432009,
+     "w_audit": 1.0354382248549996,
+     "w_sampling": 0.05773995862024939,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5221111962473072,
+     "hi": 0.7847733584617222,
+     "w_audit": 1.3068845547090295,
+     "w_sampling": 0.037397752161908014,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4778084557934448,
+     "hi": 0.7699259058975295,
+     "w_audit": 1.2477343616909744,
+     "w_sampling": 0.037853133133099015,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6129728071104436,
+     "hi": 0.6436946219933887,
+     "w_audit": 1.2566674291038322,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.46669368091651875,
+     "hi": 0.7863281460801569,
+     "w_audit": 1.2530218269966755,
+     "w_sampling": 0.03681656103906651,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.7669231587510815,
+     "hi": 0.6438496466883536,
+     "w_audit": 1.4107728054394353,
+     "w_sampling": 0.036221477615212494,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "Qwen/Qwen2-7B"
+     ],
+     "lo": -0.1930339914893736,
+     "hi": 0.6207764597208156,
+     "w_audit": 0.8138104512101892,
+     "w_sampling": 0.06483186502967228,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.21720359025205999,
+     "hi": 0.7086103335954008,
+     "w_audit": 0.9258139238474608,
+     "w_sampling": 0.05584848830145626,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "google/gemma-7b"
+     ],
+     "lo": -0.3495266799444584,
+     "hi": 0.7087684902764857,
+     "w_audit": 1.0582951702209442,
+     "w_sampling": 0.05606093059888977,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.2507597975610161,
+     "hi": 0.5516961703212498,
+     "w_audit": 0.8024559678822659,
+     "w_sampling": 0.06818491065439478,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.33851114089652445,
+     "hi": 0.7353911568397712,
+     "w_audit": 1.0739022977362955,
+     "w_sampling": 0.0520948278262169,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.29420840044266205,
+     "hi": 0.7205437042755785,
+     "w_audit": 1.0147521047182404,
+     "w_sampling": 0.05242269458423332,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.42937275175966083,
+     "hi": 0.5943124203714376,
+     "w_audit": 1.0236851721310984,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.28309362556573603,
+     "hi": 0.7369459444582058,
+     "w_audit": 1.020039570023942,
+     "w_sampling": 0.05167918716681791,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-72B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.5833231034002988,
+     "hi": 0.5944674450664026,
+     "w_audit": 1.1777905484667013,
+     "w_sampling": 0.0512569474326069,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "bigcode/starcoder2-15b"
+     ],
+     "lo": -0.3735551723306986,
+     "hi": 0.4372194474425974,
+     "w_audit": 0.810774619773296,
+     "w_sampling": 0.04604507905251423,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "google/gemma-7b"
+     ],
+     "lo": -0.505878262023097,
+     "hi": 0.4373776041236823,
+     "w_audit": 0.9432558661467794,
+     "w_sampling": 0.04630252259875182,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4071113796396547,
+     "hi": 0.28030528416844647,
+     "w_audit": 0.6874166638081012,
+     "w_sampling": 0.06041752808864483,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4948627229751631,
+     "hi": 0.4640002706869678,
+     "w_audit": 0.9588629936621309,
+     "w_sampling": 0.041412156978809615,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.4505599825213007,
+     "hi": 0.4491528181227751,
+     "w_audit": 0.8997128006440758,
+     "w_sampling": 0.041823851650298706,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.5857243338382995,
+     "hi": 0.32292153421863423,
+     "w_audit": 0.9086458680569337,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.43944520764437467,
+     "hi": 0.46555505830540245,
+     "w_audit": 0.9050002659497771,
+     "w_sampling": 0.040888067276619776,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "Qwen/Qwen2-7B",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.7396746854789374,
+     "hi": 0.3230765589135992,
+     "w_audit": 1.0627512443925367,
+     "w_sampling": 0.04035307075680133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "google/gemma-7b"
+     ],
+     "lo": -0.5937121358976822,
+     "hi": 0.46154720288636863,
+     "w_audit": 1.055259338784051,
+     "w_sampling": 0.03255466973170173,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.49494525351423985,
+     "hi": 0.3044748829311328,
+     "w_audit": 0.7994201364453726,
+     "w_sampling": 0.05065728597817337,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5826965968497482,
+     "hi": 0.4881698694496542,
+     "w_audit": 1.0708664662994023,
+     "w_sampling": 0.025116720884100767,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5383938563958859,
+     "hi": 0.47332241688546145,
+     "w_audit": 1.0117162732813474,
+     "w_sampling": 0.02578987183369562,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6735582077128845,
+     "hi": 0.34709113298132055,
+     "w_audit": 1.020649340694205,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5272790815189599,
+     "hi": 0.4897246570680888,
+     "w_audit": 1.0170037385870487,
+     "w_sampling": 0.02424287458099056,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "bigcode/starcoder2-15b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8275085593535225,
+     "hi": 0.3472461576762855,
+     "w_audit": 1.174754717029808,
+     "w_sampling": 0.02332923577478842,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "meta-llama/Meta-Llama-3-70B-Instruct"
+     ],
+     "lo": -0.4951034101953248,
+     "hi": 0.43679797262353126,
+     "w_audit": 0.931901382818856,
+     "w_sampling": 0.05089140317116515,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.5828547535308332,
+     "hi": 0.6204929591420526,
+     "w_audit": 1.2033477126728858,
+     "w_sampling": 0.02558562021967539,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5385520130769708,
+     "hi": 0.6056455065778599,
+     "w_audit": 1.1441975196548306,
+     "w_sampling": 0.026246748051026916,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6737163643939695,
+     "hi": 0.479414222673719,
+     "w_audit": 1.1531305870676887,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5274372382000447,
+     "hi": 0.6220477467604872,
+     "w_audit": 1.149484984960532,
+     "w_sampling": 0.02472834935868702,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "google/gemma-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8276667160346075,
+     "hi": 0.479569247368684,
+     "w_audit": 1.3072359634032915,
+     "w_sampling": 0.023833328258791437,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "microsoft/phi-2"
+     ],
+     "lo": -0.4257824335755973,
+     "hi": 0.5217260767586103,
+     "w_audit": 0.9475085103342076,
+     "w_sampling": 0.0464863212500164,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.3814796931217349,
+     "hi": 0.5068786241944175,
+     "w_audit": 0.8883583173161524,
+     "w_sampling": 0.046853451149177355,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.5166440444387337,
+     "hi": 0.3806473402902767,
+     "w_audit": 0.8972913847290104,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.3703649182448089,
+     "hi": 0.5232808643770449,
+     "w_audit": 0.8936457826218538,
+     "w_sampling": 0.046020053925865195,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "meta-llama/Meta-Llama-3-70B-Instruct",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.6705943960793717,
+     "hi": 0.38080236498524167,
+     "w_audit": 1.0513967610646133,
+     "w_sampling": 0.04554537997673936,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mistralai/Mistral-7B-v0.1"
+     ],
+     "lo": -0.5651746796402563,
+     "hi": 0.5946299675299259,
+     "w_audit": 1.1598046471701822,
+     "w_sampling": 0.016122497631686366,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.700339030957255,
+     "hi": 0.4683986836257851,
+     "w_audit": 1.16873771458304,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5540599047633302,
+     "hi": 0.6110322077125533,
+     "w_audit": 1.1650921124758835,
+     "w_sampling": 0.013510529546798824,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "microsoft/phi-2",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.854289382597893,
+     "hi": 0.46855370832075005,
+     "w_audit": 1.322843090918643,
+     "w_sampling": 0.011792823348161952,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "mosaicml/mpt-7b"
+     ],
+     "lo": -0.6854915783930623,
+     "hi": 0.4240959431719227,
+     "w_audit": 1.1095875215649849,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.5392124521991375,
+     "hi": 0.5667294672586909,
+     "w_audit": 1.1059419194578284,
+     "w_sampling": 0.014724205576653264,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mistralai/Mistral-7B-v0.1",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8394419300337003,
+     "hi": 0.42425096786688765,
+     "w_audit": 1.263692897900588,
+     "w_sampling": 0.013165808131276133,
+     "resolved": false,
+     "sampling_resolved": true
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-40b"
+     ],
+     "lo": -0.41298116829499665,
+     "hi": 0.7018938185756897,
+     "w_audit": 1.1148749868706864,
+     "w_sampling": 0.011806850071663428,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "mosaicml/mpt-7b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.7132106461295594,
+     "hi": 0.5594153191838864,
+     "w_audit": 1.2726259653134457,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    },
+    {
+     "pair": [
+      "tiiuae/falcon-40b",
+      "tiiuae/falcon-7b"
+     ],
+     "lo": -0.8558441702163276,
+     "hi": 0.4131361929899616,
+     "w_audit": 1.2689803632062893,
+     "w_sampling": 0.009794793642582183,
+     "resolved": false,
+     "sampling_resolved": false
+    }
+   ]
+  }
+ },
+ "C2_heterogeneity_q": {
+  "models": 17,
+  "false_credits": 5,
+  "n_credited_audited": 162,
+  "false_miss_total": 0,
+  "n_wrong_audited": 127,
+  "chi2_obs": 82.51724137931036,
+  "perm_p": 0.00034998250087495624
+ },
+ "C2_common_mechanism": {
+  "n_models": 17,
+  "alpha_hat": 0.0015,
+  "beta_hat": 0.0,
+  "alpha_95_profile": [
+   0.0007,
+   0.0021000000000000003
+  ],
+  "alpha_feasible_max": 0.0022658610271903325,
+  "LR_vs_saturated": 24.77178419742374,
+  "bootstrap_p": 0.00999000999000999,
+  "per_model_a_sb": {
+   "01-ai/Yi-1.5-34B-Chat": 0.20619335347432025,
+   "01-ai/Yi-1.5-9B-Chat": 0.18504531722054382,
+   "01-ai/Yi-34B": 0.0256797583081571,
+   "CohereForAI/c4ai-command-r-plus": 0.06797583081570997,
+   "CohereForAI/c4ai-command-r-v01": 0.024924471299093656,
+   "EleutherAI/gpt-j-6b": 0.004531722054380665,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 0.1268882175226586,
+   "Qwen/Qwen2-72B-Instruct": 0.3391238670694864,
+   "Qwen/Qwen2-7B": 0.16540785498489427,
+   "bigcode/starcoder2-15b": 0.04682779456193353,
+   "google/gemma-7b": 0.04909365558912387,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 0.22885196374622357,
+   "microsoft/phi-2": 0.009818731117824773,
+   "mistralai/Mistral-7B-v0.1": 0.01283987915407855,
+   "mosaicml/mpt-7b": 0.006042296072507553,
+   "tiiuae/falcon-40b": 0.006042296072507553,
+   "tiiuae/falcon-7b": 0.0022658610271903325
+  }
+ },
+ "C2_common_mechanism_without_command_r": {
+  "n_models": 16,
+  "alpha_hat": 0.0004,
+  "beta_hat": 0.0,
+  "alpha_95_profile": [
+   0.0001,
+   0.0015
+  ],
+  "alpha_feasible_max": 0.0022658610271903325,
+  "LR_vs_saturated": 6.072052471949689,
+  "bootstrap_p": 0.3996003996003996,
+  "per_model_a_sb": {
+   "01-ai/Yi-1.5-34B-Chat": 0.20619335347432025,
+   "01-ai/Yi-1.5-9B-Chat": 0.18504531722054382,
+   "01-ai/Yi-34B": 0.0256797583081571,
+   "CohereForAI/c4ai-command-r-plus": 0.06797583081570997,
+   "EleutherAI/gpt-j-6b": 0.004531722054380665,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 0.1268882175226586,
+   "Qwen/Qwen2-72B-Instruct": 0.3391238670694864,
+   "Qwen/Qwen2-7B": 0.16540785498489427,
+   "bigcode/starcoder2-15b": 0.04682779456193353,
+   "google/gemma-7b": 0.04909365558912387,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 0.22885196374622357,
+   "microsoft/phi-2": 0.009818731117824773,
+   "mistralai/Mistral-7B-v0.1": 0.01283987915407855,
+   "mosaicml/mpt-7b": 0.006042296072507553,
+   "tiiuae/falcon-40b": 0.006042296072507553,
+   "tiiuae/falcon-7b": 0.0022658610271903325
+  }
+ },
+ "C3_sizing": {
+  "curve": [
+   {
+    "n_per_stratum": 2,
+    "labels_total": 68,
+    "pct_resolved": 0.0,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 5,
+    "labels_total": 170,
+    "pct_resolved": 0.0,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 10,
+    "labels_total": 340,
+    "pct_resolved": 0.0,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 20,
+    "labels_total": 680,
+    "pct_resolved": 5.882352941176471,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 30,
+    "labels_total": 1020,
+    "pct_resolved": 13.970588235294118,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 50,
+    "labels_total": 1700,
+    "pct_resolved": 40.44117647058823,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 75,
+    "labels_total": 2550,
+    "pct_resolved": 50.73529411764706,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 100,
+    "labels_total": 3400,
+    "pct_resolved": 55.14705882352941,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 150,
+    "labels_total": 5100,
+    "pct_resolved": 66.17647058823529,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 200,
+    "labels_total": 6800,
+    "pct_resolved": 72.79411764705883,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 300,
+    "labels_total": 10200,
+    "pct_resolved": 77.94117647058823,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 500,
+    "labels_total": 17000,
+    "pct_resolved": 83.08823529411765,
+    "pct_resolved_by_sampling_alone": 87.5
+   },
+   {
+    "n_per_stratum": 1000,
+    "labels_total": 34000,
+    "pct_resolved": 87.5,
+    "pct_resolved_by_sampling_alone": 87.5
+   }
+  ],
+  "crossover_law": [
+   {
+    "a": 0.05,
+    "N": 1324,
+    "n_star_exact": 160,
+    "n_star_closed_form": 159.77059122883983
+   },
+   {
+    "a": 0.2,
+    "N": 1324,
+    "n_star_exact": 86,
+    "n_star_closed_form": 85.30459016565334
+   },
+   {
+    "a": 0.35,
+    "N": 1324,
+    "n_star_exact": 71,
+    "n_star_closed_form": 70.91890229437233
+   }
+  ]
+ }
+}

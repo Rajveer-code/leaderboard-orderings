@@ -1,0 +1,587 @@
+{
+ "verifiers": [
+  "em",
+  "sb_sympy",
+  "mv",
+  "xf"
+ ],
+ "xfinder_arm": "train",
+ "per_model": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "n": 1324,
+   "acc": {
+    "em": 0.23338368580060423,
+    "sb_sympy": 0.21525679758308158,
+    "mv": 0.277190332326284,
+    "xf": 0.26661631419939574
+   },
+   "template": 0.8481873111782477,
+   "discordant": 122,
+   "discordant_extraction": 100
+  },
+  "01-ai/Yi-1.5-9B-Chat": {
+   "n": 1324,
+   "acc": {
+    "em": 0.1163141993957704,
+    "sb_sympy": 0.19561933534743203,
+    "mv": 0.2258308157099698,
+    "xf": 0.22205438066465258
+   },
+   "template": 0.4516616314199396,
+   "discordant": 159,
+   "discordant_extraction": 145
+  },
+  "01-ai/Yi-34B": {
+   "n": 1324,
+   "acc": {
+    "em": 0.0445619335347432,
+    "sb_sympy": 0.027190332326283987,
+    "mv": 0.0513595166163142,
+    "xf": 0.0513595166163142
+   },
+   "template": 0.6903323262839879,
+   "discordant": 43,
+   "discordant_extraction": 34
+  },
+  "01-ai/Yi-34B-Chat": {
+   "n": 1324,
+   "acc": {
+    "em": 0.04305135951661632,
+    "sb_sympy": 0.017371601208459216,
+    "mv": 0.06268882175226587,
+    "xf": 0.06042296072507553
+   },
+   "template": 0.5521148036253777,
+   "discordant": 68,
+   "discordant_extraction": 65
+  },
+  "CohereForAI/c4ai-command-r-plus": {
+   "n": 1324,
+   "acc": {
+    "em": 0.0755287009063444,
+    "sb_sympy": 0.07326283987915408,
+    "mv": 0.08006042296072508,
+    "xf": 0.08459214501510574
+   },
+   "template": 0.9244712990936556,
+   "discordant": 31,
+   "discordant_extraction": 17
+  },
+  "CohereForAI/c4ai-command-r-v01": {
+   "n": 1324,
+   "acc": {
+    "em": 0.0,
+    "sb_sympy": 0.0324773413897281,
+    "mv": 0.03474320241691843,
+    "xf": 0.03474320241691843
+   },
+   "template": 0.0007552870090634441,
+   "discordant": 50,
+   "discordant_extraction": 50
+  },
+  "Deci/DeciLM-7B": {
+   "n": 1324,
+   "acc": {
+    "em": 0.02416918429003021,
+    "sb_sympy": 0.0188821752265861,
+    "mv": 0.027945619335347432,
+    "xf": 0.026435045317220542
+   },
+   "template": 0.6570996978851964,
+   "discordant": 16,
+   "discordant_extraction": 14
+  },
+  "EleutherAI/gpt-j-6b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.012084592145015106,
+    "sb_sympy": 0.004531722054380665,
+    "mv": 0.014350453172205438,
+    "xf": 0.013595166163141994
+   },
+   "template": 0.42371601208459214,
+   "discordant": 18,
+   "discordant_extraction": 17
+  },
+  "EleutherAI/gpt-neox-20b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.006042296072507553,
+    "sb_sympy": 0.0015105740181268882,
+    "mv": 0.013595166163141994,
+    "xf": 0.00906344410876133
+   },
+   "template": 0.3935045317220544,
+   "discordant": 18,
+   "discordant_extraction": 15
+  },
+  "EleutherAI/pythia-160m": {
+   "n": 1324,
+   "acc": {
+    "em": 0.0022658610271903325,
+    "sb_sympy": 0.0,
+    "mv": 0.009818731117824773,
+    "xf": 0.006042296072507553
+   },
+   "template": 0.10800604229607251,
+   "discordant": 13,
+   "discordant_extraction": 12
+  },
+  "HuggingFaceH4/zephyr-7b-alpha": {
+   "n": 1324,
+   "acc": {
+    "em": 0.015105740181268883,
+    "sb_sympy": 0.00906344410876133,
+    "mv": 0.019637462235649546,
+    "xf": 0.01661631419939577
+   },
+   "template": 0.6714501510574018,
+   "discordant": 16,
+   "discordant_extraction": 13
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+   "n": 1324,
+   "acc": {
+    "em": 0.02416918429003021,
+    "sb_sympy": 0.01812688821752266,
+    "mv": 0.028700906344410877,
+    "xf": 0.026435045317220542
+   },
+   "template": 0.8323262839879154,
+   "discordant": 19,
+   "discordant_extraction": 15
+  },
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": {
+   "n": 1324,
+   "acc": {
+    "em": 0.18353474320241692,
+    "sb_sympy": 0.13972809667673716,
+    "mv": 0.20468277945619334,
+    "xf": 0.2039274924471299
+   },
+   "template": 0.9025679758308157,
+   "discordant": 105,
+   "discordant_extraction": 88
+  },
+  "Qwen/Qwen2-72B-Instruct": {
+   "n": 1324,
+   "acc": {
+    "em": 0.3512084592145015,
+    "sb_sympy": 0.36555891238670696,
+    "mv": 0.4169184290030212,
+    "xf": 0.40558912386706947
+   },
+   "template": 0.8376132930513596,
+   "discordant": 118,
+   "discordant_extraction": 75
+  },
+  "Qwen/Qwen2-7B": {
+   "n": 1324,
+   "acc": {
+    "em": 0.18806646525679757,
+    "sb_sympy": 0.17673716012084592,
+    "mv": 0.2039274924471299,
+    "xf": 0.2039274924471299
+   },
+   "template": 0.9425981873111783,
+   "discordant": 66,
+   "discordant_extraction": 38
+  },
+  "bigcode/starcoder2-15b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.05362537764350453,
+    "sb_sympy": 0.05060422960725076,
+    "mv": 0.05966767371601209,
+    "xf": 0.06042296072507553
+   },
+   "template": 0.7333836858006042,
+   "discordant": 23,
+   "discordant_extraction": 15
+  },
+  "databricks/dolly-v2-12b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.014350453172205438,
+    "sb_sympy": 0.005287009063444109,
+    "mv": 0.013595166163141994,
+    "xf": 0.015861027190332326
+   },
+   "template": 0.8580060422960725,
+   "discordant": 14,
+   "discordant_extraction": 11
+  },
+  "google/gemma-7b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.06419939577039276,
+    "sb_sympy": 0.055891238670694864,
+    "mv": 0.07477341389728097,
+    "xf": 0.07401812688821752
+   },
+   "template": 0.756797583081571,
+   "discordant": 42,
+   "discordant_extraction": 22
+  },
+  "ibm/merlinite-7b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.023413897280966767,
+    "sb_sympy": 0.0188821752265861,
+    "mv": 0.02416918429003021,
+    "xf": 0.024924471299093656
+   },
+   "template": 0.9441087613293051,
+   "discordant": 15,
+   "discordant_extraction": 9
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct": {
+   "n": 1324,
+   "acc": {
+    "em": 0.23338368580060423,
+    "sb_sympy": 0.24169184290030213,
+    "mv": 0.24471299093655588,
+    "xf": 0.24924471299093656
+   },
+   "template": 0.9561933534743202,
+   "discordant": 58,
+   "discordant_extraction": 13
+  },
+  "microsoft/phi-1_5": {
+   "n": 1324,
+   "acc": {
+    "em": 0.011329305135951661,
+    "sb_sympy": 0.0022658610271903325,
+    "mv": 0.017371601208459216,
+    "xf": 0.012084592145015106
+   },
+   "template": 0.4206948640483384,
+   "discordant": 26,
+   "discordant_extraction": 25
+  },
+  "microsoft/phi-2": {
+   "n": 1324,
+   "acc": {
+    "em": 0.02416918429003021,
+    "sb_sympy": 0.012084592145015106,
+    "mv": 0.028700906344410877,
+    "xf": 0.027190332326283987
+   },
+   "template": 0.7658610271903323,
+   "discordant": 29,
+   "discordant_extraction": 23
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+   "n": 1324,
+   "acc": {
+    "em": 0.03172205438066465,
+    "sb_sympy": 0.022658610271903322,
+    "mv": 0.03851963746223565,
+    "xf": 0.03700906344410876
+   },
+   "template": 0.8489425981873112,
+   "discordant": 29,
+   "discordant_extraction": 22
+  },
+  "mistralai/Mistral-7B-v0.1": {
+   "n": 1324,
+   "acc": {
+    "em": 0.024924471299093656,
+    "sb_sympy": 0.015861027190332326,
+    "mv": 0.02945619335347432,
+    "xf": 0.027190332326283987
+   },
+   "template": 0.648036253776435,
+   "discordant": 21,
+   "discordant_extraction": 18
+  },
+  "mosaicml/mpt-7b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.01283987915407855,
+    "sb_sympy": 0.0075528700906344415,
+    "mv": 0.015861027190332326,
+    "xf": 0.014350453172205438
+   },
+   "template": 0.49773413897280966,
+   "discordant": 13,
+   "discordant_extraction": 12
+  },
+  "tiiuae/falcon-40b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.013595166163141994,
+    "sb_sympy": 0.008308157099697885,
+    "mv": 0.01812688821752266,
+    "xf": 0.01661631419939577
+   },
+   "template": 0.6503021148036254,
+   "discordant": 15,
+   "discordant_extraction": 12
+  },
+  "tiiuae/falcon-7b": {
+   "n": 1324,
+   "acc": {
+    "em": 0.005287009063444109,
+    "sb_sympy": 0.0022658610271903325,
+    "mv": 0.009818731117824773,
+    "xf": 0.006797583081570997
+   },
+   "template": 0.35725075528700906,
+   "discordant": 12,
+   "discordant_extraction": 11
+  }
+ },
+ "per_subject": {
+  "algebra": {
+   "n": 8289,
+   "acc": {
+    "em": 0.11026661840994088,
+    "sb_sympy": 0.11533357461696224,
+    "mv": 0.1465798045602606,
+    "xf": 0.14115092290988057
+   },
+   "template": 0.6941730003619254,
+   "discordant": 470,
+   "discordant_extraction": 319
+  },
+  "counting_and_prob": {
+   "n": 3321,
+   "acc": {
+    "em": 0.056910569105691054,
+    "sb_sympy": 0.04938271604938271,
+    "mv": 0.0635350797952424,
+    "xf": 0.06263173742848539
+   },
+   "template": 0.758205359831376,
+   "discordant": 67,
+   "discordant_extraction": 64
+  },
+  "geometry": {
+   "n": 3564,
+   "acc": {
+    "em": 0.02833894500561167,
+    "sb_sympy": 0.02974186307519641,
+    "mv": 0.04040404040404041,
+    "xf": 0.03591470258136925
+   },
+   "template": 0.7045454545454546,
+   "discordant": 62,
+   "discordant_extraction": 43
+  },
+  "intermediate_algebra": {
+   "n": 7560,
+   "acc": {
+    "em": 0.01917989417989418,
+    "sb_sympy": 0.018915343915343916,
+    "mv": 0.026058201058201058,
+    "xf": 0.02394179894179894
+   },
+   "template": 0.5334656084656084,
+   "discordant": 96,
+   "discordant_extraction": 77
+  },
+  "num_theory": {
+   "n": 4158,
+   "acc": {
+    "em": 0.06637806637806638,
+    "sb_sympy": 0.05747955747955748,
+    "mv": 0.07263107263107263,
+    "xf": 0.07118807118807119
+   },
+   "template": 0.6498316498316499,
+   "discordant": 81,
+   "discordant_extraction": 76
+  },
+  "prealgebra": {
+   "n": 5211,
+   "acc": {
+    "em": 0.13529073114565343,
+    "sb_sympy": 0.11456534254461716,
+    "mv": 0.15428900402993667,
+    "xf": 0.15332949529840723
+   },
+   "template": 0.7589714066398004,
+   "discordant": 285,
+   "discordant_extraction": 252
+  },
+  "precalculus": {
+   "n": 3645,
+   "acc": {
+    "em": 0.02633744855967078,
+    "sb_sympy": 0.02661179698216735,
+    "mv": 0.027709190672153636,
+    "xf": 0.03484224965706447
+   },
+   "template": 0.5286694101508916,
+   "discordant": 98,
+   "discordant_extraction": 60
+  }
+ },
+ "ranks": {
+  "em": {
+   "01-ai/Yi-1.5-34B-Chat": 2,
+   "01-ai/Yi-1.5-9B-Chat": 6,
+   "01-ai/Yi-34B": 10,
+   "01-ai/Yi-34B-Chat": 11,
+   "CohereForAI/c4ai-command-r-plus": 7,
+   "CohereForAI/c4ai-command-r-v01": 27,
+   "Deci/DeciLM-7B": 14,
+   "EleutherAI/gpt-j-6b": 22,
+   "EleutherAI/gpt-neox-20b": 24,
+   "EleutherAI/pythia-160m": 26,
+   "HuggingFaceH4/zephyr-7b-alpha": 18,
+   "HuggingFaceH4/zephyr-7b-beta": 14,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 5,
+   "Qwen/Qwen2-72B-Instruct": 1,
+   "Qwen/Qwen2-7B": 4,
+   "bigcode/starcoder2-15b": 9,
+   "databricks/dolly-v2-12b": 19,
+   "google/gemma-7b": 8,
+   "ibm/merlinite-7b": 17,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 2,
+   "microsoft/phi-1_5": 23,
+   "microsoft/phi-2": 14,
+   "mistralai/Mistral-7B-Instruct-v0.3": 12,
+   "mistralai/Mistral-7B-v0.1": 13,
+   "mosaicml/mpt-7b": 21,
+   "tiiuae/falcon-40b": 20,
+   "tiiuae/falcon-7b": 25
+  },
+  "sb_sympy": {
+   "01-ai/Yi-1.5-34B-Chat": 3,
+   "01-ai/Yi-1.5-9B-Chat": 4,
+   "01-ai/Yi-34B": 11,
+   "01-ai/Yi-34B-Chat": 16,
+   "CohereForAI/c4ai-command-r-plus": 7,
+   "CohereForAI/c4ai-command-r-v01": 10,
+   "Deci/DeciLM-7B": 13,
+   "EleutherAI/gpt-j-6b": 23,
+   "EleutherAI/gpt-neox-20b": 26,
+   "EleutherAI/pythia-160m": 27,
+   "HuggingFaceH4/zephyr-7b-alpha": 19,
+   "HuggingFaceH4/zephyr-7b-beta": 15,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 6,
+   "Qwen/Qwen2-72B-Instruct": 1,
+   "Qwen/Qwen2-7B": 5,
+   "bigcode/starcoder2-15b": 9,
+   "databricks/dolly-v2-12b": 22,
+   "google/gemma-7b": 8,
+   "ibm/merlinite-7b": 13,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 2,
+   "microsoft/phi-1_5": 24,
+   "microsoft/phi-2": 18,
+   "mistralai/Mistral-7B-Instruct-v0.3": 12,
+   "mistralai/Mistral-7B-v0.1": 17,
+   "mosaicml/mpt-7b": 21,
+   "tiiuae/falcon-40b": 20,
+   "tiiuae/falcon-7b": 24
+  },
+  "mv": {
+   "01-ai/Yi-1.5-34B-Chat": 2,
+   "01-ai/Yi-1.5-9B-Chat": 4,
+   "01-ai/Yi-34B": 11,
+   "01-ai/Yi-34B-Chat": 9,
+   "CohereForAI/c4ai-command-r-plus": 7,
+   "CohereForAI/c4ai-command-r-v01": 13,
+   "Deci/DeciLM-7B": 17,
+   "EleutherAI/gpt-j-6b": 23,
+   "EleutherAI/gpt-neox-20b": 24,
+   "EleutherAI/pythia-160m": 26,
+   "HuggingFaceH4/zephyr-7b-alpha": 19,
+   "HuggingFaceH4/zephyr-7b-beta": 15,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 5,
+   "Qwen/Qwen2-72B-Instruct": 1,
+   "Qwen/Qwen2-7B": 6,
+   "bigcode/starcoder2-15b": 10,
+   "databricks/dolly-v2-12b": 24,
+   "google/gemma-7b": 8,
+   "ibm/merlinite-7b": 18,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 3,
+   "microsoft/phi-1_5": 21,
+   "microsoft/phi-2": 15,
+   "mistralai/Mistral-7B-Instruct-v0.3": 12,
+   "mistralai/Mistral-7B-v0.1": 14,
+   "mosaicml/mpt-7b": 22,
+   "tiiuae/falcon-40b": 20,
+   "tiiuae/falcon-7b": 26
+  },
+  "xf": {
+   "01-ai/Yi-1.5-34B-Chat": 2,
+   "01-ai/Yi-1.5-9B-Chat": 4,
+   "01-ai/Yi-34B": 11,
+   "01-ai/Yi-34B-Chat": 9,
+   "CohereForAI/c4ai-command-r-plus": 7,
+   "CohereForAI/c4ai-command-r-v01": 13,
+   "Deci/DeciLM-7B": 16,
+   "EleutherAI/gpt-j-6b": 23,
+   "EleutherAI/gpt-neox-20b": 25,
+   "EleutherAI/pythia-160m": 27,
+   "HuggingFaceH4/zephyr-7b-alpha": 19,
+   "HuggingFaceH4/zephyr-7b-beta": 16,
+   "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 5,
+   "Qwen/Qwen2-72B-Instruct": 1,
+   "Qwen/Qwen2-7B": 5,
+   "bigcode/starcoder2-15b": 9,
+   "databricks/dolly-v2-12b": 21,
+   "google/gemma-7b": 8,
+   "ibm/merlinite-7b": 18,
+   "meta-llama/Meta-Llama-3-70B-Instruct": 3,
+   "microsoft/phi-1_5": 24,
+   "microsoft/phi-2": 14,
+   "mistralai/Mistral-7B-Instruct-v0.3": 12,
+   "mistralai/Mistral-7B-v0.1": 14,
+   "mosaicml/mpt-7b": 22,
+   "tiiuae/falcon-40b": 19,
+   "tiiuae/falcon-7b": 26
+  }
+ },
+ "rank_spread": {
+  "01-ai/Yi-1.5-34B-Chat": 1,
+  "01-ai/Yi-1.5-9B-Chat": 2,
+  "01-ai/Yi-34B": 1,
+  "01-ai/Yi-34B-Chat": 7,
+  "CohereForAI/c4ai-command-r-plus": 0,
+  "CohereForAI/c4ai-command-r-v01": 17,
+  "Deci/DeciLM-7B": 4,
+  "EleutherAI/gpt-j-6b": 1,
+  "EleutherAI/gpt-neox-20b": 2,
+  "EleutherAI/pythia-160m": 1,
+  "HuggingFaceH4/zephyr-7b-alpha": 1,
+  "HuggingFaceH4/zephyr-7b-beta": 2,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 1,
+  "Qwen/Qwen2-72B-Instruct": 0,
+  "Qwen/Qwen2-7B": 2,
+  "bigcode/starcoder2-15b": 1,
+  "databricks/dolly-v2-12b": 5,
+  "google/gemma-7b": 0,
+  "ibm/merlinite-7b": 5,
+  "meta-llama/Meta-Llama-3-70B-Instruct": 1,
+  "microsoft/phi-1_5": 3,
+  "microsoft/phi-2": 4,
+  "mistralai/Mistral-7B-Instruct-v0.3": 0,
+  "mistralai/Mistral-7B-v0.1": 4,
+  "mosaicml/mpt-7b": 1,
+  "tiiuae/falcon-40b": 1,
+  "tiiuae/falcon-7b": 2
+ },
+ "summary": {
+  "n_models": 27,
+  "n_responses": 35748,
+  "rank_spread_median": 1,
+  "rank_spread_max": 17,
+  "models_rank_changes": 23,
+  "template_range_pct": [
+   0.0007552870090634441,
+   0.9561933534743202
+  ],
+  "discordant_subject_range": [
+   0.012698412698412698,
+   0.05670165279285801
+  ],
+  "extraction_share_subject_range": [
+   0.6122448979591837,
+   0.9552238805970149
+  ]
+ }
+}

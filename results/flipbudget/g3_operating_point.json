@@ -1,0 +1,28 @@
+{
+ "rule": "PLAN G3.1 default (see docstring)",
+ "rho": 0.2,
+ "power": 0.8,
+ "eps0": 0.01,
+ "alpha_falsification": 0.05,
+ "budget": 458,
+ "F": 2,
+ "falsification_models": [
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+  "01-ai/Yi-1.5-9B-Chat"
+ ],
+ "n0_by_cell": {
+  "000": 39,
+  "111": 100
+ },
+ "pooled_error_ub_existing": {
+  "000": 0.020439216009075778,
+  "111": 0.06610473002986189
+ },
+ "reject_if_errors_at_least": {
+  "000": 6,
+  "111": 17
+ },
+ "labels_falsification": 278,
+ "labels_certification": 180,
+ "cannot_detect": "per-model concordant error below 0.2 at 80% power in the 2 screened models; any departure in the other 25 models (unscreened)"
+}

@@ -1,0 +1,967 @@
+{
+  "mechanism_check_passed": true,
+  "n_scored": 136,
+  "n_skipped": 242,
+  "n_degenerate": 0,
+  "n_flippable": 14,
+  "n_robust": 122,
+  "flippable_median_lambda_tilde": 7.255529873413509,
+  "flippable_iqr": [
+    5.869276097842738,
+    8.034615307979074
+  ],
+  "per_pair": [
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "point_delta": -0.02737915407854985,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.18882175226586104,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "Qwen/Qwen2-7B",
+      "point_delta": 0.04531722054380666,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "point_delta": 0.11782477341389727,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.20845921450151056,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "point_delta": -0.11706948640483383,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.20921450151057402,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "google/gemma-7b",
+      "point_delta": 0.16918429003021146,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": 0.04984894259818731,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.1797583081570997,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.233383685800604,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.1578549848942598,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.22054380664652568,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.2280966767371601,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.2212990936555891,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.2182449137232283,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.1614425981873112,
+      "lambda_tilde": 6.896894209431444,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "Qwen/Qwen2-7B",
+      "point_delta": 0.017938066465256808,
+      "lambda_tilde": 1.6552822968106808,
+      "status": "flippable"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "01-ai/Yi-1.5-34B-Chat",
+      "point_delta": 0.14520392749244712,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.1810800604229607,
+      "lambda_tilde": 7.614165537395573,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "01-ai/Yi-1.5-34B-Chat",
+      "point_delta": -0.08969033232628398,
+      "lambda_tilde": 4.276047102154855,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.18183534743202417,
+      "lambda_tilde": 7.6415016449754205,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "google/gemma-7b",
+      "point_delta": 0.1418051359516616,
+      "lambda_tilde": 6.179517832590682,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": 0.022469788519637462,
+      "lambda_tilde": 1.8207650409298066,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.15237915407854985,
+      "lambda_tilde": 6.565854579754727,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.206004531722054,
+      "lambda_tilde": 13.813041182877159,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.13047583081570996,
+      "lambda_tilde": 5.765862186260089,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.19316465256797583,
+      "lambda_tilde": 8.055591075793442,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.20071752265861026,
+      "lambda_tilde": 8.331349088155646,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.19391993957703926,
+      "lambda_tilde": 8.08280787385247,
+      "status": "flippable"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-34B-Chat",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.19086575964467845,
+      "lambda_tilde": 7.971688004535968,
+      "status": "flippable"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.14350453172205438,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.3066465256797583,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.019637462235649543,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.0717522658610272,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.020392749244712988,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.019637462235649557,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.13897280966767372,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.00906344410876133,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.044561933534743,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "01-ai/Yi-34B",
+      "point_delta": 0.030966767371601207,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.03172205438066465,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.03927492447129909,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.03247734138972809,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-34B",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.02942316145736725,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "Qwen/Qwen2-7B",
+      "point_delta": 0.16314199395770393,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.1631419939577039,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "Qwen/Qwen2-7B",
+      "point_delta": -0.07175226586102718,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.16389728096676737,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "Qwen/Qwen2-7B",
+      "point_delta": -0.12386706948640482,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": 0.004531722054380655,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.13444108761329304,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.188066465256797,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.11253776435045316,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.17522658610271902,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.18277945619335345,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.17598187311178246,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-7B",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.17292769317942164,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.32628398791540786,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "01-ai/Yi-1.5-9B-Chat",
+      "point_delta": 0.2348942598187311,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.32703927492447127,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "google/gemma-7b",
+      "point_delta": 0.28700906344410876,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": 0.16767371601208458,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.297583081570997,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.3512084592145013,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.2756797583081571,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.338368580060423,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.3459214501510574,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.3391238670694864,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "Qwen/Qwen2-72B-Instruct",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.33606968713712554,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.09138972809667674,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.0007552870090634448,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.0392749244712991,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.15861027190332327,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.028700906344410873,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0249244712990935,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "mistralai/Mistral-7B-v0.1",
+      "point_delta": 0.05060422960725075,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.012084592145015106,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.019637462235649546,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.01283987915407855,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mistralai/Mistral-7B-v0.1",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.00978569922171771,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.09214501510574019,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "google/gemma-7b",
+      "point_delta": 0.05211480362537764,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": -0.06722054380664652,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.06268882175226587,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.11631419939577,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.04078549848942599,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.10347432024169184,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.11102719033232629,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.1042296072507553,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "01-ai/Yi-1.5-9B-Chat",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.10117542731839445,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.040030211480362544,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.1593655589123867,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.029456193353474318,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "microsoft/phi-2",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.02416918429003,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "microsoft/phi-2",
+      "point_delta": 0.051359516616314195,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "microsoft/phi-2",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.011329305135951661,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "microsoft/phi-2",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.0188821752265861,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "microsoft/phi-2",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.012084592145015106,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "microsoft/phi-2",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.009030412212654266,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "point_delta": -0.11933534743202416,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.010574018126888227,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0641993957703924,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": -0.01132930513595165,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.0513595166163142,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.05891238670694865,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.052114803625377654,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "google/gemma-7b",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.04906062369301681,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.1299093655589124,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.183534743202417,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "CohereForAI/c4ai-command-r-plus",
+      "point_delta": 0.10800604229607251,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.17069486404833836,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.1782477341389728,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.1714501510574018,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.16839597112504098,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0536253776435043,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "bigcode/starcoder2-15b",
+      "point_delta": 0.021903323262839877,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.040785498489425975,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.04833836858006042,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.04154078549848943,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "bigcode/starcoder2-15b",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.03848660556612858,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0755287009063443,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mosaicml/mpt-7b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0128398791540785,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "tiiuae/falcon-7b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.005287009063444,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "EleutherAI/gpt-j-6b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.012084592145015,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "tiiuae/falcon-40b",
+      "lo": "CohereForAI/c4ai-command-r-v01",
+      "point_delta": 2.0151387720773757,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.06268882175226585,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.0702416918429003,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.0634441087613293,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "CohereForAI/c4ai-command-r-plus",
+      "lo": "tiiuae/falcon-40b",
+      "point_delta": 0.06038992882896846,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mosaicml/mpt-7b",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.0075528700906344415,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "mosaicml/mpt-7b",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.0007552870090634448,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "tiiuae/falcon-40b",
+      "lo": "mosaicml/mpt-7b",
+      "point_delta": 0.0022988929232973954,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "EleutherAI/gpt-j-6b",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.006797583081570997,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "tiiuae/falcon-40b",
+      "lo": "tiiuae/falcon-7b",
+      "point_delta": 0.009851763013931838,
+      "lambda_tilde": null,
+      "status": "robust"
+    },
+    {
+      "hi": "tiiuae/falcon-40b",
+      "lo": "EleutherAI/gpt-j-6b",
+      "point_delta": 0.00305417993236084,
+      "lambda_tilde": null,
+      "status": "robust"
+    }
+  ]
+}

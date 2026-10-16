@@ -1,0 +1,8 @@
+{
+ "n_items": 1324,
+ "n_agree": 1324,
+ "n_disagree": 0,
+ "n_no_boxed_solution": 0,
+ "routine": "verifiers.human_correct(solution_boxed, answer, 'sympy')",
+ "disagreements": {}
+}

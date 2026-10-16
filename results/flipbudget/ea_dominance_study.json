@@ -1,0 +1,1102 @@
+{
+  "exclusions": {
+    "n_total_models": 27,
+    "n_qualifying": 17,
+    "n_excluded_no_credited_audit": 10,
+    "n_excluded_no_wrong_audit": 0
+  },
+  "denom_floor": 0.95,
+  "min_audit_n_robustness_threshold": 5,
+  "single_model": {
+    "n_scored": 16,
+    "median_ratio": 74.99220862276724,
+    "mean_ratio": 119.78838351015287,
+    "iqr": [
+      14.212371518760062,
+      173.5945305670827
+    ],
+    "fraction_dominant": 1.0,
+    "sanity_corr_ratio_vs_audit_n": -0.6093770326174797,
+    "robust_subset": {
+      "n": 4,
+      "median_ratio": 6.136619517426778,
+      "fraction_dominant": 1.0
+    },
+    "per_model": [
+      {
+        "model": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.045568669692134176,
+        "w_identification": 0.252728822568832,
+        "ratio": 5.54610929562547
+      },
+      {
+        "model": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.03453881082289098,
+        "w_identification": 1.012627190332326,
+        "ratio": 29.31853084128757
+      },
+      {
+        "model": "01-ai/Yi-34B",
+        "w_sampling": 0.02222927803904714,
+        "w_identification": 1.8542264518294727,
+        "ratio": 83.41370550012493
+      },
+      {
+        "model": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.028467202996325307,
+        "w_identification": 0.8945861016744422,
+        "ratio": 31.425149207314817
+      },
+      {
+        "model": "CohereForAI/c4ai-command-r-v01",
+        "w_sampling": 0.0,
+        "w_identification": 8.905304810055627,
+        "ratio": NaN
+      },
+      {
+        "model": "EleutherAI/gpt-j-6b",
+        "w_sampling": 0.011771124487660817,
+        "w_identification": 3.8018078549848937,
+        "ratio": 322.97745716394144
+      },
+      {
+        "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04170326647742863,
+        "w_identification": 0.68305071743922,
+        "ratio": 16.378830128544312
+      },
+      {
+        "model": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05142533715810575,
+        "w_identification": 0.3966434038267874,
+        "ratio": 7.712995689407314
+      },
+      {
+        "model": "Qwen/Qwen2-7B",
+        "w_sampling": 0.042097663761697816,
+        "w_identification": 0.2831964458433419,
+        "ratio": 6.727129739228087
+      },
+      {
+        "model": "bigcode/starcoder2-15b",
+        "w_sampling": 0.024269386565767468,
+        "w_identification": 1.9501935848243752,
+        "ratio": 80.35611363886586
+      },
+      {
+        "model": "google/gemma-7b",
+        "w_sampling": 0.026405792450759386,
+        "w_identification": 1.8385905337361528,
+        "ratio": 69.62830360666862
+      },
+      {
+        "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.045568669692134176,
+        "w_identification": 0.19873198164932304,
+        "ratio": 4.361153902274815
+      },
+      {
+        "model": "microsoft/phi-2",
+        "w_sampling": 0.016544754808832038,
+        "w_identification": 1.8975879154078548,
+        "ratio": 114.69423012511923
+      },
+      {
+        "model": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.01679477463161368,
+        "w_identification": 3.759528700906344,
+        "ratio": 223.85109555620872
+      },
+      {
+        "model": "mosaicml/mpt-7b",
+        "w_sampling": 0.012128758363041928,
+        "w_identification": 1.9023028700906344,
+        "ratio": 156.84234223737403
+      },
+      {
+        "model": "tiiuae/falcon-40b",
+        "w_sampling": 0.013881231119217937,
+        "w_identification": 3.795074314550042,
+        "ratio": 273.39609015629264
+      },
+      {
+        "model": "tiiuae/falcon-7b",
+        "w_sampling": 0.007812607331798649,
+        "w_identification": 3.828059617321248,
+        "ratio": 489.984899374168
+      }
+    ]
+  },
+  "pairwise": {
+    "n_scored": 136,
+    "n_skipped": 242,
+    "median_ratio": 134.31931160916486,
+    "mean_ratio": 372.8765749745141,
+    "iqr": [
+      53.701987407979026,
+      411.57461166463366
+    ],
+    "fraction_dominant": 1.0,
+    "fraction_gt_2x": 1.0,
+    "fraction_gt_10x": 0.9632352941176471,
+    "robust_subset": {
+      "n": 10,
+      "median_ratio": 22.264680275902226,
+      "fraction_dominant": 1.0
+    },
+    "per_pair": [
+      {
+        "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.06444383069791597,
+        "w_identification": 0.45146080421815504,
+        "ratio": 7.005492990235211
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.05070152324780875,
+        "w_identification": 14.447355905105207,
+        "ratio": 284.9491490520376
+      },
+      {
+        "lo": "Qwen/Qwen2-7B",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.06203802827060023,
+        "w_identification": 0.48192842749266496,
+        "ratio": 7.7682744105046035
+      },
+      {
+        "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.06871003536118782,
+        "w_identification": 0.5953753854761105,
+        "ratio": 8.665042629455838
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.04856509150035159,
+        "w_identification": 3.9582606825556668,
+        "ratio": 81.50423607308576
+      },
+      {
+        "lo": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.05717895688599329,
+        "w_identification": 1.2113591719816492,
+        "ratio": 21.185401727368465
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.04847919728290887,
+        "w_identification": 2.0963198970571777,
+        "ratio": 43.24163795088715
+      },
+      {
+        "lo": "google/gemma-7b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.052666588388307525,
+        "w_identification": 2.0373225153854757,
+        "ratio": 38.683396394777304
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.06177107812235634,
+        "w_identification": 0.881782699088543,
+        "ratio": 14.275009047792643
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.05162854619093474,
+        "w_identification": 2.1489255664736984,
+        "ratio": 41.62281770488862
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.045568669692134176,
+        "w_identification": 9.10403679170495,
+        "ratio": 199.78719706352192
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.05372974319634164,
+        "w_identification": 1.0933180833237652,
+        "ratio": 20.348470293790783
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.047155174020884365,
+        "w_identification": 36.126414156140775,
+        "ratio": 766.11771467837
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.04623354291887765,
+        "w_identification": 4.026791598970571,
+        "ratio": 87.09675583452614
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.04706445611302478,
+        "w_identification": 4.000539836634217,
+        "ratio": 85.00129751902293
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "w_sampling": 0.047636039244420524,
+        "w_identification": 3.993806296199365,
+        "ratio": 83.84001607915268
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.05070152324780875,
+        "w_identification": 14.501352746024715,
+        "ratio": 286.0141435031036
+      },
+      {
+        "lo": "Qwen/Qwen2-7B",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.06203802827060023,
+        "w_identification": 0.5359252684121738,
+        "ratio": 8.638657342147482
+      },
+      {
+        "lo": "01-ai/Yi-1.5-34B-Chat",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.06871003536118782,
+        "w_identification": 0.6493722263956194,
+        "ratio": 9.45090805123395
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.04856509150035159,
+        "w_identification": 4.012257523475176,
+        "ratio": 82.61608080046815
+      },
+      {
+        "lo": "01-ai/Yi-1.5-34B-Chat",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.05717895688599329,
+        "w_identification": 1.265356012901158,
+        "ratio": 22.129749855774705
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.04847919728290887,
+        "w_identification": 2.1503167379766865,
+        "ratio": 44.35545261667877
+      },
+      {
+        "lo": "google/gemma-7b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.052666588388307525,
+        "w_identification": 2.0913193563049846,
+        "ratio": 39.708654391771404
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.06177107812235634,
+        "w_identification": 0.935779540008052,
+        "ratio": 15.149153429934588
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.05162854619093474,
+        "w_identification": 2.202922407393207,
+        "ratio": 42.66868951231499
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.045568669692134176,
+        "w_identification": 9.15803363262446,
+        "ratio": 200.9721524568726
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.05372974319634164,
+        "w_identification": 1.1473149242432743,
+        "ratio": 21.353441427231555
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.047155174020884365,
+        "w_identification": 36.180410997060285,
+        "ratio": 767.2628030390999
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.04623354291887765,
+        "w_identification": 4.08078843989008,
+        "ratio": 88.2646706753648
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.04706445611302478,
+        "w_identification": 4.054536677553726,
+        "ratio": 86.14859306600293
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "01-ai/Yi-1.5-34B-Chat",
+        "w_sampling": 0.047636039244420524,
+        "w_identification": 4.047803137118874,
+        "ratio": 84.97354526789256
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04760624009864913,
+        "w_identification": 14.531820369299226,
+        "ratio": 305.2503272509349
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.056024156432400794,
+        "w_identification": 14.64526732728267,
+        "ratio": 261.40986781217794
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.027860460460372112,
+        "w_identification": 18.00815262436223,
+        "ratio": 646.3695260879298
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.04107396079265688,
+        "w_identification": 15.261251113788209,
+        "ratio": 371.5553800819858
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.02771046217264581,
+        "w_identification": 16.14621183886374,
+        "ratio": 582.6756601267502
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.03451675936541327,
+        "w_identification": 16.087214457192037,
+        "ratio": 466.06966450366895
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04725783783696293,
+        "w_identification": 14.931674640895103,
+        "ratio": 315.9618663132367
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.032911152006818566,
+        "w_identification": 16.198817508280257,
+        "ratio": 492.19843489295573
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.02222927803904714,
+        "w_identification": 23.153928733511513,
+        "ratio": 1041.5960740083492
+      },
+      {
+        "lo": "01-ai/Yi-34B",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.036118173383647964,
+        "w_identification": 15.143210025130326,
+        "ratio": 419.2684348756745
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.02532286677227369,
+        "w_identification": 50.17630609794733,
+        "ratio": 1981.4623102975834
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.023562207779792992,
+        "w_identification": 18.076683540777132,
+        "ratio": 767.189717946539
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.025153532035109335,
+        "w_identification": 18.050431778440778,
+        "ratio": 717.6102248084269
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "01-ai/Yi-34B",
+        "w_sampling": 0.026207429853429116,
+        "w_identification": 18.043698238005927,
+        "ratio": 688.4955273721737
+      },
+      {
+        "lo": "Qwen/Qwen2-7B",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.06645884889176021,
+        "w_identification": 0.6798398496701293,
+        "ratio": 10.2294857796494
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04532414090878789,
+        "w_identification": 4.042725146749686,
+        "ratio": 89.19584719510574
+      },
+      {
+        "lo": "Qwen/Qwen2-7B",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.054453124311213005,
+        "w_identification": 1.295823636175668,
+        "ratio": 23.7970484259033
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04523209265419119,
+        "w_identification": 2.1807843612511966,
+        "ratio": 48.21320954402329
+      },
+      {
+        "lo": "Qwen/Qwen2-7B",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.049693854440418954,
+        "w_identification": 2.1217869795794946,
+        "ratio": 42.697170575155056
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.05925686229526828,
+        "w_identification": 0.9662471632825619,
+        "ratio": 16.306080441247353
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04859234938209533,
+        "w_identification": 2.233390030667717,
+        "ratio": 45.961762686260386
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.042097663761697816,
+        "w_identification": 9.188501255898968,
+        "ratio": 218.26629876451824
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.050819237898919324,
+        "w_identification": 1.177782547517784,
+        "ratio": 23.175919124572896
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04381004535060452,
+        "w_identification": 36.21087862033479,
+        "ratio": 826.5428243806903
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04281647028321974,
+        "w_identification": 4.11125606316459,
+        "ratio": 96.02043409860055
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04371238572643883,
+        "w_identification": 4.085004300828236,
+        "ratio": 93.45187257435545
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "Qwen/Qwen2-7B",
+        "w_sampling": 0.04432721366810811,
+        "w_identification": 4.0782707603933845,
+        "ratio": 92.00376975933317
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.054098334140263014,
+        "w_identification": 4.156172104733131,
+        "ratio": 76.82624928814352
+      },
+      {
+        "lo": "01-ai/Yi-1.5-9B-Chat",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.061947516131676365,
+        "w_identification": 1.4092705941591135,
+        "ratio": 22.74942858344072
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05402123854105183,
+        "w_identification": 2.294231319234642,
+        "ratio": 42.46906182077276
+      },
+      {
+        "lo": "google/gemma-7b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.0578085735577123,
+        "w_identification": 2.23523393756294,
+        "ratio": 38.66613202852045
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.06620972539372351,
+        "w_identification": 1.0796941212660074,
+        "ratio": 16.30718319469664
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.056864474200536724,
+        "w_identification": 2.346836988651163,
+        "ratio": 41.27070586065512
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05142533715810575,
+        "w_identification": 9.301948213882415,
+        "ratio": 180.88259072145385
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05877879675749449,
+        "w_identification": 1.2912295055012295,
+        "ratio": 21.967606972774472
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05283627618647922,
+        "w_identification": 36.32432557831824,
+        "ratio": 687.4883735204188
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.052015402864398985,
+        "w_identification": 4.224703021148036,
+        "ratio": 81.22023071053745
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05275532838992532,
+        "w_identification": 4.198451258811681,
+        "ratio": 79.58345416372119
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "Qwen/Qwen2-72B-Instruct",
+        "w_sampling": 0.05326587912735503,
+        "w_identification": 4.191717718376829,
+        "ratio": 78.6942370434687
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.03840564942799621,
+        "w_identification": 4.772155891238669,
+        "ratio": 124.2566123035002
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.023575270234104745,
+        "w_identification": 5.657116616314198,
+        "ratio": 239.95977819717336
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.03129425394348419,
+        "w_identification": 5.598119234642496,
+        "ratio": 178.8864896652405
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04495805700666029,
+        "w_identification": 4.442579418345565,
+        "ratio": 98.8160902435668
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.029513854021549758,
+        "w_identification": 5.709722285730719,
+        "ratio": 193.45905423133567
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.01679477463161368,
+        "w_identification": 12.664833510961971,
+        "ratio": 754.0936862065595
+      },
+      {
+        "lo": "mistralai/Mistral-7B-v0.1",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.03305217241514825,
+        "w_identification": 4.654114802580787,
+        "ratio": 140.81116194491787
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.020716448401107607,
+        "w_identification": 39.68721087539779,
+        "ratio": 1915.7343047892277
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.018522993501255903,
+        "w_identification": 7.587588318227592,
+        "ratio": 409.6307822876003
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.020509115695970477,
+        "w_identification": 7.561336555891238,
+        "ratio": 368.68174464376585
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "mistralai/Mistral-7B-v0.1",
+        "w_sampling": 0.02178882815370847,
+        "w_identification": 7.554603015456387,
+        "ratio": 346.71910587218014
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.03829697592165499,
+        "w_identification": 2.910215105740181,
+        "ratio": 75.99072865945539
+      },
+      {
+        "lo": "google/gemma-7b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.043476376666093414,
+        "w_identification": 2.851217724068479,
+        "ratio": 65.58084970986329
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.05414879396576506,
+        "w_identification": 1.695677907771546,
+        "ratio": 31.315155584880035
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.042212943244200656,
+        "w_identification": 2.9628207751567013,
+        "ratio": 70.18749576443578
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.03453881082289098,
+        "w_identification": 9.917932000387953,
+        "ratio": 287.15325641190674
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.044758363458614565,
+        "w_identification": 1.9072132920067684,
+        "ratio": 42.61132768561247
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.036606505330180186,
+        "w_identification": 36.940309364823776,
+        "ratio": 1009.1187080447252
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.03541138639449641,
+        "w_identification": 4.840686807653574,
+        "ratio": 136.698596144372
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.036489571452176024,
+        "w_identification": 4.81443504531722,
+        "ratio": 131.94002707395774
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "01-ai/Yi-1.5-9B-Chat",
+        "w_sampling": 0.037223890587156465,
+        "w_identification": 4.807701504882368,
+        "ratio": 129.1563409693986
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.031160789249262476,
+        "w_identification": 3.7361784491440075,
+        "ratio": 119.89999416437877
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04486525767865145,
+        "w_identification": 2.5806386328470747,
+        "ratio": 57.51975507041472
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.029372300488096355,
+        "w_identification": 3.84778150023223,
+        "ratio": 131.00034509696005
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "microsoft/phi-2",
+        "w_sampling": 0.016544754808832038,
+        "w_identification": 10.802892725463481,
+        "ratio": 652.9497022039036
+      },
+      {
+        "lo": "microsoft/phi-2",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.03292583420535254,
+        "w_identification": 2.7921740170822966,
+        "ratio": 84.80192178785832
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "microsoft/phi-2",
+        "w_sampling": 0.020514280175366387,
+        "w_identification": 37.825270089899306,
+        "ratio": 1843.8507111412084
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "microsoft/phi-2",
+        "w_sampling": 0.018296604739821126,
+        "w_identification": 5.725647532729103,
+        "ratio": 312.93497422872565
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "microsoft/phi-2",
+        "w_sampling": 0.020304883239959274,
+        "w_identification": 5.699395770392749,
+        "ratio": 280.6908911042908
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "microsoft/phi-2",
+        "w_sampling": 0.0215967008839201,
+        "w_identification": 5.692662229957897,
+        "ratio": 263.58943713465
+      },
+      {
+        "lo": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.04936018952394737,
+        "w_identification": 2.5216412511753727,
+        "ratio": 51.086539081297175
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.03586459255632546,
+        "w_identification": 3.788784118560528,
+        "ratio": 105.64135400702602
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.026405792450759386,
+        "w_identification": 10.743895343791781,
+        "ratio": 406.876459542982
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.0388284370196197,
+        "w_identification": 2.733176635410595,
+        "ratio": 70.39110624075707
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.029058091031271147,
+        "w_identification": 37.7662727082276,
+        "ratio": 1299.681822442674
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.027537296676933543,
+        "w_identification": 5.666650151057401,
+        "ratio": 205.78091660696808
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.028910642446279007,
+        "w_identification": 5.640398388721047,
+        "ratio": 195.09764956631062
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "google/gemma-7b",
+        "w_sampling": 0.029832104390031318,
+        "w_identification": 5.633664848286195,
+        "ratio": 188.8457071157453
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.0482510679588139,
+        "w_identification": 2.633244302263595,
+        "ratio": 54.57380351687298
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04170326647742863,
+        "w_identification": 9.588355527494848,
+        "ratio": 229.91857322937582
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-plus",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.050493010222420046,
+        "w_identification": 1.5776368191136623,
+        "ratio": 31.244657669729417
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04343120093108734,
+        "w_identification": 36.61073289193067,
+        "ratio": 842.9592575628113
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04242875520455787,
+        "w_identification": 4.511110334760468,
+        "ratio": 106.32200527711608
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.04333268750713981,
+        "w_identification": 4.484858572424114,
+        "ratio": 103.49827879208175
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+        "w_sampling": 0.0439528271249139,
+        "w_identification": 4.478125031989262,
+        "ratio": 101.8848007037735
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.024269386565767468,
+        "w_identification": 10.855498394880001,
+        "ratio": 447.2918326741696
+      },
+      {
+        "lo": "bigcode/starcoder2-15b",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.03740835161715425,
+        "w_identification": 2.8447796864988173,
+        "ratio": 76.04664636423846
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.027131345409096726,
+        "w_identification": 37.87787575931582,
+        "ratio": 1396.092791867813
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.025495881188920076,
+        "w_identification": 5.778253202145623,
+        "ratio": 226.63477129226345
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.026973366419167307,
+        "w_identification": 5.752001439809269,
+        "ratio": 213.24744380893776
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "bigcode/starcoder2-15b",
+        "w_sampling": 0.027958750001811576,
+        "w_identification": 5.745267899374417,
+        "ratio": 205.49087133731496
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.028467202996325307,
+        "w_identification": 9.799890911730069,
+        "ratio": 344.25197702054146
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "mosaicml/mpt-7b",
+        "w_sampling": 0.012128758363041928,
+        "w_identification": 44.83298698454708,
+        "ratio": 3696.4201645866438
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "tiiuae/falcon-7b",
+        "w_sampling": 0.007812607331798649,
+        "w_identification": 12.733364427376877,
+        "ratio": 1629.8482550825133
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "EleutherAI/gpt-j-6b",
+        "w_sampling": 0.011771124487660817,
+        "w_identification": 12.70711266504052,
+        "ratio": 1079.5156128338342
+      },
+      {
+        "lo": "CohereForAI/c4ai-command-r-v01",
+        "hi": "tiiuae/falcon-40b",
+        "w_sampling": 0.013881231119217937,
+        "w_identification": 12.70037912460567,
+        "ratio": 914.9317532090197
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.030943309872459544,
+        "w_identification": 36.82226827616589,
+        "ratio": 1189.9912591102218
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.02951979809813859,
+        "w_identification": 4.7226457189956905,
+        "ratio": 159.98231774130878
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.03080488627049288,
+        "w_identification": 4.696393956659336,
+        "ratio": 152.45613684209175
+      },
+      {
+        "lo": "tiiuae/falcon-40b",
+        "hi": "CohereForAI/c4ai-command-r-plus",
+        "w_sampling": 0.03167128389912757,
+        "w_identification": 4.689660416224484,
+        "ratio": 148.07294933672287
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "mosaicml/mpt-7b",
+        "w_sampling": 0.014427183119026857,
+        "w_identification": 39.755741791812696,
+        "ratio": 2755.6135847046976
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "mosaicml/mpt-7b",
+        "w_sampling": 0.016901661194482265,
+        "w_identification": 39.729490029476345,
+        "ratio": 2350.626342128221
+      },
+      {
+        "lo": "mosaicml/mpt-7b",
+        "hi": "tiiuae/falcon-40b",
+        "w_sampling": 0.01843353891183687,
+        "w_identification": 39.72275648904149,
+        "ratio": 2154.917548877932
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "EleutherAI/gpt-j-6b",
+        "w_sampling": 0.014127852102314853,
+        "w_identification": 7.629867472306142,
+        "ratio": 540.0585607104413
+      },
+      {
+        "lo": "tiiuae/falcon-7b",
+        "hi": "tiiuae/falcon-40b",
+        "w_sampling": 0.015928760488688957,
+        "w_identification": 7.6231339318712905,
+        "ratio": 478.5767189659542
+      },
+      {
+        "lo": "EleutherAI/gpt-j-6b",
+        "hi": "tiiuae/falcon-40b",
+        "w_sampling": 0.018200218380259963,
+        "w_identification": 7.596882169534936,
+        "ratio": 417.40609979573367
+      }
+    ]
+  }
+}

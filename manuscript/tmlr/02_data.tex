@@ -1,0 +1,107 @@
+\section{The board, the verifiers, and the human audit}
+\label{sec:data}
+
+Everything in this paper uses one fixed set of model responses that the leaderboard published.
+This section describes those responses, the three verifiers that read them, how we sort the
+responses by what the verifiers say, and the small human audit that tells us what a careful
+reader would say.
+
+\subsection{The board and the roster}
+
+The Open LLM Leaderboard \citep{openllmleaderboard, fourrier2024openllm} tested submitted models
+on MATH-Hard, the \NumItems{} hardest (Level~5) problems of the MATH benchmark of competition
+mathematics \citep{hendrycksmath2021}, spread over seven subjects, and it published every model's
+written response to every problem. The leaderboard has since been retired, which suits this
+study: its responses can no longer change, and its scoring is on record. We call its table of
+models the \emph{board}.
+
+Our \emph{roster} is the \NumModels{} models we study, a small part of a board that held
+\BoardModelsRescored{} models at the February 2025 re-scoring \citep{kydlicek2025fixing}. The
+roster was not chosen for this paper. An earlier study ranked all \RosterCatalogued{} of the
+leaderboard's per-model result repositories by download count and kept the top \RosterSelected{},
+at most \RosterMaxPerOrg{} per organisation, under a rule written down before any re-scoring; the
+roster is the \NumModels{} of these that received at least one problem in the human audit described
+below (Appendix~\ref{app:data}). It leans towards popular models, is neither complete nor random,
+and sits low on the board: the median roster model is at the \RosterPctMedian{}th percentile of
+displayed accuracy (Appendix~\ref{app:board}). Every roster model answered every problem, so we
+work with all \NumRows{} responses.
+
+\subsection{Three verifiers}
+\label{sec:verifiers}
+
+A verifier gives each response a verdict of $1$ (credit) or $0$ (no credit) in two steps.
+\emph{Extraction} looks for the answer in the text, and the \emph{equivalence check} then decides
+whether that answer matches the gold answer. Either step can fail, and a response whose answer
+cannot be found gets $0$, exactly like a wrong answer. Our three verifiers differ mainly in how they
+extract.
+
+\emph{The 2024 verifier} is the leaderboard's original scorer, from the lm-evaluation-harness
+\citep{biderman2024lessons}. It reads an answer only from the sentence ``Final Answer: The final
+answer is X. I hope it is correct.'', which the prompt demonstrates and which we call the
+\emph{template}, and it checks whether that answer is mathematically equal to the gold answer
+rather than identical as text. The leaderboard published this verifier's verdict on every response, together
+with the scoring code that ran. Re-running that code reproduces the published verdict on
+\EmReexecItems{} of \EmReexecItems{} responses, so we know exactly which verifier produced the
+original scores.
+
+\emph{Math-Verify} is the verifier the leaderboard switched to in February 2025
+\citep{kydlicek2025fixing}. The switch changed the displayed scores but left the published
+per-response verdicts as they were, so from then on the board showed scores from one verifier and
+published verdicts from another. Running Math-Verify ourselves reproduces the re-scored totals in
+\MvAggregateMatch{} of \NumSubjectsRescored{} model-subject combinations; each of the others is off
+by a single problem.
+
+\emph{The boxed verifier} reads the expression inside the last \texttt{\textbackslash boxed\{\}}
+command, which is how the benchmark's own reference solutions mark their answers, and compares it
+in the same way. Appendix Table~\ref{tab:provenance} gives each verifier's version and the check
+behind it.
+
+The three are not independent. All rest on the same algebra library, and the 2024 and boxed
+verifiers also share the harness's normalisation of answers and the stored gold answer, which the
+harness takes from the same reference solution that Math-Verify reads (Appendix
+Table~\ref{tab:shared}). Nothing below assumes independence; what matters is that the verifiers fail
+on different responses, and they do. While tracing the verdicts we also found that our own boxed
+verifier had been silently degraded on Windows, where an error handler turned every check of
+mathematical equality into a plain comparison of text. All results use the corrected version. Appendix~\ref{app:data}
+reports the defect, which is itself an instance of this paper's subject: a verifier that fails
+quietly still produces a plausible number.
+
+\subsection{Sorting responses by the verdicts}
+
+Writing the $K = \NumVerifiers$ verdicts in a fixed order (the 2024 verifier, the boxed verifier,
+Math-Verify) gives each response a three-digit string, which places it in one of $\NumCells$
+\emph{cells}.
+Cell $111$ holds the responses that all three verifiers credit and cell $000$ those that none
+credits; in cell $101$, for example, the 2024 verifier and Math-Verify credit the response and the
+boxed verifier does not. We call $111$ and $000$ the \emph{concordant} cells, because there the
+verifiers agree, and the other six the \emph{discordant} cells. Table~\ref{tab:cells} gives their
+sizes.
+
+\subsection{The human audit and the reader verdict}
+
+The quantity this paper is after is whether the answer a response gives is right, as a careful
+reader would judge it. A ranking can also legitimately reward following the requested format; we
+measure that separately in Section~\ref{sec:disagree}. We obtain the reader's judgement in two
+steps, and only the first is human. A labeller sees the problem and the response and nothing
+else: not the model, not any verifier's verdict, and not the gold answer. The labeller copies down,
+exactly as written, the final answer the response \emph{commits to}, meaning the answer it presents
+as final after any corrections it makes along the way. If there is no such answer the labeller
+writes \textsc{none}, and if the response gives two different final answers without choosing
+between them, \textsc{contradictory}. The benchmark's own equivalence check then compares the copied
+answer with the gold answer. The result is the \emph{reader verdict}, written $Y^*$: $1$ if they
+match, and $0$ otherwise, including for \textsc{none} and \textsc{contradictory} (Appendix~\ref{sec:sensitivity}
+drops those instead). $Y^*$ is a measurement, not mathematical truth: it records which answer a
+reader finds and whether the benchmark accepts it.
+
+All human labels come from one audit of 400 responses, designed for an earlier study in a dated
+document committed before labelling began. The labellers worked from a spreadsheet that showed only
+the problem and the response. Of the 400 labels, \AuditNAgreeAll{} fall in cell $111$ and
+\AuditNRejectAll{} in cell $000$. Because the audit was drawn by the boxed verifier's verdict and by
+subject, not by model and cell, it has too few labels to say anything about one model in one
+discordant cell. We therefore use only its labels in the two concordant cells and treat every
+discordant cell as unknown, which can only make our conclusions more cautious. The author labelled
+all 400 responses; two other labellers labelled overlapping sets of \LabTwoN{} and \LabThreeN{},
+and using their labels instead moves the certified count by at most \LabSwapMax{}
+(Appendix~\ref{app:data}). Our analysis plan also describes a larger audit drawn by model and cell
+and a complete labelling of the discordant responses; neither has been carried out, and no result
+here depends on them.

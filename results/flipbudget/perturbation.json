@@ -1,0 +1,32 @@
+{
+ "n_sampled": 300,
+ "seed": 20260926,
+ "population": "cell 111 (all three verifiers credit)",
+ "n_population": 1904,
+ "credited_after_rewrite": {
+  "control": {
+   "n": 300,
+   "em_rec": 300,
+   "sb_sympy": 300,
+   "mv": 300
+  },
+  "signoff": {
+   "n": 300,
+   "em_rec": 0,
+   "sb_sympy": 300,
+   "mv": 300
+  },
+  "no_template": {
+   "n": 300,
+   "em_rec": 0,
+   "sb_sympy": 300,
+   "mv": 300
+  },
+  "no_box": {
+   "n": 300,
+   "em_rec": 300,
+   "sb_sympy": 0,
+   "mv": 299
+  }
+ }
+}

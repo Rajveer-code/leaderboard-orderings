@@ -1,0 +1,36 @@
+\section{How common is this design choice?}
+\label{sec:generality}
+
+The results so far concern one roster on one board. Two wider questions can be answered without
+new labels: whether the choice of verifier also moves the rest of the board, and whether the
+scoring design behind the problem is common elsewhere.
+
+\paragraph{Across the whole board.}
+The re-scoring, on \BoardRegradeDate{}, rewrote the results file of a model's run with Math-Verify's
+scores and did not generate new responses. We traced every displayed score on the board back to its
+results file (Appendix~\ref{app:board}). For the \BoardShiftModels{} models whose displayed score
+comes from a file the re-scoring rewrote, and whose earlier version we could read, the file's score
+before and after the rewrite compares two verifiers on the same responses. Of the pairs that both
+scores order strictly, \BoardShiftDiscordantPct\% reverse, that is, swap places
+(Appendix~\ref{app:board} defines the statistic and its treatment of ties), and Kendall's rank
+correlation between the two scores, which would be $1$ if they ordered every pair alike, is
+$\tau_b = \BoardShiftTau$. Among them, on the \RosterShiftModels{} roster models,
+\RosterShiftDiscordantPct\% reverse ($\tau_b = \RosterShiftTau$), so the roster understates how far
+the choice of verifier moves the board.
+
+\paragraph{Across evaluation frameworks.}
+The design choice at the root of the problem is to score an unreadable response as a wrong
+answer. We loaded the task configurations of four evaluation frameworks
+\citep{biderman2024lessons, opencompass2026, fourrier2024lighteval, openai2024simpleevals} with
+each framework's own loader and classified the scoring path of each generative task. In
+\texttt{lm-evaluation-harness}, \LmEvalCoerce{} of \LmEvalGenerative{} generative tasks
+(\LmEvalCoercePct\%) match an assumed output format and score a failure to match as incorrect. In OpenCompass the figure is
+\OpenCompassCoerce{} of \OpenCompassGenerative{} configurations, in \texttt{lighteval}
+\LightevalCoerce{} of \LightevalGenerative{} generative metrics, and in \texttt{simple-evals}
+\SimpleEvalsCoerce{} of \SimpleEvalsStringMatch{} string-matching modules (Appendix
+Table~\ref{tab:frameworks}). A behavioural check, run on a random sample of
+\texttt{lm-evaluation-harness} tasks only, confirmed every classification it could test
+(Appendix~\ref{app:frameworks}).
+
+These counts say how many tasks could be affected, not how many rankings change; that depends on
+how often real responses escape the extraction rule, which we have measured for one benchmark only.

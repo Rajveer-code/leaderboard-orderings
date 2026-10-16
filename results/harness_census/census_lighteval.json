@@ -1,0 +1,89 @@
+{
+ "framework": "lighteval",
+ "organisation": "Hugging Face",
+ "clone_commit": "932e1f2f4c5af3e926534f12b2a84a3ae18d6d3f",
+ "clone_date": "2026-09-06",
+ "census_method": "exhaustive read of the central metrics registry (src/lighteval/metrics/metrics.py), the framework's own unit of scoring-logic reuse -- every task declares one of these 49 named metrics rather than implementing its own scoring, so this is a complete census, not a sample, despite the small population",
+ "n_metrics_total": 49,
+ "n_loglikelihood_or_perplexity_excluded": 12,
+ "n_generative": 37,
+ "n_non_extractive": 23,
+ "n_judge": 1,
+ "n_vulnerable": 13,
+ "pct_of_generative": 35.1,
+ "by_category": {
+  "LOGPROBS_PERPLEXITY": [
+   "bits_per_byte",
+   "byte_perplexity",
+   "loglikelihood_acc",
+   "loglikelihood_f1",
+   "mcc",
+   "mrr",
+   "multi_f1_numeric",
+   "prediction_perplexity",
+   "recall_at_k",
+   "target_perplexity",
+   "truthfulqa_mc_metrics",
+   "word_perplexity"
+  ],
+  "NON_EXTRACTIVE": [
+   "bert_score",
+   "bleu",
+   "bleu_1",
+   "bleu_4",
+   "bleurt",
+   "chrf",
+   "chrf_plus",
+   "copyright",
+   "drop",
+   "extractiveness",
+   "extractiveness_de",
+   "extractiveness_fr",
+   "extractiveness_it",
+   "f1_score",
+   "f1_score_macro",
+   "f1_score_micro",
+   "faithfulness",
+   "rouge1",
+   "rouge2",
+   "rougeL",
+   "rougeLsum",
+   "rouge_t5",
+   "ter"
+  ],
+  "JUDGE": [
+   "simpleqa_judge"
+  ],
+  "VULNERABLE": {
+   "exact_match": "ExactMatches(strip_strings=True) -- raw string compare, no extraction step (this paper's EXACT_NO_EXTRACTION pattern)",
+   "expr_gold_metric": "MultilingualExtractiveMatchMetric -- empty extraction list on failure",
+   "gpqa_instruct_metric": "MultilingualExtractiveMatchMetric (IndicesExtractionConfig)",
+   "gpqa_instruct_pass_at_k": "PassAtK(sample_scoring_function=MultilingualExtractiveMatchMetric)",
+   "pass_at_k": "PassAtK(strip_strings=True) -- default scoring, raw string compare",
+   "pass_at_k_math": "PassAtK(sample_scoring_function=MultilingualExtractiveMatchMetric)",
+   "pass_at_k_letters": "PassAtK(sample_scoring_function=MultilingualExtractiveMatchMetric)",
+   "avg_at_n": "AvgAtN(strip_strings=True) -- default scoring, raw string compare",
+   "avg_at_n_math": "AvgAtN(sample_scoring_function=MultilingualExtractiveMatchMetric)",
+   "maj_at_n": "MajAtN() -- default scoring, raw string compare",
+   "g_pass_at_k": "GPassAtK(strip_strings=True) -- default scoring, raw string compare",
+   "g_pass_at_k_math": "GPassAtK(sample_scoring_function=MultilingualExtractiveMatchMetric)",
+   "g_pass_at_k_latex": "GPassAtK(sample_scoring_function=MultilingualExtractiveMatchMetric) -- boxed_match_priority=0, the same MATH-Hard boxed-answer pattern P2/E7 measure margins on"
+  }
+ },
+ "comparison_to_lm_eval_and_opencompass": {
+  "lm_eval_pct_of_generative": 64.9,
+  "opencompass_pct_of_readable": 43.3,
+  "note": "Denominators are not the same unit: this counts METRICS in a registry, not TASK configurations -- one metric here typically backs dozens of tasks, so 12/37 vulnerable metrics almost certainly covers far more than 12/37 = 32.4% of lighteval's actual generative TASK count, but that per-task figure was not computed (the task registry was not audited; this census stops at the metric level, which is the framework's own true unit of scoring reuse). The qualitative finding -- silent coercion recurs in a third, architecturally different framework (centralized Python registry, not per-task YAML) from a third organisation -- is the load-bearing claim, not a fourth percentage to average against the other two."
+ },
+ "notable": {
+  "shortest_complete_statement_of_the_failure": {
+   "file": "src/lighteval/metrics/utils/extractive_match_utils.py",
+   "function": "extract_target_from_pred",
+   "behaviour": "returns [] (empty list, no exception, no distinct sentinel value) when no regex in the priority-ordered pattern set matches the prediction",
+   "caller": "src/lighteval/metrics/dynamic_metrics.py: MultilingualExtractiveMatchMetric.compute()",
+   "caller_code": "if all(len(p) == 0 for p in extracted_predictions):\n    logger.warning(f\"We did not manage to extract a prediction in the correct format...\")\n# ... falls through to:\nreturn self.aggregation_function([\n    1.0 if any(compare_gold_target(gold, pred, ...) for gold in extracted_golds) else 0.0\n    for pred in extracted_predictions\n])",
+   "note": "an empty extracted_predictions list makes `any(...)` over it vacuously False, so the item scores 0.0 -- identical to a genuinely wrong parsed answer. The warning goes to a Python logger, not to any field lighteval's own results JSON or leaderboard output reports."
+  },
+  "math_hard_relevance": "pass_at_k_math, avg_at_n_math, g_pass_at_k_math and g_pass_at_k_latex all wrap MultilingualExtractiveMatchMetric with a boxed-answer LatexExtractionConfig -- the identical extraction target family this paper's own MATH-Hard leaderboard result (Sec. 6) uses margins for."
+ }
+}

@@ -1,0 +1,47 @@
+\section{Limitations}
+\label{sec:limitations}
+
+\begin{enumerate}
+\item \emph{The pooling assumption is not tested.} Testing it model by model needs labels drawn
+  by model within the concordant cells, which the 400-item audit, stratified otherwise, does not
+  provide, and the reference tolerance is a judgement, not calibrated against any external study
+  (Section~\ref{sec:setup}). If the
+  assumption fails at that tolerance, the certified counts are too high, which is why every result
+  is reported as a curve over $\varepsilon$, with a breakdown value for each ordering and the
+  no-pooling analysis beside it.
+\item \emph{The reader verdict inherits the benchmark's reference solutions.} Every verifier and
+  the reader verdict grade against the same reference solutions: the harness derives its gold
+  answer from each solution's last boxed expression, and re-deriving it agrees on
+  \GoldConsistentN{} of \NumItems{} items; a normalisation rule that damages \GoldFtItems{} of those
+  answers changes no audited verdict (Appendix~\ref{sec:sensitivity}). An error in a reference solution therefore affects our
+  results and the leaderboard's in the same way, and no analysis inside the pipeline can detect it.
+  An audit of a sample of reference solutions would.
+\item \emph{The verifiers share machinery.} A response that defeats the shared symbolic library
+  could be miscounted by all three verifiers and land in a concordant cell, which would hide
+  disagreement rather than create it. xFinder, which extracts differently, moved the count by one.
+\item \emph{The scope is one benchmark on one archived board.} The roster of \NumModels{} models
+  is a convenience sample that sits low on the board and moved less than the board under the
+  change of verifier, so its counts are unlikely to overstate the problem but do not estimate it;
+  the secondary analysis also treats a curated benchmark as a random sample.
+\item \emph{The labels come mainly from one labeller, the author.} On overlaps of \LabTwoN{} and
+  \LabThreeN{} items, two others agree with the reader verdicts in \LabTwoPct\% and \LabThreePct\%
+  of cases, and the labels carry no record of the time spent on each item (Appendix~\ref{app:data}).
+\end{enumerate}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+A leaderboard names the model but not the verifier, and on this roster the choice of verifier
+moves the ranking without the published score showing it. A small human audit can settle part of
+the ranking, but only under an explicit assumption about how models differ where the verifiers
+agree. Without that assumption this audit certifies \CertFixedNoPooling{} of the \NumOrderings{}
+orderings on these problems; at the reference tolerance it certifies \CertFixedPrereg{}, all at once
+and with a finite-sample guarantee. The honest output is the curve between the two, with a breakdown
+value for every ordering.
+
+Most disagreements here were responses in which a verifier found no answer. Publishing, beside
+each score, the verifier, its version and that count, which the pipeline computes and then
+discards, would let a reader bound how far a score could rise if every unread response were correct.
+It would not settle the disagreements that remain after extraction, which only a reader can. The
+assumption this paper rests on can be tested directly with labels drawn model by model in the
+concordant cells, and that is the natural next step.

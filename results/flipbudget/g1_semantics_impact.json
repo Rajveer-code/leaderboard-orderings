@@ -1,0 +1,100 @@
+{
+ "string": {
+  "census_cells_17": {
+   "11": 1673,
+   "10": 323,
+   "01": 494,
+   "00": 20018
+  },
+  "sampling_ceiling": 118,
+  "as_incorrect": {
+   "audit_cells": {
+    "00": {
+     "x_correct": 0,
+     "n": 145
+    },
+    "01": {
+     "x_correct": 0,
+     "n": 1
+    },
+    "10": {
+     "x_correct": 16,
+     "n": 32
+    },
+    "11": {
+     "x_correct": 141,
+     "n": 142
+    }
+   },
+   "audit_resolved": 101,
+   "combined_resolved": 84
+  },
+  "drop": {
+   "audit_cells": {
+    "00": {
+     "x_correct": 0,
+     "n": 126
+    },
+    "01": {
+     "x_correct": 0,
+     "n": 1
+    },
+    "10": {
+     "x_correct": 16,
+     "n": 20
+    },
+    "11": {
+     "x_correct": 141,
+     "n": 142
+    }
+   },
+   "audit_resolved": 101,
+   "combined_resolved": 84
+  }
+ },
+ "sympy": {
+  "census_cells_17": {
+   "11": 1807,
+   "10": 344,
+   "01": 360,
+   "00": 19997
+  },
+  "sampling_ceiling": 117,
+  "as_incorrect": {
+   "audit_cells": {
+    "00": {
+     "x_correct": 0,
+     "n": 145
+    },
+    "10": {
+     "x_correct": 16,
+     "n": 32
+    },
+    "11": {
+     "x_correct": 142,
+     "n": 143
+    }
+   },
+   "audit_resolved": 104,
+   "combined_resolved": 89
+  },
+  "drop": {
+   "audit_cells": {
+    "00": {
+     "x_correct": 0,
+     "n": 126
+    },
+    "10": {
+     "x_correct": 16,
+     "n": 20
+    },
+    "11": {
+     "x_correct": 142,
+     "n": 143
+    }
+   },
+   "audit_resolved": 104,
+   "combined_resolved": 89
+  }
+ }
+}

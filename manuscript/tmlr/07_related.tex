@@ -1,0 +1,52 @@
+\section{Related work}
+\label{sec:related}
+
+Appendix~\ref{app:related} adds two-phase sampling, verification bias, raters without a gold
+standard, uncertainty in rankings, design sensitivity and stratified allocation.
+
+\paragraph{Whether a benchmark measures what it claims.}
+BetterBench grades benchmarks against criteria for design, implementation and documentation
+\citep{reuel2024betterbench}, a complementary framework asks which evaluative claims a piece of
+evidence supports \citep{salaudeen2025measurement}, and retrieval tools find the items in a
+benchmark that bear on a particular use \citep{diddee2026benchbrowser}. That work sits upstream of
+ours: we take the benchmark and its gold answers as given and ask whether the published ranking is
+determined by the pipeline's own outputs, which a valid benchmark does not guarantee.
+
+\paragraph{Configuration moves scores, and extraction is part of the configuration.}
+Evaluation results move with prompt formatting \citep{sclar2023quantifying}, with small changes
+that reorder leaderboards \citep{alzahrani2024benchmarks}, and with the many settings of a widely
+used evaluation harness, answer extraction among them \citep{biderman2024lessons}. The sentence
+that the 2024 verifier looks for descends from the convention introduced with
+Minerva \citep{lewkowycz2022minerva}, and learned extractors have followed \citep{yu2024xfinder}.
+The closest study on the extraction side concerns multiple-choice evaluation, where extraction
+methods can disagree with human judgement and produce misleading model comparisons
+\citep{molfese2025right}. We study free-form mathematical answers and ask which pairwise
+comparisons can be established when no extraction method is taken as correct. Benchmarks of verifier accuracy \citep{li2025verifybench} and
+verifiers trained to handle the formats that defeat regular expressions
+\citep{liu2025compassverifier} go the other way: rank the verifiers and adopt the best. A better
+verifier shrinks the discordant cells but does not settle the responses on which verifiers still
+disagree.
+
+\paragraph{Label-efficient evaluation with a proxy.}
+Prediction-powered inference combines many machine-generated labels with a small human-labelled
+sample to produce valid confidence intervals \citep{angelopoulos2023ppi}, with variants for hybrid
+evaluation of language models \citep{fisch2024stratified}, active labelling
+\citep{zrnic2024active} and synthetic labels \citep{boyeau2025autoeval}. Two papers target
+rankings: \citet{chatzi2024ranking} return rank sets with a coverage guarantee from
+pairwise comparisons by a strong model calibrated against human comparisons, and
+\citet{lee2026judge} correct the bias that a judge's imperfect sensitivity and specificity
+introduce into a score. Correcting a proxy's bias requires its error characteristics to carry over
+to the models being scored; when they are common to all of them,
+Proposition~\ref{prop:oneverifier} applies and no pair can be reversed relative to another. We
+therefore bound instead of correcting, with homogeneity assumed only where verifiers with different
+extraction rules agree and carried as a parameter that we vary. The cost is fewer conclusions,
+each conditional on a tolerance a reader may dispute.
+
+\paragraph{Partial identification and design sensitivity.}
+The bounds of Section~\ref{sec:setup} are partial-identification statements
+\citep{manski2003partial}, closest to classical results on contaminated data
+\citep{horowitz1995identification} and on binary variables misclassified at unknown rates
+\citep{molinari2008partial}, with the models as sub-populations. Concurrent
+work applies partial identification to the prevalence of a latent attribute reported by a panel of
+language models, calibrated against validation labels \citep{chen2026partial}; Appendix~\ref{app:related}
+states how our design differs.

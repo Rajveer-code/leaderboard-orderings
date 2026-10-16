@@ -1,0 +1,10 @@
+{
+  "sigalrm_present": false,
+  "bug_confirmed_on_constructed_cases": 3,
+  "n_constructed_cases": 3,
+  "n_real_rows_checked": 69,
+  "n_real_rows_changed": 0,
+  "changed_rows": [],
+  "n_scorer_wrong_under_fixed_comparator": 0,
+  "n_scorer_wrong_under_broken_comparator_original": 0
+}

@@ -1,0 +1,4264 @@
+{
+ "seed": 20260919,
+ "allocation": {
+  "01-ai/Yi-1.5-34B-Chat|score_boxed_only": 9,
+  "01-ai/Yi-1.5-34B-Chat|exact_match_only": 20,
+  "01-ai/Yi-1.5-9B-Chat|score_boxed_only": 29,
+  "01-ai/Yi-1.5-9B-Chat|exact_match_only": 5,
+  "01-ai/Yi-34B|exact_match_only": 9,
+  "01-ai/Yi-34B|score_boxed_only": 2,
+  "CohereForAI/c4ai-command-r-plus|exact_match_only": 6,
+  "CohereForAI/c4ai-command-r-plus|score_boxed_only": 3,
+  "CohereForAI/c4ai-command-r-v01|score_boxed_only": 8,
+  "EleutherAI/gpt-j-6b|exact_match_only": 4,
+  "EleutherAI/gpt-j-6b|score_boxed_only": 1,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|exact_match_only": 25,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|score_boxed_only": 2,
+  "Qwen/Qwen2-72B-Instruct|score_boxed_only": 11,
+  "Qwen/Qwen2-72B-Instruct|exact_match_only": 18,
+  "Qwen/Qwen2-7B|score_boxed_only": 6,
+  "Qwen/Qwen2-7B|exact_match_only": 16,
+  "bigcode/starcoder2-15b|exact_match_only": 5,
+  "bigcode/starcoder2-15b|score_boxed_only": 2,
+  "google/gemma-7b|exact_match_only": 8,
+  "google/gemma-7b|score_boxed_only": 3,
+  "meta-llama/Meta-Llama-3-70B-Instruct|score_boxed_only": 7,
+  "meta-llama/Meta-Llama-3-70B-Instruct|exact_match_only": 9,
+  "microsoft/phi-2|exact_match_only": 6,
+  "microsoft/phi-2|score_boxed_only": 0,
+  "mistralai/Mistral-7B-v0.1|exact_match_only": 5,
+  "mistralai/Mistral-7B-v0.1|score_boxed_only": 0,
+  "mosaicml/mpt-7b|exact_match_only": 3,
+  "mosaicml/mpt-7b|score_boxed_only": 1,
+  "tiiuae/falcon-40b|score_boxed_only": 1,
+  "tiiuae/falcon-40b|exact_match_only": 3,
+  "tiiuae/falcon-7b|exact_match_only": 2,
+  "tiiuae/falcon-7b|score_boxed_only": 0,
+  "01-ai/Yi-1.5-34B-Chat|both_credited": 8,
+  "01-ai/Yi-1.5-34B-Chat|both_rejected": 8,
+  "01-ai/Yi-1.5-9B-Chat|both_credited": 8,
+  "01-ai/Yi-1.5-9B-Chat|both_rejected": 8,
+  "01-ai/Yi-34B|both_credited": 8,
+  "01-ai/Yi-34B|both_rejected": 8,
+  "CohereForAI/c4ai-command-r-plus|both_credited": 8,
+  "CohereForAI/c4ai-command-r-plus|both_rejected": 8,
+  "CohereForAI/c4ai-command-r-v01|both_rejected": 8,
+  "EleutherAI/gpt-j-6b|both_credited": 3,
+  "EleutherAI/gpt-j-6b|both_rejected": 8,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|both_credited": 8,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|both_rejected": 8,
+  "Qwen/Qwen2-72B-Instruct|both_credited": 8,
+  "Qwen/Qwen2-72B-Instruct|both_rejected": 8,
+  "Qwen/Qwen2-7B|both_credited": 7,
+  "Qwen/Qwen2-7B|both_rejected": 7,
+  "bigcode/starcoder2-15b|both_credited": 7,
+  "bigcode/starcoder2-15b|both_rejected": 7,
+  "google/gemma-7b|both_credited": 7,
+  "google/gemma-7b|both_rejected": 7,
+  "meta-llama/Meta-Llama-3-70B-Instruct|both_credited": 7,
+  "meta-llama/Meta-Llama-3-70B-Instruct|both_rejected": 7,
+  "microsoft/phi-2|both_credited": 7,
+  "microsoft/phi-2|both_rejected": 7,
+  "mistralai/Mistral-7B-v0.1|both_credited": 7,
+  "mistralai/Mistral-7B-v0.1|both_rejected": 7,
+  "mosaicml/mpt-7b|both_credited": 4,
+  "mosaicml/mpt-7b|both_rejected": 7,
+  "tiiuae/falcon-40b|both_credited": 5,
+  "tiiuae/falcon-40b|both_rejected": 7,
+  "tiiuae/falcon-7b|both_rejected": 7
+ },
+ "stratum_sizes": {
+  "01-ai/Yi-1.5-34B-Chat|both_credited": 213,
+  "01-ai/Yi-1.5-34B-Chat|both_rejected": 973,
+  "01-ai/Yi-1.5-34B-Chat|score_boxed_only": 31,
+  "01-ai/Yi-1.5-34B-Chat|exact_match_only": 68,
+  "01-ai/Yi-1.5-9B-Chat|both_rejected": 1057,
+  "01-ai/Yi-1.5-9B-Chat|score_boxed_only": 100,
+  "01-ai/Yi-1.5-9B-Chat|exact_match_only": 18,
+  "01-ai/Yi-1.5-9B-Chat|both_credited": 131,
+  "01-ai/Yi-34B|both_credited": 25,
+  "01-ai/Yi-34B|both_rejected": 1249,
+  "01-ai/Yi-34B|exact_match_only": 32,
+  "01-ai/Yi-34B|score_boxed_only": 7,
+  "CohereForAI/c4ai-command-r-plus|both_rejected": 1200,
+  "CohereForAI/c4ai-command-r-plus|both_credited": 74,
+  "CohereForAI/c4ai-command-r-plus|exact_match_only": 20,
+  "CohereForAI/c4ai-command-r-plus|score_boxed_only": 9,
+  "CohereForAI/c4ai-command-r-v01|both_rejected": 1271,
+  "CohereForAI/c4ai-command-r-v01|score_boxed_only": 27,
+  "EleutherAI/gpt-j-6b|both_rejected": 1298,
+  "EleutherAI/gpt-j-6b|exact_match_only": 12,
+  "EleutherAI/gpt-j-6b|score_boxed_only": 2,
+  "EleutherAI/gpt-j-6b|both_credited": 3,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|both_rejected": 1069,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|exact_match_only": 85,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|both_credited": 145,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1|score_boxed_only": 8,
+  "Qwen/Qwen2-72B-Instruct|both_rejected": 810,
+  "Qwen/Qwen2-72B-Instruct|both_credited": 367,
+  "Qwen/Qwen2-72B-Instruct|score_boxed_only": 38,
+  "Qwen/Qwen2-72B-Instruct|exact_match_only": 61,
+  "Qwen/Qwen2-7B|both_rejected": 1040,
+  "Qwen/Qwen2-7B|score_boxed_only": 22,
+  "Qwen/Qwen2-7B|both_credited": 182,
+  "Qwen/Qwen2-7B|exact_match_only": 54,
+  "bigcode/starcoder2-15b|both_rejected": 1235,
+  "bigcode/starcoder2-15b|exact_match_only": 16,
+  "bigcode/starcoder2-15b|score_boxed_only": 6,
+  "bigcode/starcoder2-15b|both_credited": 52,
+  "google/gemma-7b|both_credited": 53,
+  "google/gemma-7b|both_rejected": 1223,
+  "google/gemma-7b|exact_match_only": 29,
+  "google/gemma-7b|score_boxed_only": 10,
+  "meta-llama/Meta-Llama-3-70B-Instruct|both_rejected": 979,
+  "meta-llama/Meta-Llama-3-70B-Instruct|both_credited": 252,
+  "meta-llama/Meta-Llama-3-70B-Instruct|score_boxed_only": 24,
+  "meta-llama/Meta-Llama-3-70B-Instruct|exact_match_only": 32,
+  "microsoft/phi-2|both_rejected": 1287,
+  "microsoft/phi-2|exact_match_only": 20,
+  "microsoft/phi-2|both_credited": 10,
+  "microsoft/phi-2|score_boxed_only": 1,
+  "mistralai/Mistral-7B-v0.1|both_rejected": 1282,
+  "mistralai/Mistral-7B-v0.1|both_credited": 15,
+  "mistralai/Mistral-7B-v0.1|exact_match_only": 17,
+  "mistralai/Mistral-7B-v0.1|score_boxed_only": 1,
+  "mosaicml/mpt-7b|both_rejected": 1292,
+  "mosaicml/mpt-7b|exact_match_only": 11,
+  "mosaicml/mpt-7b|both_credited": 4,
+  "mosaicml/mpt-7b|score_boxed_only": 2,
+  "tiiuae/falcon-40b|both_rejected": 1299,
+  "tiiuae/falcon-40b|score_boxed_only": 2,
+  "tiiuae/falcon-40b|exact_match_only": 12,
+  "tiiuae/falcon-40b|both_credited": 5,
+  "tiiuae/falcon-7b|both_rejected": 1309,
+  "tiiuae/falcon-7b|exact_match_only": 6,
+  "tiiuae/falcon-7b|score_boxed_only": 1,
+  "CohereForAI/c4ai-command-r-v01|both_credited": 0,
+  "tiiuae/falcon-7b|both_credited": 0
+ },
+ "n_final": 458,
+ "rows": [
+  {
+   "uid": "5a7f27ba830a4cd9",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "194ba5f0940f3b8bf9c669189fa2878f6ea29957e3916350ba04ec35c551a0b0",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "4"
+  },
+  {
+   "uid": "1b81a8c720f828b7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "3d035c363a1d4671f26587cfe938efe126b14742d1f223dc51849c2e582e6bed",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "147"
+  },
+  {
+   "uid": "84497df4553396b9",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\dfrac{91}{216}"
+  },
+  {
+   "uid": "93dc1bd187bda3bc",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "3655351031edb9394ca33f2cf615f4f175e1b6b5711fde8bd42e8beabc636483",
+   "subject": "geometry",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "\\frac{5}{2}"
+  },
+  {
+   "uid": "939e934b7523e729",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "640e2e6b582f1d1b379c0871b6c12559c44a89b3dca6cff0d629dd11446492f7",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2777777777777778,
+   "gold": "a^3+a^2"
+  },
+  {
+   "uid": "0604f65442cb9259",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "bc54ade904c9081b021f487e9da4b37a05829596b1f36dfce079f57347239b75",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "0"
+  },
+  {
+   "uid": "d23b963011d277d2",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "30fb74e58a0d8d85f4955172d3d76bf63730cda09ea6d51e0a0780069907ec46",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "6"
+  },
+  {
+   "uid": "116f248127e1e0e8",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "aaac3024d1f71f25f6034ec2d8b9c951f2ce37533195fbe9daa621cd3a766b32",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "216"
+  },
+  {
+   "uid": "8ad893fe7f629943",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "712dc25d678645e2f0b742671130f3a2a53e757c8a84270ae1d1345a0552053a",
+   "subject": "intermediate_algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "-1,2"
+  },
+  {
+   "uid": "e69e6750472a27e7",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "(-\\iny,-7)\\cup(-7,3)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "2e020f5f9151323d",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "36\\sqrt{3}"
+  },
+  {
+   "uid": "cf1666b9ed405a67",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "bf4cf29e145a4356307f642e3ad33b93c0332052e4673363442e43dfb2fa0d71",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "25"
+  },
+  {
+   "uid": "119c90e4a63c0edc",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "e09c8308749412db137730edab4228d6863602b0a5f0a4b37692bed3f97402ad",
+   "subject": "intermediate_algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "-1"
+  },
+  {
+   "uid": "d6a87cad3dd1fb28",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4b2a1673b8e6f3ad6cf585a22c8af57bb7d7baca833d52615541be473388b54f",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "203"
+  },
+  {
+   "uid": "609e1eda8fd8b2d0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "948106f47fcbcd8a27148e0618f3b071af11af16a53083b7984daf2fb845d427",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "32"
+  },
+  {
+   "uid": "ffa6ce6753721f4c",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "740376944dd11bf0fec0febc05606ab94a30476c9b954c66826d3b22d1bfb960",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{2007}{2008}"
+  },
+  {
+   "uid": "fd2ec1f06a479e34",
+   "model": "google/gemma-7b",
+   "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+   "subject": "geometry",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "120"
+  },
+  {
+   "uid": "65dffae2948b969e",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "cf6c38a5531464ee270ec77fa1288ca0bca6d2242ba635591ffa9ceca416fa39",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "4"
+  },
+  {
+   "uid": "a65dab50dcaab501",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "8a96c911d903607b6c0a0ddf0b2ffcd1d6da45d2a3ed04b55e99e8e0d5d66188",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "40"
+  },
+  {
+   "uid": "a0c202ab5b3c60be",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "9a54d7f0f1c6f755f1d4b82b11899a059081de9c88e744efea729e46019a1c1f",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-\\frac{1}{8}"
+  },
+  {
+   "uid": "a8cf615716cb89fd",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "b83b1037e3af83fdcc418950f82cb5bf5a201a26cce246b5ba2f33d23040f78a",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "2"
+  },
+  {
+   "uid": "acf4abdd19d61c2e",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c36e7f20a2c961e5ccd95753cda76c3667b09bf7681684652ae9c67f8fc15d5e",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{1}{9}"
+  },
+  {
+   "uid": "636aeda3b69fc86e",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "cd2ed70403411aad6dc4198bf68822e9d6abb6b80056ab0c9fe325c12d964de9",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "12"
+  },
+  {
+   "uid": "452b1d7c63dda96c",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "596e73323d5bc593e3b809c34f3adcb3b6317aa8ab10b0e3a937a9e3493f6b28",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "(-\\iny,-2)\\cup(-2,3)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "9b8da59622593632",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "716062117dc53dfa05c990ea92a247fbab50837e7c3239b5ae338e556c256b13",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "-4"
+  },
+  {
+   "uid": "c6a838c4c5e04570",
+   "model": "microsoft/phi-2",
+   "item_id": "85d0a713fee5e5e37e2d811bc11ef2b895d32c3da104c05920fe311e712337be",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "162"
+  },
+  {
+   "uid": "6df91c5ca9d3027a",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "2"
+  },
+  {
+   "uid": "7b2813c2f3fb469f",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "4(3-x)(3+x)"
+  },
+  {
+   "uid": "1c9097a6427e0fb9",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "58372cecd81169c198fbc3e8f217af33c9ea676c3a0a6723b173fe9e2bc37943",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "51"
+  },
+  {
+   "uid": "fe7f5f2581219828",
+   "model": "01-ai/Yi-34B",
+   "item_id": "eba8c03d2ac53f2286200ab4a2c71995e35eb1020bb37310103417d7650a9dd0",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "6"
+  },
+  {
+   "uid": "cb3260ba8fb99342",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2777777777777778,
+   "gold": "\\frac{137}{111}"
+  },
+  {
+   "uid": "20159df8d8d1a71a",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "4x^2-6x+4"
+  },
+  {
+   "uid": "84b31f51962f040a",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "6480cd83466760b413e5a1bdfc7ce9bc6838746b5938b94eed8e1614945ee238",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "60000"
+  },
+  {
+   "uid": "aae79cbb5bfac085",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4d3c5c8d658ed21e1a3d0ecb7fbb4e65268e39ec532cf921560a4643fc42f80a",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "52"
+  },
+  {
+   "uid": "39911fcf85526f9b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "91467f001317675e0865926284b7f38896593dc6379c012b124a01e411791e03",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "-\\frac{1}{2}"
+  },
+  {
+   "uid": "2be930342f725ad4",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "e6390bf9525b74cf604cc320cc9e009fbf87f538c9982d4833a02c59e3ebb386",
+   "subject": "precalculus",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "2"
+  },
+  {
+   "uid": "017ec38e81ce478f",
+   "model": "google/gemma-7b",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3,
+   "gold": "(-7,-2)"
+  },
+  {
+   "uid": "b125acb7cef4d4af",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f6e18a15aab7a5888d2305b28f48be65e91bca099798d7360a7af937d97f6a71",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{5}{3}"
+  },
+  {
+   "uid": "fa081d6088995af4",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "d62e3bcd4c3f4b95f4749284258107cfc58c76b240411e61a8fd752c40d6a708",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "2.2"
+  },
+  {
+   "uid": "570f1ed5e5cbe2e4",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "e61111fb034877f1d66eae4b6b6e11f696f6afaa8c376e4383384cffb4f5cc3f",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "\\frac{37}{819}"
+  },
+  {
+   "uid": "993708f1a2cb2bae",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\begin{pmatrix}-6\\9\\end{pmatrix}"
+  },
+  {
+   "uid": "bfe8839dd22b81f7",
+   "model": "microsoft/phi-2",
+   "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "4x^2-6x+4"
+  },
+  {
+   "uid": "8e6975cf9b498fa3",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "\\dfrac{91}{216}"
+  },
+  {
+   "uid": "e867452b856dc820",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "f43883aa66245e766febd8dbe1f92d7aa9a0f0a6fc2e1a4cb561ebbe586e26c2",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "7.5"
+  },
+  {
+   "uid": "8b9e34d6ffed652a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "2129826fa32266b650cd2580fd7deee8d0e0fddffa8c5446f8d7a65a2c51d7bb",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "0.0011_{2}"
+  },
+  {
+   "uid": "557804bd183b9668",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "405109f5f787f68015d128f26b4065eed83212ca6345de4550c7f1ae5b9ea5d9",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2"
+  },
+  {
+   "uid": "0fe5a4c6f2dc6fd9",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "1b667126b9d530a75a2ceea1de35cfafdd645df2bc1456f12094b5d6c5fab517",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{11}{13}"
+  },
+  {
+   "uid": "e27a47576f7f77ed",
+   "model": "google/gemma-7b",
+   "item_id": "1222470356633760977cba8bb28eaa10a29771bafedd33beabcf47f5e78d676d",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "4.5"
+  },
+  {
+   "uid": "8252d391cc5be653",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "acd3968ba2e6eea90194bfbac7e10af96a277ddd014550fdeb44da9772a9d549",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "144"
+  },
+  {
+   "uid": "eaee19bfbecece29",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4ab4160034cace9fdd572dcefec778b83b8e200007d034d3f3700820e13eb297",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "x^2+2"
+  },
+  {
+   "uid": "89a5ed8f8051a5d0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "aa050870f6279bfa245427655963994be0b5a17058371e4c64b13feb0ba9c52c",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2857142857142857,
+   "gold": "[-10,4]"
+  },
+  {
+   "uid": "595e7997c1c28683",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "4442f58766ee032efc13e1774f01fa70b1b5520706ae282b48f4667658684c56",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "10\\sqrt{3}"
+  },
+  {
+   "uid": "74809a270608253b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9cb1a728b52a04949c74ff33794a37e53115d0c183f7784310ba57e356e60167",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "90"
+  },
+  {
+   "uid": "754305b471e875ba",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "42a46a44b290ecc646ac8873df837d640975d58384976fd4cf223408616b01a3",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "(7,6)"
+  },
+  {
+   "uid": "14e3c9cb518fb1a6",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "7bb095235320a474f9c845debd2dd339eee8cf9b6f96cd7e9b06bc89745cb1e6",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "0"
+  },
+  {
+   "uid": "35b20aacdf28de48",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-1"
+  },
+  {
+   "uid": "3250c31eaa1492be",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "0"
+  },
+  {
+   "uid": "b1adcaeaa6cdacfc",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "447c59ff49a5c0ca4dab5d300298fbc9f544c0c68f435a543de4f82fa93f6052",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "107"
+  },
+  {
+   "uid": "8e4ab3d117e750a6",
+   "model": "microsoft/phi-2",
+   "item_id": "cbc64dec3d8ed1d89b7e4c2b25e9a203aa8c7d48e4e54951db12299d92a221ec",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "9"
+  },
+  {
+   "uid": "b427f8f39f769f2e",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "c98bea64f2e764c2fe841111fbdcdac521e2189826eb4411470058a491536fd2",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "10"
+  },
+  {
+   "uid": "8d2f4e75cf5bdf8b",
+   "model": "microsoft/phi-2",
+   "item_id": "c51bb2414f6653768e0d68beaec15802518a87431d3e3af08144ff6b88e37ec0",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "12"
+  },
+  {
+   "uid": "22533b6bd07391d1",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8f150c14dd47af832c22a8a22ee781ab1db8bc3556faca015743ce615a8b832b",
+   "subject": "intermediate_algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{1}{5}"
+  },
+  {
+   "uid": "b0bef1f591e13c6b",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3693542807b414184f4fe7102e0472a293b6b7419ae342c8c8120f8eda2941ec",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "-3"
+  },
+  {
+   "uid": "92aee2f3818d3fe6",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "m+2"
+  },
+  {
+   "uid": "7d1ccac0ce06044c",
+   "model": "microsoft/phi-2",
+   "item_id": "4577902e0131012e92fbee8136e4241c451a33abd42be095c4ccd8844c0695e9",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "127"
+  },
+  {
+   "uid": "cbcb95a9e39ba480",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "c5f5e17fcc5428bf57ac16587f70efa4e7e87826e8a6a36ce7757dea5ee2bf54",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "18"
+  },
+  {
+   "uid": "9c319115f5850d3b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "e691ddd419f57ba05d6394b27157ccbecfdd689896ca0ef798d75aa504b31cef",
+   "subject": "counting_and_prob",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "\\frac{27}{512}"
+  },
+  {
+   "uid": "7d9a723786e4763c",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "e656b7a9635c0ff3",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "4a58101d3bd8e551ed70bb1fa5dec5e4c940417e407fb4f767d0451301c8fb05",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "(4,5)"
+  },
+  {
+   "uid": "2f432c2d3d6d8af0",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "67c6cc3b18610ed6ab95407080276c254cd5e5e3e25d6e1d3f8dc388c1184a71",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "\\frac{1}{2}"
+  },
+  {
+   "uid": "cbb601c14d72cfe0",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "f2f9a737ee7c4dc9fdd36be3196b83c156d4afff2d1a470670f7bc6e01cc1477",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2\\sqrt{10}"
+  },
+  {
+   "uid": "611ba3273c8108d4",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.25,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "8583c44e0abab19f",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f7787f9cadfbb52f0c6dceccd52668fc452dd9e4dd9c8977e914a6adad35d9c8",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "6"
+  },
+  {
+   "uid": "0082cc4d3c1d43e7",
+   "model": "01-ai/Yi-34B",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2857142857142857,
+   "gold": "[0,\\iny)"
+  },
+  {
+   "uid": "bce833b7861593bb",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "002400bd3db893b2032d6491973c85d1774783d7c64762d856f2252c4a19d777",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "6"
+  },
+  {
+   "uid": "d785dab3b6788129",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.25,
+   "gold": "[1,4]"
+  },
+  {
+   "uid": "798214b02a6d4c1d",
+   "model": "google/gemma-7b",
+   "item_id": "1d1ed89ffdec191b6e5f49e85e6a5034f3d2365bc493bd5187301f4f0093d1f9",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "34"
+  },
+  {
+   "uid": "466d93e698a5cfc1",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "8c267f2b9877f944a2369a34d316ebadc649a3f10d33943711eb389b2348f5c3",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\dfrac{1}{5}"
+  },
+  {
+   "uid": "3479ac7d45b67737",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "58372cecd81169c198fbc3e8f217af33c9ea676c3a0a6723b173fe9e2bc37943",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "51"
+  },
+  {
+   "uid": "4b0e5f3861158c13",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "28\\%"
+  },
+  {
+   "uid": "a9b9c5c4aae07edb",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "28\\%"
+  },
+  {
+   "uid": "4d1517136a39aa05",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "6606eb3a9158c2ace9661a86ae99e0dd06d9b120a4d48cc668bf6cd31504c032",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "22"
+  },
+  {
+   "uid": "d05ea37c8d50b1fd",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "5c62876bb1ec790b57064a6767eae92407329af3d0b6e333ddde0f54e4de4e80",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-1"
+  },
+  {
+   "uid": "e811b20090465572",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "0e73840ba4aeaa3aca2e2aeabf50e8750efb7086dbb02c62123b9683a3cff974",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\frac{82}{147}"
+  },
+  {
+   "uid": "b1107e07c446370e",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "311fbc8e8d06e178d713d07d57751e6c8f5a77c4e0b95d8ff4b5dac3550de3be",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "2\\sqrt{10}"
+  },
+  {
+   "uid": "f5d5e1ffd005b657",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "0a25038f6bfe8467a14b37341a9506cbbf45839c3dcd50e56b1a05caa16fd037",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "-3"
+  },
+  {
+   "uid": "ba60cb8a443637fc",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "9007e5bda9e458ef115a9a0e0479e0302b577a9a1914f9c5e4bdb57925670a4b",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "\\frac{5}{3}"
+  },
+  {
+   "uid": "9cb9e9ffb86c3b8d",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "61cadd1da3ff8178bf9063221f73af78bd3e1675b6ddb8a2ef031d6ecfb37d69",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "2000\\sqrt{2}-2000"
+  },
+  {
+   "uid": "20f52f23b642f460",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "d270b71b4dfbc7cd1c54e52af585b26a3aecdb3cdece4eb99c8b0fd02f544437",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "12.25"
+  },
+  {
+   "uid": "056f60522eba73f0",
+   "model": "microsoft/phi-2",
+   "item_id": "f4c34cd76a76d52309e2f3114e2993f02135516e8ae8e6a4ae10205d3fced00c",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "13"
+  },
+  {
+   "uid": "f5bc38548d1de95c",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "10b5eb9fe98355a2d5e413a28195411549c474de89338c64bc08321e1c741ea9",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "12"
+  },
+  {
+   "uid": "75c5842678a5be79",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "65ae7b7bc946b7977010dd3dca7eda19e291c9325e08047696763c38eaceb152",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "2\\sqrt{2}"
+  },
+  {
+   "uid": "ed484577099970e2",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "7816e144b5077f9c7eec4b1172f2118b5d82ad6ab25224c121356b2d6a8f6293",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "1.4"
+  },
+  {
+   "uid": "54ac510560ad09e4",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c0df3cc7548d4a2fbd0f0df7bda5fd9743eba31ba8d9957a6d82f7b1f4eded08",
+   "subject": "geometry",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "27.2"
+  },
+  {
+   "uid": "2935451407608800",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "911cbea0c11612c59a5b9769232688bac5ea717b1aeaaa5ea04eb69ee7428919",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "\\frac{2}{3}"
+  },
+  {
+   "uid": "2423418251df4689",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "268cc25d20b465af1e1608af37a5fbfe3c708cbd92d004e5532eff09d608a8f1",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "\\le(-\\frac{5}{3},\\frac{2}{3},\\frac{19}{3}\\right)"
+  },
+  {
+   "uid": "09ecb7e117940263",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "6e769479ac2ad5a2d5b1bccfc2745022f8bb63b7830c3d0a1b0f828cd7e9a568",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "(-a,0)"
+  },
+  {
+   "uid": "8a568a1eb62a6dee",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.25,
+   "gold": "(-7,-2)"
+  },
+  {
+   "uid": "f4759056d3b327a5",
+   "model": "google/gemma-7b",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "-34+12x"
+  },
+  {
+   "uid": "69bded25d53300cd",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "50"
+  },
+  {
+   "uid": "08d331dfaef200ea",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "606854a06be9a6fc601a0722b60116e7208f7d949a4990d8cdcee47736461184",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "\\frac{23}{7}"
+  },
+  {
+   "uid": "bf388a90693aef21",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "bfa14ce361c767457b6036b9c5d1b2ff5be139e87f07b8a024169e1a819d5191",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "2"
+  },
+  {
+   "uid": "60e5bcb7d7d3e714",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8a7e6221d80b5ab69b6bd202eaed362a71418a89f3a1f32ce4d144a265980d8e",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "8127877457c5404a",
+   "model": "microsoft/phi-2",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "36\\sqrt{3}"
+  },
+  {
+   "uid": "3de5355fb881640b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "bcd22ab670425cfc7bfe53260c5035ebd51a8da6e62005b3c05432aa8af35cd7",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "60"
+  },
+  {
+   "uid": "6f9dd5d0f7417cb9",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "79950bde4e9fa37ccb96f211b605d32d61a6b143b1c467a4407a5037f311e1a4",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "\\begin{pmatrix}-5/13\\12/13\\end{pmatrix}"
+  },
+  {
+   "uid": "a375d1adc18637f2",
+   "model": "google/gemma-7b",
+   "item_id": "ffbea63cd0d5725d97ef2a90dcd6b3941a102450ae2168ff369300f24d0a13ed",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "-\\frac{1}{16}"
+  },
+  {
+   "uid": "50779c8de7ebef75",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "6c019dee8c400e448787c5e290968528ce6273ac6c2050ea21d670326775e603",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "12"
+  },
+  {
+   "uid": "1ac56acd2f0fc959",
+   "model": "google/gemma-7b",
+   "item_id": "13d27c48c80eddc340e21a64ac394640094563713cbc6aed445c8364fbb6ee3d",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "35"
+  },
+  {
+   "uid": "17b04bd30166b8fd",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "d6e3e586760e75d8e7853297081f6be7c62ee2df68a65bc7e0d3602ab9a12366",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "6"
+  },
+  {
+   "uid": "cce76144941407f9",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "96baab77b40a3472c67495467c9abb1d75d373b96f8a75998175f5fa3701f237",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "1"
+  },
+  {
+   "uid": "b655cc252ef06d23",
+   "model": "microsoft/phi-2",
+   "item_id": "8266cb8f39edbc29c7545c276221cc6b0bf474faa6e6e8d00167786550ff582b",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "\\frac{3}{2}"
+  },
+  {
+   "uid": "e909a37b6f259038",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "1b9b63b1fe628b5f6a3a49dd1a84a52fabdae7ebbfb062205fa05465d578b1eb",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "\\frac{1}{2}"
+  },
+  {
+   "uid": "b5afa8a02ab1677e",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "f6fe853c281964b8a779c359a6a592a0c7abe2a4e7ac6d69c94601621a93f394",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.25,
+   "gold": "\\frac{1}{13}"
+  },
+  {
+   "uid": "8b6a03e857492be6",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.5,
+   "gold": "[0,\\iny)"
+  },
+  {
+   "uid": "b815c3a11bf96db4",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "1"
+  },
+  {
+   "uid": "216603a0603b7845",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "bbcf7cd6d5352efe943f9017fc90338f12f0dabde4b4d2580cb3568c43414184",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "27"
+  },
+  {
+   "uid": "87e2bc7e63a37096",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "fb256a868322feb7965c53b7a4ba270333e0c4a9ba1c5d199584216b88b80889",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "163"
+  },
+  {
+   "uid": "5d23aebce92961db",
+   "model": "google/gemma-7b",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "m+2"
+  },
+  {
+   "uid": "d6b1813c38527dd9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "3"
+  },
+  {
+   "uid": "ee4aba1dcd400dea",
+   "model": "01-ai/Yi-34B",
+   "item_id": "45b0176613b5bf569bd5ab3d0351a67a8fb10269f8bf47a98f6ff0213ad388b3",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "x^2"
+  },
+  {
+   "uid": "1695d26760bcc4a9",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "65dc59cac63d94bbf0c44a3dfc91d2260b9561a84eb3f59706eba35c37aded96",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "26"
+  },
+  {
+   "uid": "81fa5f9993b49c27",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "7816e144b5077f9c7eec4b1172f2118b5d82ad6ab25224c121356b2d6a8f6293",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "1.4"
+  },
+  {
+   "uid": "3dccd2c1ea49d1af",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "39f0d912549639b926e7742b3de64148dff6bd6c5958b01718cff836fb6907b2",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "6"
+  },
+  {
+   "uid": "3110d140e392cdba",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "c806ce2882f28bb8dc85a48317f4aac6b0f17e78ff002f3e6e643223815c2759",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "\\le(\\frac{7}{45},\\frac{4}{45}\\right)"
+  },
+  {
+   "uid": "d2fb02a08ce8a43b",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "3e8319db4814fe931b9a1f064cad73fb880a5944eb694f6e4a4aeea2a8034b29",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "7"
+  },
+  {
+   "uid": "6ecc79e7072909dc",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "740febd97d77fd14470aff119536d56852722a28b343f7ef84e8d6b8aea6bf7c",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "-\\frac{2}{3}"
+  },
+  {
+   "uid": "7e61e6872005b4bb",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "eba8c03d2ac53f2286200ab4a2c71995e35eb1020bb37310103417d7650a9dd0",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "6"
+  },
+  {
+   "uid": "4e266c4428013d0a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3c57cc29981349a5b9f72169d05bccb1a21486556b7a8d22c825a0e7bfc7fae5",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "100\\%"
+  },
+  {
+   "uid": "28dc73d988ee5281",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "53cabd524edc4fa226cb8805760a2752656760c1cb153d7cfc30d889f6db0ef9",
+   "subject": "intermediate_algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "-6"
+  },
+  {
+   "uid": "9ed0341e602b1784",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4b13f137fa59678b696d5803d705588fc3d3e0e9c6f369d2ad1981ce4bc3044c",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "96"
+  },
+  {
+   "uid": "eb7230ece7a254d1",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "c4f280a49fdba08d8541529a1046a884211ff7be8488c2b2b42978e43a9e1d20",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "7"
+  },
+  {
+   "uid": "67f2e9be593990b5",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "de31b949215a2a38c2fcff8e63c40bd342d059fe2975ece13d7ed6081a23cbe9",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "\\sqrt{2}"
+  },
+  {
+   "uid": "060610c7610a08de",
+   "model": "google/gemma-7b",
+   "item_id": "5ebae35778132aaf6f7cb839458f2b549a62be3daf63135b2257abbe276363b2",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "\\frac{21}{2}\\pi"
+  },
+  {
+   "uid": "a2ff133d4757854a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "bbe96a06d5b5f4f25bee7fd1a2a513835ebc747b96ffba7c378904bb095ff90e",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "900"
+  },
+  {
+   "uid": "282a3d2cdfb64253",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "(-\\iny,-7)\\cup(-7,3)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "d17a9b2bdc50233f",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "subject": "geometry",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "(-5,-4)"
+  },
+  {
+   "uid": "5a2a7c90198a2543",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8266cb8f39edbc29c7545c276221cc6b0bf474faa6e6e8d00167786550ff582b",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "\\frac{3}{2}"
+  },
+  {
+   "uid": "9f8bf609a46af6c8",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "36d8d90eb7ba359cd9b991a2f9f095d16ee7266bb62ece933485902129186e5b",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "133"
+  },
+  {
+   "uid": "89fac8491ed1df54",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "72a3503073d9018612be46e9272dcd0945566e0437105019a8f75786487e755f",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\frac{270}7"
+  },
+  {
+   "uid": "e3306cd825be8a8e",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "e691ddd419f57ba05d6394b27157ccbecfdd689896ca0ef798d75aa504b31cef",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{27}{512}"
+  },
+  {
+   "uid": "b0e0e798494cf4f6",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "[1,4]"
+  },
+  {
+   "uid": "2e5d3a5ad9eeac75",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "3c5a461866967baf682d0cb73fdb39cd762d8acc553dde16b917a755d7abf383",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "24\\sqrt{2}"
+  },
+  {
+   "uid": "b71fff5b066b405c",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8cce0bbfc4b3e8aedfb6915da029958deb34809f68efe53377145250c52544ca",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "10"
+  },
+  {
+   "uid": "21d4eadcffd70c3e",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "e77527017a5883d40bccb3ac15f0e0d76212aba2e9df132369bcb8a4f7ea725b",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "73"
+  },
+  {
+   "uid": "90634f74aaaec861",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "b5c426ca1d9f528043ff73ab030ee97f949b71e48c8a4d90a0339ec0683716a7",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "\\frac{10}{9}"
+  },
+  {
+   "uid": "26aff5f0d0e665cc",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "00f9fc247e9daddddbe9cb1dff5a0aa3a6e9628dc57f3da9abeeb0a18c3a55c1",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "MAKE"
+  },
+  {
+   "uid": "9bf7a693567aa2e4",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "f1f4a7081cb6146aaaa3b661e37f3123f3fa9e9cbdeee00c7261180405aa30f7",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "-\\dfrac{3}{4}"
+  },
+  {
+   "uid": "0cd89a543f33a86a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "50ad5672823065be68a4a14d2ca72a3b8fd471fcf01e5d5c94392b20e8ce18b2",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "7d8a19f104a052da",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "b550f9edeb17b2eef7b26bfd301dc508c510f03eef52432711aa4bfa4af0e180",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "10"
+  },
+  {
+   "uid": "2b4062c43e20836e",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "5a1bd6c9a443ec71d14eff4ee601e00dfbe9c128db1e54096aa7266a4a5bbb80",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "3\\pm2\\sqrt{2}"
+  },
+  {
+   "uid": "bd1aa39ca53cc32e",
+   "model": "microsoft/phi-2",
+   "item_id": "87cae3c649e0c2e5fa44f33722837422484587807db514d5ba059621b9e9eeb2",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "256"
+  },
+  {
+   "uid": "b164e1255d700be6",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "6a36c04bdca66a7820d7814aae93e0104e74d8b940ab3b1bbe5e2fcb906dccdc",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "36"
+  },
+  {
+   "uid": "e01690b3b43b45a2",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "42c9a27b17d94a5eb4ae54842226e72309cc6484d49fcedd3a74cf1ff7695330",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "[0,1)"
+  },
+  {
+   "uid": "46b9c70d624f7304",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "15"
+  },
+  {
+   "uid": "4acbe712d1f7700f",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "15"
+  },
+  {
+   "uid": "acfcc357d7b74dbe",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "32810d0531d9e2f03b174871f73ca3ab1c521da0b54da4e5e95b8e7458f3b3d7",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "54"
+  },
+  {
+   "uid": "88072dd2282f7e0a",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "990f31d145a551e69b4b0f7aad9edb9406eaaea0c0a9a9756b1c31e02aa33601",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "-\\frac{8}{5}"
+  },
+  {
+   "uid": "88a70698a4fe6ed0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "3041b0929c25333302415447e937bc42cec2c0bc455c15259c8aa0176b7355f7",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "3.24"
+  },
+  {
+   "uid": "ce8af9575d02cb8b",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "4e296fc22a6b69d46c167c7bd525f2fa455c8d575e7b1b8d702dddebf118639c",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "0"
+  },
+  {
+   "uid": "113cabf92db761e7",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "73954579bd4e24be2514c73628444c6fe7864beb844a9cfa03eac6f1146b3dba",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "11"
+  },
+  {
+   "uid": "d9fab73f1bb480bb",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "ae18b0258bec97703570de7ef4252b9e68a34d470263725e599b4c81a61657d8",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "3"
+  },
+  {
+   "uid": "271d969841e36935",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "2ee2d36a1d80e6ad5f5b701908fca85947bb1a335cc6e6c786c78d3d6f77db31",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "-34+12x"
+  },
+  {
+   "uid": "03afc8ee720fb48b",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c4138e9ace88fa22899ad975b11891d3ea473afb601eb487e1b8a94cedf31ef9",
+   "subject": "geometry",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "\\sqrt{5}"
+  },
+  {
+   "uid": "da76d63afcf484d7",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "cf6c38a5531464ee270ec77fa1288ca0bca6d2242ba635591ffa9ceca416fa39",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "4"
+  },
+  {
+   "uid": "a6942e378810a567",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "383b07b47a7be75513a0ba932a8ec9ce1aa5d971549bbcca6a6849267dad8bea",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "120"
+  },
+  {
+   "uid": "c14124d6ae3da3b0",
+   "model": "google/gemma-7b",
+   "item_id": "606db420eac46f70d636b4bdbca6eb43075c20df3aea0e658b0f73f83d987e9b",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "70"
+  },
+  {
+   "uid": "a39a9569adcde4a1",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8fa4c1f3017db692efac54f0457892757466034b6ee914c59d8dfd0ae379a345",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "\\frac{4}{7}"
+  },
+  {
+   "uid": "8690505ae5a19409",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "c335f01f9fa32aa7602fd0b7396609a49bb800399043f4eb03b462328cf412cc",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "19"
+  },
+  {
+   "uid": "b0a7bd6201842b06",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "subject": "intermediate_algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "0"
+  },
+  {
+   "uid": "48c9dd3f22c69fb2",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "ba974a6ae6f047d57352e480834403cce1ed18d5eaf05ae56800bf923a23f2a0",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "79"
+  },
+  {
+   "uid": "795ebcb3d6bb4115",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "a9e6ae8036c54be6124f65b0df6194eb5443e70c583f53aee505acc0bf2faf6b",
+   "subject": "precalculus",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "\\frac{1}{72}"
+  },
+  {
+   "uid": "82320b531545f0a6",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "4024c52692f962ab8eda8f91e0b30ecedddd961cc21e69f56a33692bcee88f94",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "968"
+  },
+  {
+   "uid": "4a131085c8da0cca",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "11b9f7bca8263563db264926b4cfdbb6c2aaaaed97b99dea728d592e62951f82",
+   "subject": "intermediate_algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "3"
+  },
+  {
+   "uid": "2df12129e3f9bd02",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b103ff3e40f2e682038debf3421599529680cd95b46431822a29b8c829dd7332",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\dfrac{5}{162}"
+  },
+  {
+   "uid": "2e2f9e4e426c584e",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "716062117dc53dfa05c990ea92a247fbab50837e7c3239b5ae338e556c256b13",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "-4"
+  },
+  {
+   "uid": "62f1e19e20751010",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "987f8000a0169d4512c4ff7371f73e8517afffce6f6111aec1ceb13739fcb857",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "1,-3"
+  },
+  {
+   "uid": "e5045aa80b9f0291",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "54ef295e00f5665792931cc2541015181256f41c0ea23fe0af3ee9650e24bd60",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{1+\\sqrt{2}}{2}"
+  },
+  {
+   "uid": "26b069969a4a04d1",
+   "model": "google/gemma-7b",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "ff60f7aa8267e889",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "22d67f1916b000b7ad518e0365e4aa39ebf3176503026a06fb61f44b1ee5fe56",
+   "subject": "precalculus",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "2,-1"
+  },
+  {
+   "uid": "294fdc0bd9ad2e97",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "873a898cc526e58bca876e6afb9c9719f2bf11adb6736fae1ad40cc0fd40b036",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\frac{1}{5}"
+  },
+  {
+   "uid": "4581955e6d894c64",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2"
+  },
+  {
+   "uid": "ae28f9009bf1bc41",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cdea69ab7a15ea8a207f5e07470abfda9851d4f0d66fb36f973ba9167dc39f38",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "12"
+  },
+  {
+   "uid": "93ed53e5f6075a5e",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "5e26231cef39d5a6d1e3913e26e479bfebd5018ead3a789365d30ddddeace025",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\frac{11}{2}"
+  },
+  {
+   "uid": "5b69bc5fbb49fb5f",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "d49ebed974be0b274bd429e731f3e02c86b7fcc35ebf5bc877d959ef82a4e55d",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "8880"
+  },
+  {
+   "uid": "b4451178a1949b6d",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "87264dd46ab7a46d184b7bd00fde0f9dec7029a9c967c357b63a6e31942527b6",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "60"
+  },
+  {
+   "uid": "519b557d721b2a54",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "8edba9f6cd0583d179d7118929324a1b97662357805e87b7d7bc1372b5ea282a",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "8"
+  },
+  {
+   "uid": "d46f8b2a02090dd8",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "907f672eeead5ebbc0b2d30237e3dc2ade848bfdcfa4eefa6431c8f8bc7f9cd3",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "-\\frac{4}{3}"
+  },
+  {
+   "uid": "d136dd67f78f2e52",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "0"
+  },
+  {
+   "uid": "985f64880255f024",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "3"
+  },
+  {
+   "uid": "501496066052fae6",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "9337179ac2bf78f906adf89272253e6688cadac9d93b975d641e42cbe97a69e2",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "28"
+  },
+  {
+   "uid": "4b3ae8080fb0ab0a",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "-1,0,1"
+  },
+  {
+   "uid": "8d988dd9b6fa026a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "be6742308e3bb12c718e52fce560e7346f685ec38a58d68913c6f8324802b9b3",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "50"
+  },
+  {
+   "uid": "6346c5effad186fa",
+   "model": "google/gemma-7b",
+   "item_id": "3041b0929c25333302415447e937bc42cec2c0bc455c15259c8aa0176b7355f7",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "3.24"
+  },
+  {
+   "uid": "3bb3819a2a056ab4",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9330f6872c4e9e812491e2a21a5914747fc60e078301ab623c695533f2e9ff80",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "\\frac{3}{2}"
+  },
+  {
+   "uid": "d3a40c6d80e094f2",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "aed97bb4d0e8ae6818fdc4c804f9e1d5f352a1f4162d76e09ebff8e100d95f0e",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "67"
+  },
+  {
+   "uid": "fc3d08a6ff2698c9",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "6480cd83466760b413e5a1bdfc7ce9bc6838746b5938b94eed8e1614945ee238",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "60000"
+  },
+  {
+   "uid": "50cc8af9681e9df0",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "b6519ebb7bf1879d747f40af5af565f4f1ed8bac138a83cf8b22ea0554d994c4",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{7}{20}"
+  },
+  {
+   "uid": "2f84bd0eb69a85b4",
+   "model": "microsoft/phi-2",
+   "item_id": "0209409c09f7c4a2e8388a5ae7686696604cf5b6df26d7b73c58b15cc0964e56",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "\\frac{h^2}{m}"
+  },
+  {
+   "uid": "2b70479de1b58a2a",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "subject": "geometry",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "(-5,-4)"
+  },
+  {
+   "uid": "593ca37ad41c2f16",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "192e1bc9fe0509c0ea38cabd83d9d46549ba8aee9972b2922d76b0fd207360d3",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "5"
+  },
+  {
+   "uid": "34f0b808369989cc",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{1}{5}"
+  },
+  {
+   "uid": "891689abe58d8a18",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "c2812fd7fb617b983b0510b59217c2338a9137d2ee185b7e82b0b8bb6e87d92d",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "8000"
+  },
+  {
+   "uid": "37731fcb51611189",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "29a95fef3211f8f4e72ec3b60fce5d5d67b8357500e95e98fed7394a04d47d77",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "8"
+  },
+  {
+   "uid": "e86fc296378ea5cf",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "186739e8335cdcbba8d9579c24a4e86743df722b8fd7893dde314d3ef46beb33",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3125,
+   "gold": "\\frac{1}{4}"
+  },
+  {
+   "uid": "138c3d08bdbe30ba",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "b2a3f1fd4ca8a780bd5d4326cd6db8b65926547c9b2ebb786f34db04381832ae",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "7"
+  },
+  {
+   "uid": "2ed3c59e195cc9fb",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "2"
+  },
+  {
+   "uid": "3cca4f893b68ab60",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "d3e6c1734ae962bd74aba1879db1f4498f185e96da9846386c5c23fad5e7a270",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "284"
+  },
+  {
+   "uid": "64d960fd14c6c7c6",
+   "model": "01-ai/Yi-34B",
+   "item_id": "d4f5d485db0b42be9731f6c40c66c5ef9a074a69cf08e4a8ae8226cc81c5a5e1",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "-449"
+  },
+  {
+   "uid": "6527228fca803359",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "5ebae35778132aaf6f7cb839458f2b549a62be3daf63135b2257abbe276363b2",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{21}{2}\\pi"
+  },
+  {
+   "uid": "8543f5feb576fb62",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "cbce3dc5f7b448f6da4e08ad25964b53067e349ecb8a1d4c0e298ce7fe79b674",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "12000085"
+  },
+  {
+   "uid": "3ddefd3efafe9726",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "10960cd949c06a9771727f7e4c3f9c69cd55e9c19c2d19becc9f0ddcf28e853a",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "5k"
+  },
+  {
+   "uid": "713938f43101b75a",
+   "model": "microsoft/phi-2",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "\\frac{6\\sqrt{10}}{7}"
+  },
+  {
+   "uid": "c94c48d1a050a31f",
+   "model": "google/gemma-7b",
+   "item_id": "86ce4b5eaf847bae2cdff6fafc20d7e9176b1d96df130064783a30e494de8040",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "4\\sqrt{2}"
+  },
+  {
+   "uid": "6a1a6429c16b9b72",
+   "model": "google/gemma-7b",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3,
+   "gold": "(-\\iny,0]\\cup[4,\\iny)"
+  },
+  {
+   "uid": "c86a5fd8f2524bb0",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "91282682418fadf8c7a868ccf3ed0b1476dc2488c9305152c34013811b909595",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "256\\pi"
+  },
+  {
+   "uid": "99d671eb40dabaae",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\dfrac{1}{12}"
+  },
+  {
+   "uid": "25056307f7215184",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "ebead9edb647f9c4e363ad896d53d5ea4d53360b47eae70f5e014f7edca2f873",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "8"
+  },
+  {
+   "uid": "09c8f2cb593cc75e",
+   "model": "01-ai/Yi-34B",
+   "item_id": "9b877dad4eefc5ea9e1f549170229663ea4ac122a1dbb4d6fc445343f8414f9d",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "54"
+  },
+  {
+   "uid": "bdeb5e6983fff164",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "1d132f02b76efe00d4517e38ecbe8a7ccc852dbee648aa6b14f57cb1c471b3a3",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "4"
+  },
+  {
+   "uid": "c93612f6d5d76b28",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c035c90d3b95590ebc7bb4f1251de1508c7f9042948f3e170ece597a9e418943",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "Devon"
+  },
+  {
+   "uid": "4307810e64e28b22",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "213b01254f4f930add48e9a06cf232350ad5851b5f74517c2a6311ac726f694c",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "\\frac{128}{1875}"
+  },
+  {
+   "uid": "0a95cbb4830f801a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "11\\frac{2}{3}"
+  },
+  {
+   "uid": "f430662be7f683d7",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "36\\sqrt{3}"
+  },
+  {
+   "uid": "adc13dd1ea205e67",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4024c52692f962ab8eda8f91e0b30ecedddd961cc21e69f56a33692bcee88f94",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "968"
+  },
+  {
+   "uid": "fe35055aaa581b77",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "be92e9ed113aee22868adea139171f24c650ad06dc2950a8ee23862652ee2b97",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "2\\sqrt{2}"
+  },
+  {
+   "uid": "48afa69c025870d5",
+   "model": "google/gemma-7b",
+   "item_id": "77aec661640b1f24cc08272a0f9bda5925bc3410de9012c18f118d921ef4d740",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "64"
+  },
+  {
+   "uid": "6a162897b97084b4",
+   "model": "01-ai/Yi-34B",
+   "item_id": "31de6109410d9faf6d4dd23f023ad947068a47bd358e89f0d943c22a7fdfb1c4",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "3R^2"
+  },
+  {
+   "uid": "fc2dd3a34a0c6996",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "ad0fed4fd9a56c234011181f1a979eea69370f54e0ff3f64e7bd96d092ae0887",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "7.78"
+  },
+  {
+   "uid": "ee903dece10b33f7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "30\\%"
+  },
+  {
+   "uid": "2b2302f71500a5a2",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "4(3-x)(3+x)"
+  },
+  {
+   "uid": "dd5eb35b18bafdd4",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2f5ed445471e19568e78a33e282332bfde55894eae2bc30d74a706926698e5e3",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "2016"
+  },
+  {
+   "uid": "0dd7b3c781ac2521",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "53cd14f126e632a8526fdc6a0d4395548fb53911ad34814f20911fd466f7f3f9",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "(2,-1)"
+  },
+  {
+   "uid": "4373ea9b62526347",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "(0,1]"
+  },
+  {
+   "uid": "0853bef10ef85d41",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "98bacb83c164dc0981fcb91cc86861b4d1fa1622a85c79a32e291d75d3e7003a",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "14916"
+  },
+  {
+   "uid": "d2ecf368f007ec72",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "606854a06be9a6fc601a0722b60116e7208f7d949a4990d8cdcee47736461184",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "\\frac{23}{7}"
+  },
+  {
+   "uid": "304fc75548c3b5f8",
+   "model": "microsoft/phi-2",
+   "item_id": "8696eb229a7cfb13eded5c2fc44090d24f9105421eb83a663f10d6f371c998ac",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "-\\frac{5}{4}"
+  },
+  {
+   "uid": "4260180626d08794",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "990f31d145a551e69b4b0f7aad9edb9406eaaea0c0a9a9756b1c31e02aa33601",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "-\\frac{8}{5}"
+  },
+  {
+   "uid": "96370a54dbff14e8",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "(-7,-2)"
+  },
+  {
+   "uid": "4743b65ade4e982a",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "fdd6e79cf33aa93573111f72deabc12abedb7f8e2c0d65b045fcc95fcfb08f59",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "10455"
+  },
+  {
+   "uid": "2c14d72c89b6c26b",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3125,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "eb818489b5415258",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "fa3b1d76c8b869bf7c0b6864db57c49c468395bfbc19d9d90be601e013830beb",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3125,
+   "gold": "36"
+  },
+  {
+   "uid": "be6031d16308b5d8",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "75253c14efb356574aa81354e09181ae69e7c9301577556100dd9c508a749adb",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{7}{9}"
+  },
+  {
+   "uid": "f2897a3d48fd6fa4",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "e5e254d24bb918c1afce099a0b0d386aa084c7aef65d15f22e06db55a6a3e15a",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "-10"
+  },
+  {
+   "uid": "2c177c3ad032fbb7",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "5e5bb064e4822875c4c756d600cc45a572b5e139a953d533f12b6d1b86dc4a0b",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "5"
+  },
+  {
+   "uid": "0d22460cf2869005",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "79dc52aec3852c2ac53feeb74f80c9c813ce09b44fb6cfc2dee481c3279603a2",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "\\le[\\frac{1}{2},\\frac{4}{3}\\right]"
+  },
+  {
+   "uid": "a372f6fd2ac463e9",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "13359fca4570dd77e59db0b736ee3463cec9ab670e16f7f3288d529f11c35861",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "16+12\\sqrt{2}"
+  },
+  {
+   "uid": "31a7e7c11a91b949",
+   "model": "microsoft/phi-2",
+   "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "\\frac{1}{5}"
+  },
+  {
+   "uid": "8cb2471f5c1aff02",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "58e50a10670ccab0934e472c0cd088e62329a437f82c8823a4c2297bc8f8d0b0",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "62"
+  },
+  {
+   "uid": "dfcd1fa95a38c1f6",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+   "subject": "geometry",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "(-5,-4)"
+  },
+  {
+   "uid": "80c2154d70394c41",
+   "model": "google/gemma-7b",
+   "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "\\frac{3x^2}{2}"
+  },
+  {
+   "uid": "089511eaab87059f",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "4cf2c0c79d8c778a66265c1986c10610a84f65345b1bf3cd335bfb1dc08df546",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "7"
+  },
+  {
+   "uid": "49557ae4e5957a11",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "\\frac{137}{111}"
+  },
+  {
+   "uid": "42de0d4ea8e07a58",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "dbab5152036ff4064f203cadce163176dd37ddcc5f4e851e40de428a3a87ff95",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "(-1,8)"
+  },
+  {
+   "uid": "18eea78453e1d1a0",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "7471f3fb4ea2a90077254a3f41cb3b3344836ccaeec7f862e3ae14326e44924c",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "162"
+  },
+  {
+   "uid": "eb826547862e04cd",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "73105830e38f45fcb43013d288bb138602db3d8686b3cfe28541b98dbf27d0fb",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "(-\\iny,-8)\\cup(8,\\iny)"
+  },
+  {
+   "uid": "2cacca3d0d91a3df",
+   "model": "google/gemma-7b",
+   "item_id": "2c1e9bcc5a64ba2e810f84e4630282d0e7a20f097b58fb966a5f970f19690635",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "25"
+  },
+  {
+   "uid": "494387dcefda12f1",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "c1e5c019a0868ba4f7275d4ec67c9a72fae13e46edf4710c749654b7689f648d",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "11"
+  },
+  {
+   "uid": "2abda68d70ebca29",
+   "model": "google/gemma-7b",
+   "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "\\dfrac{1}{12}"
+  },
+  {
+   "uid": "985913f8a2f46d4b",
+   "model": "google/gemma-7b",
+   "item_id": "f2f9a737ee7c4dc9fdd36be3196b83c156d4afff2d1a470670f7bc6e01cc1477",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1320754716981132,
+   "gold": "2\\sqrt{10}"
+  },
+  {
+   "uid": "909657e81be9858e",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4ec2f6d816da83cf04cfebe004025e796fd830048e47d230ca2f9aa88575e89a",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "Monday"
+  },
+  {
+   "uid": "a59338cbe2a31a37",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "4e296fc22a6b69d46c167c7bd525f2fa455c8d575e7b1b8d702dddebf118639c",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "0"
+  },
+  {
+   "uid": "34c42fd04500d9bf",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "fc2bc1e5e1528cbd45a4cfb5245545b330f2c6c5b7a0861e3cda42fba52d3c78",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{427}{495}"
+  },
+  {
+   "uid": "e3f8bddf58ac7617",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "0996fbb07cc04a6c8c156cbf1b8d45c0ef17e70f38d025c565639ba0a4fbf548",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "-\\frac{1}{16}"
+  },
+  {
+   "uid": "6559b3b136fe90b3",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "20"
+  },
+  {
+   "uid": "8cc1e52dabd14c84",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2777777777777778,
+   "gold": "-1"
+  },
+  {
+   "uid": "78b8fe70a263cd01",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "\\dfrac{1}{12}"
+  },
+  {
+   "uid": "b563903d6f1c1ce7",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "bbe96a06d5b5f4f25bee7fd1a2a513835ebc747b96ffba7c378904bb095ff90e",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "900"
+  },
+  {
+   "uid": "cdb1b3db3786f013",
+   "model": "google/gemma-7b",
+   "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+   "subject": "precalculus",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "-1,0,1"
+  },
+  {
+   "uid": "9d1945d570e8556f",
+   "model": "microsoft/phi-2",
+   "item_id": "f6fe853c281964b8a779c359a6a592a0c7abe2a4e7ac6d69c94601621a93f394",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "\\frac{1}{13}"
+  },
+  {
+   "uid": "a91fdd894e77abdb",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3c8df364d559a3e61fcc4ce1d37b2134e4d2b384fc319e7bcc7fdbf3bc2cefd4",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-2016"
+  },
+  {
+   "uid": "b00909c5945a9a6d",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "9cb1a728b52a04949c74ff33794a37e53115d0c183f7784310ba57e356e60167",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "90"
+  },
+  {
+   "uid": "e6399b361b860360",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f2f9a737ee7c4dc9fdd36be3196b83c156d4afff2d1a470670f7bc6e01cc1477",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2\\sqrt{10}"
+  },
+  {
+   "uid": "f1cb06c6d80759fd",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "(-\\iny,0]\\cup[4,\\iny)"
+  },
+  {
+   "uid": "606132bb321a7ab5",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "c74e02cb29fc6fa82f9d968bc4fbe5f60ca79a4daf2ed145131d5c67e3d52833",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "208"
+  },
+  {
+   "uid": "f5e2522f75dc9298",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "505d7edacce5b72a009f7eb537ba0238fbf375a0e96fb05517876c000ad3ceb3",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "5"
+  },
+  {
+   "uid": "dc8cf7db4107b2e9",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3851e301ad7ea052d12567bf19a0b684e9f20564aa46d2fb9613b81b5f78b6cb",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "16"
+  },
+  {
+   "uid": "ffc38051d606b934",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "0823329ac7ef537bf358158711309425417faa6e86ebdf6779ab9a95ee4fdb17",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "\\frac{15309}{256}"
+  },
+  {
+   "uid": "096a2f64092df19b",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "d5b0a5865f2047017ead7bca721d3355f4936f90c46da7d94aa31bf57270a13f",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "12"
+  },
+  {
+   "uid": "5157f91d65b51b4d",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "6369294b44026cdc3da0e14a055b9a61f37a10556b52a5ead72d67d101f187e0",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "5"
+  },
+  {
+   "uid": "e133bf3224271288",
+   "model": "google/gemma-7b",
+   "item_id": "2dd0e5d01fdcf282cea6bcd383580993843a136404f0c99c600c4f1dfa5507e5",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "\\frac{9}{4},-\\frac{9}{4}"
+  },
+  {
+   "uid": "5acf5556a2bb9c72",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "89722356d0608b2ead4a741c486c41765e7a3cc4a91ccf0fa5ea2928da0ecfdb",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "(2,\\iny)"
+  },
+  {
+   "uid": "ee6fbb214f55c897",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "c359660263ea9d67be8b6e981e7b7ee694f778da942f2e4bb8f56fad246528c2",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "\\frac{1}{2}"
+  },
+  {
+   "uid": "42f2cca34431b483",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "fa3b1d76c8b869bf7c0b6864db57c49c468395bfbc19d9d90be601e013830beb",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "36"
+  },
+  {
+   "uid": "56941684965fe248",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "40587414c123fd32b01e33007173b069f5a3060cdd7a24500a3399673ff73104",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "17"
+  },
+  {
+   "uid": "d1f730b15752ef11",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "990f31d145a551e69b4b0f7aad9edb9406eaaea0c0a9a9756b1c31e02aa33601",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "-\\frac{8}{5}"
+  },
+  {
+   "uid": "a9ecff17997691c7",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "4e296fc22a6b69d46c167c7bd525f2fa455c8d575e7b1b8d702dddebf118639c",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "0"
+  },
+  {
+   "uid": "9477f2145d53e8a9",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4351fff8a49db09503f72a2653d6b6fc8200064a9191d2d26825d7a8625d4018",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "-128"
+  },
+  {
+   "uid": "d2000301239a10d9",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "aa9127e8539f0c8c482773404499800be39e78d569b95a66244e0514fd66df3c",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "36"
+  },
+  {
+   "uid": "75c41ddeff0ebb0d",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "3"
+  },
+  {
+   "uid": "65754f1f187aa8d6",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "cb85c19f25b2f4422c72cf68b239b400cb7b2a56f421d25a5862248d58a4f407",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "5"
+  },
+  {
+   "uid": "9bc662faaf67aedb",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "80441ab15e81ac8d77a06bfcc302d68112d90405ef0ed6b153bee75338926bee",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "0"
+  },
+  {
+   "uid": "b26b97d126d1b191",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "8f150c14dd47af832c22a8a22ee781ab1db8bc3556faca015743ce615a8b832b",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{1}{5}"
+  },
+  {
+   "uid": "6fca4e55ee95104b",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "58129d626a8bb8e8c56a07e72af78cfe383250768cb707f2c3f3afaf60029f2d",
+   "subject": "intermediate_algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "15"
+  },
+  {
+   "uid": "48899f1c2eeb92c5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "91467f001317675e0865926284b7f38896593dc6379c012b124a01e411791e03",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-\\frac{1}{2}"
+  },
+  {
+   "uid": "b45b25253d7d253a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "e4f3c823e7d8cf10e3e9566a0c3aef7a6f690f24b7ac1a6788341b239b63c47f",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "9"
+  },
+  {
+   "uid": "1b6dbc69cb8f6f49",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "84a893df501c0b2e1695a81119553b6a3baeccd3d8c9c5fe90fb658730ca833e",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006666666666666667,
+   "gold": "\\frac{5\\pi}{4}"
+  },
+  {
+   "uid": "5633a5a4e8cc2895",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "e9b7d898815176b110442dc0e5dc1b3e422f3b170f702585a050da9046fdac90",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "\\frac{9}{32}"
+  },
+  {
+   "uid": "31662abdc37560f7",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "4d1e82f0531e620cde2b04d5e4991d78166936458e1104144c73bbe6b65094ce",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "10"
+  },
+  {
+   "uid": "acff9f0a72fbd05b",
+   "model": "01-ai/Yi-34B",
+   "item_id": "9c8c921ecf190a74cbc4b5a817db01caded50d4442b28f0561490f27449efd21",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "2"
+  },
+  {
+   "uid": "7f2119123fa55457",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c7ed4fffc384e59caa0e7a37a9ad9ea1acb436f568c0bf34c0c6c0519d4163cf",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "10"
+  },
+  {
+   "uid": "6b3ff3cfa8add8b7",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "76e1b39ee9f33d1f3ef1e3d3935db09fa82409363d8052551a9e0b8d67bf4168",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "233"
+  },
+  {
+   "uid": "fb7d89843bc0e14f",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "[0,\\iny)"
+  },
+  {
+   "uid": "5c3985e3cf203b07",
+   "model": "01-ai/Yi-34B",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "2"
+  },
+  {
+   "uid": "2fcee61c6e1244aa",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "ee7ac67668f1eff718b008c4ac81bced07750c0e75b3b1212266fbbee4d58d20",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0053475935828877,
+   "gold": "96"
+  },
+  {
+   "uid": "48dce164c4ed8621",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "b5c426ca1d9f528043ff73ab030ee97f949b71e48c8a4d90a0339ec0683716a7",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "\\frac{10}{9}"
+  },
+  {
+   "uid": "c7feb9266af48b4c",
+   "model": "01-ai/Yi-34B",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "20"
+  },
+  {
+   "uid": "5ef323eb8c1b516e",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "81c9b3588e414442c6c740e8301c12f9e0530e9ecd345ddc0cd4fb8e5bc5fb66",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "10879"
+  },
+  {
+   "uid": "f07d88395952718e",
+   "model": "01-ai/Yi-34B",
+   "item_id": "7a0bff99d508f6ff44389233abb629b2cbabddac86f00d838e26e58b7076dca5",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "23"
+  },
+  {
+   "uid": "4ae265bc8fb3f3af",
+   "model": "01-ai/Yi-34B",
+   "item_id": "07fe4807adc962f07e0c968bd77296a134723a2a73b6f744454a647573b79023",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "8"
+  },
+  {
+   "uid": "c84019a1e62de644",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "b83b1037e3af83fdcc418950f82cb5bf5a201a26cce246b5ba2f33d23040f78a",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "2"
+  },
+  {
+   "uid": "6fd1a12b0539fc0f",
+   "model": "microsoft/phi-2",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "A"
+  },
+  {
+   "uid": "407e6715bd226875",
+   "model": "01-ai/Yi-34B",
+   "item_id": "dc759194ac052e4283bc969cbc98737d08d3624cf0bec144a02255374f84b4b7",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "(-\\iny,2)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "8608a729e9cb89e0",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1ffbb231edd591999d40ee9c2f0e3f2737ef342017eb8f3747edeb5cc594ac70",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "503"
+  },
+  {
+   "uid": "46acb561baecd934",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "e443bb1de9a1273d3fcd9b50965975d7a2b3c5c7888d5cfdc5241319f2b4d35c",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "1\\frac{1}{10}"
+  },
+  {
+   "uid": "0ab674a68355c3f2",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "20"
+  },
+  {
+   "uid": "835329f944df5d46",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "0bcddaf8aa190471b298a7c05c121cef220ca6bbd3d37e76f03b3742fe46e793",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "-22"
+  },
+  {
+   "uid": "038ef89cd16408e4",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "4024c52692f962ab8eda8f91e0b30ecedddd961cc21e69f56a33692bcee88f94",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "968"
+  },
+  {
+   "uid": "0178af03e430e817",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "8cce0bbfc4b3e8aedfb6915da029958deb34809f68efe53377145250c52544ca",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "10"
+  },
+  {
+   "uid": "1bbe5b87dfcfaaf5",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "2704e147ac6fd24829eb3d39f22a6406989dda1c85945e5d96557ba707ad804e",
+   "subject": "intermediate_algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "1"
+  },
+  {
+   "uid": "adfb69db24001ac7",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "a53a5dbf178987225123643edda39c9c0dad333909bdc40aabc23f53bf6b09b8",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "(-\\iny,0]\\cup[4,\\iny)"
+  },
+  {
+   "uid": "c17e41dcfde59830",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1cf0321dd24956440f8b02bd63f3e37ef21705f29baed4407501b57171ce440e",
+   "subject": "precalculus",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "20"
+  },
+  {
+   "uid": "546549bb683d746b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "555cb4527f0134ed8db8d153de3226a84a5e2ef98467aefb6e2a29baacd9727e",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "36"
+  },
+  {
+   "uid": "79a37a7738314274",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "8490abeabdc1717d21502feb45ab24750e56171f966b6780bc04257f0f247a7c",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "1"
+  },
+  {
+   "uid": "1bbc951118c5981e",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "3e8319db4814fe931b9a1f064cad73fb880a5944eb694f6e4a4aeea2a8034b29",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "7"
+  },
+  {
+   "uid": "fa1351c461c1af7a",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "3"
+  },
+  {
+   "uid": "14c83ab89fd31d70",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2"
+  },
+  {
+   "uid": "4956a726e6c98f3e",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "7f150976e3cce088",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "defbe29a818bcf6290a4ce10abe6694335bee034447f38bac76d3a4db0dbd679",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\dfrac{17}{50}"
+  },
+  {
+   "uid": "55e8037e3d8f0362",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "c7442e80a9ebd71f0ced184e5d6acc65fe7e06d960314dbcab6d49c81446f7b7",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "369"
+  },
+  {
+   "uid": "3124b2347b264cbd",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "1"
+  },
+  {
+   "uid": "b63dde30bb82552b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "01d1abcc3fcdaeb622437980a92136ba3dac4f1f91dcf830c2af89986b1e56cf",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "1.25"
+  },
+  {
+   "uid": "a855172a313c0044",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "(0,1]"
+  },
+  {
+   "uid": "6c00e7f9e4813043",
+   "model": "01-ai/Yi-34B",
+   "item_id": "e5dd4238f663b85ab9cea5e2f228f9d171ad016e231cb80fbe6b3fa80ad683f2",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "\\frac{5\\sqrt{6}}{3}"
+  },
+  {
+   "uid": "41d7cb2b1927200e",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "2c1e9bcc5a64ba2e810f84e4630282d0e7a20f097b58fb966a5f970f19690635",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "25"
+  },
+  {
+   "uid": "a787ea2358c2d92d",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "1b667126b9d530a75a2ceea1de35cfafdd645df2bc1456f12094b5d6c5fab517",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "\\frac{11}{13}"
+  },
+  {
+   "uid": "f4816847d6f1951e",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "7df10f973025913082e6a35c5b1739ac3d827cc3c512b568eb59a203a26b5f9c",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3125,
+   "gold": "C,E"
+  },
+  {
+   "uid": "a20ad9ea05b0d235",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "57702e752a708b81ed1755780d104c9693da115f88f7853de3841b82ace56f4a",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "5"
+  },
+  {
+   "uid": "6ab87b76d1ea3c83",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "6c1f74c9d8bdce936be766db9773d706b4fbc2769773963c94415e2efb44ca5c",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "25"
+  },
+  {
+   "uid": "55a423395f34bed7",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "89b3046ce178679b8c22716f560cc33e47c87402e92fb6a0a290fdd3e677b957",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "50"
+  },
+  {
+   "uid": "0655ba04ee2832b5",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "05206a007bc1ea3fdcd77f9bb7b3fa9ded77b0aedbafdef6eeed26762e35bd0c",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.038461538461538464,
+   "gold": "53"
+  },
+  {
+   "uid": "a856751f4bc5bc3e",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "4735b91706344c4fe11213f132572eff3ad123f5589fb87f395fbd0d597218d3",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "\\frac{5}{8}"
+  },
+  {
+   "uid": "86957e4e4369c8c9",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "9d49d664d0519fea54498888b23956d7a1e4ed88545c9fd16d5b3a01fdba7cf2",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3125,
+   "gold": "\\frac{42}{5}"
+  },
+  {
+   "uid": "61b7680fc497a0d3",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "7ca4cbd620a75b8099d3a20bbfc4894ae164dd11ee73f8d682ace8236cf38b03",
+   "subject": "geometry",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "\\frac{3}{8}"
+  },
+  {
+   "uid": "f8a3922fafe581b8",
+   "model": "google/gemma-7b",
+   "item_id": "6e769479ac2ad5a2d5b1bccfc2745022f8bb63b7830c3d0a1b0f828cd7e9a568",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "(-a,0)"
+  },
+  {
+   "uid": "1ffe3412a95aa092",
+   "model": "01-ai/Yi-34B",
+   "item_id": "4e296fc22a6b69d46c167c7bd525f2fa455c8d575e7b1b8d702dddebf118639c",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "0"
+  },
+  {
+   "uid": "a8ecec25207778ba",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "6f0e65eab695066a1e6051cd84f095cc8d130a8fb86f7745ec12addf16588867",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "2.5"
+  },
+  {
+   "uid": "bcba3f2fe86bb9f3",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "cd226701c818d5d07c6fd089a2d70833d0d9f5d96fe5085086acc536d85c44da",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.1346153846153846,
+   "gold": "3"
+  },
+  {
+   "uid": "469e23940fef5fff",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "9a54d7f0f1c6f755f1d4b82b11899a059081de9c88e744efea729e46019a1c1f",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "-\\frac{1}{8}"
+  },
+  {
+   "uid": "0fe12cd9e8bcd54a",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "ab61a1b3af866575bc019025bfca0d34a870e5033235ffab7cbdcfd39856508f",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "5120"
+  },
+  {
+   "uid": "9965f57b47a46697",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "3ee457870be8f6f813e4187b4523793aceefddcbba1940e04a33c58ea20ddb38",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "90"
+  },
+  {
+   "uid": "858812b273bf0133",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "b4b05fdedac663abb3131d3e54b83843188e0dc5b543daf39f46c9639a4fbf73",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "\\frac{1}{2}"
+  },
+  {
+   "uid": "6c71c612031b9541",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "cd0abcb169106ca06a8f15eb9b448d1618bc19d1742ce7d9c9bd9d5e448b0e3c",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.05517241379310345,
+   "gold": "4"
+  },
+  {
+   "uid": "cdbbaed9375310e4",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "9e399aa0e6afbb07a6206c35c637d528621019315f3ff98183ac63c3af36b77f",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "25"
+  },
+  {
+   "uid": "2a0628bda52d6b08",
+   "model": "01-ai/Yi-34B",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "\\frac{6\\sqrt{10}}{7}"
+  },
+  {
+   "uid": "86c83580f5647029",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "77ebf617d68003fc4fb46d7c7006c81b25a7f6f9eb855933a85c5565a000bc7f",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "\\frac{1}{5120}"
+  },
+  {
+   "uid": "0e09afaac0acdc73",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4545007da0b0ff511e093333847e261cd1d34858eb60a8d306a39d46cec9a066",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "-\\sqrt{x-2}+2"
+  },
+  {
+   "uid": "799a74a348c2d1d7",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "b8bf22031f07cd0767c152e7aab1b98de55df32eeebb03b16ed31727db856ab7",
+   "subject": "counting_and_prob",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007150153217568948,
+   "gold": "576"
+  },
+  {
+   "uid": "0fef15c69390ed84",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "3def537893c264b1182e2728343fe699aa4733fe33622e783c8978e1706b3bb2",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "10"
+  },
+  {
+   "uid": "a040daaacca519c9",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "bf0e3b6975687fcc66bf42a12ef63c05dfd24bd2531b28ffc4407ebc6ba4e2a2",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "(27,\\iny)"
+  },
+  {
+   "uid": "3d3aa4ee08f2c4df",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "2ae15c68b845adc86ccdb70ba9e4ec2320a3fd9e5e41507fa9434a302d6cfc40",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "\\frac{11}{16}"
+  },
+  {
+   "uid": "302b57ec41ce7e10",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "e7e917b7e9dd1b3994f18d6d9a244fb3ec6fa64ffb249593d328eb8d275110d9",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "-\\frac{10}{3}"
+  },
+  {
+   "uid": "c68a742aa623d3c8",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "edfd09a475a34a8bc497e97e4b4489616388d53a90cb53f89b60268d59174996",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "6+8i,6+17i"
+  },
+  {
+   "uid": "281944553b57b426",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "c103e736cfbda39499fe4ca0e52462a0ae943007c9b115f413d9c5a56f512fd4",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "5"
+  },
+  {
+   "uid": "5ac6a8666464db6e",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "4cf2c0c79d8c778a66265c1986c10610a84f65345b1bf3cd335bfb1dc08df546",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "7"
+  },
+  {
+   "uid": "3edbcf60c51842b2",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "fff89ea68fd82db0cb764ef6f69a8cdc84e5a6368d8bfa86bb8763fa3789e7e6",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{2}{5}"
+  },
+  {
+   "uid": "2c3e4f2e1ef295b4",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "5a09958a33a7a5aa117cb34caa613c0d464617293b383ca4bfeb2949a05571fc",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "3"
+  },
+  {
+   "uid": "899597e09a289dda",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8bad3ff10e535ba0d52bdb3fc6146893c41989d3b517382582e6d46cacc8c635",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "(0,1]"
+  },
+  {
+   "uid": "2f399def8f135077",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "c2dde56c2dea54931917eda014943e43d868de09ee6f8eadb9e6f015a8ac43d0",
+   "subject": "geometry",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "15"
+  },
+  {
+   "uid": "6ea7647d7c44b3b6",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{6\\sqrt{10}}{7}"
+  },
+  {
+   "uid": "e2a751173379b529",
+   "model": "microsoft/phi-2",
+   "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "m+2"
+  },
+  {
+   "uid": "a97eea6b8303f678",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "ef52aa0555a65859927c2cf89bdce1dc52bbd4fbbd92f9b7588b9a9e16bd8cbe",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "156"
+  },
+  {
+   "uid": "d1db276f6d62992c",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "b20300a39f763ae5dee714f9e442becb5f88476e8bae10e0dad7781ea4302a5d",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "\\frac{17}{21}"
+  },
+  {
+   "uid": "b8d0d0c0900a009a",
+   "model": "01-ai/Yi-34B",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "subject": "precalculus",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "0"
+  },
+  {
+   "uid": "68d92362e7075061",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8490abeabdc1717d21502feb45ab24750e56171f966b6780bc04257f0f247a7c",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "1"
+  },
+  {
+   "uid": "14a2877174707b9f",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "f60e6952cdb7b3b87e872f7f544d9ab3138372ed8a9ca09be6b7354009fe1841",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "22"
+  },
+  {
+   "uid": "dc1d55c12b1b0324",
+   "model": "google/gemma-7b",
+   "item_id": "116672ef1e8df109d562632ac20e2156c8b6f57c51c9c39addf32d7b153a1115",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005723630417007359,
+   "gold": "87.5"
+  },
+  {
+   "uid": "0c7012bd77e13fb4",
+   "model": "01-ai/Yi-34B",
+   "item_id": "05753d4fbe1446e76360d8e04da868d2436c7c9bbb64042b5e9041f16c014a5e",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006405124099279423,
+   "gold": "7"
+  },
+  {
+   "uid": "a505f0fa1cea87d8",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "163d2f90d819097023f4199609b8740cbda556f0f9ce80db4fcb049732992451",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "100"
+  },
+  {
+   "uid": "de5345d6c78ab517",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "836446fa692cad81a93dd3860b22afff9970182b89abfb46d15b31146ccbfc90",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "20"
+  },
+  {
+   "uid": "6b7d42a31a3caccf",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "3dd0f973ceb9d41996654716ff63dc30a04e691058056a4cf7b832276a9082c5",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "9"
+  },
+  {
+   "uid": "392f65ae3df0a9ee",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "2501885738c2f71913979b33587a022b80b87f830902af416ff6c7fa826ebde6",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006294256490952006,
+   "gold": "234"
+  },
+  {
+   "uid": "ac0a49e404e3d119",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "(-\\iny,-7)\\cup(-7,3)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "99017e970e26c4ea",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.5,
+   "gold": "[0,\\iny)"
+  },
+  {
+   "uid": "06762096502f58d2",
+   "model": "01-ai/Yi-34B",
+   "item_id": "f50371da3f84f26cbb00e934ab488a32e596669836b869ce76a52fbd0809485f",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "14\\sqrt{15}"
+  },
+  {
+   "uid": "56e1c4a66ae36009",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "087bd8fcb4a8cc62a97c1870ed948d871b4adca41a3e7dc6e31cce1f66002dab",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "2x+3"
+  },
+  {
+   "uid": "4c74277af86e93a5",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "5dcdb4f091aaed05e49c600b34dfc2c11e735ff8beb8d67ab9e96af92837d601",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "-0.25"
+  },
+  {
+   "uid": "f045c8e156e0596c",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "2ae15c68b845adc86ccdb70ba9e4ec2320a3fd9e5e41507fa9434a302d6cfc40",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "\\frac{11}{16}"
+  },
+  {
+   "uid": "5a8c15b887163a0e",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "320efde5ecd09b20a2e6e06afd8910a8a66dd1073418af3fa42ee92db205da08",
+   "subject": "geometry",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "5"
+  },
+  {
+   "uid": "310089458ce9b013",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "192e1bc9fe0509c0ea38cabd83d9d46549ba8aee9972b2922d76b0fd207360d3",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "5"
+  },
+  {
+   "uid": "efe968e4f2c8543b",
+   "model": "google/gemma-7b",
+   "item_id": "36ea8092ed5a24237dba83250d8ac3cc12bf6258612de39db9948ca53f9dd940",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3,
+   "gold": "(-\\iny,-7)\\cup(-7,3)\\cup(3,\\iny)"
+  },
+  {
+   "uid": "1415e424cf2d231e",
+   "model": "google/gemma-7b",
+   "item_id": "91467f001317675e0865926284b7f38896593dc6379c012b124a01e411791e03",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.27586206896551724,
+   "gold": "-\\frac{1}{2}"
+  },
+  {
+   "uid": "8de9f9dfb5f49f16",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "0"
+  },
+  {
+   "uid": "9918a99a7c9865c5",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "7ef40b8917e706873de64f2000adef19be7f02c354ae27e752ae8aeef6223a11",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.0061633281972265025,
+   "gold": "840"
+  },
+  {
+   "uid": "4b58e67bb7ec99f0",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "73954579bd4e24be2514c73628444c6fe7864beb844a9cfa03eac6f1146b3dba",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "11"
+  },
+  {
+   "uid": "bbabd367557b46f0",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "5624f0368579a2e21d7c9da5e5b1e0a618341dcf986d22360ff2e08252136033",
+   "subject": "num_theory",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "35"
+  },
+  {
+   "uid": "e35e49f31638499c",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "54475dc893cae862bbc5a4b7466935d62e4d9ca5d2c32c18210ed2f6c64577dc",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.021798365122615803,
+   "gold": "29"
+  },
+  {
+   "uid": "e5e0f19f51c5d3e2",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "9f53ac48854391b21d5392637176f157d7659f86dcc71ac5b02ba71e04c87756",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "7"
+  },
+  {
+   "uid": "2c199e889b47c6b0",
+   "model": "01-ai/Yi-34B",
+   "item_id": "3620ef2517dfb35214d1e76f647edf116b57478aa0366dfcddb9cd700f16f9d2",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "-15"
+  },
+  {
+   "uid": "074e73f8ec2219a5",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "e6eea7903c08a75b79b1c22f9a1c7083f1e16c426d45c1ce67b0852390378da6",
+   "subject": "intermediate_algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.006730769230769231,
+   "gold": "7"
+  },
+  {
+   "uid": "624e1b883944d87b",
+   "model": "microsoft/phi-2",
+   "item_id": "ffbea63cd0d5725d97ef2a90dcd6b3941a102450ae2168ff369300f24d0a13ed",
+   "subject": "counting_and_prob",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "-\\frac{1}{16}"
+  },
+  {
+   "uid": "307ad5ec784019dd",
+   "model": "microsoft/phi-2",
+   "item_id": "08efb89bf05d4c3a52a6ee90feb3cd4764180afd11a9113892a645c9be62b9a6",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "68"
+  },
+  {
+   "uid": "847861f8b01da092",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "e09c3f83a257f57669b36742015148a877dedd3e2c1ecde84a35308d67d3e368",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "\\frac{1}{350}"
+  },
+  {
+   "uid": "6e00f84309c66efc",
+   "model": "01-ai/Yi-34B",
+   "item_id": "979d2a5a4d0f963f9400ccccbc50c3f1184f3cba2d847574e6b284e8768e9b18",
+   "subject": "num_theory",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "0"
+  },
+  {
+   "uid": "675045f1a24dbdca",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "15"
+  },
+  {
+   "uid": "31e051f8a1c947ee",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "f6e18a15aab7a5888d2305b28f48be65e91bca099798d7360a7af937d97f6a71",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.061068702290076333,
+   "gold": "\\frac{5}{3}"
+  },
+  {
+   "uid": "da9f89b61df76fda",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "362c4dc2b834569b5b8053962cd5de9d3d60b21828c5941a47f6243b9f696bac",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "4"
+  },
+  {
+   "uid": "6ecf35c6f931ef2e",
+   "model": "mosaicml/mpt-7b",
+   "item_id": "716062117dc53dfa05c990ea92a247fbab50837e7c3239b5ae338e556c256b13",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005417956656346749,
+   "gold": "-4"
+  },
+  {
+   "uid": "faf92de9a6239afb",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "\\begin{pmatrix}-6\\9\\end{pmatrix}"
+  },
+  {
+   "uid": "73596dd1fcb2639a",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "3886c71528429fb40c415c82bbd254550b0f6256dc9780aa2d52e07fbdc852ca",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3,
+   "gold": "180"
+  },
+  {
+   "uid": "b8fde6196ab2d332",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "11\\frac{2}{3}"
+  },
+  {
+   "uid": "23cb18f3969d3eaa",
+   "model": "tiiuae/falcon-7b",
+   "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "A"
+  },
+  {
+   "uid": "4f18091d2a783806",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.4666666666666667,
+   "gold": "\\frac{6\\sqrt{10}}{7}"
+  },
+  {
+   "uid": "08cc88fd520ea799",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b9aa246ecb86ef71a8c2d9ee4bfff6ba0eeec13cc29574fa0c4f3ad987e91edc",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "\\sqrt{6}"
+  },
+  {
+   "uid": "0bacc3234302e5dd",
+   "model": "microsoft/phi-2",
+   "item_id": "cb85c19f25b2f4422c72cf68b239b400cb7b2a56f421d25a5862248d58a4f407",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005439005439005439,
+   "gold": "5"
+  },
+  {
+   "uid": "75ca7f1879869cf6",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3e8319db4814fe931b9a1f064cad73fb880a5944eb694f6e4a4aeea2a8034b29",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007568590350047304,
+   "gold": "7"
+  },
+  {
+   "uid": "1f88d7d97dcc3cbb",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "dbab5152036ff4064f203cadce163176dd37ddcc5f4e851e40de428a3a87ff95",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "(-1,8)"
+  },
+  {
+   "uid": "7d35076af9986650",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "668e553397c29c8269048d6660f5e87be3b99adebe8195512107c3ad46f90b7d",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "\\dfrac{5}{36}"
+  },
+  {
+   "uid": "1c568fc1dc427a47",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "12"
+  },
+  {
+   "uid": "c320b1bd5ce6d16b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "\\dfrac{1}{12}"
+  },
+  {
+   "uid": "7aacccd80f832007",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "213b01254f4f930add48e9a06cf232350ad5851b5f74517c2a6311ac726f694c",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2777777777777778,
+   "gold": "\\frac{128}{1875}"
+  },
+  {
+   "uid": "79f28091816c1ed3",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 1.0,
+   "gold": "36"
+  },
+  {
+   "uid": "b9291dcfd88b167a",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "c7feec86b1023fc7311e877b92d780c08caf603bc98b800a6eec5a2101ecc651",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "26\\pi"
+  },
+  {
+   "uid": "d726a6f7acc4c0ed",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8aae20c8a552a108232deee196e3ffac7c114503a0c6c29b0b967615a64f977e",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2894736842105263,
+   "gold": "8"
+  },
+  {
+   "uid": "330f33ebd8f2bd51",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "67c6cc3b18610ed6ab95407080276c254cd5e5e3e25d6e1d3f8dc388c1184a71",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.25,
+   "gold": "\\frac{1}{2}"
+  },
+  {
+   "uid": "4b89c7c54bce3a09",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "6750887a82c85b8ad67d9dbbc91cec3e1a5b06d0cd2a3b1d5e9181bc98ab4413",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "0"
+  },
+  {
+   "uid": "466d472c8198de3c",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "47d3484eb5ca2ed7101f0e429be1c1b661ac943d3a13a70338fdbc8b86b10b1f",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "(1,-2)"
+  },
+  {
+   "uid": "e3a69acab409347b",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "238a77f6c8410289c06fc0e01c799c1a5dd79c331c011c0202c23aecf9871335",
+   "subject": "counting_and_prob",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "4"
+  },
+  {
+   "uid": "dcc4a8e0ffb1c29a",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "83b0a9aab4a0382a31db400f6321cf536623862e0db9849e20e816ad10d7854e",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2916666666666667,
+   "gold": "(-\\iny,-5]\\cup[5,\\iny)"
+  },
+  {
+   "uid": "edea4bcad403b901",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "0209409c09f7c4a2e8388a5ae7686696604cf5b6df26d7b73c58b15cc0964e56",
+   "subject": "algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{h^2}{m}"
+  },
+  {
+   "uid": "046b8048da5d9e40",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "f63b0aa8bf24c231380c7caa4a8017f6483c8a08cfb16684a3a8099626eef06e",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "226"
+  },
+  {
+   "uid": "b6711a13ca55e1eb",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "8cec7277c141648ec83376e97b4e7166c81edc8c6852e25fb03fe66e5250863c",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.009876543209876543,
+   "gold": "9"
+  },
+  {
+   "uid": "afd2f9312b0b71d1",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "49d56a685f174c08e5ceb85de77be088e5e791b11672cc0e0b379133e28b27aa",
+   "subject": "geometry",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.008221993833504625,
+   "gold": "8\\sqrt{3}"
+  },
+  {
+   "uid": "be805082c12b230a",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1368b9d5f1b1e2377213a7bdb5253e3d979e04151b01a791b618a794ca0e501f",
+   "subject": "intermediate_algebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "12"
+  },
+  {
+   "uid": "1c71edc21ef5232b",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2903225806451613,
+   "gold": "0"
+  },
+  {
+   "uid": "2c014a4b914182c3",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "900a1b674f0f01ae2e249f0f1c87187bf32c9013ca28c556faf490aa18260ff9",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "27"
+  },
+  {
+   "uid": "8c754ca58149863b",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "1ff710587463c2ea4b35fc157e12aad6db67104b0cde67b2dd2cf42656c293eb",
+   "subject": "algebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.007483629560336763,
+   "gold": "(2,12)"
+  },
+  {
+   "uid": "e481f3cdf18c13ba",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "3ea37c6c434a17dda2a2de7b22ba9972830e86cd22e6a1eb537b0dc1569c7e4c",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.10810810810810811,
+   "gold": "16"
+  },
+  {
+   "uid": "aa956f729758474b",
+   "model": "Qwen/Qwen2-72B-Instruct",
+   "item_id": "26df2d3a95756d25b3c38252ddf0009ddace2e58e64558933c4589769af8a877",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29508196721311475,
+   "gold": "12"
+  },
+  {
+   "uid": "609bf9a717d326b2",
+   "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+   "item_id": "597c7bdeb36164bbd8e17f73f37d5cbb9370f83f7b62265d680e5e0270eada62",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.027777777777777776,
+   "gold": "363"
+  },
+  {
+   "uid": "3a5aacc7eaffbeda",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "01972d7b494b973ec07838dc7f1d7ab8a9741a1d051f9bfceebd8770459c5ea0",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2727272727272727,
+   "gold": "28\\%"
+  },
+  {
+   "uid": "6522277410cc217e",
+   "model": "01-ai/Yi-1.5-34B-Chat",
+   "item_id": "3ea37c6c434a17dda2a2de7b22ba9972830e86cd22e6a1eb537b0dc1569c7e4c",
+   "subject": "prealgebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.03755868544600939,
+   "gold": "16"
+  },
+  {
+   "uid": "b6d87b6bd50d42a5",
+   "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+   "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.29411764705882354,
+   "gold": "\\frac{137}{111}"
+  },
+  {
+   "uid": "8cf6aef431df136b",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "800"
+  },
+  {
+   "uid": "622d9b47baba2d3b",
+   "model": "CohereForAI/c4ai-command-r-plus",
+   "item_id": "f0043e14f3632b7f17d339c3d8fa158d4412359e08f4a1f9e3516f5bd8f162bb",
+   "subject": "precalculus",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.3333333333333333,
+   "gold": "49"
+  },
+  {
+   "uid": "acc53dfc5af7bc21",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "9f0d91ef5ea02fcd14ff05b8fb91430b5e7ea4c812fb5110d57771529939da11",
+   "subject": "geometry",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "\\frac{14\\sqrt{3}}{3}"
+  },
+  {
+   "uid": "1b208dbd2f471ee6",
+   "model": "tiiuae/falcon-40b",
+   "item_id": "93270f1e9ad0eff2383e4c9d6027d60a63bebd42b3667114e2b187fe32877360",
+   "subject": "num_theory",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005388760585065435,
+   "gold": "24"
+  },
+  {
+   "uid": "e25f3c05d2d49a5f",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "3041b0929c25333302415447e937bc42cec2c0bc455c15259c8aa0176b7355f7",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2777777777777778,
+   "gold": "3.24"
+  },
+  {
+   "uid": "4608720660423cfd",
+   "model": "microsoft/phi-2",
+   "item_id": "51227316af649e09e0742c4c1c1f4a000660850c77638d02c317252587a4d30a",
+   "subject": "geometry",
+   "cell": "both_credited",
+   "inclusion_prob": 0.7,
+   "gold": "18\\sqrt{3}"
+  },
+  {
+   "uid": "059d6fe528d32d32",
+   "model": "01-ai/Yi-34B",
+   "item_id": "69fb3bb865effcc46cc33ec3d06c619e64e3f024ebaa5b6e46701d2a1edffaab",
+   "subject": "algebra",
+   "cell": "both_credited",
+   "inclusion_prob": 0.32,
+   "gold": "\\frac{1}{9}"
+  },
+  {
+   "uid": "2d45d931d09cd175",
+   "model": "Qwen/Qwen2-7B",
+   "item_id": "c4f280a49fdba08d8541529a1046a884211ff7be8488c2b2b42978e43a9e1d20",
+   "subject": "num_theory",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "7"
+  },
+  {
+   "uid": "3eb51ee4178f7919",
+   "model": "EleutherAI/gpt-j-6b",
+   "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+   "subject": "prealgebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.5,
+   "gold": "36\\sqrt{3}"
+  },
+  {
+   "uid": "d81c30468b356c1f",
+   "model": "mistralai/Mistral-7B-v0.1",
+   "item_id": "7ef40b8917e706873de64f2000adef19be7f02c354ae27e752ae8aeef6223a11",
+   "subject": "precalculus",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.00546021840873635,
+   "gold": "840"
+  },
+  {
+   "uid": "d7347075c049dedb",
+   "model": "01-ai/Yi-1.5-9B-Chat",
+   "item_id": "efd0fdfa45b5d11995964910ccc39bd955034476d3f559f6f63343162d243b10",
+   "subject": "algebra",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.29,
+   "gold": "3"
+  },
+  {
+   "uid": "b619522acbcd958d",
+   "model": "CohereForAI/c4ai-command-r-v01",
+   "item_id": "de6834c4ca3ea5c51c79926765d55d95e3f815d818a0dbce31a01f685a852ea8",
+   "subject": "counting_and_prob",
+   "cell": "score_boxed_only",
+   "inclusion_prob": 0.2962962962962963,
+   "gold": "\\frac{3}{4}"
+  },
+  {
+   "uid": "e4f5fd42cbc374fd",
+   "model": "01-ai/Yi-34B",
+   "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+   "subject": "counting_and_prob",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "28"
+  },
+  {
+   "uid": "29970f3f32f8ff08",
+   "model": "01-ai/Yi-34B",
+   "item_id": "bbe96a06d5b5f4f25bee7fd1a2a513835ebc747b96ffba7c378904bb095ff90e",
+   "subject": "prealgebra",
+   "cell": "exact_match_only",
+   "inclusion_prob": 0.28125,
+   "gold": "900"
+  },
+  {
+   "uid": "06b40b1f4f1d8f13",
+   "model": "bigcode/starcoder2-15b",
+   "item_id": "f7a7b8293eb05d4108b93c715c1df0de80dd251b04515b521d25b07367a898c9",
+   "subject": "prealgebra",
+   "cell": "both_rejected",
+   "inclusion_prob": 0.005668016194331984,
+   "gold": "52"
+  }
+ ]
+}

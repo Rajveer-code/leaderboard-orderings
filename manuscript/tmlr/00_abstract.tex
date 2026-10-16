@@ -1,0 +1,23 @@
+\begin{abstract}
+A leaderboard score for a free-text benchmark depends on two things: the model, and the
+\emph{verifier}, the program that finds the answer in each response and checks it against the
+reference answer. Leaderboards report the first and not the second. On the Open LLM Leaderboard's own
+records, changing the verifier while keeping every response fixed reversed
+\BoardShiftDiscordantPct\% of the pairwise orderings among \BoardShiftModels{} models (ties
+excluded). We ask which orderings a human reader would actually support.
+
+On the archived MATH-Hard board, three verifiers read all \NumRows{} responses of \NumModels{}
+models, among them the leaderboard's 2024 verifier, whose published verdicts we reproduce on all
+\EmReexecItems{}. They disagree on \RowsAnyDisagree{} responses, and on \TaxExtraction{} of these a
+verifier that gave no credit had found no answer it could read. Combining the verdicts with a human
+audit of 400 responses, we bound every accuracy gap and call an ordering \emph{certified} when its
+bound excludes zero, with a finite-sample guarantee that covers all \NumOrderings{} orderings at once.
+
+The audit alone certifies \CertFixedNoPooling{} of the \NumOrderings{} orderings: spread over
+\NumModels{} models, 400 labels cannot settle any ordering without an assumption that links models. If the rate at which a reader
+overrules three agreeing verifiers differs between models by at most $\varepsilon$,
+\CertFixedPrereg{} orderings are certified at $\varepsilon = \EpsPrereg$ and \CertFixedEpsZero{} at
+$\varepsilon = 0$, and each ordering carries a breakdown value: the variation between models that
+would overturn it. A published ranking should name its verifier and report how many responses that
+verifier could not read.
+\end{abstract}

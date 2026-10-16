@@ -1,0 +1,16 @@
+{
+ "regeneration": {
+  "ok": true,
+  "steps": [
+   "fb_macros_aistats.py",
+   "fb_tables_tmlr.py",
+   "fb_provenance_table.py",
+   "fb_figures_aistats.py"
+  ],
+  "changed": []
+ },
+ "pdf_prose": {
+  "ok": true,
+  "unexplained": []
+ }
+}

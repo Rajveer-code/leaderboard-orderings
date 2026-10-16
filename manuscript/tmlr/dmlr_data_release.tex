@@ -1,0 +1,39 @@
+\section{Released data and code}
+\label{sec:release}
+
+Everything this paper reports can be regenerated from the release at \CodeURL{}, and the release
+is also a resource in its own right: a fully adjudicated record of where three verifiers disagree on
+a public leaderboard, with human labels.
+
+\paragraph{What is released.}
+(i) The verdict of each verifier, including xFinder, on every one of the \NumRows{} responses of the
+\NumModels{} models, with the parse and time-out flags each verifier records; responses are identified by model and item identifier rather than copied.
+(ii) The human labels: the 400-item audit (the answer the labeller found and the resulting reader
+verdict) and the overlaps of \LabTwoN{} and \LabThreeN{} items labelled by two further labellers.
+(iii) The labelling sheets, the offline labelling application and the rulebooks, including those of
+the larger audits that were designed but not labelled, which enter no result.
+(iv) The board records: for every model scored before the change of verifier, the results file
+behind its displayed score and that file's history (Appendix~\ref{app:board}), and the census of
+scoring rules in four evaluation frameworks.
+(v) The code that computes every number, table and figure from these files, with its tests, and the
+dated analysis plan.
+
+\paragraph{Sources and licences.}
+The problems and reference solutions are those of MATH-Hard as distributed for the leaderboard
+(\texttt{lighteval/MATH-Hard}, MIT licence). The model responses come from the leaderboard's public
+per-model details datasets on the Hugging Face Hub, whose dataset cards declare no licence; the
+release therefore copies the text only of the responses shown to labellers, for research use, and
+refers to every other response by model and item identifier, which match the public datasets. Our code, verdicts and labels are released under the Apache 2.0 licence.
+
+\paragraph{Format, hosting and maintenance.}
+Verdicts and labels are CSV and JSON files with one row per response. The release is hosted on
+GitHub and maintained by the author, who will answer issues there; every change is recorded in the
+repository's history, and the version that produced this paper is tagged
+\texttt{dmlr-submission}. A response's verdicts depend on each verifier's version, and the release
+pins the versions of the libraries it uses.
+
+\paragraph{Responsible use.}
+The labels describe the answers that model responses to competition mathematics problems give; they
+contain no personal data and no information about the labellers. They measure what a careful reader
+finds in a response, not whether a model followed the demonstrated output format, and they should not
+be used to rank models outside the roster without a new audit.

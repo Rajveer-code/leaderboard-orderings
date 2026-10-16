@@ -1,0 +1,84 @@
+{
+  "all_clean": false,
+  "all_clean_after_manual_review": true,
+  "sheets": [
+    {
+      "name": "T-C L1 (70-row)",
+      "path": "labeling/tc_expansion_l1.csv",
+      "n_rows": 70,
+      "columns": [
+        "problem",
+        "response",
+        "uid",
+        "your_answer"
+      ],
+      "forbidden_columns_present": [],
+      "uid_unique": true,
+      "model_name_hits": [],
+      "stratum_word_hits": []
+    },
+    {
+      "name": "T-C L2 (26-row)",
+      "path": "labeling/tc_expansion_l2.csv",
+      "n_rows": 26,
+      "columns": [
+        "problem",
+        "response",
+        "uid",
+        "your_answer"
+      ],
+      "forbidden_columns_present": [],
+      "uid_unique": true,
+      "model_name_hits": [],
+      "stratum_word_hits": []
+    },
+    {
+      "name": "T-C L3 (14-row)",
+      "path": "labeling/tc_expansion_l3.csv",
+      "n_rows": 14,
+      "columns": [
+        "problem",
+        "response",
+        "uid",
+        "your_answer"
+      ],
+      "forbidden_columns_present": [],
+      "uid_unique": true,
+      "model_name_hits": [],
+      "stratum_word_hits": []
+    },
+    {
+      "name": "IFEval L1 (454-row)",
+      "path": "labeling/ifeval_audit_l1.csv",
+      "n_rows": 454,
+      "columns": [
+        "prompt",
+        "response",
+        "uid",
+        "your_judgment"
+      ],
+      "forbidden_columns_present": [],
+      "uid_unique": true,
+      "model_name_hits": [],
+      "stratum_word_hits": [
+        "credited"
+      ],
+      "manual_review": "Confirmed false positive by inspection: uid 58d3d59866a69e88, ordinary English usage (\"credited with creating\" a candy), unrelated to any stratum label. No real leak."
+    },
+    {
+      "name": "T-C expansion 2 (458-row)",
+      "path": "labeling/tc_expansion2_l1.csv",
+      "n_rows": 458,
+      "columns": [
+        "problem",
+        "response",
+        "uid",
+        "your_answer"
+      ],
+      "forbidden_columns_present": [],
+      "uid_unique": true,
+      "model_name_hits": [],
+      "stratum_word_hits": []
+    }
+  ]
+}

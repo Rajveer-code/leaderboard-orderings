@@ -1,0 +1,3241 @@
+{
+ "summary": {
+  "models": 27,
+  "models_without_pre_rescoring_results": 2,
+  "process_results_equals_upstream": 25,
+  "config_unchanged_by_rescoring": 25,
+  "samples_never_modified_after_2024": 27,
+  "subjects": 189,
+  "subjects_em_equals_original_aggregate": 175,
+  "subjects_mv_equals_current_aggregate": 171,
+  "items": 35748,
+  "items_em_vs_em_rec_disagree": 0,
+  "git_hashes": [
+   "60f0679",
+   "8f1dc26"
+  ],
+  "rescoring_commit_dates": [
+   "2024-06-16",
+   "2025-02-13"
+  ]
+ },
+ "per_model": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "repo": "open-llm-leaderboard/01-ai__Yi-1.5-34B-Chat-details",
+   "results_file": "01-ai__Yi-1.5-34B-Chat/results_2024-06-17T00-49-43.171619.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 00:59:38+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:00:10+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:00:41+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:01:16+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:01:34+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:02:05+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T00-49-43.171619.json": "2024-06-17 01:02:32+00:00"
+   },
+   "results_last_commit": {
+    "id": "804c2a41eb1b56787ee253bde66a711793cf6725",
+    "date": "2025-02-13 16:43:36+00:00",
+    "title": "Upload 01-ai__Yi-1.5-34B-Chat/results_2024-06-17T00-49-43.171619.json with huggingface_hub"
+   },
+   "results_original_revision": "26dee893ced39d2dce6a9b06f6e4a5c87f2e6354",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.42671009771986973,
+    "counting_and_prob": 0.15447154471544716,
+    "geometry": 0.06818181818181818,
+    "intermediate_algebra": 0.07857142857142857,
+    "num_theory": 0.22077922077922077,
+    "prealgebra": 0.42487046632124353,
+    "precalculus": 0.08888888888888889
+   },
+   "aggregate_now": {
+    "algebra": 0.5146579804560261,
+    "counting_and_prob": 0.17886178861788618,
+    "geometry": 0.10606060606060606,
+    "intermediate_algebra": 0.1,
+    "num_theory": 0.23376623376623376,
+    "prealgebra": 0.48704663212435234,
+    "precalculus": 0.1111111111111111
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.42671009771986973,
+     "mean_em_rec": 0.42671009771986973,
+     "mean_mv": 0.5146579804560261,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.15447154471544716,
+     "mean_em_rec": 0.15447154471544716,
+     "mean_mv": 0.17886178861788618,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.06818181818181818,
+     "mean_em_rec": 0.06818181818181818,
+     "mean_mv": 0.10606060606060606,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.07857142857142857,
+     "mean_em_rec": 0.07857142857142857,
+     "mean_mv": 0.1,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.22077922077922077,
+     "mean_em_rec": 0.22077922077922077,
+     "mean_mv": 0.23376623376623376,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.42487046632124353,
+     "mean_em_rec": 0.42487046632124353,
+     "mean_mv": 0.48704663212435234,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.08888888888888889,
+     "mean_em_rec": 0.08888888888888889,
+     "mean_mv": 0.1111111111111111,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "01-ai/Yi-1.5-9B-Chat": {
+   "repo": "open-llm-leaderboard/01-ai__Yi-1.5-9B-Chat-details",
+   "results_file": "01-ai__Yi-1.5-9B-Chat/results_2024-06-17T09-46-28.414421.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:52:21+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:52:38+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:52:57+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:53:28+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:53:45+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:54:03+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T09-46-28.414421.json": "2024-06-17 09:54:20+00:00"
+   },
+   "results_last_commit": {
+    "id": "36e7048524269030809ba6a363922076d55260d4",
+    "date": "2025-02-13 16:48:12+00:00",
+    "title": "Upload 01-ai__Yi-1.5-9B-Chat/results_2024-06-17T09-46-28.414421.json with huggingface_hub"
+   },
+   "results_original_revision": "b5d76e08d5cf9a0831c76f4e3967f3ec17c3fa29",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.23127035830618892,
+    "counting_and_prob": 0.10569105691056911,
+    "geometry": 0.015151515151515152,
+    "intermediate_algebra": 0.02142857142857143,
+    "num_theory": 0.11688311688311688,
+    "prealgebra": 0.22279792746113988,
+    "precalculus": 0.007407407407407408
+   },
+   "aggregate_now": {
+    "algebra": 0.46579804560260585,
+    "counting_and_prob": 0.17073170731707318,
+    "geometry": 0.08333333333333333,
+    "intermediate_algebra": 0.060714285714285714,
+    "num_theory": 0.18181818181818182,
+    "prealgebra": 0.36787564766839376,
+    "precalculus": 0.05925925925925926
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.23127035830618892,
+     "mean_em_rec": 0.23127035830618892,
+     "mean_mv": 0.46579804560260585,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.10569105691056911,
+     "mean_em_rec": 0.10569105691056911,
+     "mean_mv": 0.17073170731707318,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.015151515151515152,
+     "mean_em_rec": 0.015151515151515152,
+     "mean_mv": 0.08333333333333333,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.02142857142857143,
+     "mean_em_rec": 0.02142857142857143,
+     "mean_mv": 0.060714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.11688311688311688,
+     "mean_em_rec": 0.11688311688311688,
+     "mean_mv": 0.18181818181818182,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.22279792746113988,
+     "mean_em_rec": 0.22279792746113988,
+     "mean_mv": 0.36787564766839376,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.007407407407407408,
+     "mean_em_rec": 0.007407407407407408,
+     "mean_mv": 0.05925925925925926,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "01-ai/Yi-34B": {
+   "repo": "open-llm-leaderboard/01-ai__Yi-34B-details",
+   "results_file": "01-ai__Yi-34B/results_2024-06-17T01-51-43.500501.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 01:58:26+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 01:59:09+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 01:59:30+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 01:59:49+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 02:00:08+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 02:00:27+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T01-51-43.500501.json": "2024-06-17 02:00:48+00:00"
+   },
+   "results_last_commit": {
+    "id": "37e4c28958441b021ba0ae0412c1131b8d9175cf",
+    "date": "2025-02-13 11:30:28+00:00",
+    "title": "Upload 01-ai__Yi-34B/results_2024-06-17T01-51-43.500501.json with huggingface_hub"
+   },
+   "results_original_revision": "3c6cc88e0e14606aca1be09a2d2cd7d891dc7f44",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.0749185667752443,
+    "counting_and_prob": 0.04065040650406504,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.09844559585492228,
+    "precalculus": 0.022222222222222223
+   },
+   "aggregate_now": {
+    "algebra": 0.10097719869706841,
+    "counting_and_prob": 0.04065040650406504,
+    "geometry": 0.015151515151515152,
+    "intermediate_algebra": 0.014285714285714285,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.10362694300518134,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.0749185667752443,
+     "mean_em_rec": 0.0749185667752443,
+     "mean_mv": 0.10097719869706841,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.04065040650406504,
+     "mean_em_rec": 0.04065040650406504,
+     "mean_mv": 0.04065040650406504,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.007575757575757576,
+     "mean_em_rec": 0.007575757575757576,
+     "mean_mv": 0.015151515151515152,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.014285714285714285,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.032467532467532464,
+     "mean_em_rec": 0.032467532467532464,
+     "mean_mv": 0.032467532467532464,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.09844559585492228,
+     "mean_em_rec": 0.09844559585492228,
+     "mean_mv": 0.10362694300518134,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.022222222222222223,
+     "mean_em_rec": 0.022222222222222223,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "01-ai/Yi-34B-Chat": {
+   "repo": "open-llm-leaderboard/01-ai__Yi-34B-Chat-details",
+   "results_file": "01-ai__Yi-34B-Chat/results_2024-06-17T01-51-28.700386.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 01:59:24+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 01:59:49+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 02:00:09+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 02:00:31+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 02:00:52+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 02:01:09+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T01-51-28.700386.json": "2024-06-17 02:01:32+00:00"
+   },
+   "results_last_commit": {
+    "id": "52a549b6e6d54d7725bf4ddb95abfea55ebf77f7",
+    "date": "2025-02-13 16:50:57+00:00",
+    "title": "Upload 01-ai__Yi-34B-Chat/results_2024-06-17T01-51-28.700386.json with huggingface_hub"
+   },
+   "results_original_revision": "b59d9ec153cb80adef2245301590389fd87e928a",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.05211726384364821,
+    "counting_and_prob": 0.04065040650406504,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.12435233160621761,
+    "precalculus": 0.022222222222222223
+   },
+   "aggregate_now": {
+    "algebra": 0.10097719869706841,
+    "counting_and_prob": 0.056910569105691054,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.025974025974025976,
+    "prealgebra": 0.17098445595854922,
+    "precalculus": 0.014814814814814815
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.05211726384364821,
+     "mean_em_rec": 0.05211726384364821,
+     "mean_mv": 0.10097719869706841,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.04065040650406504,
+     "mean_em_rec": 0.04065040650406504,
+     "mean_mv": 0.056910569105691054,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.007575757575757576,
+     "mean_em_rec": 0.007575757575757576,
+     "mean_mv": 0.022727272727272728,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.032467532467532464,
+     "mean_em_rec": 0.032467532467532464,
+     "mean_mv": 0.025974025974025976,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.12435233160621761,
+     "mean_em_rec": 0.12435233160621761,
+     "mean_mv": 0.17098445595854922,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.022222222222222223,
+     "mean_em_rec": 0.022222222222222223,
+     "mean_mv": 0.014814814814814815,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "CohereForAI/c4ai-command-r-plus": {
+   "repo": "open-llm-leaderboard/CohereForAI__c4ai-command-r-plus-details",
+   "results_file": "CohereForAI__c4ai-command-r-plus/results_2024-06-20T10-16-23.151914.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:18:43+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:18:51+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:19:00+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:19:09+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:19:17+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:19:26+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-20T10-16-23.151914.json": "2024-06-20 10:19:36+00:00"
+   },
+   "results_last_commit": {
+    "id": "78f8eb74f609686de77507db903850acf8ac70d9",
+    "date": "2025-02-13 16:51:44+00:00",
+    "title": "Upload CohereForAI__c4ai-command-r-plus/results_2024-06-20T10-16-23.151914.json with huggingface_hub"
+   },
+   "results_original_revision": "094a3335f41300bb30bb1e1961ca8bc173f8a542",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.10097719869706841,
+    "counting_and_prob": 0.056910569105691054,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.02142857142857143,
+    "num_theory": 0.07792207792207792,
+    "prealgebra": 0.16580310880829016,
+    "precalculus": 0.05925925925925926
+   },
+   "aggregate_now": {
+    "algebra": 0.11400651465798045,
+    "counting_and_prob": 0.056910569105691054,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.02142857142857143,
+    "num_theory": 0.07792207792207792,
+    "prealgebra": 0.19170984455958548,
+    "precalculus": 0.037037037037037035
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.10097719869706841,
+     "mean_em_rec": 0.10097719869706841,
+     "mean_mv": 0.11400651465798045,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.056910569105691054,
+     "mean_em_rec": 0.056910569105691054,
+     "mean_mv": 0.056910569105691054,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.030303030303030304,
+     "mean_em_rec": 0.030303030303030304,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.02142857142857143,
+     "mean_em_rec": 0.02142857142857143,
+     "mean_mv": 0.02142857142857143,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.07792207792207792,
+     "mean_em_rec": 0.07792207792207792,
+     "mean_mv": 0.07792207792207792,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.16580310880829016,
+     "mean_em_rec": 0.16580310880829016,
+     "mean_mv": 0.19170984455958548,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.05925925925925926,
+     "mean_em_rec": 0.05925925925925926,
+     "mean_mv": 0.037037037037037035,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "CohereForAI/c4ai-command-r-v01": {
+   "repo": "open-llm-leaderboard/CohereForAI__c4ai-command-r-v01-details",
+   "results_file": "CohereForAI__c4ai-command-r-v01/results_2024-06-17T20-00-09.158840.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:17+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:24+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:32+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:41+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:49+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:02:56+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T20-00-09.158840.json": "2024-06-17 20:03:05+00:00"
+   },
+   "results_last_commit": {
+    "id": "810611112c19c054c7ea206fa6f6e6f6fb1ed7de",
+    "date": "2025-02-13 16:51:40+00:00",
+    "title": "Upload CohereForAI__c4ai-command-r-v01/results_2024-06-17T20-00-09.158840.json with huggingface_hub"
+   },
+   "results_original_revision": "cfa436389c09fbd6163c25d0ea82d3abac4ca3a3",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.0,
+    "counting_and_prob": 0.0,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.0,
+    "prealgebra": 0.0,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.04234527687296417,
+    "counting_and_prob": 0.04878048780487805,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.06217616580310881,
+    "precalculus": 0.044444444444444446
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.04234527687296417,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.04878048780487805,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.012987012987012988,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.06217616580310881,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.044444444444444446,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "Deci/DeciLM-7B": {
+   "repo": "open-llm-leaderboard/Deci__DeciLM-7B-details",
+   "results_file": "Deci__DeciLM-7B/results_2024-06-16T21-49-06.071553.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:55:55+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:56:13+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:56:28+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:56:47+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:57:05+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:57:23+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T21-49-06.071553.json": "2024-06-16 21:57:41+00:00"
+   },
+   "results_last_commit": {
+    "id": "da6490ae06f264104fb782f6df09e19a3387a95b",
+    "date": "2025-02-13 16:48:45+00:00",
+    "title": "Upload Deci__DeciLM-7B/results_2024-06-16T21-49-06.071553.json with huggingface_hub"
+   },
+   "results_original_revision": "3e4a82e6f43890581b3eb592dcd9b7fd87ae8c80",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.035830618892508145,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.0035714285714285713,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.05181347150259067,
+    "precalculus": 0.02962962962962963
+   },
+   "aggregate_now": {
+    "algebra": 0.04560260586319218,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.0035714285714285713,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.05181347150259067,
+    "precalculus": 0.02962962962962963
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.035830618892508145,
+     "mean_em_rec": 0.035830618892508145,
+     "mean_mv": 0.04234527687296417,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.024390243902439025,
+     "mean_em_rec": 0.024390243902439025,
+     "mean_mv": 0.024390243902439025,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.007575757575757576,
+     "mean_em_rec": 0.007575757575757576,
+     "mean_mv": 0.022727272727272728,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0035714285714285713,
+     "mean_em_rec": 0.0035714285714285713,
+     "mean_mv": 0.0035714285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.012987012987012988,
+     "mean_em_rec": 0.012987012987012988,
+     "mean_mv": 0.01948051948051948,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.05181347150259067,
+     "mean_em_rec": 0.05181347150259067,
+     "mean_mv": 0.05181347150259067,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.02962962962962963,
+     "mean_em_rec": 0.02962962962962963,
+     "mean_mv": 0.02962962962962963,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "EleutherAI/gpt-j-6b": {
+   "repo": "open-llm-leaderboard/EleutherAI__gpt-j-6b-details",
+   "results_file": "EleutherAI__gpt-j-6b/results_2024-06-17T14-46-56.264386.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:48:48+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:48:56+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:49:04+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:49:12+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:49:21+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:49:36+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T14-46-56.264386.json": "2024-06-17 14:49:44+00:00"
+   },
+   "results_last_commit": {
+    "id": "417a0228c6504ecc8dce59834ab23c66017d322c",
+    "date": "2025-02-13 11:42:14+00:00",
+    "title": "Upload EleutherAI__gpt-j-6b/results_2024-06-17T14-46-56.264386.json with huggingface_hub"
+   },
+   "results_original_revision": "2c10f5f6b4a5fc43a32569a134621be2433c69b2",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.003257328990228013,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.031088082901554404,
+    "precalculus": 0.007407407407407408
+   },
+   "aggregate_now": {
+    "algebra": 0.013029315960912053,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.007142857142857143,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.031088082901554404,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.003257328990228013,
+     "mean_em_rec": 0.003257328990228013,
+     "mean_mv": 0.013029315960912053,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.024390243902439025,
+     "mean_em_rec": 0.024390243902439025,
+     "mean_mv": 0.024390243902439025,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.007142857142857143,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.012987012987012988,
+     "mean_em_rec": 0.012987012987012988,
+     "mean_mv": 0.012987012987012988,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.031088082901554404,
+     "mean_em_rec": 0.031088082901554404,
+     "mean_mv": 0.03626943005181347,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.007407407407407408,
+     "mean_em_rec": 0.007407407407407408,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "EleutherAI/gpt-neox-20b": {
+   "repo": "open-llm-leaderboard/EleutherAI__gpt-neox-20b-details",
+   "results_file": "EleutherAI__gpt-neox-20b/results_2024-06-17T00-00-17.745529.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:10:36+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:11:06+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:11:31+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:12:00+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:12:33+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:13:03+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T00-00-17.745529.json": "2024-06-17 00:13:40+00:00"
+   },
+   "results_last_commit": {
+    "id": "1857c740c10f2351b1aa990792b8f8d1ce228cb8",
+    "date": "2025-02-13 16:50:42+00:00",
+    "title": "Upload EleutherAI__gpt-neox-20b/results_2024-06-17T00-00-17.745529.json with huggingface_hub"
+   },
+   "results_original_revision": "0b8bcfe9aa049149663baa7f656c1266b0c99703",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.016286644951140065,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.006493506493506494,
+    "prealgebra": 0.0051813471502590676,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.026058631921824105,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.025974025974025976,
+    "prealgebra": 0.010362694300518135,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.016286644951140065,
+     "mean_em_rec": 0.016286644951140065,
+     "mean_mv": 0.026058631921824105,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.006493506493506494,
+     "mean_em_rec": 0.006493506493506494,
+     "mean_mv": 0.025974025974025976,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.0051813471502590676,
+     "mean_em_rec": 0.0051813471502590676,
+     "mean_mv": 0.010362694300518135,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "EleutherAI/pythia-160m": {
+   "repo": "open-llm-leaderboard/EleutherAI__pythia-160m-details",
+   "results_file": "EleutherAI__pythia-160m/results_2024-06-16T22-09-58.078705.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:16:49+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:17:06+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:17:24+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:17:51+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:18:08+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:18:24+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T22-09-58.078705.json": "2024-06-16 22:18:41+00:00"
+   },
+   "results_last_commit": {
+    "id": "d20124583383dabe3b220d5ec93b1a20c7545bc2",
+    "date": "2025-02-13 16:48:12+00:00",
+    "title": "Upload EleutherAI__pythia-160m/results_2024-06-16T22-09-58.078705.json with huggingface_hub"
+   },
+   "results_original_revision": "3ff9a8a706bf45f9e5f51e4f0ddd04004f207174",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.003257328990228013,
+    "counting_and_prob": 0.0,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.006493506493506494,
+    "prealgebra": 0.0051813471502590676,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.009771986970684038,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.0035714285714285713,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.015544041450777202,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.003257328990228013,
+     "mean_em_rec": 0.003257328990228013,
+     "mean_mv": 0.009771986970684038,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.007575757575757576,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0035714285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.006493506493506494,
+     "mean_em_rec": 0.006493506493506494,
+     "mean_mv": 0.01948051948051948,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.0051813471502590676,
+     "mean_em_rec": 0.0051813471502590676,
+     "mean_mv": 0.02072538860103627,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "HuggingFaceH4/zephyr-7b-alpha": {
+   "repo": "open-llm-leaderboard/HuggingFaceH4__zephyr-7b-alpha-details",
+   "results_file": "HuggingFaceH4__zephyr-7b-alpha/results_2024-06-16T16-53-08.486035.json",
+   "results_original_revision": null,
+   "results_last_commit": {
+    "id": "71dbb6e6ea651e0edb876749e7bd1beb0d190642",
+    "date": "2024-06-16 16:53:12+00:00",
+    "title": "Adding samples results for leaderboard_arc_challenge to HuggingFaceH4/zephyr-7b-alpha"
+   },
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:07:53+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:08:29+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:08:54+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:09:21+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:09:52+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:10:26+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-53-08.486035.json": "2024-06-16 17:10:57+00:00"
+   },
+   "git_hash": "8f1dc26",
+   "aggregate_original": null,
+   "aggregate_now": {
+    "hard": 0.015105740181268883,
+    "algebra": 0.035830618892508145,
+    "counting_and_prob": 0.0,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.006493506493506494,
+    "prealgebra": 0.031088082901554404,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.035830618892508145,
+     "mean_em_rec": 0.035830618892508145,
+     "mean_mv": 0.048859934853420196,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.007575757575757576,
+     "mean_em_rec": 0.007575757575757576,
+     "mean_mv": 0.007575757575757576,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0035714285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.006493506493506494,
+     "mean_em_rec": 0.006493506493506494,
+     "mean_mv": 0.012987012987012988,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.031088082901554404,
+     "mean_em_rec": 0.031088082901554404,
+     "mean_mv": 0.03626943005181347,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.007407407407407408,
+     "mean_em_rec": 0.007407407407407408,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    }
+   }
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+   "repo": "open-llm-leaderboard/HuggingFaceH4__zephyr-7b-beta-details",
+   "results_file": "HuggingFaceH4__zephyr-7b-beta/results_2024-06-16T16-56-28.686172.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:04:10+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:04:32+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:04:52+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:05:09+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:05:30+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:05:47+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-56-28.686172.json": "2024-06-16 17:06:08+00:00"
+   },
+   "results_last_commit": {
+    "id": "491bd13df3c9422f9a34868eb9d1c2e322c2af53",
+    "date": "2025-02-13 11:42:19+00:00",
+    "title": "Upload HuggingFaceH4__zephyr-7b-beta/results_2024-06-16T16-56-28.686172.json with huggingface_hub"
+   },
+   "results_original_revision": "ee1062690702e3874e2b92401bd72e76d7128cdd",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.029315960912052116,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.015151515151515152,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.07772020725388601,
+    "precalculus": 0.014814814814814815
+   },
+   "aggregate_now": {
+    "algebra": 0.03908794788273615,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.015151515151515152,
+    "intermediate_algebra": 0.0035714285714285713,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.09326424870466321,
+    "precalculus": 0.014814814814814815
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.029315960912052116,
+     "mean_em_rec": 0.029315960912052116,
+     "mean_mv": 0.03908794788273615,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.015151515151515152,
+     "mean_em_rec": 0.015151515151515152,
+     "mean_mv": 0.015151515151515152,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0035714285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.01948051948051948,
+     "mean_em_rec": 0.01948051948051948,
+     "mean_mv": 0.012987012987012988,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.07772020725388601,
+     "mean_em_rec": 0.07772020725388601,
+     "mean_mv": 0.09326424870466321,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.014814814814814815,
+     "mean_em_rec": 0.014814814814814815,
+     "mean_mv": 0.014814814814814815,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": {
+   "repo": "open-llm-leaderboard/HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1-details",
+   "results_file": "HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1/results_2024-06-16T17-55-54.750054.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:58:26+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:58:35+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:58:43+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:58:53+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:59:01+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:59:10+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T17-55-54.750054.json": "2024-06-16 17:59:18+00:00"
+   },
+   "results_last_commit": {
+    "id": "cfef7d8919f4fd8f03dfe403c6b8ee2e49db6109",
+    "date": "2025-02-13 16:50:47+00:00",
+    "title": "Upload HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1/results_2024-06-16T17-55-54.750054.json with huggingface_hub"
+   },
+   "results_original_revision": "f53e30dc682a5848dc7c5eb20cbd0d60dcf4269f",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.40.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.2703583061889251,
+    "counting_and_prob": 0.18699186991869918,
+    "geometry": 0.08333333333333333,
+    "intermediate_algebra": 0.05,
+    "num_theory": 0.16883116883116883,
+    "prealgebra": 0.40932642487046633,
+    "precalculus": 0.05185185185185185
+   },
+   "aggregate_now": {
+    "algebra": 0.34201954397394135,
+    "counting_and_prob": 0.1951219512195122,
+    "geometry": 0.09090909090909091,
+    "intermediate_algebra": 0.05357142857142857,
+    "num_theory": 0.16883116883116883,
+    "prealgebra": 0.42487046632124353,
+    "precalculus": 0.05185185185185185
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.2703583061889251,
+     "mean_em_rec": 0.2703583061889251,
+     "mean_mv": 0.34201954397394135,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.18699186991869918,
+     "mean_em_rec": 0.18699186991869918,
+     "mean_mv": 0.1951219512195122,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.08333333333333333,
+     "mean_em_rec": 0.08333333333333333,
+     "mean_mv": 0.09090909090909091,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.05,
+     "mean_em_rec": 0.05,
+     "mean_mv": 0.05357142857142857,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.16883116883116883,
+     "mean_em_rec": 0.16883116883116883,
+     "mean_mv": 0.16883116883116883,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.40932642487046633,
+     "mean_em_rec": 0.40932642487046633,
+     "mean_mv": 0.42487046632124353,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.05185185185185185,
+     "mean_em_rec": 0.05185185185185185,
+     "mean_mv": 0.05185185185185185,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "Qwen/Qwen2-72B-Instruct": {
+   "repo": "open-llm-leaderboard/Qwen__Qwen2-72B-Instruct-details",
+   "results_file": "Qwen__Qwen2-72B-Instruct/results_2024-06-25T09-33-51.178365.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:12+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:20+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:28+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:37+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:45+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:36:54+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-25T09-33-51.178365.json": "2024-06-25 09:37:02+00:00"
+   },
+   "results_last_commit": {
+    "id": "69a56da594bf8be04939e1902b065b1ced120188",
+    "date": "2025-02-13 11:40:30+00:00",
+    "title": "Upload Qwen__Qwen2-72B-Instruct/results_2024-06-25T09-33-51.178365.json with huggingface_hub"
+   },
+   "results_original_revision": "dd9d4d107430047781c5b9ee98ec2d3e1aa7542e",
+   "git_hash": "60f0679",
+   "git_hash_now": "60f0679",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.5602605863192183,
+    "counting_and_prob": 0.36585365853658536,
+    "geometry": 0.16666666666666666,
+    "intermediate_algebra": 0.15714285714285714,
+    "num_theory": 0.38311688311688313,
+    "prealgebra": 0.5544041450777202,
+    "precalculus": 0.11851851851851852
+   },
+   "aggregate_now": {
+    "algebra": 0.7003257328990228,
+    "counting_and_prob": 0.3902439024390244,
+    "geometry": 0.24242424242424243,
+    "intermediate_algebra": 0.18214285714285713,
+    "num_theory": 0.4025974025974026,
+    "prealgebra": 0.6476683937823834,
+    "precalculus": 0.14814814814814814
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.5602605863192183,
+     "mean_em_rec": 0.5602605863192183,
+     "mean_mv": 0.7003257328990228,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.36585365853658536,
+     "mean_em_rec": 0.36585365853658536,
+     "mean_mv": 0.3902439024390244,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.16666666666666666,
+     "mean_em_rec": 0.16666666666666666,
+     "mean_mv": 0.24242424242424243,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.15714285714285714,
+     "mean_em_rec": 0.15714285714285714,
+     "mean_mv": 0.18214285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.38311688311688313,
+     "mean_em_rec": 0.38311688311688313,
+     "mean_mv": 0.4025974025974026,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.5544041450777202,
+     "mean_em_rec": 0.5544041450777202,
+     "mean_mv": 0.6424870466321243,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.11851851851851852,
+     "mean_em_rec": 0.11851851851851852,
+     "mean_mv": 0.14814814814814814,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "Qwen/Qwen2-7B": {
+   "repo": "open-llm-leaderboard/Qwen__Qwen2-7B-details",
+   "results_file": "Qwen__Qwen2-7B/results_2024-06-16T18-53-46.134214.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:00:53+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:01:09+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:01:28+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:01:46+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:02:05+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:02:21+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T18-53-46.134214.json": "2024-06-16 19:02:38+00:00"
+   },
+   "results_last_commit": {
+    "id": "2504c5bd7a8820eb6395a6433694ea90035441cb",
+    "date": "2025-02-13 11:35:01+00:00",
+    "title": "Upload Qwen__Qwen2-7B/results_2024-06-16T18-53-46.134214.json with huggingface_hub"
+   },
+   "results_original_revision": "f35161f34a9eac6312715c49f305b1a13c450328",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.3485342019543974,
+    "counting_and_prob": 0.16260162601626016,
+    "geometry": 0.07575757575757576,
+    "intermediate_algebra": 0.04285714285714286,
+    "num_theory": 0.19480519480519481,
+    "prealgebra": 0.34196891191709844,
+    "precalculus": 0.02962962962962963
+   },
+   "aggregate_now": {
+    "algebra": 0.40716612377850164,
+    "counting_and_prob": 0.16260162601626016,
+    "geometry": 0.09090909090909091,
+    "intermediate_algebra": 0.04642857142857143,
+    "num_theory": 0.19480519480519481,
+    "prealgebra": 0.34196891191709844,
+    "precalculus": 0.02962962962962963
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.3485342019543974,
+     "mean_em_rec": 0.3485342019543974,
+     "mean_mv": 0.40716612377850164,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.16260162601626016,
+     "mean_em_rec": 0.16260162601626016,
+     "mean_mv": 0.16260162601626016,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.07575757575757576,
+     "mean_em_rec": 0.07575757575757576,
+     "mean_mv": 0.09090909090909091,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.04285714285714286,
+     "mean_em_rec": 0.04285714285714286,
+     "mean_mv": 0.04642857142857143,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.19480519480519481,
+     "mean_em_rec": 0.19480519480519481,
+     "mean_mv": 0.19480519480519481,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.34196891191709844,
+     "mean_em_rec": 0.34196891191709844,
+     "mean_mv": 0.34196891191709844,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.02962962962962963,
+     "mean_em_rec": 0.02962962962962963,
+     "mean_mv": 0.02962962962962963,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "bigcode/starcoder2-15b": {
+   "repo": "open-llm-leaderboard/bigcode__starcoder2-15b-details",
+   "results_file": "bigcode__starcoder2-15b/results_2024-06-25T12-38-31.094738.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 12:57:00+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 12:57:45+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 12:58:29+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 12:59:07+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 12:59:54+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 13:00:40+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-25T12-38-31.094738.json": "2024-06-25 13:01:28+00:00"
+   },
+   "results_last_commit": {
+    "id": "d97b1b6f035a776567f579935e6e5414cd407205",
+    "date": "2025-02-13 16:50:42+00:00",
+    "title": "Upload bigcode__starcoder2-15b/results_2024-06-25T12-38-31.094738.json with huggingface_hub"
+   },
+   "results_original_revision": "e570af34097741445d45ccaaf7b063cb0911ceda",
+   "git_hash": "60f0679",
+   "git_hash_now": "60f0679",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.0749185667752443,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.045454545454545456,
+    "prealgebra": 0.13471502590673576,
+    "precalculus": 0.037037037037037035
+   },
+   "aggregate_now": {
+    "algebra": 0.09771986970684039,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.014285714285714285,
+    "num_theory": 0.03896103896103896,
+    "prealgebra": 0.13989637305699482,
+    "precalculus": 0.037037037037037035
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.0749185667752443,
+     "mean_em_rec": 0.0749185667752443,
+     "mean_mv": 0.09771986970684039,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.024390243902439025,
+     "mean_em_rec": 0.024390243902439025,
+     "mean_mv": 0.024390243902439025,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.030303030303030304,
+     "mean_em_rec": 0.030303030303030304,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.014285714285714285,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.045454545454545456,
+     "mean_em_rec": 0.045454545454545456,
+     "mean_mv": 0.03896103896103896,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.13471502590673576,
+     "mean_em_rec": 0.13471502590673576,
+     "mean_mv": 0.13989637305699482,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.037037037037037035,
+     "mean_em_rec": 0.037037037037037035,
+     "mean_mv": 0.037037037037037035,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "databricks/dolly-v2-12b": {
+   "repo": "open-llm-leaderboard/databricks__dolly-v2-12b-details",
+   "results_file": "databricks__dolly-v2-12b/results_2024-06-17T12-34-01.040000.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:35:58+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:06+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:16+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:24+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:32+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:41+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T12-34-01.040000.json": "2024-06-17 12:36:52+00:00"
+   },
+   "results_last_commit": {
+    "id": "98c0054fa1d3d914d43be0d9568e8f26641b47f9",
+    "date": "2025-02-13 16:50:56+00:00",
+    "title": "Upload databricks__dolly-v2-12b/results_2024-06-17T12-34-01.040000.json with huggingface_hub"
+   },
+   "results_original_revision": "48046342ef267e7cfc43c40b071cbb2b4a3453a1",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.006514657980456026,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.025974025974025976,
+    "prealgebra": 0.015544041450777202,
+    "precalculus": 0.022222222222222223
+   },
+   "aggregate_now": {
+    "algebra": 0.009771986970684038,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.025974025974025976,
+    "prealgebra": 0.015544041450777202,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.006514657980456026,
+     "mean_em_rec": 0.006514657980456026,
+     "mean_mv": 0.009771986970684038,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.022727272727272728,
+     "mean_em_rec": 0.022727272727272728,
+     "mean_mv": 0.022727272727272728,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.025974025974025976,
+     "mean_em_rec": 0.025974025974025976,
+     "mean_mv": 0.025974025974025976,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.015544041450777202,
+     "mean_em_rec": 0.015544041450777202,
+     "mean_mv": 0.015544041450777202,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.022222222222222223,
+     "mean_em_rec": 0.022222222222222223,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "google/gemma-7b": {
+   "repo": "open-llm-leaderboard/google__gemma-7b-details",
+   "results_file": "google__gemma-7b/results_2024-06-17T11-22-26.908167.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:27:56+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:28:12+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:28:30+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:28:48+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:29:02+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:29:18+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T11-22-26.908167.json": "2024-06-17 11:29:36+00:00"
+   },
+   "results_last_commit": {
+    "id": "65091ea0dc42bc929e090d33366dcc7fa4273ea4",
+    "date": "2025-02-13 16:49:10+00:00",
+    "title": "Upload google__gemma-7b/results_2024-06-17T11-22-26.908167.json with huggingface_hub"
+   },
+   "results_original_revision": "9312eda60e9989b6ccfa9b4a2000d509f3eaddd5",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.1237785016286645,
+    "counting_and_prob": 0.04065040650406504,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.14507772020725387,
+    "precalculus": 0.02962962962962963
+   },
+   "aggregate_now": {
+    "algebra": 0.16612377850162866,
+    "counting_and_prob": 0.04065040650406504,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.014285714285714285,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.15544041450777202,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.1237785016286645,
+     "mean_em_rec": 0.1237785016286645,
+     "mean_mv": 0.16612377850162866,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.04065040650406504,
+     "mean_em_rec": 0.04065040650406504,
+     "mean_mv": 0.04065040650406504,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.030303030303030304,
+     "mean_em_rec": 0.030303030303030304,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.010714285714285714,
+     "mean_em_rec": 0.010714285714285714,
+     "mean_mv": 0.014285714285714285,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.01948051948051948,
+     "mean_em_rec": 0.01948051948051948,
+     "mean_mv": 0.01948051948051948,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.14507772020725387,
+     "mean_em_rec": 0.14507772020725387,
+     "mean_mv": 0.16062176165803108,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.02962962962962963,
+     "mean_em_rec": 0.02962962962962963,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "ibm/merlinite-7b": {
+   "repo": "open-llm-leaderboard/ibm__merlinite-7b-details",
+   "results_file": "ibm__merlinite-7b/results_2024-06-16T21-44-08.111946.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:50:47+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:51:05+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:51:25+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:51:40+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:51:55+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:52:13+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T21-44-08.111946.json": "2024-06-16 21:52:47+00:00"
+   },
+   "results_last_commit": {
+    "id": "04c6d174f6325150414b8268268e077148ebf0c2",
+    "date": "2025-02-13 16:50:04+00:00",
+    "title": "Upload ibm__merlinite-7b/results_2024-06-16T21-44-08.111946.json with huggingface_hub"
+   },
+   "results_original_revision": "7727d72a2ed686b147f0883e2bb9dc683f9f3c2c",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.03257328990228013,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.007142857142857143,
+    "num_theory": 0.006493506493506494,
+    "prealgebra": 0.04145077720207254,
+    "precalculus": 0.022222222222222223
+   },
+   "aggregate_now": {
+    "algebra": 0.03908794788273615,
+    "counting_and_prob": 0.024390243902439025,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.006493506493506494,
+    "prealgebra": 0.046632124352331605,
+    "precalculus": 0.007407407407407408
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.03257328990228013,
+     "mean_em_rec": 0.03257328990228013,
+     "mean_mv": 0.03908794788273615,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.024390243902439025,
+     "mean_em_rec": 0.024390243902439025,
+     "mean_mv": 0.024390243902439025,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.030303030303030304,
+     "mean_em_rec": 0.030303030303030304,
+     "mean_mv": 0.022727272727272728,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.007142857142857143,
+     "mean_em_rec": 0.007142857142857143,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.006493506493506494,
+     "mean_em_rec": 0.006493506493506494,
+     "mean_mv": 0.006493506493506494,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.04145077720207254,
+     "mean_em_rec": 0.04145077720207254,
+     "mean_mv": 0.046632124352331605,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.022222222222222223,
+     "mean_em_rec": 0.022222222222222223,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct": {
+   "repo": "open-llm-leaderboard/meta-llama__Meta-Llama-3-70B-Instruct-details",
+   "results_file": "meta-llama__Meta-Llama-3-70B-Instruct/results_2024-06-19T08-22-58.348428.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:30:22+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:30:42+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:31:05+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:31:22+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:31:40+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:31:58+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-19T08-22-58.348428.json": "2024-06-19 08:32:14+00:00"
+   },
+   "results_last_commit": {
+    "id": "898228e9801dd2a08e32af947df7e59e80a1cb82",
+    "date": "2025-02-13 11:40:43+00:00",
+    "title": "Upload meta-llama__Meta-Llama-3-70B-Instruct/results_2024-06-19T08-22-58.348428.json with huggingface_hub"
+   },
+   "results_original_revision": "c0dd34e92f36c7b276829467fc66b2ad272b4b4a",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.38436482084690554,
+    "counting_and_prob": 0.1951219512195122,
+    "geometry": 0.08333333333333333,
+    "intermediate_algebra": 0.060714285714285714,
+    "num_theory": 0.2532467532467532,
+    "prealgebra": 0.45595854922279794,
+    "precalculus": 0.08888888888888889
+   },
+   "aggregate_now": {
+    "algebra": 0.44625407166123776,
+    "counting_and_prob": 0.18699186991869918,
+    "geometry": 0.09848484848484848,
+    "intermediate_algebra": 0.060714285714285714,
+    "num_theory": 0.2532467532467532,
+    "prealgebra": 0.43005181347150256,
+    "precalculus": 0.08888888888888889
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.38436482084690554,
+     "mean_em_rec": 0.38436482084690554,
+     "mean_mv": 0.44625407166123776,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.1951219512195122,
+     "mean_em_rec": 0.1951219512195122,
+     "mean_mv": 0.18699186991869918,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.08333333333333333,
+     "mean_em_rec": 0.08333333333333333,
+     "mean_mv": 0.09848484848484848,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.060714285714285714,
+     "mean_em_rec": 0.060714285714285714,
+     "mean_mv": 0.060714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.2532467532467532,
+     "mean_em_rec": 0.2532467532467532,
+     "mean_mv": 0.2532467532467532,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.45595854922279794,
+     "mean_em_rec": 0.45595854922279794,
+     "mean_mv": 0.43005181347150256,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.08888888888888889,
+     "mean_em_rec": 0.08888888888888889,
+     "mean_mv": 0.08888888888888889,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "microsoft/phi-1_5": {
+   "repo": "open-llm-leaderboard/microsoft__phi-1_5-details",
+   "results_file": "microsoft__phi-1_5/results_2024-06-17T10-46-09.252711.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:53:04+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:53:22+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:53:42+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:53:57+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:54:15+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:54:37+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T10-46-09.252711.json": "2024-06-17 10:54:53+00:00"
+   },
+   "results_last_commit": {
+    "id": "a7434d64a4a26c118968eb40f93ec3afe149042e",
+    "date": "2025-02-13 16:49:06+00:00",
+    "title": "Upload microsoft__phi-1_5/results_2024-06-17T10-46-09.252711.json with huggingface_hub"
+   },
+   "results_original_revision": "62630286b8b63dbfca4a0aa3761e08d38e51cfaa",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.016286644951140065,
+    "counting_and_prob": 0.016260162601626018,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.02072538860103627,
+    "precalculus": 0.014814814814814815
+   },
+   "aggregate_now": {
+    "algebra": 0.026058631921824105,
+    "counting_and_prob": 0.016260162601626018,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.031088082901554404,
+    "precalculus": 0.014814814814814815
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.016286644951140065,
+     "mean_em_rec": 0.016286644951140065,
+     "mean_mv": 0.02280130293159609,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.016260162601626018,
+     "mean_em_rec": 0.016260162601626018,
+     "mean_mv": 0.016260162601626018,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.012987012987012988,
+     "mean_em_rec": 0.012987012987012988,
+     "mean_mv": 0.01948051948051948,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.02072538860103627,
+     "mean_em_rec": 0.02072538860103627,
+     "mean_mv": 0.031088082901554404,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.014814814814814815,
+     "mean_em_rec": 0.014814814814814815,
+     "mean_mv": 0.014814814814814815,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "microsoft/phi-2": {
+   "repo": "open-llm-leaderboard/microsoft__phi-2-details",
+   "results_file": "microsoft__phi-2/results_2024-06-17T15-52-21.885338.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 15:59:07+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 15:59:24+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 15:59:43+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 16:00:00+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 16:00:15+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 16:00:31+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T15-52-21.885338.json": "2024-06-17 16:00:47+00:00"
+   },
+   "results_last_commit": {
+    "id": "db9ccb47f9e038b47ee52a2b49b85a776e54ad74",
+    "date": "2025-02-13 11:36:57+00:00",
+    "title": "Upload microsoft__phi-2/results_2024-06-17T15-52-21.885338.json with huggingface_hub"
+   },
+   "results_original_revision": "cab1156130a7aeef0804817e644206d1ed068e9a",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.035830618892508145,
+    "counting_and_prob": 0.016260162601626018,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.07772020725388601,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.04234527687296417,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.015151515151515152,
+    "intermediate_algebra": 0.014285714285714285,
+    "num_theory": 0.025974025974025976,
+    "prealgebra": 0.07772020725388601,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.035830618892508145,
+     "mean_em_rec": 0.035830618892508145,
+     "mean_mv": 0.04234527687296417,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.016260162601626018,
+     "mean_em_rec": 0.016260162601626018,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": false
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.007575757575757576,
+     "mean_em_rec": 0.007575757575757576,
+     "mean_mv": 0.015151515151515152,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.014285714285714285,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.01948051948051948,
+     "mean_em_rec": 0.01948051948051948,
+     "mean_mv": 0.025974025974025976,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.07772020725388601,
+     "mean_em_rec": 0.07772020725388601,
+     "mean_mv": 0.07772020725388601,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+   "repo": "open-llm-leaderboard/mistralai__Mistral-7B-Instruct-v0.3-details",
+   "results_file": "mistralai__Mistral-7B-Instruct-v0.3/results_2024-06-17T14-37-59.603167.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:39:59+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:08+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:15+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:26+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:33+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:39+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T14-37-59.603167.json": "2024-06-17 14:40:48+00:00"
+   },
+   "results_last_commit": {
+    "id": "9c17f27f82aab79c5c749ae5cd42289b2d939b30",
+    "date": "2025-02-13 16:45:31+00:00",
+    "title": "Upload mistralai__Mistral-7B-Instruct-v0.3/results_2024-06-17T14-37-59.603167.json with huggingface_hub"
+   },
+   "results_original_revision": "b7d3f764043758a20b5038cd5c70c817faa85943",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.04234527687296417,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.0035714285714285713,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.08290155440414508,
+    "precalculus": 0.022222222222222223
+   },
+   "aggregate_now": {
+    "algebra": 0.05863192182410423,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.014285714285714285,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.08290155440414508,
+    "precalculus": 0.022222222222222223
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.04234527687296417,
+     "mean_em_rec": 0.04234527687296417,
+     "mean_mv": 0.05863192182410423,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.022727272727272728,
+     "mean_em_rec": 0.022727272727272728,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0035714285714285713,
+     "mean_em_rec": 0.0035714285714285713,
+     "mean_mv": 0.014285714285714285,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.032467532467532464,
+     "mean_em_rec": 0.032467532467532464,
+     "mean_mv": 0.032467532467532464,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.08290155440414508,
+     "mean_em_rec": 0.08290155440414508,
+     "mean_mv": 0.08290155440414508,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.022222222222222223,
+     "mean_em_rec": 0.022222222222222223,
+     "mean_mv": 0.022222222222222223,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "mistralai/Mistral-7B-v0.1": {
+   "repo": "open-llm-leaderboard/mistralai__Mistral-7B-v0.1-details",
+   "results_file": "mistralai__Mistral-7B-v0.1/results_2024-06-16T16-57-41.377142.json",
+   "results_original_revision": null,
+   "results_last_commit": {
+    "id": "efe2b7c0b840065737f884f57cb640068514e93b",
+    "date": "2024-06-16 16:57:44+00:00",
+    "title": "Adding samples results for leaderboard_arc_challenge to mistralai/Mistral-7B-v0.1"
+   },
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:07:47+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:08:13+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:08:39+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:09:01+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:09:27+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:09:58+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-57-41.377142.json": "2024-06-16 17:10:21+00:00"
+   },
+   "git_hash": "8f1dc26",
+   "aggregate_original": null,
+   "aggregate_now": {
+    "hard": 0.024924471299093656,
+    "algebra": 0.035830618892508145,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.05181347150259067,
+    "precalculus": 0.014814814814814815
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.035830618892508145,
+     "mean_em_rec": 0.035830618892508145,
+     "mean_mv": 0.04560260586319218,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.016260162601626018,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.030303030303030304,
+     "mean_em_rec": 0.030303030303030304,
+     "mean_mv": 0.03787878787878788,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0035714285714285713,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.032467532467532464,
+     "mean_em_rec": 0.032467532467532464,
+     "mean_mv": 0.03896103896103896,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.05181347150259067,
+     "mean_em_rec": 0.05181347150259067,
+     "mean_mv": 0.05181347150259067,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.014814814814814815,
+     "mean_em_rec": 0.014814814814814815,
+     "mean_mv": 0.007407407407407408,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": null,
+     "mv_matches_current_aggregate": false
+    }
+   }
+  },
+  "mosaicml/mpt-7b": {
+   "repo": "open-llm-leaderboard/mosaicml__mpt-7b-details",
+   "results_file": "mosaicml__mpt-7b/results_2024-06-22T18-48-11.808204.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:04+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:11+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:19+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:27+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:38+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:47+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-22T18-48-11.808204.json": "2024-06-22 18:50:55+00:00"
+   },
+   "results_last_commit": {
+    "id": "150aa60d53781b4a5633b94142acf53b26be5f51",
+    "date": "2025-02-13 11:37:22+00:00",
+    "title": "Upload mosaicml__mpt-7b/results_2024-06-22T18-48-11.808204.json with huggingface_hub"
+   },
+   "results_original_revision": "f623f8904a4368d8caf5d8d5e53a4716b434daf0",
+   "git_hash": "60f0679",
+   "git_hash_now": "60f0679",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.013029315960912053,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.022727272727272728,
+    "intermediate_algebra": 0.007142857142857143,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.02072538860103627,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.016286644951140065,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.030303030303030304,
+    "intermediate_algebra": 0.007142857142857143,
+    "num_theory": 0.032467532467532464,
+    "prealgebra": 0.02072538860103627,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.013029315960912053,
+     "mean_em_rec": 0.013029315960912053,
+     "mean_mv": 0.016286644951140065,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.022727272727272728,
+     "mean_em_rec": 0.022727272727272728,
+     "mean_mv": 0.030303030303030304,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.007142857142857143,
+     "mean_em_rec": 0.007142857142857143,
+     "mean_mv": 0.007142857142857143,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.01948051948051948,
+     "mean_em_rec": 0.01948051948051948,
+     "mean_mv": 0.032467532467532464,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.02072538860103627,
+     "mean_em_rec": 0.02072538860103627,
+     "mean_mv": 0.02072538860103627,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "tiiuae/falcon-40b": {
+   "repo": "open-llm-leaderboard/tiiuae__falcon-40b-details",
+   "results_file": "tiiuae__falcon-40b/results_2024-06-20T06-09-03.551737.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:03+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:12+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:20+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:28+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:37+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:47+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-20T06-09-03.551737.json": "2024-06-20 06:11:55+00:00"
+   },
+   "results_last_commit": {
+    "id": "e0310f5862c7493d16984b2d65fa227a97a1a1d7",
+    "date": "2025-02-13 16:51:33+00:00",
+    "title": "Upload tiiuae__falcon-40b/results_2024-06-20T06-09-03.551737.json with huggingface_hub"
+   },
+   "results_original_revision": "15b42b37ee3be34bdccfe1e646dfcb606975b093",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.019543973941368076,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.04145077720207254,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.03257328990228013,
+    "counting_and_prob": 0.008130081300813009,
+    "geometry": 0.007575757575757576,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.01948051948051948,
+    "prealgebra": 0.046632124352331605,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.019543973941368076,
+     "mean_em_rec": 0.019543973941368076,
+     "mean_mv": 0.03257328990228013,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.008130081300813009,
+     "mean_em_rec": 0.008130081300813009,
+     "mean_mv": 0.008130081300813009,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.007575757575757576,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.01948051948051948,
+     "mean_em_rec": 0.01948051948051948,
+     "mean_mv": 0.01948051948051948,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.04145077720207254,
+     "mean_em_rec": 0.04145077720207254,
+     "mean_mv": 0.046632124352331605,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  },
+  "tiiuae/falcon-7b": {
+   "repo": "open-llm-leaderboard/tiiuae__falcon-7b-details",
+   "results_file": "tiiuae__falcon-7b/results_2024-06-16T22-32-55.256003.json",
+   "samples_last_commit": {
+    "samples_leaderboard_math_algebra_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:39:53+00:00",
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:40:10+00:00",
+    "samples_leaderboard_math_geometry_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:40:34+00:00",
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:40:54+00:00",
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:41:26+00:00",
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:41:46+00:00",
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T22-32-55.256003.json": "2024-06-16 22:42:04+00:00"
+   },
+   "results_last_commit": {
+    "id": "bc6ca756b5dfa2e89f1a2b964b1570d5fcd79b9b",
+    "date": "2025-02-13 16:49:39+00:00",
+    "title": "Upload tiiuae__falcon-7b/results_2024-06-16T22-32-55.256003.json with huggingface_hub"
+   },
+   "results_original_revision": "929b839d160261a6a883fbcc69ec5fed5d02ee42",
+   "git_hash": "8f1dc26",
+   "git_hash_now": "8f1dc26",
+   "transformers_version": "4.41.2",
+   "recorded_process_results_equals_upstream_3c8db1bb7b": true,
+   "config_unchanged_by_rescoring": true,
+   "task_version_original": [
+    1.0
+   ],
+   "task_version_now": [
+    3.0
+   ],
+   "generation_kwargs": {
+    "until": [
+     "Problem:"
+    ],
+    "do_sample": false,
+    "temperature": 0.0,
+    "max_gen_toks": 1024
+   },
+   "aggregate_original": {
+    "algebra": 0.003257328990228013,
+    "counting_and_prob": 0.0,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.0,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.02072538860103627,
+    "precalculus": 0.0
+   },
+   "aggregate_now": {
+    "algebra": 0.013029315960912053,
+    "counting_and_prob": 0.0,
+    "geometry": 0.0,
+    "intermediate_algebra": 0.010714285714285714,
+    "num_theory": 0.012987012987012988,
+    "prealgebra": 0.02072538860103627,
+    "precalculus": 0.0
+   },
+   "per_subject": {
+    "algebra": {
+     "n": 307,
+     "mean_em": 0.003257328990228013,
+     "mean_em_rec": 0.003257328990228013,
+     "mean_mv": 0.013029315960912053,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "counting_and_prob": {
+     "n": 123,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "geometry": {
+     "n": 132,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "intermediate_algebra": {
+     "n": 280,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.010714285714285714,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "num_theory": {
+     "n": 154,
+     "mean_em": 0.012987012987012988,
+     "mean_em_rec": 0.012987012987012988,
+     "mean_mv": 0.012987012987012988,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "prealgebra": {
+     "n": 193,
+     "mean_em": 0.02072538860103627,
+     "mean_em_rec": 0.02072538860103627,
+     "mean_mv": 0.02072538860103627,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    },
+    "precalculus": {
+     "n": 135,
+     "mean_em": 0.0,
+     "mean_em_rec": 0.0,
+     "mean_mv": 0.0,
+     "em_vs_em_rec_disagree": 0,
+     "em_matches_original_aggregate": true,
+     "mv_matches_current_aggregate": true
+    }
+   }
+  }
+ }
+}

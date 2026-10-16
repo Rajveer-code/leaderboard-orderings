@@ -1,0 +1,77 @@
+{
+ "sources": {
+  "old": {
+   "repo": "open-llm-leaderboard/results",
+   "revision": "c6b22601e39f8288b3852cf6421291fed2250050",
+   "field": "leaderboard_math_hard.exact_match,none",
+   "file_rule": "latest results file per model folder"
+  },
+  "new": {
+   "repo": "open-llm-leaderboard/contents",
+   "revision": "9c09a7cae43334062a82cb164f2ef255013dafa2",
+   "field": "MATH Lvl 5 Raw",
+   "rule": "max over precision variants per fullname"
+  }
+ },
+ "n_models_old": 3433,
+ "n_models_new": 4497,
+ "n_models_both": 3413,
+ "board": {
+  "kendall_tau_b": 0.6774760256298171,
+  "discordant_pair_share": 0.1577730280169616,
+  "median_shift": 0.00906344410876133,
+  "share_score_rose": 0.8655142103721066,
+  "pair_counts": {
+   "pairs": 5822578,
+   "tied_2024": 108316,
+   "tied_rescored": 18253,
+   "strictly_ordered_by_both": 5700404,
+   "reversed": 899370,
+   "reversed_share_of_all_pairs": 0.1544625078444634
+  }
+ },
+ "roster": {
+  "n": 27,
+  "kendall_tau_b": 0.8403095160806731,
+  "discordant_pair_share": 0.0755813953488372,
+  "pair_counts": {
+   "pairs": 351,
+   "tied_2024": 1,
+   "tied_rescored": 6,
+   "strictly_ordered_by_both": 344,
+   "reversed": 26,
+   "reversed_share_of_all_pairs": 0.07407407407407407
+  },
+  "median_shift": 0.0022658610271903343,
+  "median_shift_percentile_on_board": 0.2546147084676238
+ },
+ "roster_shift": {
+  "01-ai/Yi-1.5-34B-Chat": 0.02794561933534742,
+  "01-ai/Yi-1.5-9B-Chat": 0.09818731117824775,
+  "01-ai/Yi-34B": -0.0007552870090634448,
+  "01-ai/Yi-34B-Chat": 0.015861027190332326,
+  "CohereForAI/c4ai-command-r-plus": -0.0015105740181268895,
+  "CohereForAI/c4ai-command-r-v01": 0.03474320241691843,
+  "Deci/DeciLM-7B": 0.003776435045317224,
+  "EleutherAI/gpt-j-6b": 0.000755287009063443,
+  "EleutherAI/gpt-neox-20b": 0.006797583081570998,
+  "EleutherAI/pythia-160m": 0.006797583081570998,
+  "HuggingFaceH4/zephyr-7b-alpha": 0.002265861027190331,
+  "HuggingFaceH4/zephyr-7b-beta": 0.001510574018126886,
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": 0.0037764350453172446,
+  "Qwen/Qwen2-72B-Instruct": 0.040785498489425975,
+  "Qwen/Qwen2-7B": -0.0007552870090634656,
+  "bigcode/starcoder2-15b": -0.0007552870090634378,
+  "databricks/dolly-v2-12b": -0.0007552870090634465,
+  "google/gemma-7b": -0.0007552870090634656,
+  "ibm/merlinite-7b": -0.0007552870090634448,
+  "meta-llama/Meta-Llama-3-70B-Instruct": -0.008308157099697927,
+  "microsoft/phi-1_5": 0.006797583081570998,
+  "microsoft/phi-2": 0.0037764350453172203,
+  "mistralai/Mistral-7B-Instruct-v0.3": 0.003021148036253772,
+  "mistralai/Mistral-7B-v0.1": 0.002265861027190331,
+  "mosaicml/mpt-7b": 0.002265861027190331,
+  "tiiuae/falcon-40b": 0.0022658610271903343,
+  "tiiuae/falcon-7b": 0.0037764350453172195
+ }
+}

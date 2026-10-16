@@ -1,0 +1,33 @@
+{
+ "total_cases": 917,
+ "total_functions": 102,
+ "per_file": {
+  "test_audit_gate.py": 8,
+  "test_audit_v3_analysis.py": 10,
+  "test_board_and_gold_checks.py": 4,
+  "test_certification.py": 618,
+  "test_computed_analyses.py": 3,
+  "test_core_estimand.py": 3,
+  "test_discordant_census.py": 12,
+  "test_gate_delimiter_risk.py": 1,
+  "test_identification.py": 13,
+  "test_inference.py": 4,
+  "test_labeller_agreement.py": 3,
+  "test_lemma_boundaries.py": 4,
+  "test_manuscript_claims.py": 203,
+  "test_model_subject_table.py": 2,
+  "test_pv.py": 7,
+  "test_regression_anchor.py": 7,
+  "test_relabel_gate.py": 3,
+  "test_tc_expansion2_estimator.py": 7,
+  "test_verifiers.py": 5
+ },
+ "named": {
+  "certification": 618,
+  "manuscript_claims": 203,
+  "regression_anchor": 7,
+  "verifiers": 5,
+  "audit_gate": 8,
+  "audit_v3_analysis": 10
+ }
+}

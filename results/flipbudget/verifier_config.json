@@ -1,0 +1,49 @@
+{
+ "platform": "Windows-11-10.0.26200-SP0",
+ "python": "3.13.12",
+ "libraries": {
+  "math-verify": "0.9.0",
+  "latex2sympy2_extended": "1.11.0",
+  "sympy": "1.13.1",
+  "antlr4-python3-runtime": "4.11.0",
+  "pebble": "5.1.1"
+ },
+ "timeout_mechanism": "original SIGALRM guards replaced by timing; a call longer than its original deadline gets the original timeout verdict (0); 60 s pebble kill",
+ "verifiers": {
+  "em": {
+   "what": "published per-item exact_match in the 2024 samples files (not re-computed)"
+  },
+  "em_rec": {
+   "source": "provenance/verifier/lmeval_leaderboard_math_utils_3c8db1bb7b.py",
+   "source_sha256": "59604119822c2d48f48b01152c07ad04c24099620153b8a1eac4218256ce1c6c",
+   "extraction": "get_unnormalized_answer: regex 'Final Answer: The final answer is(.*?). I hope it is correct.'",
+   "normalization": "normalize_final_answer on the prediction only",
+   "gold": "doc['answer'] (remove_boxed(last_boxed_only_string(solution))), not normalized",
+   "equivalence": "is_equiv: sympy parse_latex both sides, simplify(diff) == 0; no exact-string shortcut",
+   "deadline_seconds": 5
+  },
+  "sb": {
+   "source": "vendor/leaderboard_math/utils.py (lm-eval HEAD before 95469434ff)",
+   "source_sha256": "5cffce8f1d9a69949596f93a0fb13af173c0838fc029f8cea6b5ee85ffb1d107",
+   "extraction": "last_boxed_only_string + remove_boxed on the response (last \\boxed{} or \\fbox)",
+   "normalization": "normalize_final_answer on prediction and gold",
+   "gold": "doc['answer'], normalized",
+   "equivalence": {
+    "sb_string": "exact string after normalization only (historical Windows behaviour)",
+    "sb_sympy": "exact string OR is_equiv (sympy parse_latex, simplify(diff) == 0)"
+   },
+   "deadline_seconds": 1
+  },
+  "mv": {
+   "source": "provenance/verifier/lmeval_leaderboard_math_utils_61ee867816.py (process_results)",
+   "source_sha256": "ac7865eec34c588da832eac8f5b2602275cf0b51ee2effa5674ed319d7db104d",
+   "prediction_parsing": "parse(response) with defaults [LatexExtractionConfig(try_extract_without_anchor=True, boxed_match_priority=50, normalization_config=NormalizationConfig(basic_latex=True, units=True, malformed_operators=True, nits=True, boxed='all', equations=False)), ExprExtractionConfig(try_extract_without_anchor=True)], fallback_mode='first_match', extraction_mode='any_match'",
+   "gold_parsing": "parse(doc['solution'], extraction_config=[LatexExtractionConfig(try_extract_without_anchor=True, boxed_match_priority=50, normalization_config=NormalizationConfig(basic_latex=True, units=True, malformed_operators=True, nits=True, boxed='all', equations=False))])",
+   "equivalence": "verify(gold, pred) defaults: float_rounding=6, numeric_precision=15, strict=True, allow_set_relation_comp=False",
+   "deadline_seconds": {
+    "parse": 5,
+    "verify": 5
+   }
+  }
+ }
+}

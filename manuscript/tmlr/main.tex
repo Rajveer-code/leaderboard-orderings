@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage{tmlr}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{url}  % the bibliography emits \url{...}; tmlr.sty does not provide it
+
+% keep build date, trailer id and engine banner out of the PDF metadata
+\ifdefined\pdfinfoomitdate
+  \pdfinfoomitdate=1
+  \pdftrailerid{}
+  \pdfsuppressptexinfo=-1
+\fi
+
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\theoremstyle{definition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{definition}{Definition}
+
+\newif\ifarxiv  % false: anonymous review build (arxiv.tex sets it true)
+\newcommand{\CodeURL}{(link withheld for review)}
+\newcommand{\SuppName}{supplementary material}
+\newcommand{\SuppShort}{supplement}
+\newcommand{\SuppWhere}{in the supplement}
+\input{macros}
+\newcommand{\cellfig}{0.72\textwidth}  % figure and column widths used in the appendix
+\newcommand{\chronwide}{0.42\textwidth}
+\newcommand{\chronmid}{0.22\textwidth}
+\newcommand{\chronlast}{0.26\textwidth}
+\newcommand{\boardfig}{0.92\linewidth}
+
+\title{Which Leaderboard Orderings Survive a Human Reader?}
+\author{Anonymous}
+
+\begin{document}
+
+\maketitle
+\input{00_abstract}
+
+\input{01_introduction}
+\input{02_data}
+\input{tables}
+\input{03_disagreements}
+\input{04_method}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.66\textwidth]{figures/f2_certified_vs_eps.pdf}
+\caption{The paper's main result: certified orderings as a function of the tolerance $\varepsilon$,
+the most that the reader's overrule rate may differ between models where the verifiers agree. Solid
+lines are the primary target (these problems, all pairs at once) with three and with two verifiers.
+Thin blue lines are the secondary target with three verifiers, one ordering at a time (dashed) and
+all at once (dotted). The vertical line marks the reference tolerance.}
+\label{fig:eps}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/f1_rank_intervals.pdf}
+\caption{Each model's possible ranks on these problems, holding for all orderings at once with
+family-wise confidence \FamilyLevelFixed{}. Grey is the ranking the leaderboard prints, which takes its
+2024 verifier as right about every response and has no interval except where accuracies tie. Blue
+and green are our analysis at $\varepsilon = 0$ and at the reference tolerance. Without sharing
+labels between models (not drawn), every model's interval spans all \NumModels{} ranks.}
+\label{fig:ranks}
+\end{figure}
+
+\input{05_results}
+\input{06_generality}
+\input{07_related}
+\input{08_limitations}
+
+\bibliographystyle{tmlr}
+\bibliography{references}
+
+\input{09_appendix}
+
+\end{document}

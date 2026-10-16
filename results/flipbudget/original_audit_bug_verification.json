@@ -1,0 +1,19 @@
+{
+  "n_usable_rows": 350,
+  "n_rows_changed_by_fix": 1,
+  "changed_rows": [
+    {
+      "uid": "efcbea8134acca08",
+      "model": "google/gemma-7b",
+      "your_answer": "\\frac{411}{333}",
+      "gold": "\\frac{137}{111}",
+      "broken_correct": false,
+      "fixed_correct": true,
+      "scorer_correct": false,
+      "scorer_wrong_broken": false,
+      "scorer_wrong_fixed": true
+    }
+  ],
+  "n_scorer_wrong_broken_comparator": 5,
+  "n_scorer_wrong_fixed_comparator": 6
+}

@@ -1,0 +1,11 @@
+{
+ "_about": "Numbers the manuscript takes from outside sources rather than from its own analysis. Each entry records where it came from and when it was checked, so that it can be traced like any computed number.",
+ "board_models_rescored": {
+  "value": 3751,
+  "meaning": "Models the Open LLM Leaderboard maintainers state they re-evaluated with Math-Verify in February 2025 (all models ever submitted to the leaderboard, not only those with MATH-Hard detail files).",
+  "source_url": "https://huggingface.co/blog/math_verify_leaderboard",
+  "source_bib_key": "kydlicek2025fixing",
+  "retrieved": "2026-09-25",
+  "retrieved_by": "scripted fetch; the page states it re-evaluated all 3,751 models ever submitted"
+ }
+}

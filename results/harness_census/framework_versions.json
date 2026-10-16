@@ -1,0 +1,7 @@
+{
+ "_about": "Pinned commits of the four audited frameworks, each with the record it was read from. The lm-evaluation-harness census commit was not recorded; the commit given is that of the behavioural validation run, and is labelled as such.",
+ "lm-evaluation-harness": {"commit": "f4d4b3de", "what": "behavioural validation run", "source": "results/harness_census/census_validation.json: harness_commit"},
+ "OpenCompass": {"commit": "60a28a72", "what": "census clone", "source": "earlier study, results/analysis/e1_second_harness.json: head_sha"},
+ "lighteval": {"commit": "932e1f2f", "what": "census clone", "source": "results/harness_census/census_lighteval.json: clone_commit"},
+ "simple-evals": {"commit": "652c89d0", "what": "census clone", "source": "results/harness_census/simple_evals_census.json: clone_commit"}
+}

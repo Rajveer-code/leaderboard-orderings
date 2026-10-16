@@ -1,0 +1,12 @@
+{
+  "sigalrm_present": true,
+  "bug_confirmed_on_constructed_cases": 0,
+  "n_constructed_cases": 3,
+  "n_real_rows_checked": 69,
+  "n_real_rows_changed": 0,
+  "changed_rows": [],
+  "n_scorer_wrong_under_fixed_comparator": 0,
+  "n_scorer_wrong_under_broken_comparator_original": 0,
+  "_ci_platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "_ci_python_version": "3.11.16 (main, Aug 13 2026, 02:46:14) [GCC 13.3.0]"
+}

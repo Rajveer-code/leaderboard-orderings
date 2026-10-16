@@ -1,0 +1,101 @@
+{
+ "seed": 42,
+ "n_boot": 20000,
+ "alpha": 0.05,
+ "comparator": "harness normalize_final_answer + is_equiv (scripts/19), same as every other MATH-Hard score in this project",
+ "indeterminate_policy_primary": "exclude from numerator and denominator (matches the LLM-adjudicator channel's unreadable-reply policy)",
+ "strata": {
+  "credited": {
+   "n_total_in_stratum": 175,
+   "n_indeterminate": 13,
+   "primary": {
+    "rate_within_stratum": 0.03137299381840867,
+    "n_used": 162,
+    "upper_95_within_stratum": 0.06379602068155053,
+    "bound_detail": {
+     "bootstrap": 0.05641773359246406,
+     "clopper_pearson_unweighted": 0.06379602068155053,
+     "upper_95": 0.06379602068155053,
+     "n": 162,
+     "x_unweighted": 5
+    }
+   },
+   "sensitivity_indeterminate_as_wrong": {
+    "rate_within_stratum": 0.10398698982268388,
+    "n_used": 175,
+    "upper_95_within_stratum": 0.14870672115100791,
+    "bound_detail": {
+     "bootstrap": 0.1441365974391197,
+     "clopper_pearson_unweighted": 0.14870672115100791,
+     "upper_95": 0.14870672115100791,
+     "n": 175,
+     "x_unweighted": 18
+    }
+   },
+   "sensitivity_indeterminate_rate": 0.07428571428571429
+  },
+  "wrong_parsed": {
+   "n_total_in_stratum": 175,
+   "n_indeterminate": 8,
+   "primary": {
+    "rate_within_stratum": 0.0,
+    "n_used": 167,
+    "upper_95_within_stratum": 0.01777857919362119,
+    "bound_detail": {
+     "bootstrap": 0.0,
+     "clopper_pearson_unweighted": 0.01777857919362119,
+     "upper_95": 0.01777857919362119,
+     "n": 167,
+     "x_unweighted": 0
+    },
+    "psi_as_share_of_n": 0.0,
+    "upper_95_psi_as_share_of_n": 0.008343896123387094
+   },
+   "sensitivity_indeterminate_as_wrong": {
+    "rate_within_stratum": 0.04647002512863468,
+    "n_used": 175,
+    "upper_95_within_stratum": 0.0809701531999493,
+    "bound_detail": {
+     "bootstrap": 0.07505848765770565,
+     "clopper_pearson_unweighted": 0.0809701531999493,
+     "upper_95": 0.0809701531999493,
+     "n": 175,
+     "x_unweighted": 8
+    }
+   },
+   "sensitivity_indeterminate_rate": 0.045714285714285714,
+   "wrong_parsed_share_of_corpus": 0.46932300002807964
+  }
+ },
+ "phibar_upper_95": 0.06379602068155053,
+ "psi_upper_95_as_share_of_n": 0.008343896123387094,
+ "combined_upper_95": 0.07213991680493763,
+ "unparsed_confirmatory": {
+  "n_checked": 50,
+  "human_found_a_commitment_extractor_missed": 21,
+  "note": "counts where the extractor found no boxed answer but the human labeller identified a real commitment -- a miss in the extractor's own not-a-boxed-answer detection, not part of phibar/psi"
+ },
+ "inter_rater": {
+  "l1_vs_l2": {
+   "n_shared": 151,
+   "raw_agreement": 0.7748344370860927,
+   "cohens_kappa": 0.6112373163713463,
+   "kappa_is_interpretable": true,
+   "majority_class_share": 0.46357615894039733
+  },
+  "l1_vs_l3": {
+   "n_shared": 75,
+   "raw_agreement": 0.8933333333333333,
+   "cohens_kappa": 0.823321554770318,
+   "kappa_is_interpretable": true,
+   "majority_class_share": 0.4666666666666667
+  },
+  "l2_vs_l3": {
+   "n_shared": 75,
+   "raw_agreement": 0.88,
+   "cohens_kappa": 0.7875354107648727,
+   "kappa_is_interpretable": true,
+   "majority_class_share": 0.6
+  }
+ }
+}

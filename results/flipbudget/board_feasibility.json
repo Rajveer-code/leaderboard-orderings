@@ -1,0 +1,865 @@
+{
+ "catalogue_size": 3996,
+ "sample_size": 120,
+ "seed": 20260926,
+ "reachable": 120,
+ "not_gated": 0,
+ "not_gated_with_all_7_math_subjects": 0,
+ "gated_values_seen": [
+  "auto"
+ ],
+ "share_usable": 0.0,
+ "share_usable_wilson95": [
+  0.0,
+  0.031020271055929513
+ ],
+ "projected_usable_models": [
+  0,
+  0,
+  124
+ ],
+ "math_mb_per_usable_model_median": null,
+ "projected_download_gb": 0.0,
+ "rows": [
+  {
+   "id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-135M-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8878199,
+   "seconds": 0.51
+  },
+  {
+   "id": "open-llm-leaderboard/alpindale__magnum-72b-v1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9224191,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/meta-llama__Llama-2-70b-chat-hf-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7839756,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/Sourjayon__DeepSeek-R1-ForumNXT-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9693574,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/winglian__Llama-3-8b-64k-PoSE-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8269198,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/ZeroXClem__Qwen2.5-7B-CelestialHarmony-1M-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7904242,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/Lawnakk__BBALAW1.6-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8536735,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/netcat420__Qwen2.5-7b-nerd-uncensored-MFANN-slerp-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 14092890,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/maywell__Qwen2-7B-Multilingual-RP-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8494947,
+   "seconds": 0.42
+  },
+  {
+   "id": "open-llm-leaderboard/failspy__Meta-Llama-3-8B-Instruct-abliterated-v3-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7932917,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/mistralai__Mixtral-8x22B-v0.1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7276968,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/EpistemeAI2__Fireball-Alpaca-Llama3.1.04-8B-Philos-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6961654,
+   "seconds": 0.56
+  },
+  {
+   "id": "open-llm-leaderboard/Ahdoot__StructuredThinker-v0.3-MoreStructure-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11634522,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/DoppelReflEx__MN-12B-Mimicore-WhiteSnake-v2-Experiment-4-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6962076,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__test-16-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7062892,
+   "seconds": 0.54
+  },
+  {
+   "id": "open-llm-leaderboard/theprint__CleverBoi-Llama-3.1-8B-Instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7828076,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/jpacifico__Lucie-7B-Instruct-DPO-v1.1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7863099,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/nbeerbower__Stella-mistral-nemo-12B-v2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7071311,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/GalrionSoftworks__MN-LooseCannon-12B-v1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7770935,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/ZeroXClem__Qwen2.5-7B-HomerAnvita-NerdMix-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8511890,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/lt-asset__nova-1.3b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8149756,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/Kukedlc__Qwen-2.5-7b-Spanish-o1-CoT-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8437754,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/T145__ZEUS-8B-V14-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9248582,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/microsoft__Orca-2-13b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7970900,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/Triangle104__Phi4-RP-o1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10054270,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/Nexesenex__Llama_3.1_8b_DodoWild_v2.10-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8280853,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/netease-youdao__Confucius-o1-14B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11949326,
+   "seconds": 0.48
+  },
+  {
+   "id": "open-llm-leaderboard/Pinkstack__PARM-V1.5-base-QwQ-Qwen-2.5-o1-3B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10151168,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/agentlans__Qwen2.5-0.5B-Instruct-CrashCourse-dropout-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9510864,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/icefog72__Ice0.73-01.02-RP-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6780478,
+   "seconds": 0.5
+  },
+  {
+   "id": "open-llm-leaderboard/icefog72__IceSakeRP-7b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7028081,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/godlikehhd__alpaca_data_score_max_2500-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8480872,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/allknowingroger__Llama3.1-60B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 15571548,
+   "seconds": 0.48
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__PRP-Kosmos-EVAA-light-8B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7203754,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/DoppelReflEx__MiniusLight-24B-v1c-test-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7461579,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/bamec66557__MISCHIEVOUS-12B-Mix_0.1v-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7181238,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-7B-Chat-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 14243385,
+   "seconds": 0.43
+  },
+  {
+   "id": "open-llm-leaderboard/lemon07r__Gemma-2-Ataraxy-9B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6386197,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/tiiuae__Falcon3-Mamba-7B-Instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9238940,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/sthenno-com__miscii-14b-0218-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8901241,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/TIGER-Lab__MAmmoTH2-7B-Plus-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7172170,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/Lil-R__2_PRYMMAL-ECE-7B-SLERP-V1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 13001506,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/bunnycore__Llama-3.2-3B-Bespoke-Thought-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10709370,
+   "seconds": 0.41
+  },
+  {
+   "id": "open-llm-leaderboard/EpistemeAI__Reasoning-Llama-3.2-3B-Math-Instruct-RE1-ORPO-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8975474,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/microsoft__Phi-3-small-8k-instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6281358,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/bunnycore__Qwen2.5-3B-RP-Thinker-V2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10700102,
+   "seconds": 0.54
+  },
+  {
+   "id": "open-llm-leaderboard/Daemontatox__PathfinderAI-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11069312,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/tiiuae__falcon-40b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7670540,
+   "seconds": 0.29
+  },
+  {
+   "id": "open-llm-leaderboard/JayHyeon__Qwen_0.5-DPO_3e-6-2ep_0alp_0lam-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11460932,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/prithivMLmods__Pegasus-Opus-14B-Exp-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11178035,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__fr-1-8b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6795072,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/EpistemeAI__Fireball-Meta-Llama-3.2-8B-Instruct-agent-003-128k-code-DPO-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7871657,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__bh-40-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7131686,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/lemon07r__Gemma-2-Ataraxy-v3i-9B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 13620781,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/prithivMLmods__GWQ-9B-Preview-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9651380,
+   "seconds": 0.4
+  },
+  {
+   "id": "open-llm-leaderboard/prithivMLmods__Evac-Opus-14B-Exp-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 12299751,
+   "seconds": 0.48
+  },
+  {
+   "id": "open-llm-leaderboard/uukuguy__speechless-mistral-dolphin-orca-platypus-samantha-7b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7607985,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/zake7749__gemma-2-2b-it-chinese-kyara-dpo-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7327512,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/icefog72__Ice0.16-02.10-RP-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6900769,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/Qwen__Qwen2-72B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7604652,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/braindao__iq-code-evmind-0.5b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9897081,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/Azure99__blossom-v5.1-9b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10062315,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/lightblue__suzume-llama-3-8B-multilingual-orpo-borda-full-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9409138,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/Lawnakk__BBALAW1.64-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 22860831,
+   "seconds": 0.42
+  },
+  {
+   "id": "open-llm-leaderboard/CultriX__Qwen2.5-14B-Hyperionv3-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9815130,
+   "seconds": 0.44
+  },
+  {
+   "id": "open-llm-leaderboard/Youlln__ECE-Qwen0.5B-FT-V2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7239931,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/JayHyeon__Qwen_0.5-DPOP_3e-6-3ep_0alp_5lam-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9620576,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/allknowingroger__Qwen2.5-42B-AGI-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7304689,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/ngxson__MiniThinky-1B-Llama-3.2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10890344,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/icefog72__Ice0.7-29.09-RP-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6940911,
+   "seconds": 0.4
+  },
+  {
+   "id": "open-llm-leaderboard/pankajmathur__orca_mini_v5_8b_dpo-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7715985,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/JayHyeon__Qwen-0.5B-IRPO-1epoch-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9007724,
+   "seconds": 0.5
+  },
+  {
+   "id": "open-llm-leaderboard/matouLeLoup__ECE-PRYMMAL-0.5B-FT-MUSR-ENSEMBLE-V2Mathis-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9088520,
+   "seconds": 0.38
+  },
+  {
+   "id": "open-llm-leaderboard/Enno-Ai__EnnoAi-Pro-French-Llama-3-8B-v0.4-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10265594,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/Quazim0t0__Vine-14b-sce-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9634724,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/meraGPT__mera-mix-4x7B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8990957,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/rombodawg__Rombos-LLM-V2.5-Qwen-32b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10999701,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/EpistemeAI__Fireball-Alpaca-Llama3.1.08-8B-Philos-C-R2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7079757,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/pankajmathur__orca_mini_v3_70b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7655707,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/johnsutor__Llama-3-8B-Instruct_breadcrumbs-density-0.5-gamma-0.01-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 13473935,
+   "seconds": 0.39
+  },
+  {
+   "id": "open-llm-leaderboard/Triangle104__Mistral-Redemption-Arc-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8558835,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__Kosmos-EVAA-gamma-light-alt-8B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7072318,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__bh-46-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7224852,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/UCLA-AGI__Llama-3-Instruct-8B-SPPO-Iter2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7882151,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/stabilityai__stablelm-2-1_6b-chat-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7994487,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__Kosmos-EVAA-gamma-alt-8B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7385320,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/DreadPoor__Elusive_Dragon_Heart-8B-LINEAR-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8179108,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/ehristoforu__RQwen-v0.2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7848794,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/meta-llama__Llama-3.3-70B-Instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11341212,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/Novaciano__ASTAROTH-3.2-1B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8705523,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__Kosmos-EVAA-PRP-8B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 6973520,
+   "seconds": 0.49
+  },
+  {
+   "id": "open-llm-leaderboard/netcat420__MFANNv0.22.1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7501568,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/MaziyarPanahi__Llama-3-8B-Instruct-v0.10-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8516935,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/Gryphe__Pantheon-RP-Pure-1.6.2-22b-Small-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7218375,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/lesubra__ECE-PRYMMAL-3B-SLERP-V1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8091389,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/neopolita__jessi-v0.2-falcon3-7b-instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9427300,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/informatiker__Qwen2-7B-Instruct-abliterated-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10367882,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/1024m__QWEN-14B-B100-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10236536,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/qingy2024__Qwen2.5-Coder-Draft-1.5B-Instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10267444,
+   "seconds": 0.41
+  },
+  {
+   "id": "open-llm-leaderboard/mkurman__phi-4-MedIT-11B-exp-1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 9588574,
+   "seconds": 0.42
+  },
+  {
+   "id": "open-llm-leaderboard/1-800-LLMs__Qwen-2.5-14B-Hindi-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 10193224,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/DreadPoor__Not_Even_My_Final_Form-8B-Model_Stock-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8666030,
+   "seconds": 0.33
+  },
+  {
+   "id": "open-llm-leaderboard/bunnycore__Qwen2.5-7B-R1-Bespoke-Task-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 11726462,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/qingy2019__LLaMa_3.2_3B_Catalysts-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8373733,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/jaspionjader__kstc-9-8b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7126394,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/databricks__dolly-v2-7b-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7673654,
+   "seconds": 0.34
+  },
+  {
+   "id": "open-llm-leaderboard/bunnycore__QandoraExp-7B-Persona-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8294320,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/anakin87__gemma-2b-orpo-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8439952,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/EpistemeAI__FineLlama3.1-8B-Instruct-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8204208,
+   "seconds": 0.36
+  },
+  {
+   "id": "open-llm-leaderboard/oopere__Llama-FinSent-S-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7652871,
+   "seconds": 0.37
+  },
+  {
+   "id": "open-llm-leaderboard/Nexesenex__Llama_3.2_1b_AquaSyn_0.11-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 12497323,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/kms7530__chemeng_qwen-math-7b_24_1_100_1_nonmath-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7815228,
+   "seconds": 0.54
+  },
+  {
+   "id": "open-llm-leaderboard/DreadPoor__Heart_Stolen-8B-Model_Stock-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8216702,
+   "seconds": 0.3
+  },
+  {
+   "id": "open-llm-leaderboard/Magpie-Align__Llama-3.1-8B-Magpie-Align-v0.1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8031357,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/DoppelReflEx__MN-12B-Mimicore-WhiteSnake-v2-Experiment-1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8741624,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/JayHyeon__Qwen2.5-0.5B-SFT-2e-5-2ep-DPOP_5e-6-2ep_0alp_5lam-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 8795622,
+   "seconds": 0.32
+  },
+  {
+   "id": "open-llm-leaderboard/abacusai__Smaug-34B-v0.1-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7436354,
+   "seconds": 0.31
+  },
+  {
+   "id": "open-llm-leaderboard/Nitral-AI__Captain-Eris-BMO_Violent-GRPO-v0.420-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7195387,
+   "seconds": 0.42
+  },
+  {
+   "id": "open-llm-leaderboard/paloalma__ECE-TW3-JRGL-V2-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7437402,
+   "seconds": 0.35
+  },
+  {
+   "id": "open-llm-leaderboard/invisietch__EtherealRainbow-v0.2-8B-details",
+   "gated": "auto",
+   "math_subjects": 7,
+   "math_bytes_latest": 7354689,
+   "seconds": 0.39
+  }
+ ]
+}

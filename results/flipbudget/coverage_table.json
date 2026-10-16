@@ -1,0 +1,1066 @@
+{
+ "rule": "G1_DATA_RULES.md",
+ "n_items": 1324,
+ "max_missing_rate": 0.05,
+ "models_kept": [
+  "01-ai/Yi-1.5-34B-Chat",
+  "01-ai/Yi-1.5-9B-Chat",
+  "01-ai/Yi-34B",
+  "01-ai/Yi-34B-Chat",
+  "CohereForAI/c4ai-command-r-plus",
+  "CohereForAI/c4ai-command-r-v01",
+  "Deci/DeciLM-7B",
+  "EleutherAI/gpt-j-6b",
+  "EleutherAI/gpt-neox-20b",
+  "EleutherAI/pythia-160m",
+  "HuggingFaceH4/zephyr-7b-alpha",
+  "HuggingFaceH4/zephyr-7b-beta",
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+  "Qwen/Qwen2-72B-Instruct",
+  "Qwen/Qwen2-7B",
+  "bigcode/starcoder2-15b",
+  "databricks/dolly-v2-12b",
+  "google/gemma-7b",
+  "ibm/merlinite-7b",
+  "meta-llama/Meta-Llama-3-70B-Instruct",
+  "microsoft/phi-1_5",
+  "microsoft/phi-2",
+  "mistralai/Mistral-7B-Instruct-v0.3",
+  "mistralai/Mistral-7B-v0.1",
+  "mosaicml/mpt-7b",
+  "tiiuae/falcon-40b",
+  "tiiuae/falcon-7b"
+ ],
+ "models_dropped": [],
+ "n_common_items": 1324,
+ "per_model": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "01-ai/Yi-1.5-9B-Chat": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "01-ai/Yi-34B": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "01-ai/Yi-34B-Chat": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "CohereForAI/c4ai-command-r-plus": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "CohereForAI/c4ai-command-r-v01": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "Deci/DeciLM-7B": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "EleutherAI/gpt-j-6b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "EleutherAI/gpt-neox-20b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "EleutherAI/pythia-160m": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "HuggingFaceH4/zephyr-7b-alpha": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "Qwen/Qwen2-72B-Instruct": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "Qwen/Qwen2-7B": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "bigcode/starcoder2-15b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "databricks/dolly-v2-12b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "google/gemma-7b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "ibm/merlinite-7b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "microsoft/phi-1_5": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "microsoft/phi-2": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "mistralai/Mistral-7B-v0.1": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "mosaicml/mpt-7b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "tiiuae/falcon-40b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  },
+  "tiiuae/falcon-7b": {
+   "n_total": 1324,
+   "n_scored": 1324,
+   "n_missing": 0,
+   "missing_rate": 0.0,
+   "dropped": false,
+   "common_item_coverage": 1.0
+  }
+ },
+ "sources": {
+  "01-ai/Yi-1.5-34B-Chat": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T00-49-43.171619.json",
+    "cache_l1"
+   ]
+  },
+  "01-ai/Yi-1.5-9B-Chat": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T09-46-28.414421.json",
+    "cache_l1"
+   ]
+  },
+  "01-ai/Yi-34B": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T01-51-43.500501.json",
+    "cache_l1"
+   ]
+  },
+  "01-ai/Yi-34B-Chat": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T01-51-28.700386.json",
+    "cache_l1"
+   ]
+  },
+  "CohereForAI/c4ai-command-r-plus": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-20T10-16-23.151914.json",
+    "cache_l1"
+   ]
+  },
+  "CohereForAI/c4ai-command-r-v01": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T20-00-09.158840.json",
+    "cache_l1"
+   ]
+  },
+  "Deci/DeciLM-7B": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T21-49-06.071553.json",
+    "cache_l1"
+   ]
+  },
+  "EleutherAI/gpt-j-6b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T14-46-56.264386.json",
+    "cache_l1"
+   ]
+  },
+  "EleutherAI/gpt-neox-20b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T00-00-17.745529.json",
+    "cache_l1"
+   ]
+  },
+  "EleutherAI/pythia-160m": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T22-09-58.078705.json",
+    "cache_l1"
+   ]
+  },
+  "HuggingFaceH4/zephyr-7b-alpha": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-53-08.486035.json",
+    "cache_l1"
+   ]
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-56-28.686172.json",
+    "cache_l1"
+   ]
+  },
+  "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T17-55-54.750054.json",
+    "cache_l1"
+   ]
+  },
+  "Qwen/Qwen2-72B-Instruct": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-25T09-33-51.178365.json",
+    "cache_l1"
+   ]
+  },
+  "Qwen/Qwen2-7B": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T18-53-46.134214.json",
+    "cache_l1"
+   ]
+  },
+  "bigcode/starcoder2-15b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-25T12-38-31.094738.json",
+    "cache_l1"
+   ]
+  },
+  "databricks/dolly-v2-12b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T12-34-01.040000.json",
+    "cache_l1"
+   ]
+  },
+  "google/gemma-7b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T11-22-26.908167.json",
+    "cache_l1"
+   ]
+  },
+  "ibm/merlinite-7b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T21-44-08.111946.json",
+    "cache_l1"
+   ]
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-19T08-22-58.348428.json",
+    "cache_l1"
+   ]
+  },
+  "microsoft/phi-1_5": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T10-46-09.252711.json",
+    "cache_l1"
+   ]
+  },
+  "microsoft/phi-2": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T15-52-21.885338.json",
+    "cache_l1"
+   ]
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-17T14-37-59.603167.json",
+    "cache_l1"
+   ]
+  },
+  "mistralai/Mistral-7B-v0.1": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T16-57-41.377142.json",
+    "cache_l1"
+   ]
+  },
+  "mosaicml/mpt-7b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-22T18-48-11.808204.json",
+    "cache_l1"
+   ]
+  },
+  "tiiuae/falcon-40b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-20T06-09-03.551737.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-20T06-09-03.551737.json",
+    "hf:open-llm-leaderboard/tiiuae__falcon-40b-details@e0310f5862c7493d16984b2d65fa227a97a1a1d7"
+   ]
+  },
+  "tiiuae/falcon-7b": {
+   "algebra": [
+    "samples_leaderboard_math_algebra_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "counting_and_prob": [
+    "samples_leaderboard_math_counting_and_prob_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "geometry": [
+    "samples_leaderboard_math_geometry_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "intermediate_algebra": [
+    "samples_leaderboard_math_intermediate_algebra_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "num_theory": [
+    "samples_leaderboard_math_num_theory_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "prealgebra": [
+    "samples_leaderboard_math_prealgebra_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ],
+   "precalculus": [
+    "samples_leaderboard_math_precalculus_hard_2024-06-16T22-32-55.256003.json",
+    "cache_l1"
+   ]
+  }
+ }
+}

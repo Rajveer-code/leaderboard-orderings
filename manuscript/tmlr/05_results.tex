@@ -1,0 +1,68 @@
+\section{How many orderings survive}
+\label{sec:results}
+
+We now apply the method to the roster. The main answer concerns the \NumItems{} problems the
+leaderboard actually used; we then ask what changes if the problems are treated as a sample of
+possible questions, and how the answer depends on the verifiers and on our analysis choices.
+
+\subsection{On these problems: the principal result}
+
+Every count in this subsection holds for all \NumOrderings{} orderings at once: the probability that
+all of them are right together is at least \FamilyLevelFixed{}, with no large-sample approximation, but only
+under Assumption~\ref{ass:h} at the stated $\varepsilon$. With no sharing of labels between models, which assumes nothing about how
+the models relate, no ordering is certified: \CertFixedNoPooling{} of \NumOrderings{}. Allowing the
+overrule rate to differ between models by at most $\varepsilon = \EpsPrereg$ certifies
+\CertFixedPrereg{} orderings, and requiring the models to be exactly alike, $\varepsilon = 0$,
+certifies \CertFixedEpsZero{}. The answer to the paper's question is therefore a curve, not a single
+number.
+
+Figure~\ref{fig:eps} draws that curve. The certified count falls smoothly as the tolerance grows.
+Among the orderings certified at $\varepsilon = 0$, the median breakdown value is
+$\varepsilon^* = \BreakdownMedianFixed$, several times the reference tolerance: half of these
+orderings would survive that much model-to-model variation in the concordant cells, and half would
+not.
+
+Figure~\ref{fig:ranks} shows what this means for someone reading the board. The printed ranking
+takes the 2024 verifier as right about every response and gives each model a single rank. Measured
+against a human reader, only \RanksResolvedPrereg{} rank is pinned down at the reference tolerance:
+the top model keeps first place. The median model's rank is uncertain by \RankWidthMedianEpsZero{}
+places at $\varepsilon = 0$ and by \RankWidthMedianPrereg{} at the reference tolerance, and without
+shared labels any model could hold any of the \NumModels{} places.
+
+\subsection{Beyond these problems}
+
+A claim about questions like these in general adds the item-sampling term of
+Section~\ref{sec:inference}, and the counts fall. Even with the 2024 verifier taken as right about
+every response, item sampling alone allows only \CeilingEm{} orderings to be certified one at a time,
+which is the ceiling for this target. With the audit, \CertEpsZero{} orderings are certified one at a
+time at $\varepsilon = 0$ and \CertPrereg{} at the reference tolerance, and \CertPreregSim{} when
+all must hold at once; the distribution-free sampling term certifies \CertHoeffding{} one at a time
+at $\varepsilon = 0$. These counts answer a different question at a different confidence level and
+are not compared with the primary ones (Appendix Figure~\ref{fig:ranks-general}).
+
+\subsection{How the answer depends on the verifiers and on our choices}
+
+\paragraph{Fewer verifiers certify more, and a fourth changes almost nothing.}
+With only the leaderboard's two verifiers, \CertFixedKTwoEpsZero{} orderings are certified at
+$\varepsilon = 0$ and \CertFixedKTwoPrereg{} at the reference tolerance, against
+\CertFixedEpsZero{} and \CertFixedPrereg{} with three. Dropping the boxed verifier sends the responses
+on which only it disagrees back into the concordant cells, where they are pinned down tightly. The
+price is a stronger assumption: at $\varepsilon = 0$ the two-verifier analysis is the one whose error
+exceeded its nominal level in simulation. Because the three verifiers share machinery, we also added
+xFinder \citep{yu2024xfinder}, a fine-tuned language model that returns the answer a response
+commits to or declines to give one. Its answers are judged by the same equivalence check as the
+reader verdict, so it differs from the other verifiers only in how it extracts. It credits
+\XfCredited{} responses and declines on \XfAbstained{}, which score $0$, as an unfound answer does
+for the other verifiers (Appendix~\ref{app:data}). With four verifiers the discordant responses grow
+from \RowsAnyDisagree{} to \NumDiscordantKFour{}, and the certified count at the reference tolerance
+moves from \CertFixedPrereg{} to \CertFixedKFourPrereg{} (\CertFixedKFourPreregRelease{} with
+xFinder's other system prompt). The verifiers do rank the models differently: across the four,
+\RankChangeModels{} of the \NumModels{} models change rank, one by \RankSpreadMax{} places (Appendix
+Table~\ref{tab:models}).
+
+\paragraph{Our own analysis choices move the count by a few orderings at most.}
+At the reference tolerance, dropping \textsc{none} and \textsc{contradictory} labels gives
+\SensDropFixed{}, Clopper--Pearson intervals give \SensCpFixed{}, judging the copied answer with
+Math-Verify instead of the benchmark's check gives \SensMvFixed{}, and string comparison, which also
+changes the boxed verifier, gives \SensStringFixed{} (Appendices~\ref{app:sensitivity}
+and~\ref{sec:sensitivity}).

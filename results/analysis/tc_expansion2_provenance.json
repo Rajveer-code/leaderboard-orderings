@@ -1,0 +1,4593 @@
+{
+  "seed": 42,
+  "cell_targets": {
+    "both_credited": 200,
+    "both_not_credited": 198,
+    "disagree_sb_credited_em_not": 30,
+    "disagree_em_credited_sb_not": 30
+  },
+  "shortfalls": {},
+  "n_final": 458,
+  "rows": [
+    {
+      "uid": "83ef228138a340f0",
+      "model": "microsoft/phi-2",
+      "item_id": "5a09958a33a7a5aa117cb34caa613c0d464617293b383ca4bfeb2949a05571fc",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3"
+    },
+    {
+      "uid": "ceb5e2f2c3d84cae",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "252850de91151d931377003a9d1428aa91b6aa0f7d4c7f7d64a5f5792c482b6d",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "46"
+    },
+    {
+      "uid": "210fa2d97bcb434c",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "172319c205710da5c676f8c41923de75cd2bb25af780947b7c2ce4964158ec16",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "32"
+    },
+    {
+      "uid": "bf6cc93f2cc54ebb",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "9dd5cee6d7a919e6c8a397bdfc5fec5910fc6ea2a3f7a9ac60f9e21f8c381cf3",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5"
+    },
+    {
+      "uid": "abc20c766b104f2b",
+      "model": "google/gemma-7b",
+      "item_id": "10d357abee2dc35fc29b961835d58b56ee2fe48005bb196bfa646176242a0155",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "18+2\\pi"
+    },
+    {
+      "uid": "5873c490c28d41c6",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "76e1b39ee9f33d1f3ef1e3d3935db09fa82409363d8052551a9e0b8d67bf4168",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "233"
+    },
+    {
+      "uid": "039f7314b36b4c70",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "5aeead1d28f529e077f7a3c546f9afb7a819d3c3d41cfaf0a6f86b7b60d3b803",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{5\\sqrt{42}}{27}"
+    },
+    {
+      "uid": "de9d777a7f0c4891",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "ea6bffdd692192a6ad6a4c737eab81c529e7577275ebb7e34af876f87e0b4e4a",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "25"
+    },
+    {
+      "uid": "d785f74f252f4203",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "2ac0a97621f4ff5b9a60807250b06c2747f29932947c48c0a3d082c75656d901",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{2\\sqrt{149}}{3}"
+    },
+    {
+      "uid": "4c6d4f2342c345ff",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "0e936259c71a1cdf7bf3458becd8a9ac54e155bbcc0ec112c8f876d819c68d8d",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "180"
+    },
+    {
+      "uid": "fa69103463544154",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "de6525e62dfd213ff0b7219efa04d098806f918962b10d86f6bcdf883501f9e2",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{3}{4},-\\frac{3}{4}"
+    },
+    {
+      "uid": "e98307db6fbd4d9f",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "1d2ae5032141ae6508550dfcc9d8f46ca5076f54427222bc2f56b487283b91bf",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "11\\frac{2}{3}"
+    },
+    {
+      "uid": "6b5ca1e7bb6b4ae7",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "0cb44b330709333bb8a14fda4861aeb497f95b5f32e7fad6a7fd2027d09cbf1e",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2000"
+    },
+    {
+      "uid": "849c816e9c7549a1",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "61eb385f2703d311249ac57a12773f712cffeab6ec299b73d5f7bcb7593235d0",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "159"
+    },
+    {
+      "uid": "7b38ea50bcf74a08",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "4d1e82f0531e620cde2b04d5e4991d78166936458e1104144c73bbe6b65094ce",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10"
+    },
+    {
+      "uid": "2b2fc906fc4b4692",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "f9b2221477e671dfb78387f25087ace5ebf0ec20cf62b69ac7d83421425f6519",
+      "subject": "precalculus",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\begin{pmatrix}-6\\9\\end{pmatrix}"
+    },
+    {
+      "uid": "15380c845fe441d7",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "2693e57fdfafe71c12685eebc43c06ac04ab8b313b19da400f5317852a6ae66f",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "52f3fa2f7bc64bb8",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "a3f3df85c3d047d35975274756144de7dbf9a12977bff5cedc04c906321f3720",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "740"
+    },
+    {
+      "uid": "851c8928ac9343ef",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "2dfeb081b1d1d4f6c2e90a66adc8c637888c664ba339563c21008a55b26729ab",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "15"
+    },
+    {
+      "uid": "f48e1a40a0a04345",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "8f150c14dd47af832c22a8a22ee781ab1db8bc3556faca015743ce615a8b832b",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{5}"
+    },
+    {
+      "uid": "36ed1beaefd84603",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "c51bb2414f6653768e0d68beaec15802518a87431d3e3af08144ff6b88e37ec0",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "237d585728ed492d",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "f14907b03b0dd52668def143cde6160fe69248dc8558e475452954fb16b99cf5",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36"
+    },
+    {
+      "uid": "5510c10fec7b4b23",
+      "model": "01-ai/Yi-34B",
+      "item_id": "f14907b03b0dd52668def143cde6160fe69248dc8558e475452954fb16b99cf5",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36"
+    },
+    {
+      "uid": "cdf61108b31a413e",
+      "model": "01-ai/Yi-34B",
+      "item_id": "4515682ffa00599b4435e1685d9b77f42f89321f032cfd4afb8d10b7a3f6c06a",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "7"
+    },
+    {
+      "uid": "b82b50c411dc4ffa",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "f39b46f1d0a3171c98b270606719d7cb101c5d2e600995e85f999c11bebd9840",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "47"
+    },
+    {
+      "uid": "5d7a22ea080a4267",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "69685be018dbdad64dd71b454faa8388118042dba3a99377f50a70724f601ed1",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "313ebe64a266432a",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "adaf544fc222768da1ed375cf16b7cc750702052cda51fbcf43e613cf933bbd8",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "1.125"
+    },
+    {
+      "uid": "1ebe0ac220e34587",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "0197c0f9ac05773b69a5989419e7b839eb967e815e6cab21c603c74689e33d32",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "8548d246c3f94e92",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "d83bbf218e9d35f8d80461e924f6735fdb02b4b888cfbc78b5d78b2edb3b1689",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\tfrac{10}{3}"
+    },
+    {
+      "uid": "d1b74236c4e94528",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "9064deb9c56e01855c69fb6c3e0828f57a97f41bdf8f4b7f2c17bc8c8ba535d1",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-375+500i"
+    },
+    {
+      "uid": "5560e999952146b7",
+      "model": "01-ai/Yi-34B",
+      "item_id": "47aa83d0910ce84aea19ce67fef52dc31fb83d23d87dd94d149882e95e492087",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{13}{4}"
+    },
+    {
+      "uid": "5ed424aaad754b64",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "fe8234648101cc84346ec6d8c4749ef4030256057f1270f9f88f12374ea86bf4",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{5}+\\frac{3}{5}i"
+    },
+    {
+      "uid": "c562175f6b7448d9",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "60f33275f2c1936ee0901f0890436c3303805c076411a4661355afc67629a53d",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "23"
+    },
+    {
+      "uid": "42b7bac9d34243a0",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "c1e5c019a0868ba4f7275d4ec67c9a72fae13e46edf4710c749654b7689f648d",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "11"
+    },
+    {
+      "uid": "e9e23b5f9ff04149",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "a9da09915c1e4925",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "defbe29a818bcf6290a4ce10abe6694335bee034447f38bac76d3a4db0dbd679",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\dfrac{17}{50}"
+    },
+    {
+      "uid": "1a65ae1b8b59465a",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "383b07b47a7be75513a0ba932a8ec9ce1aa5d971549bbcca6a6849267dad8bea",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "120"
+    },
+    {
+      "uid": "76b0c2727ba64648",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "970eede94e36a817ad7685dadfe757a9ecc58f3fc919184971d5720040bed8f3",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4\\sqrt{3}"
+    },
+    {
+      "uid": "d939fa4d3df04121",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "362c4dc2b834569b5b8053962cd5de9d3d60b21828c5941a47f6243b9f696bac",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "6ff85fa59f7a4e67",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "192e1bc9fe0509c0ea38cabd83d9d46549ba8aee9972b2922d76b0fd207360d3",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5"
+    },
+    {
+      "uid": "62b16ec229e14b5f",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "a94810ad007d41af7efc0c25f1b9c394bb143acb88c9d5aa5bd7deef060b8598",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "3f54cf11f06348ee",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "c36e7f20a2c961e5ccd95753cda76c3667b09bf7681684652ae9c67f8fc15d5e",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{9}"
+    },
+    {
+      "uid": "c10b6efba7064607",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "334839eecfb84811",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "a9e6ae8036c54be6124f65b0df6194eb5443e70c583f53aee505acc0bf2faf6b",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{72}"
+    },
+    {
+      "uid": "a418f94db72641e6",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "3d923a98176963eb6c3b60e0bba72cd639a8cdf05888c3535c3b7ebaec4fe8cf",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-5"
+    },
+    {
+      "uid": "ae24c45eebbe460b",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "eba8c03d2ac53f2286200ab4a2c71995e35eb1020bb37310103417d7650a9dd0",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "6"
+    },
+    {
+      "uid": "26508fc4f30c44a3",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "606874c8b7cf957bea7bdfab492768ab42252402b176c6f34dd22da63e150c9d",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "1,-2"
+    },
+    {
+      "uid": "da096c7c73d74815",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "1cf0321dd24956440f8b02bd63f3e37ef21705f29baed4407501b57171ce440e",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "848c64d6915d43c6",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "0e73840ba4aeaa3aca2e2aeabf50e8750efb7086dbb02c62123b9683a3cff974",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{82}{147}"
+    },
+    {
+      "uid": "bf17736795094994",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+      "subject": "counting_and_prob",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\dfrac{91}{216}"
+    },
+    {
+      "uid": "03d34bd1f7d5476c",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "1744d0a38db566340d70e45fcb76c9b1d238cf612427555c0141e5cf5a2a094d",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{5}"
+    },
+    {
+      "uid": "31cdca92a5244649",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "5ccde11fd49fc6e30978ada9914e01a5b14a3ed4c9a224b4cb9f751fc195b6f7",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{23}{36}"
+    },
+    {
+      "uid": "8093eec924264d8e",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "1e271f9c1a6ce728edcb494e6f8785d72312b06f2ca36afdda8a5e5a0a190e32",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1950"
+    },
+    {
+      "uid": "58dd8d3219064acd",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "c0df3cc7548d4a2fbd0f0df7bda5fd9743eba31ba8d9957a6d82f7b1f4eded08",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "27.2"
+    },
+    {
+      "uid": "bd9be2746b4742a6",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "e8e5f4bdb9af1d59fb8c89d6e549247f7d901d1097414ad1989f4b6f1473a671",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "13"
+    },
+    {
+      "uid": "42415661ab704241",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "aa5581a14c9c646cdea628837bce97879dc992c14b5771298682db8db0dcce8b",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "72"
+    },
+    {
+      "uid": "c4ea103ecd0e417a",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "515cd12937fd53b114fba97c71c3d844647e7d3fde6e91f756b31f9446f590e8",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{47}{1001}"
+    },
+    {
+      "uid": "f37df0112e78460f",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+      "subject": "geometry",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "(-5,-4)"
+    },
+    {
+      "uid": "92b6e118c3bf4468",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "294c4acd86a4aff317730599195a77bd7a611cce0613d352d89683c3f7c3c828",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{2}{3}"
+    },
+    {
+      "uid": "ce38642de9524f18",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "9952890897062c946f78a3a2a2808b950140b7f24a1202a97e280a49f977753c",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{3}{4}"
+    },
+    {
+      "uid": "b1e915860bb64af9",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "6c019dee8c400e448787c5e290968528ce6273ac6c2050ea21d670326775e603",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "f6ae96e452b54131",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "cf2aa68950f3c8809637af3e8e1e6734ee03ffe33bbb9fe38b426f62c93c841a",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "49\\pi"
+    },
+    {
+      "uid": "4b77a58fd0994df8",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "6a716b4e0221970d9dd9acfd36ab875e729d3807c38d264169b588740ac79f50",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4"
+    },
+    {
+      "uid": "b3b5dcb304b642ea",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "6e5d8b08e93de15806ebf65973f90853545f09c77e59ab7d17d5998cb2db6611",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "23"
+    },
+    {
+      "uid": "7501f3ce823a4d16",
+      "model": "google/gemma-7b",
+      "item_id": "7aa6951635e5f5f033ccceee7b66b8c68ad699b13dbcdb3095506e6b9b56298f",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{5}"
+    },
+    {
+      "uid": "530c51276c99433f",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "383b07b47a7be75513a0ba932a8ec9ce1aa5d971549bbcca6a6849267dad8bea",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "120"
+    },
+    {
+      "uid": "4c75c785e12548e4",
+      "model": "google/gemma-7b",
+      "item_id": "86ce4b5eaf847bae2cdff6fafc20d7e9176b1d96df130064783a30e494de8040",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4\\sqrt{2}"
+    },
+    {
+      "uid": "25f4220f64a84163",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "33550fc380157c1d3151f899b9bcce622390ce47b4a3ec13f3de53ebfefa9b15",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{\\sqrt{3}}{2}"
+    },
+    {
+      "uid": "ee4fee9475c5435b",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "[1,4]"
+    },
+    {
+      "uid": "287642902be04c3e",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "c7ed4fffc384e59caa0e7a37a9ad9ea1acb436f568c0bf34c0c6c0519d4163cf",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10"
+    },
+    {
+      "uid": "93de7634ed6e4fc6",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "979d2a5a4d0f963f9400ccccbc50c3f1184f3cba2d847574e6b284e8768e9b18",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "0"
+    },
+    {
+      "uid": "ee7a9279e2b14bb4",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "f5c7f4fa3eec4112ba4c5af4f4ebf348135caeeb1e3d72329abd1c1e4012c7ab",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "134"
+    },
+    {
+      "uid": "35e99993e6184fe6",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "800"
+    },
+    {
+      "uid": "7cf3b7afee37468c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "e0ba4650b0d542450ba18370cae1ee821cc62e21d26fe13f2675757e00d542e7",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1208"
+    },
+    {
+      "uid": "a9a7569653f34d5c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "0209409c09f7c4a2e8388a5ae7686696604cf5b6df26d7b73c58b15cc0964e56",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{h^2}{m}"
+    },
+    {
+      "uid": "5bd06bcefc514ecd",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "0771264a70ab717e7d552b35a01f13bf046ecca2534c26432676c7e463325dcd",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\sqrt{6}+3\\sqrt{2}"
+    },
+    {
+      "uid": "7eec9b876e8843f6",
+      "model": "01-ai/Yi-34B",
+      "item_id": "edf3794a2be5b8ba06fe3327742ef817d6c282cb9fa416421ae9afb0aa22e74a",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "800"
+    },
+    {
+      "uid": "ba57e4b2c3e142fc",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "2a90cf30634d8f52a12cd3aa36134b5ef6e1d945134689206e817410691108d5",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "9"
+    },
+    {
+      "uid": "806e5e39e3fc415c",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "0bcddaf8aa190471b298a7c05c121cef220ca6bbd3d37e76f03b3742fe46e793",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-22"
+    },
+    {
+      "uid": "554f5fae5fe64751",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "ff1afc7ab70d6ccf183b057a21997b040e0c4fbd6200b20ce2c2324a99dbe0da",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{64}{121}"
+    },
+    {
+      "uid": "22dea398a1da4373",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "cd2ed70403411aad6dc4198bf68822e9d6abb6b80056ab0c9fe325c12d964de9",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "e26547b00cc04cbc",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "ce2b11fd7447e8201b465cadc4d9d71120350864a0e4e725fc2f215bb6c94896",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2\\sqrt{3}-2"
+    },
+    {
+      "uid": "9352da2adc8c43aa",
+      "model": "google/gemma-7b",
+      "item_id": "4351fff8a49db09503f72a2653d6b6fc8200064a9191d2d26825d7a8625d4018",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-128"
+    },
+    {
+      "uid": "da74777cd58d4a51",
+      "model": "microsoft/phi-2",
+      "item_id": "e6eea7903c08a75b79b1c22f9a1c7083f1e16c426d45c1ce67b0852390378da6",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "7"
+    },
+    {
+      "uid": "7944d64e26ff4a91",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "958e92bbcb1fa0fa0499c7480722ca4717bde80287997f089ccc67e0caa8cd8a",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "14"
+    },
+    {
+      "uid": "962e0cf5b18a41f5",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "002400bd3db893b2032d6491973c85d1774783d7c64762d856f2252c4a19d777",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "6"
+    },
+    {
+      "uid": "17264af85cc24954",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "92f95351a1640b41e74b09d23edd2927dd0d872d61603b500b01d3e94c2baef4",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "a1748241c7b44a30",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "c51bb2414f6653768e0d68beaec15802518a87431d3e3af08144ff6b88e37ec0",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "d6ed264f5ff94cd0",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "ab61a1b3af866575bc019025bfca0d34a870e5033235ffab7cbdcfd39856508f",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5120"
+    },
+    {
+      "uid": "187777fe83564bbf",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "141bceebe9aebd4ece39130d0df42ce2f855a0b0b24945bc9431fa6da8e32883",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "11"
+    },
+    {
+      "uid": "f7496059091940a9",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "0ee9002f133858ba1670d9d650c52bbb5b7727fb71a352970660f325a55610e8",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "9"
+    },
+    {
+      "uid": "2ae09c8c5d6449c7",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "2bc678f2ee3f7a182d0531e79ba96812712af4bcf864d498eec49f76e4c63bbd",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "111"
+    },
+    {
+      "uid": "19134f991ea04cb7",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "d1f08c889d95730930b0441e8994bc52aac16e208123deea384c71d7114b253f",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-150"
+    },
+    {
+      "uid": "5434654a9c744632",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "5d465270bee6e1f6e0363313bdf23b8fcfbc99ecdaef3168004b857427a8ea36",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\pi-2"
+    },
+    {
+      "uid": "8757c78374e8411e",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "5a334ae800fe78ce2017e55c8efdfc40ca92e25cfa19e3c33fe55c2d0cfb8673",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "106"
+    },
+    {
+      "uid": "a92de47c998046ca",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "c2534cae3a3b6370969abfac0621e1edd9a9a1317eb08e42364f62374023168e",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "66"
+    },
+    {
+      "uid": "b0685d9845ae4ee9",
+      "model": "microsoft/phi-2",
+      "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{137}{111}"
+    },
+    {
+      "uid": "428574ae1a574b8e",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "f6d5d0a6a3d1057354cac873fa3e4ab6a412316f890675cae353274446966c46",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "13"
+    },
+    {
+      "uid": "48d4dba9a9804fd3",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "c335f01f9fa32aa7602fd0b7396609a49bb800399043f4eb03b462328cf412cc",
+      "subject": "counting_and_prob",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "19"
+    },
+    {
+      "uid": "a9ca2c1bc2044466",
+      "model": "01-ai/Yi-34B",
+      "item_id": "0996fbb07cc04a6c8c156cbf1b8d45c0ef17e70f38d025c565639ba0a4fbf548",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\frac{1}{16}"
+    },
+    {
+      "uid": "bba0cc19987d4e99",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "29585180eb85b0ac888bc51d0d14ade32fffa42705cb779d3854ec20a765a5da",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5460"
+    },
+    {
+      "uid": "0fb0a457436149e8",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36"
+    },
+    {
+      "uid": "7fbe35a4871749fc",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "62aefe52e7dc25af5f485d9fa2a782b6ee3ce67be11c74e2af02c09df2ca25e6",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3"
+    },
+    {
+      "uid": "8e296c07cb674b12",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "bcc027340f945f754bf2075a0431a80640231bc50f8834aa6d014ad72c82b41a",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1"
+    },
+    {
+      "uid": "062bc872b9684512",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "09e59728a07012207c4eda8d8367040d99823b03ef3c2b3e7f8d7df7c7e53a97",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2x^2-2x+3"
+    },
+    {
+      "uid": "9296f2b11d114b3e",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "b1457412286bf82cbb756a901c41cada36edd7a908496ed5fa1184a2e8c3203c",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "128"
+    },
+    {
+      "uid": "9b41df1ba36e4468",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "85cdd29a2f6c503678051ca8b0d427e4d0e06e8bd65c187991a1f03b1358f969",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "c0558674aa9b4a79",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "8490abeabdc1717d21502feb45ab24750e56171f966b6780bc04257f0f247a7c",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "1"
+    },
+    {
+      "uid": "62e1dfe906d346ac",
+      "model": "microsoft/phi-2",
+      "item_id": "31f72fc7015a7ff1c71318be4bf167f1becb234455f36019afe5429702d6354d",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1+2i"
+    },
+    {
+      "uid": "1eec7ab7cca441ae",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\dfrac{1}{12}"
+    },
+    {
+      "uid": "b230b60a51f54766",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "ed39537f56d34257b2c4b9c3559486bc5ecf1974a4bb71e72163eaf694039be8",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "8"
+    },
+    {
+      "uid": "cef24d5b33a14173",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "3dd0f973ceb9d41996654716ff63dc30a04e691058056a4cf7b832276a9082c5",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "723197cb352448c2",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "ab61a1b3af866575bc019025bfca0d34a870e5033235ffab7cbdcfd39856508f",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5120"
+    },
+    {
+      "uid": "6fcd0452f94d44a3",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "5a2818fdbc95822033cbfa854a4964cea3a46fa327b78c1b88ea0a3b0904a86d",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3.2"
+    },
+    {
+      "uid": "9c4f7715b6264936",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "90c971070d8259fee78ba8fa0332aa08fc4f9f3bae0575e7fca5f72c3ae5f946",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{4}"
+    },
+    {
+      "uid": "332b1c6ae1d04b20",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "0e73840ba4aeaa3aca2e2aeabf50e8750efb7086dbb02c62123b9683a3cff974",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{82}{147}"
+    },
+    {
+      "uid": "4a4577f9d5a34ec6",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "79950bde4e9fa37ccb96f211b605d32d61a6b143b1c467a4407a5037f311e1a4",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\begin{pmatrix}-5/13\\12/13\\end{pmatrix}"
+    },
+    {
+      "uid": "adcbd926662c4cb9",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+      "subject": "num_theory",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "17dce95be2c84a09",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "d3f42a10f99ad64515af583e8aad801fce87402ccb1216a95ff05297a9c51d5e",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "2e5209b6e55f4801",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "96c53bc419ded3b3e2723eaa7bfd2785d3b6707ef178c391907d14c597af0e5c",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "125"
+    },
+    {
+      "uid": "3cb2ead4e59449aa",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "1fa78597742306a82a1d970dee6ec912d02ae9e29929d8c1222307f638a5fd80",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "14+7\\sqrt{2}"
+    },
+    {
+      "uid": "3dd9883218a7474e",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "55340732bd28b953ae23f30e0ada446789ada42f1828a3f5cae8323cb6a613a2",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{7}{6}\\pi-\\frac{\\sqrt{3}}{2}"
+    },
+    {
+      "uid": "24922a0b017d4f62",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "29585180eb85b0ac888bc51d0d14ade32fffa42705cb779d3854ec20a765a5da",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5460"
+    },
+    {
+      "uid": "32fe7681eb0842b7",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "3ee457870be8f6f813e4187b4523793aceefddcbba1940e04a33c58ea20ddb38",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "90"
+    },
+    {
+      "uid": "2cfdc5a486524cc0",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "8d2bcc63c9db3272169c0519059c6805a18eb3e60dfbc7d59dd04497af34c6b6",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "36"
+    },
+    {
+      "uid": "d930a5ae8ff246cf",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "8b629cbc48f9271fd3f791dcebf289d5d8dbf2bfb06e3cede36b66a0faa11046",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "87"
+    },
+    {
+      "uid": "4b9798e86a5a468b",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "91b586fa29a497991c28e6238660fd7c258a988390b6b58d5f81212b83e17c69",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5.5"
+    },
+    {
+      "uid": "5b9b31282283462d",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "ba974a6ae6f047d57352e480834403cce1ed18d5eaf05ae56800bf923a23f2a0",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "79"
+    },
+    {
+      "uid": "c3c80c06ccae4590",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "c7feec86b1023fc7311e877b92d780c08caf603bc98b800a6eec5a2101ecc651",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "26\\pi"
+    },
+    {
+      "uid": "8561d3f89e8742e8",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "4d1e82f0531e620cde2b04d5e4991d78166936458e1104144c73bbe6b65094ce",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10"
+    },
+    {
+      "uid": "ce700a6740314813",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "8cb672730d20889d8c329e4907587efa8c4d7c9798f506014ebcdd6461c0a95e",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "10"
+    },
+    {
+      "uid": "e893604c8a9a4af6",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "f17c9f15cee24ba7",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "e34784b2ee1c5092b0d327b8d975017f396cf5135a6de0574763f1879d929c81",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "165"
+    },
+    {
+      "uid": "b3c3bffc15f54201",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "eec516066a3412740dffa9949801502fdeef318620c0448385849db52250bfc9",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{152}{225}"
+    },
+    {
+      "uid": "48fad652208e4615",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "2a37a8a3ce57852a2ae7bb8ebfc2f3526de00f311eeb7ca84cbd0d3904d83d16",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "22"
+    },
+    {
+      "uid": "a298a28cce3347a8",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "0197c0f9ac05773b69a5989419e7b839eb967e815e6cab21c603c74689e33d32",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "0287db1d34064cc6",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "5bf443e51d7642cce58ef533c18aec2693803febee68209b569ad4930ac678b0",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "200"
+    },
+    {
+      "uid": "2ca81a923ca448b1",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "88fb50b3f099ba3800ef12884d33e2b9a4f7b1cdb391882ce1ee76e822d04fea",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5"
+    },
+    {
+      "uid": "ab20d7ca03904936",
+      "model": "google/gemma-7b",
+      "item_id": "705bdad5e7c87ae3dd73029618cd52185ec4d992ca3bb03611cb7bebf8a5c608",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{19}{330}"
+    },
+    {
+      "uid": "0c24bd02b7fb4043",
+      "model": "microsoft/phi-2",
+      "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "4ddc8d5c85314b43",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "e7f944d742252d675b49fe558337eec4adc3444ab7b76c1f1b3fb7dda849566f",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "10"
+    },
+    {
+      "uid": "f3012174a2304357",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "b0a292d84ae5648c08b0636c98453d9a6b66672ac1e00fdad76056f8585f8389",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "70"
+    },
+    {
+      "uid": "b8b239674e4b4b81",
+      "model": "microsoft/phi-2",
+      "item_id": "2f63969706f0c7158e9f526ebacfc523fd376318e2e7d6fed491ac362002f705",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "40"
+    },
+    {
+      "uid": "5e769fdd61844314",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "86ce4b5eaf847bae2cdff6fafc20d7e9176b1d96df130064783a30e494de8040",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4\\sqrt{2}"
+    },
+    {
+      "uid": "ce2845a362314e9d",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "50beffe90c5f9fc804f09e5815d1df02c57fb5ca4ef49e849a3b83ab8bd56b00",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-9"
+    },
+    {
+      "uid": "f67d948cc239490e",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "8978956cd0bffe3f7acfc43e2fd1314dfc3af659ff0eed3b94d0b56c5570d392",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3.25"
+    },
+    {
+      "uid": "3fb85908bd5f4350",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "b861264025ca3635e1beb0c5f59cd32a0321f15d09e9857a49095e14b92717aa",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36"
+    },
+    {
+      "uid": "d5911152cf2647dc",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "2b9820df531b42ca880db53dfe535beb716c17c8accbf7fe9cabdf4a8c16fbc3",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "200"
+    },
+    {
+      "uid": "8231cada6833490f",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "374b2a0a7439287db6f4be69baed4ccff7ce125b202eae809c195c9c13161164",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "129c14d72fb648fb",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "aa7e76fa9a331c6afcc53497e1d049f5a381a11d5992d87a0d2f4b5f524e0448",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-2x^2+x-3"
+    },
+    {
+      "uid": "a16b69a1a6604d9a",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "9fa9e553e9fb776fea78aa175e5e460ab799562db334a0731136f78da62ce58c",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\frac{7}{12}"
+    },
+    {
+      "uid": "2a94d6c563844e84",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "ca2dc1662ebc1a9df390dbcaaa7654cff8e36a3d3f52a237e580997fd506f3e8",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "448"
+    },
+    {
+      "uid": "c8077ad1e3184148",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "0e9f54b3bbc4ae29345c2983eedf56dde1cee2e2183424a517fa091af70510ac",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-3"
+    },
+    {
+      "uid": "797ffd2ef7244c60",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "3620ef2517dfb35214d1e76f647edf116b57478aa0366dfcddb9cd700f16f9d2",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-15"
+    },
+    {
+      "uid": "3fecb07d4af741a9",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "d32c12689397692c50b2f91c50318a4b75ff990a4db64b54f8fa44322e26633d",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{3}"
+    },
+    {
+      "uid": "52d22c606db34720",
+      "model": "microsoft/phi-2",
+      "item_id": "3a19e89479a7f2ee8b86d8ad9f94c9684f9e9ebfa7d4f950970f00cb3961ad46",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8"
+    },
+    {
+      "uid": "a4a63f22acdd488c",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "86ce4b5eaf847bae2cdff6fafc20d7e9176b1d96df130064783a30e494de8040",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "4\\sqrt{2}"
+    },
+    {
+      "uid": "9a15913fb3744daf",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "cd9853641f27bcff23990fe36906b70b9cb4c4603aa46cf9719cea1c3b269470",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "f1bb1cb31e8a4fff",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{6\\sqrt{10}}{7}"
+    },
+    {
+      "uid": "6d123d875d5543de",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "a9c48884b9166a9d39dee280c213ac095d72c127b8074a1c7fe104cbad7cec50",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "14"
+    },
+    {
+      "uid": "f4b2a6e471274e9e",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "67daa372bda6e3940ace891d1f9a28704dff60d1e0f2b58d54723bfceb8df481",
+      "subject": "counting_and_prob",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "7"
+    },
+    {
+      "uid": "d8dd71b11ab24be2",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "8cb672730d20889d8c329e4907587efa8c4d7c9798f506014ebcdd6461c0a95e",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "10"
+    },
+    {
+      "uid": "756c2b11658b4029",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "78851ad3b068e8bcc53a5ff7d20d689de782f07ac9e620218d0c24ec2dad9396",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4.14"
+    },
+    {
+      "uid": "a8414e259c234d96",
+      "model": "google/gemma-7b",
+      "item_id": "aaac3024d1f71f25f6034ec2d8b9c951f2ce37533195fbe9daa621cd3a766b32",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "216"
+    },
+    {
+      "uid": "bcf0e0a513d14c47",
+      "model": "01-ai/Yi-34B",
+      "item_id": "30a37f07066cf421e8d248edd313af1542ed3d16e11921392a5aaede3e2c84cc",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "31"
+    },
+    {
+      "uid": "2ce4d73b57a74545",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "c91155068d5c2d4a8b421e636ad639f2dd94749df03f2a277a60c9e45b040cec",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "49"
+    },
+    {
+      "uid": "98d4278ea5b648e1",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "96c53bc419ded3b3e2723eaa7bfd2785d3b6707ef178c391907d14c597af0e5c",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "125"
+    },
+    {
+      "uid": "4f7ad08432624ed4",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "98670a4fb9d631e1abeccc632d107b045bcd5282299542fef1216dd13eaba62e",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "60"
+    },
+    {
+      "uid": "2e3292ed878a40fe",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "b0a292d84ae5648c08b0636c98453d9a6b66672ac1e00fdad76056f8585f8389",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "70"
+    },
+    {
+      "uid": "3714966b9c3d49d7",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "b6519ebb7bf1879d747f40af5af565f4f1ed8bac138a83cf8b22ea0554d994c4",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{7}{20}"
+    },
+    {
+      "uid": "4b62857a3ab04353",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "1b2e795455e379311fd394402d1f43cad79b901802f22a3d305038021b562892",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-15"
+    },
+    {
+      "uid": "a06e6db068794c5e",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "e443bb1de9a1273d3fcd9b50965975d7a2b3c5c7888d5cfdc5241319f2b4d35c",
+      "subject": "prealgebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "1\\frac{1}{10}"
+    },
+    {
+      "uid": "c692647501d3474e",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "f14907b03b0dd52668def143cde6160fe69248dc8558e475452954fb16b99cf5",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "36"
+    },
+    {
+      "uid": "9c36dc4208294f19",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "4x^2-6x+4"
+    },
+    {
+      "uid": "bdb8785571f34470",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "0e332e98891c74af9c2d583adf40c844754e2c65eaf408e4235fccd9f5f66bb1",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "-42"
+    },
+    {
+      "uid": "2ae02e41b5924109",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "3253391b41ccad0075470d3f654c6150ae38baf708cdc1c9f8e5a8c6927702c9",
+      "subject": "geometry",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "6"
+    },
+    {
+      "uid": "8709bf37162d4663",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "8612e9bf76a0807136ab8a05a1054e801bebc06effc3b7a4d82b088e638554fc",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{6\\sqrt{10}}{7}"
+    },
+    {
+      "uid": "51313eb4fbfa45b2",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "20161a1449938db50a6d0973e2916f10252453759ef6a718adcc364527ad1127",
+      "subject": "counting_and_prob",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\dfrac{91}{216}"
+    },
+    {
+      "uid": "89fb1cf95137448d",
+      "model": "01-ai/Yi-34B",
+      "item_id": "340ee816bd406922a24b52d58fadc8327f49358ea81158bb5e44e284d2f7523b",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "81"
+    },
+    {
+      "uid": "1e9b5ca2c81240d4",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "0bcddaf8aa190471b298a7c05c121cef220ca6bbd3d37e76f03b3742fe46e793",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-22"
+    },
+    {
+      "uid": "03c3e6ff4b574030",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "087bd8fcb4a8cc62a97c1870ed948d871b4adca41a3e7dc6e31cce1f66002dab",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2x+3"
+    },
+    {
+      "uid": "00c17c3f6b5d4fb1",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "f952e754a0781fc1fc200fb112278b833c133f7244e7369e004d2507f9591648",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{40}{243}"
+    },
+    {
+      "uid": "cf1d8301c45c4368",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "07fe4807adc962f07e0c968bd77296a134723a2a73b6f744454a647573b79023",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "8"
+    },
+    {
+      "uid": "927e26c84cbe4a4b",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "c1e51e8cf15b9ecaecdf9e376846f10c7411ce1f00506c3696038b505a5ac36f",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "49"
+    },
+    {
+      "uid": "4bb64c5850a248dd",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "6801d53d36d3af1fba5da59e545990e683d967f8fe08580c6b840e46a7b16a5d",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "33\\sqrt{30}"
+    },
+    {
+      "uid": "523cce2fa5524f44",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "dd6da3906c640b9ef400d4928d2a2beb3974d26a61780417dca6d5e6be1e50f3",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "52"
+    },
+    {
+      "uid": "ecc524908e664b48",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "163d2f90d819097023f4199609b8740cbda556f0f9ce80db4fcb049732992451",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "100"
+    },
+    {
+      "uid": "92813ef6efae42da",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "69be520d874413536ee7b03d151036390bb1959239a14b4c9381dc33c441e996",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "314"
+    },
+    {
+      "uid": "555a92263e384f21",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "e5e254d24bb918c1afce099a0b0d386aa084c7aef65d15f22e06db55a6a3e15a",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-10"
+    },
+    {
+      "uid": "4055811c658d4213",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "7ac534cb8fe1441a",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "f50371da3f84f26cbb00e934ab488a32e596669836b869ce76a52fbd0809485f",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "14\\sqrt{15}"
+    },
+    {
+      "uid": "170a213ba53d4496",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "1568823387e5aae40d65a6659fa6403d2740437ae09cec87d95c7c2939397a58",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\sqrt{13}"
+    },
+    {
+      "uid": "507e2ebbc2dc45e2",
+      "model": "01-ai/Yi-34B",
+      "item_id": "194ba5f0940f3b8bf9c669189fa2878f6ea29957e3916350ba04ec35c551a0b0",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4"
+    },
+    {
+      "uid": "2c434b3fafaa4442",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "1e1e335faaea51ace291c42d84abea92b746d64b6fe343e370a98c6f65996e7b",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8"
+    },
+    {
+      "uid": "0986a2d2284e4248",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "208c4efdf27d2f79d6126003d534bec256b22dd52e4558916dff5378a760307a",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{9}{10}"
+    },
+    {
+      "uid": "a165f3affb0f4933",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "0ae9a669df586c0c60666230ee07dffe96ad4bb296f14cd3044ebfc1d2425dd9",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "(3,4]"
+    },
+    {
+      "uid": "bfc67c3da5714ee3",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "19cc9e2cff83cd9b74d228ddeace02b7fa9f00305ab996987c49ef0c4685ea12",
+      "subject": "num_theory",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "75"
+    },
+    {
+      "uid": "949101c0181e4385",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "d70e6571a2a712ae0ad94e4c3368329d31cb1eaa97db8f848d8ab9ed02e0b4f3",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "126"
+    },
+    {
+      "uid": "a8a6a39d93ef4b4c",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "557d03debd3b492c1945abc9245e960f3c542a7ae659beaa873333748d7538fa",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "575"
+    },
+    {
+      "uid": "bb3bf12671ab435a",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "38d35d981e4cc6c0bfb89097919cf7327a227fbe7af91cd94d7e75bf07bb24b5",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-50"
+    },
+    {
+      "uid": "4960fb81deac4e95",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "bbcf7cd6d5352efe943f9017fc90338f12f0dabde4b4d2580cb3568c43414184",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "27"
+    },
+    {
+      "uid": "1339a8d2f18b4435",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "770cf25ab4b7d62b6504ed10d40a537b13adc0500cb8e863dffd766ddeee460b",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{59}{125}"
+    },
+    {
+      "uid": "359158bee62e443f",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "3e8319db4814fe931b9a1f064cad73fb880a5944eb694f6e4a4aeea2a8034b29",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "7"
+    },
+    {
+      "uid": "56e9ab90bab84b79",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "90af2619789ba99d45ad99f9ca924a52bca25add48dbba50889a60d3d201c925",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2-2\\sqrt{2}"
+    },
+    {
+      "uid": "ed358c4f1ccf412b",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "b5c426ca1d9f528043ff73ab030ee97f949b71e48c8a4d90a0339ec0683716a7",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{10}{9}"
+    },
+    {
+      "uid": "c684bff0ce994714",
+      "model": "01-ai/Yi-34B",
+      "item_id": "8e875b25737c860ce474237b4550452a07ce6705ea410d1d9f00e24caad08b08",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "d31c76aa3c3e4115",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "50"
+    },
+    {
+      "uid": "55e71b7699a14c59",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "d92321304c73c493708cfbe5e319e018254a0700ba76fbbaf533224bd27d26a9",
+      "subject": "geometry",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{6}"
+    },
+    {
+      "uid": "2e184441d5f84e41",
+      "model": "01-ai/Yi-34B",
+      "item_id": "82f5b6518890ffe50381063f2189845ee756b1a1dd5e3dc1b82ed3c9d99cbbe1",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "84"
+    },
+    {
+      "uid": "709f8dabaf2949d3",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "f11fac62024eb771e7764c254b8f6bb6166f816fa952729be4115982f5e179f1",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "9"
+    },
+    {
+      "uid": "c802c1dc8e474067",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "d270b71b4dfbc7cd1c54e52af585b26a3aecdb3cdece4eb99c8b0fd02f544437",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12.25"
+    },
+    {
+      "uid": "24103737cfcc4763",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "aed64a4232d6db14929b45d0c2e2c63dc9e5c34f0f9364116e146b7bd42332b7",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "38"
+    },
+    {
+      "uid": "1dc4264e7f7546bf",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "07469cdd63b0c68e27be89336d94818a412f3b681fdaaae2f8b6d748073b001b",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "20"
+    },
+    {
+      "uid": "5ececd3c47e94aaa",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "28f9bd54fb7a74118d4fa4f26f68f8dd23816f4b45d4c3e19c39835a8d71c5c8",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-3"
+    },
+    {
+      "uid": "5e4b0436e0c84e41",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "51c75a42343409c5425260f7c77a924fe8c82a73d273ce35a67a313342230cbe",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36\\sqrt{3}"
+    },
+    {
+      "uid": "0c5baa2e5ea348c7",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "f148f53b27b5e53d91571afc4e2d1be78af45018178e5c5fd2d9fb6d500d79fb",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{12}"
+    },
+    {
+      "uid": "e66b705fefb24e40",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "607543caebefffa44cfc851402179506bd029e09b10ce39068bc7cd9fd10dba3",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "18"
+    },
+    {
+      "uid": "229ae4f1803c42be",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "9007e5bda9e458ef115a9a0e0479e0302b577a9a1914f9c5e4bdb57925670a4b",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{5}{3}"
+    },
+    {
+      "uid": "f4cdeb70c11b4a62",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "f069cde482f7aecfa6236fee1e67e0e6c94338fb75fc68db0595acb33337fa3c",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "2a6f37eb73f447a2",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "b0a292d84ae5648c08b0636c98453d9a6b66672ac1e00fdad76056f8585f8389",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "70"
+    },
+    {
+      "uid": "baf36729c6484d2e",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "5f1494f42ff1d3869fc7b6b4634d984d87626b6b1d29a8fc4b1258c68787c25b",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-\\frac{49}{12}"
+    },
+    {
+      "uid": "7985c66086784d61",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "bd5bb85c6395353508283a4d0cda93ce262c8e9350a0750d11f7b37193894775",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1,-1,-3i"
+    },
+    {
+      "uid": "009eaa3f9fd34b27",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3"
+    },
+    {
+      "uid": "6f1ed2479a3c42a7",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "152c8b72f5dac0f718a9ae926f706a97f3d508978959e3503b5cdf3c4350fd5e",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "27"
+    },
+    {
+      "uid": "35bfa110f05e4053",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "67cfa0728d525af1d62b594408e8bb7ebe5edfaffe585a5380dbc3272aea66b9",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "[1,9]"
+    },
+    {
+      "uid": "c607a4788d5c4a6a",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "bcd22ab670425cfc7bfe53260c5035ebd51a8da6e62005b3c05432aa8af35cd7",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "60"
+    },
+    {
+      "uid": "d2fc9210af244cac",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "ab7ebb4516ece6028f698815aeb0ee092a5ee7a4bab51036704f0230151d298a",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "10\\sqrt{6}"
+    },
+    {
+      "uid": "f1a50acb09b5497b",
+      "model": "microsoft/phi-2",
+      "item_id": "280fdad2a53eea584f0ea16f3627958585c89ae04ad4aee7ae7365cf7ca1320b",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "715"
+    },
+    {
+      "uid": "35708b33fb3846d7",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "457082d1d485908fa60af200e481dce5dfae47e1fc648abbddb29db9d438c016",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "-\\frac{3}{8}"
+    },
+    {
+      "uid": "cac8ffe1e7b34af2",
+      "model": "01-ai/Yi-34B",
+      "item_id": "945a15e8c7c800a3785493f5d9397887806a8325146cdc345292f06be4c0cd4c",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8\\pi"
+    },
+    {
+      "uid": "4d50ce5ab13f44e6",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "c976e4c58fc9947678e22057c427f1d2193d17ccf32a03011e24b49dfa016bad",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "4077dd69d20f4409",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "3b4d7ebfc5824880990b116d179f7ac7e0473b3bf252d488a629eed23925975c",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "0"
+    },
+    {
+      "uid": "59624f5d46f049b4",
+      "model": "microsoft/phi-2",
+      "item_id": "7453e5d5aa3dd80d2de5a0252851b02474e0a71abad76ed1f84a2c32da9adb14",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "12\\pi"
+    },
+    {
+      "uid": "9f8bc9cdf9d94fcd",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "b861264025ca3635e1beb0c5f59cd32a0321f15d09e9857a49095e14b92717aa",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "36"
+    },
+    {
+      "uid": "492df7c9bfdc41ae",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "ad0fed4fd9a56c234011181f1a979eea69370f54e0ff3f64e7bd96d092ae0887",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "7.78"
+    },
+    {
+      "uid": "97202ce08cbd41da",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "a0ceccbe7983458f21317b95159969cba74a18798fcff7b6bea3f01e30aa1f22",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "-6.5"
+    },
+    {
+      "uid": "e83d746a24904baf",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "2d086d7e60b65d0eae9b193cd041c748385f91e6cd2b30afffe8d517dcc29090",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "6335c491ae374732",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "fb256a868322feb7965c53b7a4ba270333e0c4a9ba1c5d199584216b88b80889",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "163"
+    },
+    {
+      "uid": "e4fd65546f584461",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "7e3d6979adf05408e1c7e9f0c431b08cdfd33d2fe58f214f07918f6ed0d86da6",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{24}{5}"
+    },
+    {
+      "uid": "f7c50cfe67d14b52",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "2c1e9bcc5a64ba2e810f84e4630282d0e7a20f097b58fb966a5f970f19690635",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "25"
+    },
+    {
+      "uid": "1df8ebe2c21449ba",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "1ffbb231edd591999d40ee9c2f0e3f2737ef342017eb8f3747edeb5cc594ac70",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "503"
+    },
+    {
+      "uid": "47f130ad813f4676",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "60f33275f2c1936ee0901f0890436c3303805c076411a4661355afc67629a53d",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "23"
+    },
+    {
+      "uid": "5a7df13190a74514",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "0996fbb07cc04a6c8c156cbf1b8d45c0ef17e70f38d025c565639ba0a4fbf548",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\frac{1}{16}"
+    },
+    {
+      "uid": "6b48fe388fe04536",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "bfa14ce361c767457b6036b9c5d1b2ff5be139e87f07b8a024169e1a819d5191",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "241cee6c16664751",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "617d9e0a278843209042a4e49b53a3c78c64dcd3c250e25c10c469eb487ba8d5",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "592"
+    },
+    {
+      "uid": "52ee142655534bb9",
+      "model": "01-ai/Yi-34B",
+      "item_id": "ab298dedee5261af81c790c7f43e256c1ffdecb42e63929171c576f999568640",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "37b3556c3eb14700",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "10f1f2b5bffc5213b2acec6a7e8a4c095f477583f8572571d3650accb4245178",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "0"
+    },
+    {
+      "uid": "29616c3104724b66",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "705bdad5e7c87ae3dd73029618cd52185ec4d992ca3bb03611cb7bebf8a5c608",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{19}{330}"
+    },
+    {
+      "uid": "ab478469b71d45ec",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "836446fa692cad81a93dd3860b22afff9970182b89abfb46d15b31146ccbfc90",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "c49f16462a7e4a16",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "00fc7463ce590a5875a2311a06ad3ad95022ad39d35501477e1d0b9bc16986e9",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{7}{8}"
+    },
+    {
+      "uid": "f45499b918eb4dc4",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "e214808f8b2f119a456569f57b878f8ea0d94a1acd114c0183c40ee930e2b009",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "cd0385ee75f3487f",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "edfd09a475a34a8bc497e97e4b4489616388d53a90cb53f89b60268d59174996",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "6+8i,6+17i"
+    },
+    {
+      "uid": "fc902137f2b64687",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "7471f3fb4ea2a90077254a3f41cb3b3344836ccaeec7f862e3ae14326e44924c",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "162"
+    },
+    {
+      "uid": "98b1768b61a84950",
+      "model": "01-ai/Yi-34B",
+      "item_id": "7c8c4aaf819bf91043f76b16605dec4ba0a637884ce0f3e1bdfb415549ec0926",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "A"
+    },
+    {
+      "uid": "c8b92129c3a34fd1",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "664603174428057accb067388e451e8f78f61001f6bd66362d15e714391ba1b6",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "118"
+    },
+    {
+      "uid": "3d346686cd074a15",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "e09c8308749412db137730edab4228d6863602b0a5f0a4b37692bed3f97402ad",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-1"
+    },
+    {
+      "uid": "ef84ddae3fda4bdd",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "d4f5d485db0b42be9731f6c40c66c5ef9a074a69cf08e4a8ae8226cc81c5a5e1",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-449"
+    },
+    {
+      "uid": "befc9aa832144f4d",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "258c48dd94e4b4b06857a7588d86bae768433f451bf6b8a6647de6dcaa22631e",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "7"
+    },
+    {
+      "uid": "9181251d8d384520",
+      "model": "google/gemma-7b",
+      "item_id": "292bb4559195974ec0b881c28e146448e9a973891f7245e2f1e24e0fdd37365f",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{16}{27}"
+    },
+    {
+      "uid": "94be0a491a2b4775",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "9e399aa0e6afbb07a6206c35c637d528621019315f3ff98183ac63c3af36b77f",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "25"
+    },
+    {
+      "uid": "6b5987e005934f72",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "f4c0c84f7ce6f195323df379eb0d1a0d8aa1b620262c8c5299a64dc7b1fa685e",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{3}{8}"
+    },
+    {
+      "uid": "0629472c05264eb6",
+      "model": "google/gemma-7b",
+      "item_id": "5e26231cef39d5a6d1e3913e26e479bfebd5018ead3a789365d30ddddeace025",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{11}{2}"
+    },
+    {
+      "uid": "2b2be5099ebf4fab",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "6884b2f2823e6d0c1267c91e5653edca543cba429310ef1ce0d820b04450652b",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "64"
+    },
+    {
+      "uid": "2d9c5a0a49c0406b",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "2dafc65d3969c6a172e0642702f9c00f10512a3e270527b7bdf1689522cb35e1",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "15"
+    },
+    {
+      "uid": "58df3cc47cd34e70",
+      "model": "microsoft/phi-2",
+      "item_id": "95358c0149bef9dc439ac83d86e45c1bab6c6ce012a2c9dab13f6374f6f6858a",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{3}{28}"
+    },
+    {
+      "uid": "9a43f821d1c44669",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "30fb74e58a0d8d85f4955172d3d76bf63730cda09ea6d51e0a0780069907ec46",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "6"
+    },
+    {
+      "uid": "b216a3b1d1b74592",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "87cae3c649e0c2e5fa44f33722837422484587807db514d5ba059621b9e9eeb2",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "256"
+    },
+    {
+      "uid": "3adb833334164bce",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "5e5bb064e4822875c4c756d600cc45a572b5e139a953d533f12b6d1b86dc4a0b",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5"
+    },
+    {
+      "uid": "e80a0cf45b254b36",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "1af404600af84622514c40f19441a30ca631e62ec22580c1919643666abe47a7",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "D"
+    },
+    {
+      "uid": "9d4a308712264b82",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "dfee5d0c8da30c112483462a657c82d9884dc4de2a3279fda25e2eea6f01af2f",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "75\\%"
+    },
+    {
+      "uid": "96945d36f8544e81",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "75c0920d8293c043253abcc4cc2aeb114197ade83c7879d9870239e974c563ba",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{781}{1024}"
+    },
+    {
+      "uid": "a0c29191321549fe",
+      "model": "01-ai/Yi-34B",
+      "item_id": "4b6d36029933e92b8b9cce868b804d2b039ced4d51bbd41e40d33a88dff28a10",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1680"
+    },
+    {
+      "uid": "dc85c891a7c54b1c",
+      "model": "01-ai/Yi-34B",
+      "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+      "subject": "counting_and_prob",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "28"
+    },
+    {
+      "uid": "8a53da8b4a724ea1",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "3e24a158b1b704962c712ba721656280ee6ead27abef5813baf1495a21fd6787",
+      "subject": "counting_and_prob",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{15}"
+    },
+    {
+      "uid": "c10b82decff64efe",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "e77527017a5883d40bccb3ac15f0e0d76212aba2e9df132369bcb8a4f7ea725b",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "73"
+    },
+    {
+      "uid": "6d16a008cf034692",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "90af2619789ba99d45ad99f9ca924a52bca25add48dbba50889a60d3d201c925",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2-2\\sqrt{2}"
+    },
+    {
+      "uid": "635e62192b0e43f1",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "ce2b11fd7447e8201b465cadc4d9d71120350864a0e4e725fc2f215bb6c94896",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2\\sqrt{3}-2"
+    },
+    {
+      "uid": "7d50fc5d554e4f08",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "849ec69dbf7fdf142bd711a12ca898a6cafcf2bafdf7f2b5edc08387b31ebac2",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{2+b}{2}"
+    },
+    {
+      "uid": "c3f570d016fc4776",
+      "model": "google/gemma-7b",
+      "item_id": "e0af89acc99c524a5438b91862c0f989a607dafe3cc48208834c6394041ab157",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "21022"
+    },
+    {
+      "uid": "5d7266d67eb1496e",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "a9d4d68e8c528b9a67fd56238598ca983af0256bc24f13d7685ebce581c7abda",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{13}"
+    },
+    {
+      "uid": "1566bd107017488c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "515cd12937fd53b114fba97c71c3d844647e7d3fde6e91f756b31f9446f590e8",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{47}{1001}"
+    },
+    {
+      "uid": "d3a053c0862e4c07",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "5be1b383006dab09d1833a195a32f04af08459dace1f87904b50ecba0582ff00",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "273eff11f7a84db5",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "ab298dedee5261af81c790c7f43e256c1ffdecb42e63929171c576f999568640",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "2ba50048157449a2",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "90af2619789ba99d45ad99f9ca924a52bca25add48dbba50889a60d3d201c925",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2-2\\sqrt{2}"
+    },
+    {
+      "uid": "d01d6bd0abdb4809",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "3e24a158b1b704962c712ba721656280ee6ead27abef5813baf1495a21fd6787",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{15}"
+    },
+    {
+      "uid": "d137fd0f047e43ab",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "29856b311c156cc884d5c5b7d0dd115799ce3f18e8a7d5187fffdb71a9844bbb",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-\\frac{9}{4}"
+    },
+    {
+      "uid": "e1361ce3825f4a8d",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "8095ab1311f75264dba45cff82a41855a2569874abf0f38e27b8913a7cb0c042",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "108"
+    },
+    {
+      "uid": "da0bc07413934290",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "4eefa11faa5ac425e6ce8ade92fd376d4305de2458c2686a0eda77ab773cddc3",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "(-\\iny,-4)\\cup(-4,6)\\cup(6,\\iny)"
+    },
+    {
+      "uid": "842fe92be49f4c3f",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "3fe9da57a9366748cd37473f50c1ccf6cb5c8c34f013cfd48d58dfd408093a3c",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "p+q-r"
+    },
+    {
+      "uid": "5111190bfc004f53",
+      "model": "microsoft/phi-2",
+      "item_id": "f2b2130ae08bf32dcf9548b48252aec1842302ecb03ad052857b290d54ff2df4",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1\\frac{12}{13}"
+    },
+    {
+      "uid": "87c6241d16a14399",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "a94810ad007d41af7efc0c25f1b9c394bb143acb88c9d5aa5bd7deef060b8598",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4"
+    },
+    {
+      "uid": "b7baa6164b0945bf",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "1bb2ffcb9d771135069a058cb8bd433aff46a30ffcdad77a62f3133c9e4a0ba3",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{224\\sqrt{3}}{3}"
+    },
+    {
+      "uid": "8128e06847394500",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "eba8c03d2ac53f2286200ab4a2c71995e35eb1020bb37310103417d7650a9dd0",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "6"
+    },
+    {
+      "uid": "3a15a1efedeb4319",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "26df2d3a95756d25b3c38252ddf0009ddace2e58e64558933c4589769af8a877",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "27d4fa9658d8484f",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "b763d882f6a6b6673ee6fef7cb304d1c72b32a527be67e5f282d632767d630ce",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "5.4"
+    },
+    {
+      "uid": "71c178ceb66e4d1e",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "d714ada3836369e1f6db96001b00be4ba0ac0efa62bfdf457b77a0df4316b84a",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "(-7,-2)"
+    },
+    {
+      "uid": "faa2fb0cd8af455c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "cd883ad5a8d6d03988600a13a95cbf7b14d3fc857852b6a3e694ffd1ef8f7df3",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "[1,4]"
+    },
+    {
+      "uid": "e2624571fc824a0d",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "a19c6b2741ed75ccd782d84ce7c8e923c06a0e30c95ac016f516cc10feedc519",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8"
+    },
+    {
+      "uid": "3b7afecf9bd94d67",
+      "model": "01-ai/Yi-34B",
+      "item_id": "bbdfe1da361543d26a54c2f585d99ee7f6774e9f34aac9ca1dc03532e587b43f",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "210"
+    },
+    {
+      "uid": "fef8d5669dc342aa",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "f72eb468d702f26529f37860795c99f24c6acfe79c91b44562f8fa80c419f431",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "15.48"
+    },
+    {
+      "uid": "fbe7cf95b8a74975",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "cb97d7301febb175e59c0a3ba00b5a891a6e024eebbf35908a38b68d30a612fe",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "8"
+    },
+    {
+      "uid": "693124b636f34eba",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "180aaf517642b8060f98bfac535cb01229d52f9f7b12ca8223eac3f5928b5873",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "135"
+    },
+    {
+      "uid": "3aaeb60af0114e3a",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "7453e5d5aa3dd80d2de5a0252851b02474e0a71abad76ed1f84a2c32da9adb14",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12\\pi"
+    },
+    {
+      "uid": "b50701461c424873",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "1f6cb475978867d01643667efb965e6b5ad4f8486e7c7a10b34cbfc33dc22c7b",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "1940"
+    },
+    {
+      "uid": "21ceb1328d124b25",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "84a0d57605cf70c1fa2e97529d833012a28340370e7e1ff30685a458e587fc4a",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3"
+    },
+    {
+      "uid": "0c409dde696c4b68",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "fdd6e79cf33aa93573111f72deabc12abedb7f8e2c0d65b045fcc95fcfb08f59",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10455"
+    },
+    {
+      "uid": "6e2f29b359f9462e",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "1a5b5f6acc60037e7081316880fc5b600642e0ea97da3345cb951b7034fb5006",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3"
+    },
+    {
+      "uid": "1e56cf6bc6fd43c2",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "b7e90630e40aa73746df1d8ab1fa94a503c0f758e40a4d091e65c0b0fc0ccab3",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "c19cb8d1cfb147e5",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "836446fa692cad81a93dd3860b22afff9970182b89abfb46d15b31146ccbfc90",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "380e6568827d46c3",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "33f29594d46957a1d957ab4ddc41f02cac66829745a11dce9c9c5617edd9a5da",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "6\\sqrt{3}+6"
+    },
+    {
+      "uid": "626ae33ac3bb4194",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "9330f6872c4e9e812491e2a21a5914747fc60e078301ab623c695533f2e9ff80",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{3}{2}"
+    },
+    {
+      "uid": "d453bb27202242e9",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "32dc1ead510b03e6b9ef6499c067cc1696f049eb7e4304f6a391f4327269475f",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{4}"
+    },
+    {
+      "uid": "372528a6e6844264",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "705bdad5e7c87ae3dd73029618cd52185ec4d992ca3bb03611cb7bebf8a5c608",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{19}{330}"
+    },
+    {
+      "uid": "23aa23692da34b6c",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "3a978cb749ee26cae7e018adf6374c679c5ef4e1bfbf6ab2d666cd819cd885b8",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-26"
+    },
+    {
+      "uid": "86e727dcc8434fa2",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "6884b2f2823e6d0c1267c91e5653edca543cba429310ef1ce0d820b04450652b",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "64"
+    },
+    {
+      "uid": "855b8ee13c3b41ba",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "004c168e52916facf466107f1d1ce7eb3b11ce21e5bfb40853d292626598924d",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "35"
+    },
+    {
+      "uid": "a10587af0773417d",
+      "model": "microsoft/phi-2",
+      "item_id": "1b4ab462e469ca09653e26f8ba12f398006efab2579f39f506f9da0ab2cd384a",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-221_3"
+    },
+    {
+      "uid": "9483b253d729484c",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "ce32afe2b2fab8caa9fc089ec68c0eaf8bb3cecf834d0572dcc2aae3eae0aadc",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "1152"
+    },
+    {
+      "uid": "611109c029594625",
+      "model": "01-ai/Yi-34B",
+      "item_id": "a19c6b2741ed75ccd782d84ce7c8e923c06a0e30c95ac016f516cc10feedc519",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8"
+    },
+    {
+      "uid": "f083c0c4746d4f02",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "fa3b1d76c8b869bf7c0b6864db57c49c468395bfbc19d9d90be601e013830beb",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "36"
+    },
+    {
+      "uid": "e65b56d5af3b477a",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "e27da5c6f3f4c648b96746c908a891e8f10c98719fa9b3a93583381254f950f4",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "15\\pi"
+    },
+    {
+      "uid": "851d109fca794db5",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "07be082a1d6646e8eba41aefc30e633e7339b7eabfad80482fa6882224850f45",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9604"
+    },
+    {
+      "uid": "be4ba7e99e0b4f4e",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "3e33d45f0210480a08f108643ee71e1b7e630ed37fb88808d3bf17e7cc0bc516",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "25"
+    },
+    {
+      "uid": "dfae1d118dea42fe",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "b8bf22031f07cd0767c152e7aab1b98de55df32eeebb03b16ed31727db856ab7",
+      "subject": "counting_and_prob",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "576"
+    },
+    {
+      "uid": "71a105a56633468e",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "f9bd92bc5a99a363c3cb3df99909766a0a9cf6f9fc881cc6c02008d7c31d3474",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "c3d52e23ab6b4023",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "5c0c4199a4ab0e8d66142c737b52fd7f3afd26c83d5fbfb1f6801d496c06086a",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\sqrt{x-3}+3"
+    },
+    {
+      "uid": "e8ab8ad9bf2f4eff",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "d81be28fcfb6506a1eb2451b86d7787f8f2489b9f9f97dfe31d09cb3d44f69f5",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "7518110b9ca5460d",
+      "model": "google/gemma-7b",
+      "item_id": "5ac72e7d79b42928360acc5b625ea8cd1ceebd02e998b9cfa191db8762dd3905",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "50"
+    },
+    {
+      "uid": "bc5203109626461a",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "efd0fdfa45b5d11995964910ccc39bd955034476d3f559f6f63343162d243b10",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3"
+    },
+    {
+      "uid": "bfd8151baae44ea5",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "00fc7463ce590a5875a2311a06ad3ad95022ad39d35501477e1d0b9bc16986e9",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{7}{8}"
+    },
+    {
+      "uid": "e91a54a3ddff4b22",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "625085011e1af39b33b8afa735882201fa526864c59470cf02643356b7808ac9",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "2f57cbcef3334094",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "8a7b0ff543c35b6e8d7b72c8615c1d5859e1252efb70cf48b806357b97481a96",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "0"
+    },
+    {
+      "uid": "240920a371004ec1",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "f148f53b27b5e53d91571afc4e2d1be78af45018178e5c5fd2d9fb6d500d79fb",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{12}"
+    },
+    {
+      "uid": "3378e5286bc341e4",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "2dcc8053af9f5624f415c8d98528383168d04bd08db72ac688363b095b8acbe9",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-7"
+    },
+    {
+      "uid": "ba53b070a650499e",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "f5e50c45e08f52dfa4a338f972cd5625b821678aeafe245413ab7b610d064ef7",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{14}{13}"
+    },
+    {
+      "uid": "0aebe88821ea4ef1",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "19fe20a4628b8455b5667cf3d4e5e857dedd19790e65195e06d7ba8621f2171e",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "50"
+    },
+    {
+      "uid": "704c485246f84005",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "f6fe853c281964b8a779c359a6a592a0c7abe2a4e7ac6d69c94601621a93f394",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{13}"
+    },
+    {
+      "uid": "081ab447b2344040",
+      "model": "google/gemma-7b",
+      "item_id": "258261bc5d790030262f012b36df6b328d2017a997c8a5df811c8fa2077d90aa",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "c35d4ce160af463f",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "362c4dc2b834569b5b8053962cd5de9d3d60b21828c5941a47f6243b9f696bac",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "27ae348f46b54c4a",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "b2aebb3173bac4bb34f8feef079b7a114fe3bf7746fb9d2a28eb2d6f38f9d56a",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "82"
+    },
+    {
+      "uid": "583c051e587a411c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "0771264a70ab717e7d552b35a01f13bf046ecca2534c26432676c7e463325dcd",
+      "subject": "prealgebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\sqrt{6}+3\\sqrt{2}"
+    },
+    {
+      "uid": "51dc276c10374349",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "eb18a5a2c41dffbdb4c0ded06c6f3eed1d51a027fb9b9adfba5f81497e6e84f9",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{3x^2}{2}"
+    },
+    {
+      "uid": "bae8b11ae0ba4dff",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "f66a3bcd5465918895f6b999df50fbdee6ba52f1490f0b2a3ca3c0b11d35ce34",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{3}{2}"
+    },
+    {
+      "uid": "5fd2e39425f74367",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "cbf9c8e8acd654e9d4eb2980c12cf127f39e2b303af689689295e601d5343995",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{80}{243}"
+    },
+    {
+      "uid": "8bef18c9ef084deb",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "e559caac7256f37c01680637ff3abedadcd0814bd175e49828d470164a386922",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "4(3-x)(3+x)"
+    },
+    {
+      "uid": "73f529e998914979",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "f187890d6871c9b9809fc3fa78447f064feee6834cff9b475800b887fd0f8bf9",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "27"
+    },
+    {
+      "uid": "0199e12acf8f46f0",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "979d2a5a4d0f963f9400ccccbc50c3f1184f3cba2d847574e6b284e8768e9b18",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "ba2e344e208c49c7",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "c6097320391f51e402044ca0709285ed6cf6e222949da2a958dc70b4e8c2f986",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{5}{16}"
+    },
+    {
+      "uid": "0010bfb048ee46e1",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "c68abda643812ceabd0cd1d5afbc1d926cd06a1f3c6269815413a483ed04568d",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\begin{pmatrix}1/50&7/50\\7/50&49/50\\end{pmatrix}"
+    },
+    {
+      "uid": "dcee75cd60334617",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "394336e78c1a8ab69cc8b41e6930d3980eb62cd2096ea3a89e0a15c44f133b40",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "m+2"
+    },
+    {
+      "uid": "15e65d05832649bd",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "04cf4697c0a36db01b668bfbd1e6a8446a1deb74d8837b5cf625983b7dfc2881",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "400"
+    },
+    {
+      "uid": "a26c94f626934a94",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "690557fcbe45277b407308d6e1d053074e4e6cb7415c3882de13cefb70b8ac80",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "159"
+    },
+    {
+      "uid": "5bca976132594dcb",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "fe86b7d7a443a01a6848f005b46654dee98c42504d953bfa70780bed1b0680f1",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "01"
+    },
+    {
+      "uid": "81ca1d1121364194",
+      "model": "microsoft/phi-2",
+      "item_id": "508ad5cc5293f5258aad950216caa952db88a5322dd5c870e686c059cb55050d",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{6}"
+    },
+    {
+      "uid": "ce456f19c7844c90",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "77aec661640b1f24cc08272a0f9bda5925bc3410de9012c18f118d921ef4d740",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "64"
+    },
+    {
+      "uid": "502aa3619ff84855",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "d49ebed974be0b274bd429e731f3e02c86b7fcc35ebf5bc877d959ef82a4e55d",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "8880"
+    },
+    {
+      "uid": "d06c5a9cb3924776",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "89722356d0608b2ead4a741c486c41765e7a3cc4a91ccf0fa5ea2928da0ecfdb",
+      "subject": "intermediate_algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "(2,\\iny)"
+    },
+    {
+      "uid": "914843314bcd4c11",
+      "model": "microsoft/phi-2",
+      "item_id": "c51bb2414f6653768e0d68beaec15802518a87431d3e3af08144ff6b88e37ec0",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "12"
+    },
+    {
+      "uid": "ea1f540b07d84d19",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "607543caebefffa44cfc851402179506bd029e09b10ce39068bc7cd9fd10dba3",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "18"
+    },
+    {
+      "uid": "abd269a8faae4991",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "606db420eac46f70d636b4bdbca6eb43075c20df3aea0e658b0f73f83d987e9b",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "70"
+    },
+    {
+      "uid": "e22a7c8be1c9467a",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "518203fbc211a3507f5710cb45fc36eada4cec075ae6d5a921195cf22428d66b",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2x^2+5x-1"
+    },
+    {
+      "uid": "2ccea4e6690042ed",
+      "model": "google/gemma-7b",
+      "item_id": "8bcc19770b4f044a2ad5e2e22a8b4d17f289c266e70cdbdac2af20f6080ce300",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2+4\\sqrt{7}"
+    },
+    {
+      "uid": "c3517e4193714672",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4x^2-6x+4"
+    },
+    {
+      "uid": "a57034f3f61b46c8",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "f1f4a7081cb6146aaaa3b661e37f3123f3fa9e9cbdeee00c7261180405aa30f7",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "credited",
+      "gold": "-\\dfrac{3}{4}"
+    },
+    {
+      "uid": "13f8dbc87f4b45f2",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "8935f10a69c1659a5c94d55feab64ac9b1c479bf3d019e71d688c3312da564de",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "daf63e91f744415b",
+      "model": "01-ai/Yi-34B",
+      "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "[0,\\iny)"
+    },
+    {
+      "uid": "cde5ca7ecdef4bc4",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "0e187f6ccf1bc0de0bcd4bf0b9129c96b3f3f83b7b48305b9732f54365620552",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "17"
+    },
+    {
+      "uid": "c1093bceb79e4c7c",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "7bbf003646e5020548781afa8832062d7b5aee4e4b8cee04b7514898d3e17334",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "600"
+    },
+    {
+      "uid": "9d1dcf1f5637460c",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "60ff92c84a1077b1b1b4a386238f8cab3cb30d4f1fe4f4369a8e4aa057b0a7e2",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "420"
+    },
+    {
+      "uid": "beded549256e457e",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "3655351031edb9394ca33f2cf615f4f175e1b6b5711fde8bd42e8beabc636483",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{5}{2}"
+    },
+    {
+      "uid": "36dc766a8f57449c",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "8cce0bbfc4b3e8aedfb6915da029958deb34809f68efe53377145250c52544ca",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10"
+    },
+    {
+      "uid": "fa1ca87b725648ff",
+      "model": "01-ai/Yi-34B",
+      "item_id": "3def537893c264b1182e2728343fe699aa4733fe33622e783c8978e1706b3bb2",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "10"
+    },
+    {
+      "uid": "486994dfc7014fe2",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "438b99c166c6903d9d2e10ef24bc3749306027dd301dfc4cf4547a873340060e",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{31}{5}"
+    },
+    {
+      "uid": "07406c583c69405c",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "90dad3aedfc84a5d909072a81beed473d5f577789d6cf39fbe287ea7d86b4f1b",
+      "subject": "precalculus",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "d260d55066e24f0a",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "2dd072d3f13b3ecd4f20d1515c9ea10096efc6f01db73b3cb7c43890a684ab2e",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3224"
+    },
+    {
+      "uid": "bb2b86be2f7544b3",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "2703feadd12adb504f006f238eb9efc62e97ae9e304ce8649f200f9d38c2ac9c",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "69"
+    },
+    {
+      "uid": "5ae65c8c40b241bf",
+      "model": "google/gemma-7b",
+      "item_id": "b3c6b26fe36ffa8ab5e74d6f7a9c189c2488aee31be80b5160befce35bfad916",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "120"
+    },
+    {
+      "uid": "1acb34406cd04fd3",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "26a75c3be32a2364b5e667fc92147d32a8a42c9164167ed49d0a59d727efe483",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{\\sqrt{3}}{3}"
+    },
+    {
+      "uid": "6b12c7b87a9b4e60",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "[0,\\iny)"
+    },
+    {
+      "uid": "6ad1efd2678e46fe",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "6bdaad7e257a48d6090377ee7e4819aafcf524666de3774c3f8254f3c77c8bbe",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "81"
+    },
+    {
+      "uid": "5a37d2a546ea4c8d",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "002400bd3db893b2032d6491973c85d1774783d7c64762d856f2252c4a19d777",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "6"
+    },
+    {
+      "uid": "def88adaa5434b20",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "aa5581a14c9c646cdea628837bce97879dc992c14b5771298682db8db0dcce8b",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "72"
+    },
+    {
+      "uid": "d3306cc6fffb4558",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "e7e4298df865a8c9567e4ac791fe9af2096ae3a53b19cac1a3747ecb5e32a1f3",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "268"
+    },
+    {
+      "uid": "950d6f3e176c4261",
+      "model": "01-ai/Yi-34B",
+      "item_id": "609a30f6d65802643c320dfcbaef1ead3d71beba62c1d9ec98b2402278dba904",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\dfrac{5}{12}"
+    },
+    {
+      "uid": "73770c4379204423",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "c309197f0e3857c3e7733e122c030e6c0ca38736fc013c2b6599a02845075dc1",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "30\\%"
+    },
+    {
+      "uid": "16f29cc0c5914f41",
+      "model": "01-ai/Yi-34B",
+      "item_id": "61eb385f2703d311249ac57a12773f712cffeab6ec299b73d5f7bcb7593235d0",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "159"
+    },
+    {
+      "uid": "58f7192ee72b48fc",
+      "model": "01-ai/Yi-34B",
+      "item_id": "8db043220fe398a7ecd4e48fc5c413ab116a1c3ca81bc8451f3b01ee2bcfa955",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\dfrac{25}{52}"
+    },
+    {
+      "uid": "045f28770e264005",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "30323468ab640b49a8ba2938f84e04db21ce30c632e381da2ab7d474e9a81f65",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "162"
+    },
+    {
+      "uid": "fbb2df77c0ff4fe9",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "ed5dc1dad8308c80779736f0544a12ddf47867930ffb6d36cfc7f52c06e34f76",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "23"
+    },
+    {
+      "uid": "24119ae1958243d0",
+      "model": "google/gemma-7b",
+      "item_id": "4c9add788685428be0d24dcea6d1e15a5247638617eed94a2acc5e02accef06c",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "4"
+    },
+    {
+      "uid": "c531614eec9640b3",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "be92e9ed113aee22868adea139171f24c650ad06dc2950a8ee23862652ee2b97",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2\\sqrt{2}"
+    },
+    {
+      "uid": "4da1b4229dce48c3",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "bf0e3b6975687fcc66bf42a12ef63c05dfd24bd2531b28ffc4407ebc6ba4e2a2",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "(27,\\iny)"
+    },
+    {
+      "uid": "18c8ae18dcf6493c",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "7df10f973025913082e6a35c5b1739ac3d827cc3c512b568eb59a203a26b5f9c",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "C,E"
+    },
+    {
+      "uid": "980661a563424c6d",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "280fdad2a53eea584f0ea16f3627958585c89ae04ad4aee7ae7365cf7ca1320b",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "715"
+    },
+    {
+      "uid": "21dd5ed8362f4305",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "1b667126b9d530a75a2ceea1de35cfafdd645df2bc1456f12094b5d6c5fab517",
+      "subject": "prealgebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{11}{13}"
+    },
+    {
+      "uid": "2201029d9d9d4ef3",
+      "model": "01-ai/Yi-34B",
+      "item_id": "3eee13fd7ebada2bee38af5affdd446c87bf487074ff4f09a96121a0a54fb29e",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3"
+    },
+    {
+      "uid": "ddd3731eb6da4b1d",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "87cae3c649e0c2e5fa44f33722837422484587807db514d5ba059621b9e9eeb2",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "256"
+    },
+    {
+      "uid": "50c9c1b06b1440c2",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "cf60b32b98c8102a82740e098b0a35e3776abdd0cbc3b8bef49927edc5ee0c69",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "[0,\\iny)"
+    },
+    {
+      "uid": "feab4608d78f4ed2",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "bf51f4afb4545b1afa6475118e34357b5ea2f1862d5ae33bbe0234279ece04e8",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\frac{1}{2}"
+    },
+    {
+      "uid": "5f38474b06744c7b",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "606854a06be9a6fc601a0722b60116e7208f7d949a4990d8cdcee47736461184",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{23}{7}"
+    },
+    {
+      "uid": "324db34019fb435b",
+      "model": "01-ai/Yi-34B",
+      "item_id": "4eae63e009a37b98bafd56fbeb3968a45b3981d357e349210d0e01b2f01752f4",
+      "subject": "precalculus",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "-1,0,1"
+    },
+    {
+      "uid": "cbdf9d6a4eba4dd9",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "374b2a0a7439287db6f4be69baed4ccff7ce125b202eae809c195c9c13161164",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "0"
+    },
+    {
+      "uid": "02fc3186462d4de6",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "a9d4d68e8c528b9a67fd56238598ca983af0256bc24f13d7685ebce581c7abda",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{13}"
+    },
+    {
+      "uid": "7f84926870a34bed",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "3d499a433e7211caf85da9edf11d7397681b468cc7bb71a006d9e9dea57c76b4",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{12}"
+    },
+    {
+      "uid": "8ab7dd5e58eb4452",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "c278c7fdf381e7f9f0d6e90d17ff4804826c59e10d7f02b4941b7d25fca969d0",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2"
+    },
+    {
+      "uid": "fab6100f6dce4cdb",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "298f19900be37d94efc4d9a7639306306859331d791f384f8f89fb067c3cb963",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "10"
+    },
+    {
+      "uid": "339c6786df9643ae",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "69fb3bb865effcc46cc33ec3d06c619e64e3f024ebaa5b6e46701d2a1edffaab",
+      "subject": "algebra",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{9}"
+    },
+    {
+      "uid": "c6f3a1b479a7435f",
+      "model": "bigcode/starcoder2-15b",
+      "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "2b"
+    },
+    {
+      "uid": "a1e50999a5b34ea0",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "163d2f90d819097023f4199609b8740cbda556f0f9ce80db4fcb049732992451",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "100"
+    },
+    {
+      "uid": "69401264761a4d87",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "8e18a5b2eacdf575cce78b0492a9dabfa5ec240b7933c4e882c8fd8467265442",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\begin{pmatrix}5/3\\5/3\\4/3\\end{pmatrix}"
+    },
+    {
+      "uid": "fa6d4a612a2d4a42",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "84a0d57605cf70c1fa2e97529d833012a28340370e7e1ff30685a458e587fc4a",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3"
+    },
+    {
+      "uid": "c538b313fcca403a",
+      "model": "google/gemma-7b",
+      "item_id": "5e5654cf54240feae9069049270c8e7c15c28e95e2a20ca028eb7b9e38845efb",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "20"
+    },
+    {
+      "uid": "6528c5f593094e99",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "afb2a8b913a4686f2639fca674b170daf766631fe20895cd4f924b2e6589385c",
+      "subject": "geometry",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "(-5,-4)"
+    },
+    {
+      "uid": "178a56ac91954859",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "c5cfd3bfb7e63e41f128c3f24c342df7e49544b5c210fc657de2224cb02d1c22",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "64f80e7f2c194861",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "7f70d58ccb10576610e9e5bf70156633e2996ea366bd5fc714dcfb3d28493ba3",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "50"
+    },
+    {
+      "uid": "13f331abd53849c1",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "38dd2d737b10ebb95769ffd550c7e7d9a1cff8773585c78659bffaff5b14f16a",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "-1"
+    },
+    {
+      "uid": "6d7a990b965e49ae",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "6fd7bb5f3a193b20f576f51287adfe7a1caabec243b665e1a2fadc40b7d06e30",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-1"
+    },
+    {
+      "uid": "b22eb8b8450743f2",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "1d48e482f2ce851de308bd0dc42461bf0d9f66b09039acfb4503a65e2b3fd14e",
+      "subject": "prealgebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "133"
+    },
+    {
+      "uid": "5a68ca9aaf4849fd",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "92f95351a1640b41e74b09d23edd2927dd0d872d61603b500b01d3e94c2baef4",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "9"
+    },
+    {
+      "uid": "d7cdd20657e64018",
+      "model": "google/gemma-7b",
+      "item_id": "bf17990930599bd4332f5de6bb93a94d8c29a6f760e9f4688e4aeff01fe2d4c0",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "78"
+    },
+    {
+      "uid": "cafdf4e6bba840e2",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "96931117901095be07d976a061f8a1f726f622a7c27559840dba3cee69b08627",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "7"
+    },
+    {
+      "uid": "7f8c6fc7a0564eb5",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "9f0d91ef5ea02fcd14ff05b8fb91430b5e7ea4c812fb5110d57771529939da11",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{14\\sqrt{3}}{3}"
+    },
+    {
+      "uid": "017e4f35ab7a4aa4",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "87ffd63ea6277b9a3b163a5a17427f83a1183058e19f0c3caf34b714b847fdd4",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "98"
+    },
+    {
+      "uid": "cb4e0127b6d345a9",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "1568823387e5aae40d65a6659fa6403d2740437ae09cec87d95c7c2939397a58",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\sqrt{13}"
+    },
+    {
+      "uid": "9a384e6380e04b08",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "7690e8234c96713c35721cda2240eef9ac810d87ed4651f5706c9f97f34d69cd",
+      "subject": "algebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "2b"
+    },
+    {
+      "uid": "1796b2c209854b9d",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "f40f8c0d3db190ecb083832bae8357baa0da17b7b3b4172bea610d368c2aa917",
+      "subject": "intermediate_algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "8"
+    },
+    {
+      "uid": "78da7179a8544dd6",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "ad0fed4fd9a56c234011181f1a979eea69370f54e0ff3f64e7bd96d092ae0887",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "7.78"
+    },
+    {
+      "uid": "b73dcc44e4f74282",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "11c8d590afc418c0c26645683c96fbf56cda6fa248b743b93f7c6e0c4cfcc9a8",
+      "subject": "prealgebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{137}{111}"
+    },
+    {
+      "uid": "4b68a18a81ea44b4",
+      "model": "CohereForAI/c4ai-command-r-v01",
+      "item_id": "1af404600af84622514c40f19441a30ca631e62ec22580c1919643666abe47a7",
+      "subject": "precalculus",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "D"
+    },
+    {
+      "uid": "32c992a118c340ba",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "970eede94e36a817ad7685dadfe757a9ecc58f3fc919184971d5720040bed8f3",
+      "subject": "geometry",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4\\sqrt{3}"
+    },
+    {
+      "uid": "440bcfb588934e02",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "9cb1a728b52a04949c74ff33794a37e53115d0c183f7784310ba57e356e60167",
+      "subject": "num_theory",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "90"
+    },
+    {
+      "uid": "3fe7da8e24b54c73",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "f4c0c84f7ce6f195323df379eb0d1a0d8aa1b620262c8c5299a64dc7b1fa685e",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{3}{8}"
+    },
+    {
+      "uid": "2221b9d662db47d7",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "9806568d2f550a949aa73bb3641a7b3d38c9f0b95124382a6e7ac0e7a19dff78",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "11"
+    },
+    {
+      "uid": "7159cbcc1b414f35",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "99b8a6e1e5ce6833cbe400703ab8fbc9971cb88cb4baa1a55ab28f813c750c87",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2015"
+    },
+    {
+      "uid": "35cd733cc10e4bc3",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "bf51f4afb4545b1afa6475118e34357b5ea2f1862d5ae33bbe0234279ece04e8",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "-\\frac{1}{2}"
+    },
+    {
+      "uid": "1e3afae83dbf47d1",
+      "model": "google/gemma-7b",
+      "item_id": "221bc65ed1856474fdfc583f0a066ac5436ef6dc42ecd861fa4640c460d87dff",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\begin{pmatrix}23/8\\7/4\\end{pmatrix}"
+    },
+    {
+      "uid": "7c353590d3304df4",
+      "model": "microsoft/phi-2",
+      "item_id": "b63654e6043e20613716bf2063f0a6cc138747ba7cb043626dc7d5b23c716004",
+      "subject": "prealgebra",
+      "cell": "disagree_em_credited_sb_not",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "credited",
+      "gold": "\\dfrac{1}{12}"
+    },
+    {
+      "uid": "8750412e8bb542ee",
+      "model": "01-ai/Yi-1.5-9B-Chat",
+      "item_id": "cf01ac6c32add016f3ce96771e035820b2c13dec04b7d1779fa5fcbbc5d2ff40",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{5}{3}"
+    },
+    {
+      "uid": "a4307b6d40bc4a97",
+      "model": "Qwen/Qwen2-7B",
+      "item_id": "94a10f084547faf47bd506c17811822bcc409417536baf1e54c02839b8652421",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "3"
+    },
+    {
+      "uid": "5e3e8f6d02fa4dae",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "28e3df3752c46a024e16cb13aa1b7b1989999a77125507673136fd3570473854",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "d013bd2f44d54237",
+      "model": "01-ai/Yi-34B",
+      "item_id": "58ad0c17b8e3db1248087a0337e77bfab6454d2699eebc6aab31977674eb3ac7",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "12"
+    },
+    {
+      "uid": "dea4ed1c9a73499d",
+      "model": "01-ai/Yi-34B",
+      "item_id": "85cdd29a2f6c503678051ca8b0d427e4d0e06e8bd65c187991a1f03b1358f969",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "367aa12788fd45b8",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "00fc7463ce590a5875a2311a06ad3ad95022ad39d35501477e1d0b9bc16986e9",
+      "subject": "precalculus",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{7}{8}"
+    },
+    {
+      "uid": "4a2e657636bc4247",
+      "model": "01-ai/Yi-34B",
+      "item_id": "670c15823bfedd8d1522281bfb12d8c052f7954ed3564643e4b3725359b8b73a",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "5"
+    },
+    {
+      "uid": "4a218d31593e43ef",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "f72eb468d702f26529f37860795c99f24c6acfe79c91b44562f8fa80c419f431",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "15.48"
+    },
+    {
+      "uid": "996ffebaea4f456e",
+      "model": "mosaicml/mpt-7b",
+      "item_id": "d32c12689397692c50b2f91c50318a4b75ff990a4db64b54f8fa44322e26633d",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "\\frac{1}{3}"
+    },
+    {
+      "uid": "0e0536a590aa4472",
+      "model": "tiiuae/falcon-7b",
+      "item_id": "499afd60d11328b35c597c300205d82e31f903a37b53809f11fb303ace1d3b9e",
+      "subject": "algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3"
+    },
+    {
+      "uid": "2e66809d09604159",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "53acc98f80fbbd719bd60dbef59cc075efb5488169f310533709a81f04518d51",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4x^2-6x+4"
+    },
+    {
+      "uid": "3667ebf023e747bd",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "141bceebe9aebd4ece39130d0df42ce2f855a0b0b24945bc9431fa6da8e32883",
+      "subject": "num_theory",
+      "cell": "disagree_sb_credited_em_not",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "wrong",
+      "gold": "11"
+    },
+    {
+      "uid": "35d97ca3f8424d60",
+      "model": "tiiuae/falcon-40b",
+      "item_id": "f52de1c41d23b94be49cf96e0371d83ab6659a820c7e3bbe6fab32af034b17bc",
+      "subject": "num_theory",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "15"
+    },
+    {
+      "uid": "0b74ce7cc0f342b5",
+      "model": "EleutherAI/gpt-j-6b",
+      "item_id": "31de6109410d9faf6d4dd23f023ad947068a47bd358e89f0d943c22a7fdfb1c4",
+      "subject": "precalculus",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "3R^2"
+    },
+    {
+      "uid": "d24bd3adf6c84279",
+      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "28"
+    },
+    {
+      "uid": "cf9413addb2e4679",
+      "model": "mistralai/Mistral-7B-v0.1",
+      "item_id": "311fbc8e8d06e178d713d07d57751e6c8f5a77c4e0b95d8ff4b5dac3550de3be",
+      "subject": "intermediate_algebra",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "2\\sqrt{10}"
+    },
+    {
+      "uid": "efacc8dfea3b4dd6",
+      "model": "Qwen/Qwen2-72B-Instruct",
+      "item_id": "1af121dfe1b0098cbbec1ee6387e43c2b5c28c912d4ffd24759040f05adf2ef9",
+      "subject": "counting_and_prob",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "28"
+    },
+    {
+      "uid": "e55e427935764965",
+      "model": "CohereForAI/c4ai-command-r-plus",
+      "item_id": "1cb9eb6d262e489debbaaf79c42b1851e2a219f6a09e2e861a3cdf3881c6cc1e",
+      "subject": "geometry",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "wrong_parsed",
+      "exact_match_stratum": "wrong",
+      "gold": "1:2"
+    },
+    {
+      "uid": "2cf973fd1c7a4a3e",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "54475dc893cae862bbc5a4b7466935d62e4d9ca5d2c32c18210ed2f6c64577dc",
+      "subject": "counting_and_prob",
+      "cell": "both_not_credited",
+      "score_boxed_stratum": "unparsed",
+      "exact_match_stratum": "wrong",
+      "gold": "29"
+    },
+    {
+      "uid": "7f53bb05d4c44fc4",
+      "model": "01-ai/Yi-1.5-34B-Chat",
+      "item_id": "7b081d39dcbed75b8508baf1366882adecfcba25ebe4830fd81eea84a9a46445",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "4"
+    },
+    {
+      "uid": "7ebc739d914343a1",
+      "model": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "item_id": "69cc56eab454722f585ae206ebd5911b3dd6f52c927cae1b9b51c1e26ea2cd3f",
+      "subject": "algebra",
+      "cell": "both_credited",
+      "score_boxed_stratum": "credited",
+      "exact_match_stratum": "credited",
+      "gold": "\\frac{1}{2}"
+    }
+  ]
+}
